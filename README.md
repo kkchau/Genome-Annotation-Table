@@ -1,5 +1,5 @@
-#CSE 182 Final Project
-###Goal
+# CSE 182 Final Project
+### Goals
 Create a web server to display genomic annotations using a Django framework
 Databases take annotations in standard CSV format
 Entries link to raw alignments
