@@ -3,7 +3,6 @@
 <!doctype html>
 <html>
     <head>
-
         {# jQuery #}
         <script
             src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -11,44 +10,70 @@
             crossorigin="anonymous">
         </script>
 
+        {# DataTables Plugin Import #}
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jq-2.2.4/dt-1.10.15/datatables.min.css"/> 
-        <!--<script type="text/javascript" src="https://cdn.datatables.net/v/dt/jq-2.2.4/dt-1.10.15/datatables.min.js"></script>-->
-        <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jq-2.2.4/dt-1.10.15/datatables.min.js"></script>
 
         <title>Genome Annotations</title>
     </head>
+
+
     <body>
         <h1>Genome Annotations</h1>
         <script>
         $(document).ready(function() {
-            $('#example').DataTable();
+            $('#alignments').DataTable( {
             columns: [
-                {title: "TEST_1"},
-                {title: "TEST_2"},
-                {title: "TEST_3"}
+                {title: "Sequence"},
+                {title: "BLAST"},
+                {title: "Pfam"},
+                {title: "Prosite"},
+                {title: "KEGG Pathway"},
+                {title: "Gene Ontology"},
+                {title: "Comments"}
             ]
+            } );
         } );
         </script>
 
         <section>
-            <table id="example" class="display" cellspacing="0" width="100%">
+            <table id="alignments" class="display" cellspacing="0" width="100%">
             <thead>
                 <tr>
-                    <th>TEST_1</th>
-                    <th>TEST_2</th>
-                    <th>TEST_3</th>
+                    <th>Sequence</th>
+                    <th>BLAST</th>
+                    <th>Pfam</th>
+                    <th>Prosite</th>
+                    <th>KEGG Pathway</th>
+                    <th>Gene Ontology</th>
+                    <th>Comments</th>
                 </tr>
             </thead>
             <tfoot>
                 <tr>
-                    <th<TEST_1</th>
-                    <th>TEST_2</th>
-                    <th>TEST_3</th>
+                    <th>Sequence</th>
+                    <th>BLAST</th>
+                    <th>Pfam</th>
+                    <th>Prosite</th>
+                    <th>KEGG Pathway</th>
+                    <th>Gene Ontology</th>
+                    <th>Comments</th>
                 </tr>
-            </tfoot>
+            <tbody>
+                {% for annotation in annotations %}
+                <tr>
+                    <td>{{ annotation.name }}</td>
+                    <td>{{ annotation.blast }}</td>
+                    <td>{{ annotation.pfam }}</td>
+                    <td>{{ annotation.prosite }}</td>
+                    <td>{{ annotation.kegg }}</td>
+                    <td>{{ annotation.go }}</td>
+                    <td>{{ annotation.coment }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
             </table>
         </section>
-
     </body>
 </html>
 
