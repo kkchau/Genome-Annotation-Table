@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+import anno_table.views
 
 urlpatterns = [
+    url(r'^$', anno_table.views.base, name='base_view'),
     url(r'^admin/', admin.site.urls),
 ]

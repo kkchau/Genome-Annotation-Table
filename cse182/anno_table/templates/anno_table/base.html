@@ -1,0 +1,54 @@
+{% load staticfiles %}
+
+<!doctype html>
+<html>
+    <head>
+
+        {# jQuery #}
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+            crossorigin="anonymous">
+        </script>
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jq-2.2.4/dt-1.10.15/datatables.min.css"/> 
+        <!--<script type="text/javascript" src="https://cdn.datatables.net/v/dt/jq-2.2.4/dt-1.10.15/datatables.min.js"></script>-->
+        <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+
+        <title>Genome Annotations</title>
+    </head>
+    <body>
+        <h1>Genome Annotations</h1>
+        <script>
+        $(document).ready(function() {
+            $('#example').DataTable();
+            columns: [
+                {title: "TEST_1"},
+                {title: "TEST_2"},
+                {title: "TEST_3"}
+            ]
+        } );
+        </script>
+
+        <section>
+            <table id="example" class="display" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <th>TEST_1</th>
+                    <th>TEST_2</th>
+                    <th>TEST_3</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <th<TEST_1</th>
+                    <th>TEST_2</th>
+                    <th>TEST_3</th>
+                </tr>
+            </tfoot>
+            </table>
+        </section>
+
+    </body>
+</html>
+
