@@ -39,7 +39,6 @@
 
         // clickable links based on tr tag in table body
         $('#alignments').on('click', 'tbody > tr', function() {
-            //window.location.href = $(this).attr('href');
             window.location.href += $(this).attr('data-href');
         } );
  
