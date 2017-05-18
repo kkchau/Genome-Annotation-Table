@@ -11,4 +11,4 @@ def base(request):
             the context
     """
     annotations = Annotation.objects.all()
-    return render(request, 'anno_table/base.html', {'annotations': annotations)
+    return render(request, 'anno_table/base.html', {'annotations': annotations})
