@@ -2,6 +2,7 @@
     Convert a given CSV file to JSON format to upload into sqlite3 database
     CSV file must have all appropriate fields for Annotation object
     Writes to fixture in anno_table django app
+    TODO: test tsv
 """
 
 
@@ -11,10 +12,10 @@ import argparse
 import sqlite3
 
 
-def csv_to_json(csv_file):
+def file_to_json(anno_file, tsv=False):
     """
-        Convert CSV file object to JSON
-        Returns list of JSON objects per record in CSV file object
+        Convert file object to JSON
+        Returns list of JSON objects per record in file object
     """
 
     json_annotations = []
@@ -31,7 +32,9 @@ def csv_to_json(csv_file):
     }
 
     # convert each record to JSON object
-    for record in csv_file:
+    for record in anno_file:
+        if tsv:
+            record = record.strip().split()
         json_object = {'model': 'anno_table.annotation'}
         json_object['fields'] = {
             field[r]: element for r, element in enumerate(record)
@@ -44,9 +47,14 @@ def csv_to_json(csv_file):
 
 def main():
     parser = argparse.ArgumentParser(description="Create JSON fixture")
-    parser.add_argument('from_csv', help="CSV file to be read")
     parser.add_argument(
-        '-c', '--clear', action='store_true', help="Clear old data from database"
+        'from_file', help="File to be read"
+    )
+    parser.add_argument(
+        '-c', action='store_true', help="Clear old data from database"
+    )
+    parser.add_argument(
+        '-h', action='store_true', help="Skip header"
     )
 
     args = parser.parse_args()
@@ -57,10 +65,20 @@ def main():
         c.execute("DELETE FROM anno_table_annotation;")
         con.commit()
 
-    with open(args.from_csv, 'r') as csv_input:
-        csv_reader = csv.reader(csv_input)
-        with open('../cse182/anno_table/fixtures/annotations.json', 'w') as j:
-            j.write(csv_to_json(csv_reader))
+    if re.findall("\.(csv)$", args.from_file):
+        with open(args.from_file, 'r') as csv_input:
+            csv_reader = csv.reader(csv_input)
+            if args.h:
+                next(csv_reader)
+            with open('../cse182/anno_table/fixtures/annotations.json', 'w') as j:
+                j.write(file_to_json(csv_reader))
+
+    elif re.findall("\.(tsv)$", args.from_file):
+        with open(args.from_file, 'r') as tsv_input:
+            if args.h:
+                next(tsv_reader)
+            with open('../cse182/anno_table/fixtures/annotations.json', 'w') as j:
+                j.write(file_to_json(csv_reader), tsv=True)
 
 
 if __name__ == '__main__':
