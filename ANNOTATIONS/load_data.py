@@ -2,7 +2,7 @@
     Convert a given CSV file to JSON format to upload into sqlite3 database
     CSV file must have all appropriate fields for Annotation object
     Writes to fixture in anno_table django app
-    TODO: test tsv
+    REMEMBER TO LOAD DATA: python manage.py loaddata annotations.json
 """
 
 
@@ -10,6 +10,7 @@ import json
 import csv
 import argparse
 import sqlite3
+import re
 
 
 def file_to_json(anno_file, tsv=False):
@@ -51,10 +52,10 @@ def main():
         'from_file', help="File to be read"
     )
     parser.add_argument(
-        '-c', action='store_true', help="Clear old data from database"
+        '--clear', action='store_true', help="Clear old data from database"
     )
     parser.add_argument(
-        '-h', action='store_true', help="Skip header"
+        '--header', action='store_true', help="Skip header"
     )
 
     args = parser.parse_args()
@@ -68,17 +69,17 @@ def main():
     if re.findall("\.(csv)$", args.from_file):
         with open(args.from_file, 'r') as csv_input:
             csv_reader = csv.reader(csv_input)
-            if args.h:
+            if args.header:
                 next(csv_reader)
             with open('../cse182/anno_table/fixtures/annotations.json', 'w') as j:
                 j.write(file_to_json(csv_reader))
 
     elif re.findall("\.(tsv)$", args.from_file):
         with open(args.from_file, 'r') as tsv_input:
-            if args.h:
+            if args.header:
                 next(tsv_reader)
             with open('../cse182/anno_table/fixtures/annotations.json', 'w') as j:
-                j.write(file_to_json(csv_reader), tsv=True)
+                j.write(file_to_json(tsv_input, tsv=True))
 
 
 if __name__ == '__main__':
