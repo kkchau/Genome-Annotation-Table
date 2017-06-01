@@ -11,3 +11,4 @@
 
 
 --> How to handle empty annotations? Should we put 'None', or blank, or something to count stats?
+--> File serving: https://djangosnippets.org/snippets/365/
