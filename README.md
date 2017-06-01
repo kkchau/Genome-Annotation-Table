@@ -8,3 +8,6 @@
 - [ ] Parse and standardize annotations --> Waiting on project 1
 - [ ] (?)Allow user to click row and go to raw annotation in separate page
 - [ ] (?) Process given FASTA file for alignments and annotations
+
+
+--> How to handle empty annotations? Should we put 'None', or blank, or something to count stats?
