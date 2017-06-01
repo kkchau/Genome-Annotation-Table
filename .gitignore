@@ -1,4 +1,3 @@
 *.csv
 *.tsv
 *.swp
-db.sqlite3
