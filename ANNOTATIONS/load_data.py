@@ -3,6 +3,7 @@
     CSV file must have all appropriate fields for Annotation object
     Writes to fixture in anno_table django app
     REMEMBER TO LOAD DATA: python manage.py loaddata annotations.json
+        ^ handled by main function
 """
 
 
@@ -11,6 +12,10 @@ import csv
 import argparse
 import sqlite3
 import re
+import subprocess
+from compile_data import read_tsv
+from compile_data import read_csv
+from compile_data import concat_files
 
 
 def file_to_json(anno_file, tsv=False):
@@ -46,7 +51,7 @@ def file_to_json(anno_file, tsv=False):
     return json.dumps(json_annotations)
 
 
-def main():
+def single_file_test():
     parser = argparse.ArgumentParser(description="Create JSON fixture")
     parser.add_argument(
         'from_file', help="File to be read"
@@ -80,6 +85,38 @@ def main():
                 next(tsv_reader)
             with open('../cse182/anno_table/fixtures/annotations.json', 'w') as j:
                 j.write(file_to_json(tsv_input, tsv=True))
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Create JSON fixture from 'data.txt'"
+    )
+    parser.add_argument(
+        '--clear', action='store_true', help="Clear old data from database"
+    )
+    parser.add_argument(
+        '--header', nargs='+', type=int, help="File index that has headers"
+    )
+
+    args = parser.parse_args()
+
+    if args.clear:
+        con = sqlite3.connect("../cse182/db.sqlite3")
+        c = con.cursor()
+        c.execute("DELETE FROM anno_table_annotation;")
+        con.commit()
+
+    skip_head = args.header if args.header else []
+    concat_files(skip_head)
+
+    with open('data.csv', 'r') as data:
+        data_csv = csv.reader(data)
+        with open('../cse182/anno_table/fixtures/annotations.json', 'w') as j:
+            j.write(file_to_json(data_csv))
+
+    subprocess.Popen([
+        'python', '../cse182/manage.py', 'loaddata', 'annotations.json'
+    ])
 
 
 if __name__ == '__main__':
