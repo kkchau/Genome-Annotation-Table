@@ -16,6 +16,7 @@ import subprocess
 from compile_data import read_tsv
 from compile_data import read_csv
 from compile_data import concat_files
+from statsfile import statsdata
 
 
 def file_to_json(anno_file, tsv=False):
@@ -97,18 +98,20 @@ def main():
     parser.add_argument(
         '--header', nargs='+', type=int, help="File index that has headers"
     )
-
     args = parser.parse_args()
 
+    # clear database if clear flag is specified
     if args.clear:
         con = sqlite3.connect("../cse182/db.sqlite3")
         c = con.cursor()
         c.execute("DELETE FROM anno_table_annotation;")
         con.commit()
 
+    # skip headers for specified files
     skip_head = args.header if args.header else []
     concat_files(skip_head)
 
+    # create data file
     with open('data.csv', 'r') as data:
         data_csv = csv.reader(data)
         with open('../cse182/anno_table/fixtures/annotations.json', 'w') as j:
