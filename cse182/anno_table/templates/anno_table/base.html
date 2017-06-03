@@ -28,11 +28,11 @@
         $('#alignments').DataTable( {
         columns: [
             {title: "Sequence"},
-            {title: "BLAST"},
-            {title: "Pfam"},
-            {title: "Prosite"},
-            {title: "KEGG Pathway"},
-            {title: "Gene Ontology"},
+            {title: "BLAST ({{ statistics.blast }})"},
+            {title: "Pfam ({{ statistics.pfam }})"},
+            {title: "Prosite ({{ statistics.prosite}})"},
+            {title: "KEGG Pathway ({{ statistics.kegg }})"},
+            {title: "Gene Ontology ({{ statistics.go }})"},
             {title: "Comments"}
         ]
         } );
@@ -41,7 +41,30 @@
         $('#alignments').on('click', 'tbody > tr', function() {
             window.location.href += $(this).attr('data-href');
         } );
- 
+
+        /*
+        // search box for each tfoot th
+        $('#alignments tfoot th').each( function () {
+            var title = $(this).text();
+            $(this).html( '<input type='text' placeholder="Search '+title+'" />' );
+        } );
+
+        // datatable
+        var table = $('#alignments').DataTable();
+
+        // search
+        table.columns().every( function () {
+            var that = this;
+
+            $( 'input', this.footer() ).on('keyup change', function () {
+                if ( that.search() !== this.value ) {
+                    that
+                        .search( this.value )
+                        .draw();
+                }
+            } )
+        } );
+        */
     } );
     </script>
 
@@ -50,6 +73,17 @@
         <thead>
             <tr>
                 <th>Sequence</th>
+                <th>BLAST({{ statistics.blast }})</th>
+                <th>Pfam({{ statistics.pfam }})</th>
+                <th>Prosite({{ statistics.prosite}})</th>
+                <th>KEGG Pathway({{ statistics.kegg }})</th>
+                <th>Gene Ontology({{ statistics.kegg }})</th>
+                <th>Comments</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Statistics</th>
                 <th>BLAST</th>
                 <th>Pfam</th>
                 <th>Prosite</th>
@@ -57,17 +91,7 @@
                 <th>Gene Ontology</th>
                 <th>Comments</th>
             </tr>
-        </thead>
-        <tfoot>
-            <tr>
-                <th>Statistics</th>
-                <th>{{ statistics.blast }}</th>
-                <th>{{ statistics.pfam }}</th>
-                <th>{{ statistics.prosite}}</th>
-                <th>{{ statistics.kegg }}</th>
-                <th>{{ statistics.go }}</th>
-                <th></th>
-            </tr>
+        </tfoot>
         <tbody>
             {% for annotation in annotations %}
             <tr data-href={{ annotation.name }}>
