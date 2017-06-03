@@ -14,7 +14,7 @@ def processGoTerm(goTerm):
     """
     proc = dict(goTerm)
     for key, value in proc.items():
-        if len(value) == 1:
+        if len(value) == 0:
             proc[key] = value[0]        # collapse single-item lists
     return proc
 
@@ -33,7 +33,8 @@ def goParse(filename):
 
             # goTerm defaultdict
             if line == '[Term]':
-                if currentGoTerm: yield processGoTerm(currentGoTerm)
+                if currentGoTerm: 
+                    yield processGoTerm(currentGoTerm)
                 currentGoTerm = defaultdict(list)
 
             elif line == '[Typedef]':
@@ -41,10 +42,11 @@ def goParse(filename):
 
             # try to parse goTerm entry
             else:
-                if not currentGoTerm: continue
+                if currentGoTerm is None: 
+                    continue
 
                 # add information
-                key, sep, value = line.partition(line)
+                key, sep, value = line.partition(':')
                 currentGoTerm[key].append(value.strip())
 
         if currentGoTerm is not None:
