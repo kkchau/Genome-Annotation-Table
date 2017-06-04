@@ -41,6 +41,13 @@ def base(request):
         'annotations': annotations, 'statistics': statistics
     })
 
+def download(request):
+
+    with open('ANNOTATIONS/test.csv') as downFile:
+        response = HttpResponse(downFile.read())
+        response['content_type'] = 'text/csv'
+        response['Content-Disposition'] = 'attachment;filename=test.csv'
+        return response
 
 def raw_disp(request, filename):
     """
