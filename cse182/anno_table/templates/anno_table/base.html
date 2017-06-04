@@ -92,7 +92,7 @@
         </tfoot>
         <tbody>
             {% for annotation in annotations %}
-            <tr data-href={{ annotation.name }}>
+            <tr data-href="raw/{{ annotation.name }}">
                 <td>{{ annotation.name }}</td>
                 <td>{{ annotation.blast }}</td>
                 <td>{{ annotation.pfam }}</td>

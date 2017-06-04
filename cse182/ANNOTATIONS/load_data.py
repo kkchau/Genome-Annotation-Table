@@ -67,7 +67,7 @@ def single_file_test():
     args = parser.parse_args()
 
     if args.clear:
-        con = sqlite3.connect("../cse182/db.sqlite3")
+        con = sqlite3.connect("db.sqlite3")
         c = con.cursor()
         c.execute("DELETE FROM anno_table_annotation;")
         con.commit()
@@ -77,7 +77,7 @@ def single_file_test():
             csv_reader = csv.reader(csv_input)
             if args.header:
                 next(csv_reader)
-            with open('../cse182/anno_table/fixtures/annotations.json', 'w') as j:
+            with open('anno_table/fixtures/annotations.json', 'w') as j:
                 j.write(file_to_json(csv_reader))
 
     elif re.findall("\.(tsv)$", args.from_file):
@@ -114,7 +114,7 @@ def main():
     # create data file
     with open('data.csv', 'r') as data:
         data_csv = csv.reader(data)
-        with open('../cse182/anno_table/fixtures/annotations.json', 'w') as j:
+        with open('anno_table/fixtures/annotations.json', 'w') as j:
             j.write(file_to_json(data_csv))
 
     subprocess.Popen([
