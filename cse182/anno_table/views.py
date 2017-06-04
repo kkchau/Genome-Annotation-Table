@@ -1,5 +1,7 @@
+import os
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.conf import settings
+from django.http import HttpResponse, Http404
 from .models import Annotation
 
 # Create your views here.
@@ -38,3 +40,14 @@ def base(request):
     return render(request, 'anno_table/base.html', {
         'annotations': annotations, 'statistics': statistics
     })
+
+
+def download(request):
+    #file_path = os.path.join(settings.MEDIA_ROOT, '../../../../ANNOTATIONS/data.csv')
+    file_path = os.path.join(settings.MEDIA_ROOT, '')
+    if os.path.exists(file_path):
+        with open(file_path, 'rb') as fh:
+            response = HttpResponse(fh.read(), content_type="application/vnd.ms-excel")
+            response['Content-Disposition'] = 'inline; filename=' + os.path.basename(file_path)
+            return response
+    raise Http404

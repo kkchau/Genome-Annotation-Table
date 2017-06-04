@@ -19,5 +19,6 @@ import anno_table.views
 
 urlpatterns = [
     url(r'^$', anno_table.views.base, name='base_view'),
+    url(r'^download/$', anno_table.views.download, name='download_view'),
     url(r'^admin/', admin.site.urls),
 ]
