@@ -17,6 +17,8 @@
 
 * Raw alignment files must be organized into their own folders for each tool; filename must be <protein\_id>_anything.txt. E.g. BLAST/ABO10513_raw.txt
 
+* Keywords must have descriptive annotations, not just things like family name
+
 * Annotations must have header in form 
 
 | Sequence | BLAST | Pfam | Prosite | ALL\_OTHER\_ANNOTATIONS | Comments |
