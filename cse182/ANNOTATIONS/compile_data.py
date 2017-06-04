@@ -32,7 +32,6 @@ def concat_files():
 
         data_df = pd.concat(all_df, ignore_index=True)
         data_df.to_csv('data.csv', index=False)
-        print(data_df)
 
 
 if __name__ == '__main__':

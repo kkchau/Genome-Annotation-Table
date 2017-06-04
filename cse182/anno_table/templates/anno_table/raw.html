@@ -7,6 +7,8 @@
     <title>{{ filename }}</title>
 </head>
 <body>
-    {{ alignment }}
+    {% for line in alignment %}
+    {{ line }}<br />
+    {% endfor %}
 </body>
 </html>

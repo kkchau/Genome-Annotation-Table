@@ -47,7 +47,7 @@ def raw_disp(request, filename):
         Display raw alignment file for the given filename
     """
     with open('ANNOTATIONS/raw_aligns/{}.txt'.format(filename), 'r') as raw:
-        align = raw.read() 
+        align = raw.readlines() 
     return render(
         request, 'anno_table/raw.html', {'filename': filename, 'alignment': align}
     )
