@@ -24,3 +24,4 @@ Raw alignments must be in ANNOTATIONS/raw\_aligns; filenames must be form of <se
 Annotations must have header in form 
 
 | Sequence | BLAST | Pfam | Prosite | ALL\_OTHER\_ANNOTATIONS | Comments |
+| -------- | ----- | ---- | ------- | ----------------------- | -------- |
