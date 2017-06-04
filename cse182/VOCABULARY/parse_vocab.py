@@ -4,6 +4,7 @@
 """
 
 
+import pandas as pd
 from goparse import goParse
 
 
@@ -35,6 +36,20 @@ def main():
         Main function to avoid global variables
     """
     synonyms = syn_gen('GOTERMS.txt')
+
+    source_data = pd.read_csv('../ANNOTATIONS/data.csv', header=0)
+    for index, record in source_data.iterrows():
+        blast = str(record['BLAST']).strip().split()
+        pfam = str(record['Pfam']).strip().split()
+        prosite = str(record['Prosite']).strip().split()
+        go_list = []
+        for hit in [blast, pfam, prosite]:
+            for word in hit:
+                if word in synonyms:
+                    go_list.append(synonyms[word])
+        record['Gene Ontology'] = list(set(go_list))
+    
+    source_data.to_csv('aaa.csv', index=False)
 
 
 if __name__ == '__main__':

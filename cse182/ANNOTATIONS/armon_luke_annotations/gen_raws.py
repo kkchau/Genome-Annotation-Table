@@ -14,6 +14,7 @@ def read_write(directory):
     """
     for filename in os.listdir(directory):
         raw_file = re.findall("([A-Za-z0-9]+)", filename)[0] + '.txt'
+        raw_file = '../raw_aligns/' + raw_file
         print(raw_file)
 
         # if file exists, append to it

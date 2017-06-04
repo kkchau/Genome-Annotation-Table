@@ -15,13 +15,13 @@
 
 ---
 
-To load data:
-    Go to ANNOTATIONS
-    python3 load_data.py --clear
+* To load data: Go to ANNOTATIONS; python3 load\_data.py --clear
 
-Raw alignments must be in ANNOTATIONS/raw\_aligns; filenames must be form of <sequence>.txt (what shows up in the 'Sequence' field
+* Raw alignments must be in ANNOTATIONS/raw\_aligns; filenames must be form of <sequence>.txt (what shows up in the 'Sequence' field
 
-Annotations must have header in form 
+* Null fields (no hit) must have marker "NULL" (case-sensitive)
+
+* Annotations must have header in form 
 
 | Sequence | BLAST | Pfam | Prosite | ALL\_OTHER\_ANNOTATIONS | Comments |
 | -------- | ----- | ---- | ------- | ----------------------- | -------- |

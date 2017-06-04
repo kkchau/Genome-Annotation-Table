@@ -7,6 +7,7 @@
 import csv
 import re
 import pandas as pd
+import numpy as np
 
 
 def concat_files():
@@ -31,6 +32,7 @@ def concat_files():
                 all_df.append(this_df)
 
         data_df = pd.concat(all_df, ignore_index=True)
+        data_df.replace('null', np.NaN)
         data_df.to_csv('data.csv', index=False)
 
 
