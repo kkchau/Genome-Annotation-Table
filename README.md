@@ -1,8 +1,8 @@
 # CSE 182 Final Project
 ### Goals
 - [x] Create a web server to store and display genome annotations
-- [ ] Be able to read in standard-format annotations automatically
-- [ ] Convert data load to use pandas (req headers)
+- [x] Be able to read in standard-format annotations automatically
+- [x] Convert data load to use pandas (req headers)
 - [x] Allow user to search for annotations
 - [ ] Allow user to download information --> Waiting on project 1
 - [x] Implement statitistics for hits at bottom of table --> Waiting on project 1
@@ -20,3 +20,5 @@ To load data:
     python3 load_data.py --clear
 
 Raw alignments must be in ANNOTATIONS/raw\_aligns; filenames must be form of <sequence>.txt (what shows up in the 'Sequence' field
+
+Annotations must have header in form [Sequence<sep>BLAST<sep>Pfam<sep>Prosite<sep>ALL\_OTHER\_ANNOTATIONS<sep>Comments<sep>]

@@ -6,69 +6,34 @@
 
 import csv
 import re
+import pandas as pd
 
 
-def read_tsv(tsv_file, header=False):
-    """
-        Reads given file object
-        File must be TSV format
-        If header = True, skip first line
-        Returns generator object for TSV file
-    """
-    if header:
-        next(tsv_file)
-    for line in tsv_file:
-        yield line.strip().split()
-
-
-def read_csv(csv_file, header=False):
-    """
-        Reads given file object
-        File must be in CSV format
-        If header = True, skip first line
-        Returns generator object for CSV file
-    """
-    csv_reader = csv.reader(csv_file)
-    if header:
-        next(csv_reader)
-    for line in csv_reader:
-        yield line
-
-
-def concat_files(skips=[]):
-    """
-        Concatenate the files listed in 'to_read.txt'
-        Parameter skips is the array of indexes for files which have headers
-        Outputs the results into 'data.csv'
-    """
-    # read the list of filenames
+def concat_files():
     with open('to_read.txt', 'r') as files:
         filenames = [line.strip() for line in files.readlines()]
 
-    # refresh final data file
-    open('data.csv', 'w').close()
+        open('data.csv', 'w').close()
 
-    # perform operation for the list of given filenames
-    for i, f in enumerate(filenames):
-        print(f)
-        ext = re.findall("\S*.([ct]sv)", f)[0]
+        data_df = pd.DataFrame()
 
-        partial = open(f, 'r')
-
-        # append to final data file
-        with open('data.csv', 'a') as data:
-            data_out = csv.writer(data)
+        all_df = []
+        for f in filenames:
+            ext = re.findall("\S*.([ct]sv)", f)[0]
+            this_df = None
 
             if ext == 'tsv':
-                records = read_tsv(partial, header=(i in skips))
+                this_df = pd.read_csv(f, index_col=None, header=0, sep='\t')
             elif ext == 'csv':
-                records = read_csv(partial, header=(i in skips))
+                this_df = pd.read_csv(f, index_col=None, header=0)
 
-            for rec in records:
-                data_out.writerow(rec)
+            if this_df is not None:
+                all_df.append(this_df)
 
-        partial.close()
+        data_df = pd.concat(all_df, ignore_index=True)
+        data_df.to_csv('data.csv', index=False)
+        print(data_df)
 
 
 if __name__ == '__main__':
-    concat_files()
+    concat_files2()

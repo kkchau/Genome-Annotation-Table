@@ -13,10 +13,7 @@ import argparse
 import sqlite3
 import re
 import subprocess
-from compile_data import read_tsv
-from compile_data import read_csv
 from compile_data import concat_files
-from statsfile import statsdata
 
 
 def file_to_json(anno_file, tsv=False):
@@ -52,42 +49,6 @@ def file_to_json(anno_file, tsv=False):
     return json.dumps(json_annotations)
 
 
-def single_file_test():
-    parser = argparse.ArgumentParser(description="Create JSON fixture")
-    parser.add_argument(
-        'from_file', help="File to be read"
-    )
-    parser.add_argument(
-        '--clear', action='store_true', help="Clear old data from database"
-    )
-    parser.add_argument(
-        '--header', action='store_true', help="Skip header"
-    )
-
-    args = parser.parse_args()
-
-    if args.clear:
-        con = sqlite3.connect("db.sqlite3")
-        c = con.cursor()
-        c.execute("DELETE FROM anno_table_annotation;")
-        con.commit()
-
-    if re.findall("\.(csv)$", args.from_file):
-        with open(args.from_file, 'r') as csv_input:
-            csv_reader = csv.reader(csv_input)
-            if args.header:
-                next(csv_reader)
-            with open('anno_table/fixtures/annotations.json', 'w') as j:
-                j.write(file_to_json(csv_reader))
-
-    elif re.findall("\.(tsv)$", args.from_file):
-        with open(args.from_file, 'r') as tsv_input:
-            if args.header:
-                next(tsv_reader)
-            with open('../cse182/anno_table/fixtures/annotations.json', 'w') as j:
-                j.write(file_to_json(tsv_input, tsv=True))
-
-
 def main():
     parser = argparse.ArgumentParser(
         description="Create JSON fixture from 'data.txt'"
@@ -95,30 +56,27 @@ def main():
     parser.add_argument(
         '--clear', action='store_true', help="Clear old data from database"
     )
-    parser.add_argument(
-        '--header', nargs='+', type=int, help="File index that has headers"
-    )
     args = parser.parse_args()
 
     # clear database if clear flag is specified
     if args.clear:
-        con = sqlite3.connect("../cse182/db.sqlite3")
+        con = sqlite3.connect("../db.sqlite3")
         c = con.cursor()
         c.execute("DELETE FROM anno_table_annotation;")
         con.commit()
 
-    # skip headers for specified files
-    skip_head = args.header if args.header else []
-    concat_files(skip_head)
+    # compile data together
+    concat_files()
 
     # create data file
     with open('data.csv', 'r') as data:
         data_csv = csv.reader(data)
-        with open('anno_table/fixtures/annotations.json', 'w') as j:
+        next(data_csv)                  # skip header
+        with open('../anno_table/fixtures/annotations.json', 'w') as j:
             j.write(file_to_json(data_csv))
 
     subprocess.Popen([
-        'python', '../cse182/manage.py', 'loaddata', 'annotations.json'
+        'python', '../manage.py', 'loaddata', 'annotations.json'
     ])
 
 
