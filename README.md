@@ -4,11 +4,10 @@
 - [x] Be able to read in standard-format annotations automatically
 - [x] Convert data load to use pandas (req headers)
 - [x] Allow user to search for annotations
-- [ ] Allow user to download information --> Waiting on project 1
-- [x] Implement statitistics for hits at bottom of table --> Waiting on project 1
+- [x] Allow user to download information
+- [x] Implement statitistics for hits at bottom of table
 - [ ] Parse and standardize annotations --> Waiting on project 1
 - [x] Allow user to click row and go to raw annotation in separate page
-- [ ] (?) Process given FASTA file for alignments and annotations
 
 
 --> File serving: https://djangosnippets.org/snippets/365/
