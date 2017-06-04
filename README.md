@@ -17,8 +17,6 @@
 
 * To load data: Go to ANNOTATIONS; python3 load\_data.py --clear
 
-* Raw alignments must be in ANNOTATIONS/raw\_aligns; filenames must be form of <sequence>.txt (what shows up in the 'Sequence' field
-
 * Null fields (no hit) must have marker "NULL" (case-sensitive)
 
 * Raw alignment files must be organized into their own folders for each tool; filename must be <protein\_id>_anything.txt. E.g. BLAST/ABO10513_raw.txt
