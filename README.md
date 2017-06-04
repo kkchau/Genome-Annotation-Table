@@ -21,4 +21,4 @@ To load data:
 
 Raw alignments must be in ANNOTATIONS/raw\_aligns; filenames must be form of <sequence>.txt (what shows up in the 'Sequence' field
 
-Annotations must have header in form [Sequence\<se\p>BLAST\<sep\>Pfam\<sep\>Prosite\<sep\>ALL\_OTHER\_ANNOTATIONS\<sep\>Comments\<sep\>]
+Annotations must have header in form [Sequence\<sep\>BLAST\<sep\>Pfam\<sep\>Prosite\<sep\>ALL\_OTHER\_ANNOTATIONS\<sep\>Comments\<sep\>]
