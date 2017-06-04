@@ -9,9 +9,6 @@
 - [ ] Parse and standardize annotations --> Waiting on project 1
 - [x] Allow user to click row and go to raw annotation in separate page
 
-
---> File serving: https://djangosnippets.org/snippets/365/
-
 ---
 
 * To load data: Go to ANNOTATIONS; python3 load\_data.py --clear
