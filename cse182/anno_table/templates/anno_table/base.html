@@ -41,6 +41,11 @@
         $('#alignments').on('click', 'tbody > tr', function() {
             window.location.href += $(this).attr('data-href');
         } );
+
+        //download full table
+        $('#button').on('click',function() {
+            window.location.href += $(this).attr('data-href');
+        } );
         
         // search box for each tfoot th
         $('#alignments tfoot th').each( function () {
@@ -105,7 +110,13 @@
         </tbody>
         </table>
     </section>
-    <button>Download</button>
+    
+   
+    <section id = 'button'>
+         <button data-href = ''>Download</button>
+    </section>
+
+
 </body>
 </html>
 
