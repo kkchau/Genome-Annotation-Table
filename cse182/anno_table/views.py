@@ -41,6 +41,7 @@ def base(request):
         'annotations': annotations, 'statistics': statistics
     })
 
+
 def download(request):
     """
         Be able to download the data.csv file
@@ -49,7 +50,8 @@ def download(request):
         response = HttpResponse(downFile.read())
         response['content_type'] = 'text/csv'
         response['Content-Disposition'] = 'attachment;filename=data.csv'
-        return response
+    return response
+
 
 def raw_disp(request, filename):
     """

@@ -43,7 +43,7 @@
         } );
 
         //download full table
-        $('#button').on('click',function() {
+        $('#button').on('click', 'button', function() {
             window.location.href += $(this).attr('data-href');
         } );
         
@@ -112,8 +112,8 @@
     </section>
     
    
-    <section id = 'button'>
-         <button data-href = ''>Download</button>
+    <section id="button">
+         <button data-href="download">Download</button>
     </section>
 
 

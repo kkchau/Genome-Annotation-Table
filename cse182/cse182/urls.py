@@ -20,6 +20,6 @@ import anno_table.views
 urlpatterns = [
     url(r'^$', anno_table.views.base, name='base_view'),
     url(r'^raw/([0-9a-zA-Z]+)/$', anno_table.views.raw_disp, name='raw_display'),
-    url(r'', anno_table.views.download, name='download_display'),
+    url(r'^download/$', anno_table.views.download, name='download_display'),
     url(r'^admin/', admin.site.urls),
 ]
