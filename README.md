@@ -11,9 +11,9 @@
 
 ---
 
-* To load data: Go to ANNOTATIONS; python3 load\_data.py --clear
+* To load data: Go to ANNOTATIONS; update to_read.txt for list of files to read; python3 load\_data.py --clear
 
-* Null fields (no hit) must have marker "NULL" (case-sensitive)
+* Null fields (no hit) must have marker "NULL" or "null" (case-sensitive)
 
 * Raw alignment files must be organized into their own folders for each tool; filename must be <protein\_id>_anything.txt. E.g. BLAST/ABO10513_raw.txt
 
