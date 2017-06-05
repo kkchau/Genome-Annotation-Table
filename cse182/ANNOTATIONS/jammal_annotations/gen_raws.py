@@ -7,14 +7,14 @@ import os
 import re
 
 
-def read_write(directory):
+def read_write(directory, out_dir):
     """
         For each file in the directory, append to its corresponding raw 
-        alignment file
+        alignment file in the appropriate section
     """
     for filename in os.listdir(directory):
         raw_file = re.findall("([A-Za-z0-9]+)", filename)[0] + '.txt'
-        raw_file = '../raw_aligns/' + raw_file
+        raw_file = '../raw_aligns/{}/'.format(out_dir) + raw_file
         print(raw_file)
 
         # if file exists, append to it
@@ -35,7 +35,7 @@ def read_write(directory):
 
 if __name__ == '__main__':
 
-    read_write('BLAST_files_raw')
-    read_write('Pfam_files_raw')
-    read_write('prosite_txt')
+    read_write('BLAST_files_raw', 'BLAST')
+    read_write('Pfam_files_raw', 'Pfam')
+    read_write('prosite_txt', 'Prosite')
 

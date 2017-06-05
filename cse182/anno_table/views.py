@@ -4,7 +4,6 @@ from django.conf import settings
 from django.http import HttpResponse, Http404
 from .models import Annotation
 
-# Create your views here.
 
 def base(request):
     """
@@ -57,8 +56,17 @@ def raw_disp(request, filename):
     """
         Display raw alignment file for the given filename
     """
-    with open('ANNOTATIONS/raw_aligns/{}.txt'.format(filename), 'r') as raw:
-        align = raw.readlines() 
-    return render(
-        request, 'anno_table/raw.html', {'filename': filename, 'alignment': align}
-    )
+    raw_annotations = {
+        'BLAST': ['No Annotation'], 
+        'Pfam': ['No Annotation'], 
+        'Prosite': ['No Annotation'], 
+        'KEGG': ['No Annotation'], 
+        'GO': ['No Annotation']
+    }
+    for a in raw_annotations:
+        file_path = 'ANNOTATIONS/raw_aligns/{}/{}.txt'.format(a, filename)
+        if os.path.isfile(file_path):
+            with open(file_path, 'r') as raw:
+                raw_annotations[a] = raw.readlines() 
+    raw_annotations['filename'] = filename
+    return render(request, 'anno_table/raw.html', raw_annotations)
