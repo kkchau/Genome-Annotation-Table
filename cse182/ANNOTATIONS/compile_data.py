@@ -10,7 +10,26 @@ import pandas as pd
 import numpy as np
 
 
+fields = [
+    'Sequence',
+    'BLAST',
+    'Pfam',
+    'Prosite',
+    'KEGG Pathway',
+    'Gene Ontology',
+    'Comments'
+]
+
+not_found = ['null', 'NULL', 'No Hits']
+
+
 def concat_files():
+    """
+        Concatenate data files
+    """
+
+    global fields
+
     with open('to_read.txt', 'r') as files:
         filenames = [line.strip() for line in files.readlines()]
 
@@ -31,8 +50,9 @@ def concat_files():
             if this_df is not None:
                 all_df.append(this_df)
 
-        data_df = pd.concat(all_df, ignore_index=True)
-        data_df.replace('null', np.NaN)
+        data_df = pd.concat(all_df, ignore_index=True)[fields]
+        for item in not_found:
+            data_df.replace(item, np.NaN, inplace=True)
         data_df.to_csv('data.csv', index=False)
 
 
