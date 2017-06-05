@@ -27,9 +27,6 @@ def concat_files():
     """
         Concatenate data files
     """
-
-    global fields
-
     with open('to_read.txt', 'r') as files:
         filenames = [line.strip() for line in files.readlines()]
 
@@ -57,4 +54,4 @@ def concat_files():
 
 
 if __name__ == '__main__':
-    concat_files2()
+    concat_files()
