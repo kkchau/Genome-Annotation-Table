@@ -23,3 +23,4 @@
 
 | Sequence | BLAST | Pfam | Prosite | ALL\_OTHER\_ANNOTATIONS | Comments |
 | -------- | ----- | ---- | ------- | ----------------------- | -------- |
+| ABO10513 | blast_hit | pfam_hit | null | null | generic_comment |
