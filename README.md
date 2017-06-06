@@ -15,7 +15,7 @@
 
 * Null fields (no hit) must have marker "NULL" or "null" (case-sensitive)
 
-* Raw alignment files must be organized into their own folders for each tool; filename must be <protein\_id>_anything.txt. E.g. BLAST/ABO10513_raw.txt
+* Raw alignment files must be organized into their own folders for each tool; filename must be <protein\_id>_anything.txt. E.g. BLAST/ABO10513.txt
 
 * Keywords must have descriptive annotations, not just things like family name
 
@@ -23,3 +23,4 @@
 
 | Sequence | BLAST | Pfam | Prosite | ALL\_OTHER\_ANNOTATIONS | Comments |
 | -------- | ----- | ---- | ------- | ----------------------- | -------- |
+| ABO10513 | blast_hit | pfam_hit | null | null | generic_comment |
