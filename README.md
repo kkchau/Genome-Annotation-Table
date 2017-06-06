@@ -9,6 +9,9 @@
 - [ ] Parse and standardize annotations --> Waiting on project 1
 - [x] Allow user to click row and go to raw annotation in separate page
 
+### Teams with raw annotations
+* Gas Pedal
+
 ---
 
 * To load data: Go to ANNOTATIONS; update to_read.txt for list of files to read; python3 load\_data.py --clear
