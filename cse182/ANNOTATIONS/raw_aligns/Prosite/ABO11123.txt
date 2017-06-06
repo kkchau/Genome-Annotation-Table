@@ -1,0 +1,301 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"><!-- automatically added by Apache -->
+    <link rel="shortcut icon" href="http://web.expasy.org/favicon.ico" ><!-- automatically added by Apache -->
+    <link rel="stylesheet" href="/css/sib_css/sib.css" type="text/css" media="screen" charset="utf-8" >
+	   <link rel="stylesheet" href="/css/sib_css/sib_print.css" type="text/css" media="print" charset="utf-8" >
+           <!--[if lte IE 6]>
+	   <link rel="stylesheet" href="/css/sib_css/sib_ie6.css" type="text/css" media="screen" title="" charset="utf-8">
+           <![endif]-->
+           <link rel="stylesheet" href="/css/base.css" type="text/css"><!-- automatically added by Apache -->
+<link rel="stylesheet" href="/css/unirule.css" type="text/css"><script src="/unirule/js/unirule.js" language="JavaScript" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<!-- If you have jQuery directly, then skip next line -->
+<script src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+    // If you have jQuery directly, use the following line, instead
+    // $(function() {
+    // If you have jQuery via Google AJAX Libraries
+    $(function() {
+        $(window).scroll(sticky_relocate);
+        sticky_relocate();
+    });
+</script>
+<style type="text/css">
+    .diag_core {font-size:large;}
+    .skipflag {color: #dd4400;}
+    .error {color: red;}
+    .highlight {background-color:#aaddee;}
+
+    #description:before, #technical:before, #references:before, #miscellaneous:before {
+        display:block;
+        content:"";
+        height:3.0em;
+        margin:-3.0em 0 0;
+    }
+</style>
+<title>PROSITE</title>
+  </head>
+  <body>
+<!-- ********************************************************************************************** -->
+<!-- START OF HEADER information on top of the page -->
+<div id='sib_top'><a name='TOP'></a></div>
+<div id='sib_container'>
+
+<!-- TODO: Change id to "sib_header" or "sib_header_small" -->
+<div id='sib_header_small'>
+
+<!-- SIB-ExPASy -->
+<div id="sib_expasy_logo">
+<a href="http://www.isb-sib.ch" id="sib_link" title="SIB Swiss Institute of Bioinformatics"></a>
+<a href="http://www.expasy.org" id="expasy_link" title="ExPASy - SIB Bioinformatics Resource Portal"></a>
+</div>
+<!-- SIB-ExPASy END -->
+
+<div class='sib_title_no_logo'>
+<h1><a href='http://prosite.expasy.org'>PROSITE</a></h1>
+</div>
+
+<! -- Additionnal resource header -->
+<div id='resource_header'></div>
+
+<div id='sib_header_nav'>
+<a href="http://prosite.expasy.org" title="Home page">Home</a>&nbsp;|&nbsp;<a style="font-weight: bold; color: rgb(204,0,0) !important;" href="/contact" title="Contact">Contact</a></div>
+</div>
+<!-- END OF HEADER -->
+<!-- ********************************************************************************************** -->
+<div id='sib_body'>
+<!-- automatically added by Apache -->
+<div class="core"><table class="unirule_head">
+    <tr>
+        
+            <td rowspan="2" class="logo" style="vertical-align:bottom;"><img src="/images/prosite/prosite.gif" alt="Prosite logo"></td>
+        
+        <td class="nav">
+            <div class="navig_menu">
+                <ul class="prosite">
+                    
+                        <li class="prosite_selected"><a href="/prosite.html">Home</a></li>
+                    
+
+                    
+                        <li><a href="/scanprosite/">ScanProsite</a></li>
+                    
+
+                    
+                        <li><a href="/prorule.html">ProRule</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_doc.html">Documents</a></li>
+                    
+
+                    
+                        <li><a href="ftp://ftp.expasy.org/databases/prosite/">Downloads</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_link.html">Links</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_funding.html">Funding</a></li>
+                    
+                </ul>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="title">PROSITE documentation PDOC50972 [for PROSITE entry PS50972]</td>
+    </tr>
+</table>
+<br>
+<div class="section1">Pterin-binding domain profile</div><br><div id="sticky-anchor"></div>
+<div id="sticky">
+    <div id="menu_hor">
+        <ul>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#description">Description</a></li>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#technical">Technical section</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#references">References</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#copyright">Copyright</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#miscellaneous">Miscellaneous</a></li>
+
+	</ul>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div id="description" class="section5">Description</div><p>The ~250-residue pterin-binding domain has been shown to adopt a (&beta;/&alpha;)8
+barrel fold  (see  &lt;PDB:<a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1F6Y&amp;ps=PS50972&amp;extract=1">1F6Y</a>&gt;),  which  has  the  overall shape of a distorted
+cylinder. It  has  eight  &alpha;-helices stacked around the outside of an inner
+cylinder of  parallel &beta;-strands. The pterin ring binds at the bottom of the
+(&beta;/&alpha;)8 barrel  in  a  polar  cup-like region that is relatively solvent
+exposed and  fairly  negatively  charged.  The pterin ring is partially buried
+within the  (&beta;/&alpha;)8  barrel.  The  pterin  binding  residues  are highly
+conserved and  include  aspartate  and  asparagine  residues located at the C-terminus of  the  &beta;  strands  of  the  barrel,  which are predicted to form
+hydrogen bonds with the nitrogen and oxygen atoms of the pterin ring [<a title="Doukov T. et al. [Structure 8:817-830(2000)]" href="#ref1" onClick="highLightRef('1')">1</a>,<a title="Achari A. et al. [Nat. Struct. Biol. 4:490-497(1997)]" href="#ref2" onClick="highLightRef('2')">2</a>,<a title="Evans J.C. et al. [Proc. Natl. Acad. Sci. U.S.A. 101:3729-3736(2004)]" href="#ref3" onClick="highLightRef('3')">3</a>].
+</p>
+<p>Some proteins known to contain a pterin-binding domain are listed below:
+</p>
+<ul>
+<li>Prokaryotic   and   eukaryotic  B12-dependent  methionine  synthase  (MetH)
+   (EC <a href= "http://enzyme.expasy.org/EC/2.1.1.13">2.1.1.13</a>),  a  large,  modular protein that catalyzes the transfer of a
+   methyl group  from  methyltetrahydrofolate  (CH3-H4folate)  to  Hcy to form
+   methionine, using cobalamin as an intermediate methyl carrier.
+</li>
+<li>Prokaryotic  and  eukaryotic dihydropteroate synthase (DHPS) (EC <a href= "http://enzyme.expasy.org/EC/2.5.1.15">2.5.1.15</a>).
+   It catalyzes  the  condensation  of para-aminobenzoic acid (pABA) with 7,8-
+   dihydropterin-pyrophosphate (DHPPP), eliminating pyrophosphate to form 7,8-
+   dihydropteroate which is subsequently converted to tetrahydrofolate.
+</li>
+<li>Moorella   thermoacetica   5-methyltetrahydrofolate  corrinoid/iron  sulfur
+   protein methyltransferase  (MeTr).  It  transfers  the N5-methyl group from
+   CH3-H4folate to a cob(I)amide center in another protein, the corrinoid iron
+   sulfur protein.
+</li>
+</ul>
+<p>The profile we developed covers the entire pterin-binding domain.
+</p>
+Last update:
+<p> April 2004 / First entry.
+</p>
+<div id="technical" class="section5">Technical section</div>
+<p>PROSITE method (with tools and information) covered by this documentation:</p>
+<fieldset class="prosite1">
+<legend class="sp_tools">PTERIN_BINDING,&nbsp;<a href="/PS50972">PS50972</a>;&nbsp;Pterin-binding domain profile&nbsp;&nbsp;(MATRIX)</legend>
+<ul>
+<li>
+Sequences in UniProtKB/Swiss-Prot known to belong to this class: 78<ul>
+<li>
+detected by PS50972: <a href="/PS50972#TP">78</a> (true positives)</li>
+<li>
+undetected by PS50972: 0 (false negative or '<a href="/prosuser.html#partial_sq">partial</a>')</li>
+</ul>
+
+</li>
+<li>
+Other sequence(s) in UniProtKB/Swiss-Prot detected by PS50972:
+<br>
+NONE.
+</li>
+<li>
+<a href="/cgi-bin/prosite/PSView.cgi?ac=PS50972&amp;onebyarch=1&amp;hscale=0.6">Domain architecture view of Swiss-Prot proteins matching PS50972</a>
+<br>
+<img alt="PS50972" src="/cgi-bin/prosite/PSImage.cgi?hit=1,110,PS50972,PTERIN_BINDING&amp;type=1&amp;len=110&amp;hscale=1.0" border="0" height="40">
+</li>
+<li>
+Retrieve an alignment of UniProtKB/Swiss-Prot true positive hits:<br>
+<a href="/cgi-bin/aligner?psa=PS50972&amp;color=1&amp;maxinsert=10&amp;linelen=0">Clustal format, color, condensed view</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS50972&amp;color=1">Clustal format, color</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS50972">Clustal format, plain text</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS50972&amp;format=FASTA">Fasta format</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/sequence_logo.cgi?ac=PS50972">Retrieve the sequence logo from the alignment</a>
+</li>
+<li>
+<a href=" http://www.uniprot.org/uniprot/?query=database%3A%28type%3Aprosite+PS50972%29&sort=score#orgViewBy" target="_blank">
+Taxonomic distribution of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS50972</a>
+</li>
+<li>
+<a href="http://www.uniprot.org/uniprot/?query=database:(type:prosite PS50972)" target="_blank">
+Retrieve a list of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS50972</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/scanprosite_form.cgi?PS50972">Scan UniProtKB (Swiss-Prot and/or TrEMBL) entries against PS50972</a>
+</li>
+<li>
+<a href="http://www.ebi.ac.uk/pdbe-site/pdbemotif/barChartPattern?pattern1=PS50972" target="_blank">View ligand binding statistics of PS50972</a></li>
+<li>
+Matching PDB structures: <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1AD1&amp;ps=PS50972" target="_blank">1AD1</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1AD4&amp;ps=PS50972" target="_blank">1AD4</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1AJ0&amp;ps=PS50972" target="_blank">1AJ0</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1AJ2&amp;ps=PS50972" target="_blank">1AJ2</a>  ... <a href="/cgi-bin/pdb/pdb_structure_list.cgi?src=PS50972" target="_blank">[ALL]</a>
+</li>
+</fieldset>
+<br>
+<br>
+<div id="references" class="section5">References</div><br>
+<table class="grid" id="ref1" width="100%">
+<tr><td rowspan="4" width="50em">1</td><td width="100em">Authors</td><td>Doukov T., Seravalli J., Stezowski J.J., Ragsdale S.W.</td></tr>
+<tr><td>Title</td><td>Crystal structure of a methyltetrahydrofolate- and corrinoid-dependent methyltransferase.</td></tr>
+<tr><td>Source</td><td>Structure 8:817-830(2000).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=10997901" target="_blank">10997901</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref2" width="100%">
+<tr><td rowspan="4" width="50em">2</td><td width="100em">Authors</td><td>Achari A., Somers D.O., Champness J.N., Bryant P.K., Rosemond J., Stammers D.K.</td></tr>
+<tr><td>Title</td><td>Crystal structure of the anti-bacterial sulfonamide drug target dihydropteroate synthase.</td></tr>
+<tr><td>Source</td><td>Nat. Struct. Biol. 4:490-497(1997).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=9187658" target="_blank">9187658</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref3" width="100%">
+<tr><td rowspan="5" width="50em">3</td><td width="100em">Authors</td><td>Evans J.C., Huddler D.P., Hilgers M.T., Romanchuk G., Matthews R.G., Ludwig M.L.</td></tr>
+<tr><td>Title</td><td>Structures of the N-terminal modules imply large domain motions during catalysis by methionine synthase.</td></tr>
+<tr><td>Source</td><td>Proc. Natl. Acad. Sci. U.S.A. 101:3729-3736(2004).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=14752199" target="_blank">14752199</a></td></tr>
+<tr><td>DOI</td><td><a href="http://dx.doi.org/10.1073/pnas.0308082100" target="_blank">10.1073/pnas.0308082100</a></td></tr>
+</table>
+<br>
+<br>
+<div id="copyright" class="section5">Copyright</div>
+<br>
+PROSITE is copyright.   It  is  produced  by  the  SIB  Swiss  Institute
+    Bioinformatics. There  are no restrictions   on its use by  non-profit
+    institutions as long as its  content is in no way modified. Usage by and
+    for commercial  entities requires a license agreement. For information
+    about  the  licensing  scheme   send  an  email to <form method="POST" name="mailformioTO887396" action="/contact" style="display:none;">
+<input type="hidden" name="recipient_email" value="license@isb-sib.ch">
+<input type="hidden" name="flag_subject" value="Prosite License">
+<input type="hidden" name="recipient_name" value="Prosite License">
+</form>
+<a href="#" onClick="document.mailformioTO887396.submit(); return false;">Prosite License</a>
+
+    or see: <a href="/prosite_license.html">prosite_license.html</a>.
+<br><br>
+<div id="miscellaneous" class="section5">Miscellaneous</div>
+<br>
+<a href="/cgi-bin/prosite/get-prodoc-entry?PDOC50972">View entry in original PROSITE document format</a><br>
+<a href="/PDOC50972.txt">View entry in raw text format (no links)</a>
+<br><br>
+</div><!-- sib_body -->
+<br clear="left" />
+</div>
+<!-- ********************************************************************************************** -->
+<!-- START OF FOOTER information at the bottom of the page -->
+<div id = 'sib_footer'>			
+  <!-- This part of the footer is _left_ justified and should contain SIB on the very left -->	
+  <div id = 'sib_footer_content'> 
+    <a href = "http://www.isb-sib.ch">SIB Swiss Institute of Bioinformatics</a>&nbsp;|&nbsp;<a href = "http://www.expasy.org/disclaimer.html">Disclaimer</a>
+
+	<!-- This part of the footer is _right_ justified -->
+	<div id = "sib_footer_right">	
+      <a href="#TOP" id = "sib_footer_gototop"><span style = "padding-left: 10px">Back to the Top</span></a>				
+    </div>
+  </div>
+</div>
+<!-- END OF FOOTER -->
+</div> <!-- sib_container -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23823438-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><!-- automatically added by Apache -->
+
+    </body>
+</html>

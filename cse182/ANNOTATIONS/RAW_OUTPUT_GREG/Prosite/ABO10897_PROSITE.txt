@@ -1,0 +1,362 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"><!-- automatically added by Apache -->
+    <link rel="shortcut icon" href="http://web.expasy.org/favicon.ico" ><!-- automatically added by Apache -->
+    <link rel="stylesheet" href="/css/sib_css/sib.css" type="text/css" media="screen" charset="utf-8" >
+	   <link rel="stylesheet" href="/css/sib_css/sib_print.css" type="text/css" media="print" charset="utf-8" >
+           <!--[if lte IE 6]>
+	   <link rel="stylesheet" href="/css/sib_css/sib_ie6.css" type="text/css" media="screen" title="" charset="utf-8">
+           <![endif]-->
+           <link rel="stylesheet" href="/css/base.css" type="text/css"><!-- automatically added by Apache -->
+<link rel="stylesheet" href="/css/unirule.css" type="text/css"><script src="/unirule/js/unirule.js" language="JavaScript" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<!-- If you have jQuery directly, then skip next line -->
+<script src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+    // If you have jQuery directly, use the following line, instead
+    // $(function() {
+    // If you have jQuery via Google AJAX Libraries
+    $(function() {
+        $(window).scroll(sticky_relocate);
+        sticky_relocate();
+    });
+</script>
+<style type="text/css">
+    .diag_core {font-size:large;}
+    .skipflag {color: #dd4400;}
+    .error {color: red;}
+    .highlight {background-color:#aaddee;}
+
+    #description:before, #technical:before, #references:before, #miscellaneous:before {
+        display:block;
+        content:"";
+        height:3.0em;
+        margin:-3.0em 0 0;
+    }
+</style>
+<title>PROSITE</title>
+  </head>
+  <body>
+<!-- ********************************************************************************************** -->
+<!-- START OF HEADER information on top of the page -->
+<div id='sib_top'><a name='TOP'></a></div>
+<div id='sib_container'>
+
+<!-- TODO: Change id to "sib_header" or "sib_header_small" -->
+<div id='sib_header_small'>
+
+<!-- SIB-ExPASy -->
+<div id="sib_expasy_logo">
+<a href="http://www.isb-sib.ch" id="sib_link" title="SIB Swiss Institute of Bioinformatics"></a>
+<a href="http://www.expasy.org" id="expasy_link" title="ExPASy - SIB Bioinformatics Resource Portal"></a>
+</div>
+<!-- SIB-ExPASy END -->
+
+<div class='sib_title_no_logo'>
+<h1><a href='http://prosite.expasy.org'>PROSITE</a></h1>
+</div>
+
+<! -- Additionnal resource header -->
+<div id='resource_header'></div>
+
+<div id='sib_header_nav'>
+<a href="http://prosite.expasy.org" title="Home page">Home</a>&nbsp;|&nbsp;<a style="font-weight: bold; color: rgb(204,0,0) !important;" href="/contact" title="Contact">Contact</a></div>
+</div>
+<!-- END OF HEADER -->
+<!-- ********************************************************************************************** -->
+<div id='sib_body'>
+<!-- automatically added by Apache -->
+<div class="core"><table class="unirule_head">
+    <tr>
+        
+            <td rowspan="2" class="logo" style="vertical-align:bottom;"><img src="/images/prosite/prosite.gif" alt="Prosite logo"></td>
+        
+        <td class="nav">
+            <div class="navig_menu">
+                <ul class="prosite">
+                    
+                        <li class="prosite_selected"><a href="/prosite.html">Home</a></li>
+                    
+
+                    
+                        <li><a href="/scanprosite/">ScanProsite</a></li>
+                    
+
+                    
+                        <li><a href="/prorule.html">ProRule</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_doc.html">Documents</a></li>
+                    
+
+                    
+                        <li><a href="ftp://ftp.expasy.org/databases/prosite/">Downloads</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_link.html">Links</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_funding.html">Funding</a></li>
+                    
+                </ul>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="title">PROSITE documentation PDOC00013 [for PROSITE entry PS51257]</td>
+    </tr>
+</table>
+<br>
+<div class="section1">Prokaryotic membrane lipoprotein lipid attachment site profile</div><br><div id="sticky-anchor"></div>
+<div id="sticky">
+    <div id="menu_hor">
+        <ul>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#description">Description</a></li>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#technical">Technical section</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#references">References</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#copyright">Copyright</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#miscellaneous">Miscellaneous</a></li>
+
+	</ul>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div id="description" class="section5">Description</div><p>In prokaryotes, membrane lipoproteins are synthesized  with a precursor signal
+peptide, which is cleaved  by  a specific lipoprotein signal peptidase (signal
+peptidase II). The peptidase recognizes a conserved sequence and cuts upstream
+of a cysteine residue  to which a  glyceride-fatty acid lipid is attached [<a title="Hayashi S. et al. [J. Bioenerg. Biomembr. 22:451-471(1990)]" href="#ref1" onClick="highLightRef('1')">1</a>].
+Some of  the  proteins known to undergo such processing currently include (for
+recent listings see [<a title="Hayashi S. et al. [J. Bioenerg. Biomembr. 22:451-471(1990)]" href="#ref1" onClick="highLightRef('1')">1</a>,<a title="Klein P. et al. [Protein Eng. 2:15-20(1988)]" href="#ref2" onClick="highLightRef('2')">2</a>,<a title="von Heijne G. [Protein Eng. 2:531-534(1989)]" href="#ref3" onClick="highLightRef('3')">3</a>]):
+</p>
+<ul>
+<li>Major outer membrane lipoprotein (murein-lipoproteins) (gene lpp).
+</li>
+<li>Escherichia coli lipoprotein-28 (gene nlpA).
+</li>
+<li>Escherichia coli lipoprotein-34 (gene nlpB).
+</li>
+<li>Escherichia coli lipoprotein nlpC.
+</li>
+<li>Escherichia coli lipoprotein nlpD.
+</li>
+<li>Escherichia coli osmotically inducible lipoprotein B (gene osmB).
+</li>
+<li>Escherichia coli osmotically inducible lipoprotein E (gene osmE).
+</li>
+<li>Escherichia coli peptidoglycan-associated lipoprotein (gene pal).
+</li>
+<li>Escherichia coli rare lipoproteins A and B (genes rplA and rplB).
+</li>
+<li>Escherichia coli copper homeostasis protein cutF (or nlpE).
+</li>
+<li>Escherichia coli plasmids traT proteins.
+</li>
+<li>Escherichia coli Col plasmids lysis proteins.
+</li>
+<li>A number of Bacillus &beta;-lactamases.
+</li>
+<li>Bacillus subtilis periplasmic oligopeptide-binding protein (gene oppA).
+</li>
+<li>Borrelia burgdorferi outer surface proteins A and B (genes ospA and ospB).
+</li>
+<li>Borrelia hermsii variable major protein 21 (gene vmp21) and 7 (gene vmp7).
+</li>
+<li>Chlamydia trachomatis outer membrane protein 3 (gene omp3).
+</li>
+<li>Fibrobacter succinogenes endoglucanase cel-3.
+</li>
+<li>Haemophilus influenzae proteins Pal and Pcp.
+</li>
+<li>Klebsiella pullulunase (gene pulA).
+</li>
+<li>Klebsiella pullulunase secretion protein pulS.
+</li>
+<li>Mycoplasma hyorhinis protein p37.
+</li>
+<li>Mycoplasma hyorhinis variant surface antigens A, B, and C (genes vlpABC).
+</li>
+<li>Neisseria outer membrane protein H.8.
+</li>
+<li>Pseudomonas aeruginosa lipopeptide (gene lppL).
+</li>
+<li>Pseudomonas solanacearum endoglucanase egl.
+</li>
+<li>Rhodopseudomonas viridis reaction center cytochrome subunit (gene cytC).
+</li>
+<li>Rickettsia 17 Kd antigen.
+</li>
+<li>Shigella flexneri invasion plasmid proteins mxiJ and mxiM.
+</li>
+<li>Streptococcus pneumoniae oligopeptide transport protein A (gene amiA).
+</li>
+<li>Treponema pallidium 34 Kd antigen.
+</li>
+<li>Treponema pallidium membrane protein A (gene tmpA).
+</li>
+<li>Vibrio harveyi chitobiase (gene chb).
+</li>
+<li>Yersinia virulence plasmid protein yscJ.
+
+</li>
+<li>Halocyanin from Natrobacterium pharaonis [<a title="Mattar S. et al. [J. Biol. Chem. 269:14939-14945(1994)]" href="#ref4" onClick="highLightRef('4')">4</a>], a membrane associated copper-
+   binding protein.  This  is  the  first archaebacterial  protein known to be
+   modified in such a fashion).
+</li>
+</ul>
+<p>From  the precursor sequences of all these proteins, we derived a profile that
+starts   at   the   beginning   of   the   sequence   and   ends   after   the
+post-translationally modified cysteine.
+</p>
+Note:
+<p>  This profile replace an obsolete rule. All the information in the rule
+has been encoded in the profile format.
+</p>
+Last update:
+<p> October 2006 / Text revised; profiles added; rule deleted.
+</p>
+<div id="technical" class="section5">Technical section</div>
+<p>PROSITE method (with tools and information) covered by this documentation:</p>
+<fieldset class="prosite1">
+<legend class="sp_tools">PROKAR_LIPOPROTEIN,&nbsp;<a href="/PS51257">PS51257</a>;&nbsp;Prokaryotic membrane lipoprotein lipid attachment site profile&nbsp;&nbsp;(MATRIX)</legend>
+<ul>
+<li>
+Sequences in UniProtKB/Swiss-Prot known to belong to this class: 2150<ul>
+<li>
+detected by PS51257: <a href="/PS51257#TP">2018</a> (true positives)</li>
+<li>
+undetected by PS51257: 132 (<a href="/PS51257#FN">127</a> false negatives and <a href="/PS51257#partial">5</a> '<a href="/prosuser.html#partial_sq">partials</a>')</li>
+</ul>
+
+</li>
+<li>
+Other sequence(s) in UniProtKB/Swiss-Prot detected by PS51257:
+<br>
+<a href="/PS51257#FP">650</a> false positives and <a href="/PS51257#unknown">178</a> unknowns.
+</li>
+<li>
+<a href="/cgi-bin/prosite/PSView.cgi?ac=PS51257&amp;onebyarch=1&amp;hscale=0.6">Domain architecture view of Swiss-Prot proteins matching PS51257</a>
+<br>
+<img alt="PS51257" src="/cgi-bin/prosite/PSImage.cgi?hit=1,110,PS51257,PROKAR_LIPOPROTEIN&amp;type=1&amp;len=110&amp;hscale=1.0" border="0" height="40">
+</li>
+<li>
+Retrieve an alignment of UniProtKB/Swiss-Prot true positive hits:<br>
+<a href="/cgi-bin/aligner?psa=PS51257&amp;color=1&amp;maxinsert=10&amp;linelen=0">Clustal format, color, condensed view</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS51257&amp;color=1">Clustal format, color</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS51257">Clustal format, plain text</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS51257&amp;format=FASTA">Fasta format</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/sequence_logo.cgi?ac=PS51257">Retrieve the sequence logo from the alignment</a>
+</li>
+<li>
+<a href=" http://www.uniprot.org/uniprot/?query=database%3A%28type%3Aprosite+PS51257%29&sort=score#orgViewBy" target="_blank">
+Taxonomic distribution of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS51257</a>
+</li>
+<li>
+<a href="http://www.uniprot.org/uniprot/?query=database:(type:prosite PS51257)" target="_blank">
+Retrieve a list of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS51257</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/scanprosite_form.cgi?PS51257">Scan UniProtKB (Swiss-Prot and/or TrEMBL) entries against PS51257</a>
+</li>
+<li>
+<a href="http://www.ebi.ac.uk/pdbe-site/pdbemotif/barChartPattern?pattern1=PS51257" target="_blank">View ligand binding statistics of PS51257</a></li>
+</li>
+</fieldset>
+<br>
+<br>
+<div id="references" class="section5">References</div><br>
+<table class="grid" id="ref1" width="100%">
+<tr><td rowspan="4" width="50em">1</td><td width="100em">Authors</td><td>Hayashi S., Wu H.C.</td></tr>
+<tr><td>Title</td><td>Lipoproteins in bacteria.</td></tr>
+<tr><td>Source</td><td>J. Bioenerg. Biomembr. 22:451-471(1990).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=2202727" target="_blank">2202727</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref2" width="100%">
+<tr><td rowspan="4" width="50em">2</td><td width="100em">Authors</td><td>Klein P., Somorjai R.L., Lau P.C.K.</td></tr>
+<tr><td>Title</td><td>Distinctive properties of signal sequences from bacterial lipoproteins.</td></tr>
+<tr><td>Source</td><td>Protein Eng. 2:15-20(1988).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=3253732" target="_blank">3253732</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref3" width="100%">
+<tr><td rowspan="2" width="50em">3</td><td width="100em">Authors</td><td>von Heijne G.</td></tr>
+<tr><td>Source</td><td>Protein Eng. 2:531-534(1989).</td></tr>
+</table>
+<br>
+<table class="grid" id="ref4" width="100%">
+<tr><td rowspan="4" width="50em">4</td><td width="100em">Authors</td><td>Mattar S., Scharf B., Kent S.B.H., Rodewald K., Oesterhelt D., Engelhard M.</td></tr>
+<tr><td>Title</td><td>The primary structure of halocyanin, an archaeal blue copper protein, predicts a lipid anchor for membrane fixation.</td></tr>
+<tr><td>Source</td><td>J. Biol. Chem. 269:14939-14945(1994).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=8195126" target="_blank">8195126</a></td></tr>
+</table>
+<br>
+<br>
+<div id="copyright" class="section5">Copyright</div>
+<br>
+PROSITE is copyright.   It  is  produced  by  the  SIB  Swiss  Institute
+    Bioinformatics. There  are no restrictions   on its use by  non-profit
+    institutions as long as its  content is in no way modified. Usage by and
+    for commercial  entities requires a license agreement. For information
+    about  the  licensing  scheme   send  an  email to <form method="POST" name="mailformwNH870" action="/contact" style="display:none;">
+<input type="hidden" name="recipient_email" value="license@isb-sib.ch">
+<input type="hidden" name="flag_subject" value="Prosite License">
+<input type="hidden" name="recipient_name" value="Prosite License">
+</form>
+<a href="#" onClick="document.mailformwNH870.submit(); return false;">Prosite License</a>
+
+    or see: <a href="/prosite_license.html">prosite_license.html</a>.
+<br><br>
+<div id="miscellaneous" class="section5">Miscellaneous</div>
+<br>
+<a href="/cgi-bin/prosite/get-prodoc-entry?PDOC00013">View entry in original PROSITE document format</a><br>
+<a href="/PDOC00013.txt">View entry in raw text format (no links)</a>
+<br><br>
+</div><!-- sib_body -->
+<br clear="left" />
+</div>
+<!-- ********************************************************************************************** -->
+<!-- START OF FOOTER information at the bottom of the page -->
+<div id = 'sib_footer'>			
+  <!-- This part of the footer is _left_ justified and should contain SIB on the very left -->	
+  <div id = 'sib_footer_content'> 
+    <a href = "http://www.isb-sib.ch">SIB Swiss Institute of Bioinformatics</a>&nbsp;|&nbsp;<a href = "http://www.expasy.org/disclaimer.html">Disclaimer</a>
+
+	<!-- This part of the footer is _right_ justified -->
+	<div id = "sib_footer_right">	
+      <a href="#TOP" id = "sib_footer_gototop"><span style = "padding-left: 10px">Back to the Top</span></a>				
+    </div>
+  </div>
+</div>
+<!-- END OF FOOTER -->
+</div> <!-- sib_container -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23823438-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><!-- automatically added by Apache -->
+
+    </body>
+</html>

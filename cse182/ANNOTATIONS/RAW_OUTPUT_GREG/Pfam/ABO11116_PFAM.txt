@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="25DF7B5A-4ADD-11E7-ACC2-CA3295374F7B">
+    <matches>
+      <protein length="74">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF12703.5" id="ptaRNA1_toxin" type="Pfam-A" class="Family">
+            <location start="1" end="73" ali_start="1" ali_end="72" hmm_start="1" hmm_end="72" evalue="9.4e-34" bitscore="115.2" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[matlhdiearqvihhaavkLaaLdflDqeaarqlsplaeavanlfvvvfYqaetGratreDfrealaavrqa]]>
+              </hmm>
+              <match_string>
+                <![CDATA[m+t h ie  q++h+aa  L+ L++++q  ar l+plaeavan+f+vv+YqaetGrat++Df+ea++a+rqa]]>
+              </match_string>
+              <pp>
+                <![CDATA[9**********************************************************************8]]>
+              </pp>
+              <seq>
+                <![CDATA[MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQA]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       matlhdiearqvihhaavkLaaLdflDqeaarqlsplaeavanlfvvvfYqaetGratreDfrealaavrqa
+#MATCH     m+t h ie  q++h+aa  L+ L++++q  ar l+plaeavan+f+vv+YqaetGrat++Df+ea++a+rqa
+#PP        9**********************************************************************8
+#SEQ       MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQA
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

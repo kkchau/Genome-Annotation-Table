@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="1EED4A70-4ADD-11E7-B4E7-BE3295374F7B">
+    <matches>
+      <protein length="96">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF02426.14" id="MIase" type="Pfam-A" class="Domain">
+            <location start="1" end="90" ali_start="1" ali_end="90" hmm_start="1" hmm_end="90" evalue="9.2e-42" bitscore="141.0" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[mlFlvemtvklpedlpaeevaelkarekaraqelqrqGklvrlwrvvgeyanisifdvedndeLhelLssLPlfpymtievtpLarHpsd]]>
+              </hmm>
+              <match_string>
+                <![CDATA[mlF+v+m+v++p d+pa++++e+ka eka++q+lqrqGk++++wr+ g+y+nisifdve+n+eLh++L++LPl+pym+iev++L+rHps+]]>
+              </match_string>
+              <pp>
+                <![CDATA[9***************************************************************************************95]]>
+              </pp>
+              <seq>
+                <![CDATA[MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSS]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       mlFlvemtvklpedlpaeevaelkarekaraqelqrqGklvrlwrvvgeyanisifdvedndeLhelLssLPlfpymtievtpLarHpsd
+#MATCH     mlF+v+m+v++p d+pa++++e+ka eka++q+lqrqGk++++wr+ g+y+nisifdve+n+eLh++L++LPl+pym+iev++L+rHps+
+#PP        9***************************************************************************************95
+#SEQ       MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSS
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

@@ -1,0 +1,455 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"><!-- automatically added by Apache -->
+    <link rel="shortcut icon" href="http://web.expasy.org/favicon.ico" ><!-- automatically added by Apache -->
+    <link rel="stylesheet" href="/css/sib_css/sib.css" type="text/css" media="screen" charset="utf-8" >
+	   <link rel="stylesheet" href="/css/sib_css/sib_print.css" type="text/css" media="print" charset="utf-8" >
+           <!--[if lte IE 6]>
+	   <link rel="stylesheet" href="/css/sib_css/sib_ie6.css" type="text/css" media="screen" title="" charset="utf-8">
+           <![endif]-->
+           <link rel="stylesheet" href="/css/base.css" type="text/css"><!-- automatically added by Apache -->
+<link rel="stylesheet" href="/css/unirule.css" type="text/css"><script src="/unirule/js/unirule.js" language="JavaScript" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<!-- If you have jQuery directly, then skip next line -->
+<script src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+    // If you have jQuery directly, use the following line, instead
+    // $(function() {
+    // If you have jQuery via Google AJAX Libraries
+    $(function() {
+        $(window).scroll(sticky_relocate);
+        sticky_relocate();
+    });
+</script>
+<style type="text/css">
+    .diag_core {font-size:large;}
+    .skipflag {color: #dd4400;}
+    .error {color: red;}
+    .highlight {background-color:#aaddee;}
+
+    #description:before, #technical:before, #references:before, #miscellaneous:before {
+        display:block;
+        content:"";
+        height:3.0em;
+        margin:-3.0em 0 0;
+    }
+</style>
+<title>PROSITE</title>
+  </head>
+  <body>
+<!-- ********************************************************************************************** -->
+<!-- START OF HEADER information on top of the page -->
+<div id='sib_top'><a name='TOP'></a></div>
+<div id='sib_container'>
+
+<!-- TODO: Change id to "sib_header" or "sib_header_small" -->
+<div id='sib_header_small'>
+
+<!-- SIB-ExPASy -->
+<div id="sib_expasy_logo">
+<a href="http://www.isb-sib.ch" id="sib_link" title="SIB Swiss Institute of Bioinformatics"></a>
+<a href="http://www.expasy.org" id="expasy_link" title="ExPASy - SIB Bioinformatics Resource Portal"></a>
+</div>
+<!-- SIB-ExPASy END -->
+
+<div class='sib_title_no_logo'>
+<h1><a href='http://prosite.expasy.org'>PROSITE</a></h1>
+</div>
+
+<! -- Additionnal resource header -->
+<div id='resource_header'></div>
+
+<div id='sib_header_nav'>
+<a href="http://prosite.expasy.org" title="Home page">Home</a>&nbsp;|&nbsp;<a style="font-weight: bold; color: rgb(204,0,0) !important;" href="/contact" title="Contact">Contact</a></div>
+</div>
+<!-- END OF HEADER -->
+<!-- ********************************************************************************************** -->
+<div id='sib_body'>
+<!-- automatically added by Apache -->
+<div class="core"><table class="unirule_head">
+    <tr>
+        
+            <td rowspan="2" class="logo" style="vertical-align:bottom;"><img src="/images/prosite/prosite.gif" alt="Prosite logo"></td>
+        
+        <td class="nav">
+            <div class="navig_menu">
+                <ul class="prosite">
+                    
+                        <li class="prosite_selected"><a href="/prosite.html">Home</a></li>
+                    
+
+                    
+                        <li><a href="/scanprosite/">ScanProsite</a></li>
+                    
+
+                    
+                        <li><a href="/prorule.html">ProRule</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_doc.html">Documents</a></li>
+                    
+
+                    
+                        <li><a href="ftp://ftp.expasy.org/databases/prosite/">Downloads</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_link.html">Links</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_funding.html">Funding</a></li>
+                    
+                </ul>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="title">PROSITE documentation PDOC00334 [for PROSITE entry PS51736]</td>
+    </tr>
+</table>
+<br>
+<div class="section1">Site-specific recombinase catalytic domain signatures and profile</div><br><div id="sticky-anchor"></div>
+<div id="sticky">
+    <div id="menu_hor">
+        <ul>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#description">Description</a></li>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#technical">Technical section</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#references">References</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#copyright">Copyright</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#miscellaneous">Miscellaneous</a></li>
+
+	</ul>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div id="description" class="section5">Description</div><p>Site-specific recombination  plays  an  important role in DNA rearrangement in
+prokaryotic organisms.  Two types  of site-specific recombination are known to
+occur:
+</p>
+<ul>
+<li>Recombination between  inverted repeats  resulting in the reversal of a DNA
+   segment.
+</li>
+<li>Recombination  between  repeat  sequences on two DNA molecules resulting in
+   their cointegration,  or  between  repeats on one DNA molecule resulting in
+   the excision of a DNA fragment.
+</li>
+</ul>
+<p>Site-specific recombination  is  characterized by  a strand exchange mechanism
+that requires no DNA synthesis or  high  energy  cofactor;  the phosphodiester
+bond  energy  is conserved in a phospho-protein linkage during strand cleavage
+and re-ligation.
+</p>
+<p>Two unrelated  families  of  recombinases  are currently known [<a title="Argos P. et al. [EMBO J. 5:433-440(1986)]" href="#ref1" onClick="highLightRef('1')">1</a>]. The first,
+called the  tyrosine  recombinases or lambda integrase family, groups a number
+of bacterial,  phage  and  yeast  plasmid  enzymes. The second [<a title="Garnier T. et al. [Mol. Microbiol. 1:371-376(1987)]" href="#ref2" onClick="highLightRef('2')">2</a>], called the
+serine recombinases  or resolvase/invertase family, groups enzymes which share
+the following   structural   characteristics:   an  N-terminal  catalytic  and
+dimerization domain  that  contains a conserved serine residue involved in the
+transient covalent  attachment  to DNA, and a C-terminal helix-turn-helix DNA-binding domain.
+</p>
+<p>The resolvase/invertase  family  is  currently  known to include the following
+proteins:
+</p>
+<ul>
+<li>DNA invertase from Salmonella typhimurium (gene hin).  Hin can invert a 900
+   bp DNA fragment adjacent to a gene for one of the flagellar antigens.
+</li>
+<li>DNA invertase from Escherichia coli (gene pin).
+</li>
+<li>DNA invertase from Bacteriophage Mu (gene gin), P1 and P7 (gene cin).
+</li>
+<li>Resolvases from transposons Tn3, Tn21, Tn501, Tn552, Tn917, Tn1546, Tn1721,
+   Tn2501 and Tn1000 (known as &gamma;-delta resolvase).
+</li>
+<li>Resolvase from Clostridium perfringens plasmid pIP404.
+</li>
+<li>Resolvase from Escherichia coli plasmid R46.
+</li>
+<li>Resolvase from Escherichia coli plasmid RP4 (gene parA).
+</li>
+<li>A putative recombinase from  Bacillus subtilis (gene cisA) [<a title="Sato T. et al. [J. Bacteriol. 172:1092-1098(1990)]" href="#ref3" onClick="highLightRef('3')">3</a>] which  plays
+   an important role in sporulation by  catalyzing the  recombination of genes
+   spoIIIC and spoIVCB to form polymerase sigma-K factor.
+</li>
+<li>Uvp1, a protein from Escherichia coli plasmid pR  which cooperates with the
+   mucAB genes in the DNA repair process and could be a resolvase [<a title="Gigliani F. et al. [Mol. Gen. Genet. 218:18-24(1989)]" href="#ref4" onClick="highLightRef('4')">4</a>].
+</li>
+</ul>
+<p>Generally, proteins  from  the  resolvase  family  have  180 to 200 amino-acid
+residues, excepting cisA which is much larger (500 residues).
+</p>
+<p>The N-terminal  resolvase/invertase-type  recombinase  catalytic domain has an
+&alpha;&beta; fold  and consists of a five-stranded mixed &beta;-sheet surrounded by
+three &alpha;  helices  on  one side and one helix on the other (see &lt;PDB:<a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1GDT&amp;ps=PS51736&amp;extract=1">1GDT</a>&gt;)
+[<a title="Yang W. et al. [Cell 82:193-207(1995)]" href="#ref5" onClick="highLightRef('5')">5</a>].
+</p>
+<p>We developed  two  signature  patterns  for the resolvase family. The first is
+based on  a  highly  conserved region  in  the  N-terminal  extremity of these
+proteins; it  contains  a  serine  residue  most probably involved in covalent
+attachment to  DNA.  The second pattern is based on a conserved region located
+about 50  residues  upstream  of  the  serine active site. We also developed a
+profile which covers the entire resolvase/invertase-type recombinase catalytic
+domain.
+</p>
+Last update:
+<p> October 2014 / Profile added and text revised.
+</p>
+<div id="technical" class="section5">Technical section</div>
+<p>PROSITE methods (with tools and information) covered by this documentation:</p>
+<fieldset class="prosite1">
+<legend class="sp_tools">RECOMBINASES_3,&nbsp;<a href="/PS51736">PS51736</a>;&nbsp;Resolvase/invertase-type recombinase catalytic domain profile&nbsp;&nbsp;(MATRIX)</legend>
+<ul>
+<li>
+Sequences in UniProtKB/Swiss-Prot known to belong to this class: 48<ul>
+<li>
+detected by PS51736: <a href="/PS51736#TP">48</a> (true positives)</li>
+<li>
+undetected by PS51736: 0 (false negative or '<a href="/prosuser.html#partial_sq">partial</a>')</li>
+</ul>
+
+</li>
+<li>
+Other sequence(s) in UniProtKB/Swiss-Prot detected by PS51736:
+<br>
+NONE.
+</li>
+<li>
+<a href="/cgi-bin/prosite/PSView.cgi?ac=PS51736&amp;onebyarch=1&amp;hscale=0.6">Domain architecture view of Swiss-Prot proteins matching PS51736</a>
+<br>
+<img alt="PS51736" src="/cgi-bin/prosite/PSImage.cgi?hit=1,110,PS51736,RECOMBINASES_3&amp;type=1&amp;len=110&amp;hscale=1.0" border="0" height="40">
+</li>
+<li>
+Retrieve an alignment of UniProtKB/Swiss-Prot true positive hits:<br>
+<a href="/cgi-bin/aligner?psa=PS51736&amp;color=1&amp;maxinsert=10&amp;linelen=0">Clustal format, color, condensed view</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS51736&amp;color=1">Clustal format, color</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS51736">Clustal format, plain text</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS51736&amp;format=FASTA">Fasta format</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/sequence_logo.cgi?ac=PS51736">Retrieve the sequence logo from the alignment</a>
+</li>
+<li>
+<a href=" http://www.uniprot.org/uniprot/?query=database%3A%28type%3Aprosite+PS51736%29&sort=score#orgViewBy" target="_blank">
+Taxonomic distribution of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS51736</a>
+</li>
+<li>
+<a href="http://www.uniprot.org/uniprot/?query=database:(type:prosite PS51736)" target="_blank">
+Retrieve a list of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS51736</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/scanprosite_form.cgi?PS51736">Scan UniProtKB (Swiss-Prot and/or TrEMBL) entries against PS51736</a>
+</li>
+<li>
+<a href="http://www.ebi.ac.uk/pdbe-site/pdbemotif/barChartPattern?pattern1=PS51736" target="_blank">View ligand binding statistics of PS51736</a></li>
+<li>
+Matching PDB structures: <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1GDR&amp;ps=PS51736" target="_blank">1GDR</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1GDT&amp;ps=PS51736" target="_blank">1GDT</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1GHT&amp;ps=PS51736" target="_blank">1GHT</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1HX7&amp;ps=PS51736" target="_blank">1HX7</a>  ... <a href="/cgi-bin/pdb/pdb_structure_list.cgi?src=PS51736" target="_blank">[ALL]</a>
+</li>
+</fieldset>
+<br>
+<fieldset class="prosite1">
+<legend class="sp_tools">RECOMBINASES_1,&nbsp;<a href="/PS00397">PS00397</a>;&nbsp;Site-specific recombinases active site&nbsp;&nbsp;(PATTERN)</legend>
+<ul>
+<li>
+Consensus pattern:<br>
+Y-[LIVAC]-R-[VA]-S-[ST]-x(2)-Q<br>S is the active site residue</li>
+<li>
+Sequences in UniProtKB/Swiss-Prot known to belong to this class: 42<ul>
+<li>
+detected by PS00397: <a href="/PS00397#TP">33</a> (true positives)</li>
+<li>
+undetected by PS00397: 9 (<a href="/PS00397#FN">8</a> false negatives and <a href="/PS00397#partial">1</a> '<a href="/prosuser.html#partial_sq">partial</a>')</li>
+</ul>
+
+</li>
+<li>
+Other sequence(s) in UniProtKB/Swiss-Prot detected by PS00397:
+<br>
+<a href="/PS00397#FP">3</a> false positives.
+</li>
+<li>
+Retrieve an alignment of UniProtKB/Swiss-Prot true positive hits:<br>
+<a href="/cgi-bin/aligner?psa=PS00397&amp;color=1&amp;maxinsert=10&amp;linelen=0">Clustal format, color, condensed view</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS00397&amp;color=1">Clustal format, color</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS00397">Clustal format, plain text</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS00397&amp;format=FASTA">Fasta format</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/sequence_logo.cgi?ac=PS00397">Retrieve the sequence logo from the alignment</a>
+</li>
+<li>
+<a href=" http://www.uniprot.org/uniprot/?query=database%3A%28type%3Aprosite+PS00397%29&sort=score#orgViewBy" target="_blank">
+Taxonomic distribution of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS00397</a>
+</li>
+<li>
+<a href="http://www.uniprot.org/uniprot/?query=database:(type:prosite PS00397)" target="_blank">
+Retrieve a list of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS00397</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/scanprosite_form.cgi?PS00397">Scan UniProtKB (Swiss-Prot and/or TrEMBL) entries against PS00397</a>
+</li>
+<li>
+<a href="http://www.ebi.ac.uk/pdbe-site/pdbemotif/barChartPattern?pattern1=PS00397" target="_blank">View ligand binding statistics of PS00397</a></li>
+<li>
+Matching PDB structures: <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1GDT&amp;ps=PS00397" target="_blank">1GDT</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1GHT&amp;ps=PS00397" target="_blank">1GHT</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1HX7&amp;ps=PS00397" target="_blank">1HX7</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1ZR2&amp;ps=PS00397" target="_blank">1ZR2</a>  ... <a href="/cgi-bin/pdb/pdb_structure_list.cgi?src=PS00397" target="_blank">[ALL]</a>
+</li>
+</fieldset>
+<br>
+<fieldset class="prosite1">
+<legend class="sp_tools">RECOMBINASES_2,&nbsp;<a href="/PS00398">PS00398</a>;&nbsp;Site-specific recombinases signature 2&nbsp;&nbsp;(PATTERN)</legend>
+<ul>
+<li>
+Consensus pattern:<br>
+G-[DE]-x(2)-[LIVM]-{E}-x-{V}-[LIVM]-[DT]-R-[LIVM]-[GSA]</li>
+<li>
+Sequences in UniProtKB/Swiss-Prot known to belong to this class: 41<ul>
+<li>
+detected by PS00398: <a href="/PS00398#TP">32</a> (true positives)</li>
+<li>
+undetected by PS00398: 9 (<a href="/PS00398#FN">8</a> false negatives and <a href="/PS00398#partial">1</a> '<a href="/prosuser.html#partial_sq">partial</a>')</li>
+</ul>
+
+</li>
+<li>
+Other sequence(s) in UniProtKB/Swiss-Prot detected by PS00398:
+<br>
+<a href="/PS00398#FP">3</a> false positives.
+</li>
+<li>
+Retrieve an alignment of UniProtKB/Swiss-Prot true positive hits:<br>
+<a href="/cgi-bin/aligner?psa=PS00398&amp;color=1&amp;maxinsert=10&amp;linelen=0">Clustal format, color, condensed view</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS00398&amp;color=1">Clustal format, color</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS00398">Clustal format, plain text</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS00398&amp;format=FASTA">Fasta format</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/sequence_logo.cgi?ac=PS00398">Retrieve the sequence logo from the alignment</a>
+</li>
+<li>
+<a href=" http://www.uniprot.org/uniprot/?query=database%3A%28type%3Aprosite+PS00398%29&sort=score#orgViewBy" target="_blank">
+Taxonomic distribution of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS00398</a>
+</li>
+<li>
+<a href="http://www.uniprot.org/uniprot/?query=database:(type:prosite PS00398)" target="_blank">
+Retrieve a list of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS00398</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/scanprosite_form.cgi?PS00398">Scan UniProtKB (Swiss-Prot and/or TrEMBL) entries against PS00398</a>
+</li>
+<li>
+<a href="http://www.ebi.ac.uk/pdbe-site/pdbemotif/barChartPattern?pattern1=PS00398" target="_blank">View ligand binding statistics of PS00398</a></li>
+<li>
+Matching PDB structures: <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1GDR&amp;ps=PS00398" target="_blank">1GDR</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1GDT&amp;ps=PS00398" target="_blank">1GDT</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1GHT&amp;ps=PS00398" target="_blank">1GHT</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1HX7&amp;ps=PS00398" target="_blank">1HX7</a>  ... <a href="/cgi-bin/pdb/pdb_structure_list.cgi?src=PS00398" target="_blank">[ALL]</a>
+</li>
+</fieldset>
+<br>
+<br>
+<div id="references" class="section5">References</div><br>
+<table class="grid" id="ref1" width="100%">
+<tr><td rowspan="4" width="50em">1</td><td width="100em">Authors</td><td>Argos P., Landy A., Abremski K., Egan J.B., Haggard-Ljungquist E., Hoess R.H., Kahn M.L., Kalionis B., Narayana S.V., Pierson L.S. III</td></tr>
+<tr><td>Title</td><td>The integrase family of site-specific recombinases: regional similarities and global diversity.</td></tr>
+<tr><td>Source</td><td>EMBO J. 5:433-440(1986).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=3011407" target="_blank">3011407</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref2" width="100%">
+<tr><td rowspan="4" width="50em">2</td><td width="100em">Authors</td><td>Garnier T., Saurin W., Cole S.T.</td></tr>
+<tr><td>Title</td><td>Molecular characterization of the resolvase gene, res, carried by a multicopy plasmid from Clostridium perfringens: common evolutionary origin for prokaryotic site-specific recombinases.</td></tr>
+<tr><td>Source</td><td>Mol. Microbiol. 1:371-376(1987).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=2896291" target="_blank">2896291</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref3" width="100%">
+<tr><td rowspan="4" width="50em">3</td><td width="100em">Authors</td><td>Sato T., Samori Y., Kobayashi Y.</td></tr>
+<tr><td>Title</td><td>The cisA cistron of Bacillus subtilis sporulation gene spoIVC encodes a protein homologous to a site-specific recombinase.</td></tr>
+<tr><td>Source</td><td>J. Bacteriol. 172:1092-1098(1990).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=2105293" target="_blank">2105293</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref4" width="100%">
+<tr><td rowspan="4" width="50em">4</td><td width="100em">Authors</td><td>Gigliani F., Sporeno E., Perri S., Battaglia P.A.</td></tr>
+<tr><td>Title</td><td>The uvp1 gene of plasmid pR cooperates with mucAB genes in the DNA repair process.</td></tr>
+<tr><td>Source</td><td>Mol. Gen. Genet. 218:18-24(1989).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=2550763" target="_blank">2550763</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref5" width="100%">
+<tr><td rowspan="4" width="50em">5</td><td width="100em">Authors</td><td>Yang W., Steitz T.A.</td></tr>
+<tr><td>Title</td><td>Crystal structure of the site-specific recombinase gamma delta resolvase complexed with a 34 bp cleavage site.</td></tr>
+<tr><td>Source</td><td>Cell 82:193-207(1995).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=7628011" target="_blank">7628011</a></td></tr>
+</table>
+<br>
+<br>
+<div id="copyright" class="section5">Copyright</div>
+<br>
+PROSITE is copyright.   It  is  produced  by  the  SIB  Swiss  Institute
+    Bioinformatics. There  are no restrictions   on its use by  non-profit
+    institutions as long as its  content is in no way modified. Usage by and
+    for commercial  entities requires a license agreement. For information
+    about  the  licensing  scheme   send  an  email to <form method="POST" name="mailform8amx29138" action="/contact" style="display:none;">
+<input type="hidden" name="recipient_email" value="license@isb-sib.ch">
+<input type="hidden" name="flag_subject" value="Prosite License">
+<input type="hidden" name="recipient_name" value="Prosite License">
+</form>
+<a href="#" onClick="document.mailform8amx29138.submit(); return false;">Prosite License</a>
+
+    or see: <a href="/prosite_license.html">prosite_license.html</a>.
+<br><br>
+<div id="miscellaneous" class="section5">Miscellaneous</div>
+<br>
+<a href="/cgi-bin/prosite/get-prodoc-entry?PDOC00334">View entry in original PROSITE document format</a><br>
+<a href="/PDOC00334.txt">View entry in raw text format (no links)</a>
+<br><br>
+</div><!-- sib_body -->
+<br clear="left" />
+</div>
+<!-- ********************************************************************************************** -->
+<!-- START OF FOOTER information at the bottom of the page -->
+<div id = 'sib_footer'>			
+  <!-- This part of the footer is _left_ justified and should contain SIB on the very left -->	
+  <div id = 'sib_footer_content'> 
+    <a href = "http://www.isb-sib.ch">SIB Swiss Institute of Bioinformatics</a>&nbsp;|&nbsp;<a href = "http://www.expasy.org/disclaimer.html">Disclaimer</a>
+
+	<!-- This part of the footer is _right_ justified -->
+	<div id = "sib_footer_right">	
+      <a href="#TOP" id = "sib_footer_gototop"><span style = "padding-left: 10px">Back to the Top</span></a>				
+    </div>
+  </div>
+</div>
+<!-- END OF FOOTER -->
+</div> <!-- sib_container -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23823438-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><!-- automatically added by Apache -->
+
+    </body>
+</html>

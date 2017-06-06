@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="3AD5FA2A-4ADD-11E7-83C9-CA3295374F7B">
+    <matches>
+      <protein length="100">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF13744.4" id="HTH_37" type="Pfam-A" class="Domain">
+            <location start="5" end="89" ali_start="14" ali_end="89" hmm_start="7" hmm_end="80" evalue="4.1e-12" bitscore="45.7" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[eedaeelkaKaqlala...iaeliearglsqseaaqllgiaqPkvsrllrgklsrfsldkLmnlltalGqkveivvk]]>
+              </hmm>
+              <match_string>
+                <![CDATA[+e ++ ++ +a+ +l    +  ++e++++sq+e+a+ lgi+qP++s++++ +  ++ ++++ ++++a+G+k+ i+v+]]>
+              </match_string>
+              <pp>
+                <![CDATA[6778888888877776788999***************************8.***********************995]]>
+              </pp>
+              <seq>
+                <![CDATA[PESQARIQKMADELLLetqLHLIREELEISQKELAATLGIKQPSLSAIEN-RGHDLKISTMKKYVEAMGGKLRIDVE]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       eedaeelkaKaqlala...iaeliearglsqseaaqllgiaqPkvsrllrgklsrfsldkLmnlltalGqkveivvk
+#MATCH     +e ++ ++ +a+ +l    +  ++e++++sq+e+a+ lgi+qP++s++++ +  ++ ++++ ++++a+G+k+ i+v+
+#PP        6778888888877776788999***************************8.***********************995
+#SEQ       PESQARIQKMADELLLetqLHLIREELEISQKELAATLGIKQPSLSAIEN-RGHDLKISTMKKYVEAMGGKLRIDVE
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

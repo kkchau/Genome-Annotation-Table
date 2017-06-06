@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="blastp" version="BLASTP 2.2.29+"/>
+  <commandLine command="/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.29+/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-I20170606-181136-0974-80506919-oy.sequence  -num_threads 16 -outfmt 11 -out ncbiblast-I20170606-181136-0974-80506919-oy.archive -matrix BLOSUM62 -num_alignments 50 -evalue 10 -gapopen 11 -gapextend 1 -seg no -comp_based_stats F"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="EMBOSS_001" type="PROTEIN" length="76"/>
+   </sequences>
+   <databases total="1" sequences="85866869" letters="28909108493">
+    <database number="1" name="uniprotkb" type="PROTEIN" created="2017-05-08T11:31:00+01:00"/>
+   </databases>
+   <alignments>50</alignments>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>F</filter>
+   <gapExtension>1.0</gapExtension>
+   <gapOpen>11.0</gapOpen>
+   <matrix>BLOSUM62</matrix>
+   <scores>50</scores>
+  </parameters>
+  <timeInfo start="2017-06-06T18:11:37+01:00" end="2017-06-06T18:11:52+01:00" search="P0Y0M0DT0H0M15.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="4">
+   <hit number="1" database="TR" id="A0A0L9UD07_PHAAN" ac="A0A0L9UD07" length="1777" description="Uncharacterized protein OS=Phaseolus angularis GN=LR48_Vigan04g060200 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>82</score>
+      <bits>36.1946</bits>
+      <expectation>2.8</expectation>
+      <identity>36.2</identity>
+      <positives>55.1</positives>
+      <gaps>9</gaps>
+      <strand>none/none</strand>
+      <querySeq start="3" end="71">YSLMDQKVQHLLINLQIPHVDKVIAFVFLNQLFLKFESRVADLIPQLNHLKMQFALANLQWVRKMTLDH</querySeq>
+      <pattern>+SL  QK    ++N  I  +D+V +F F+  L  +  SR+ +      HL  QFAL +L  V+KM +DH</pattern>
+      <matchSeq start="1238" end="1300">FSLSSQKE---VVNSMISTIDEVQSFKFI-PLVYQIASRMGNTKDGHGHLNFQFALVSL--VKKMAIDH</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="TR" id="F9QE91_9MOLU" ac="F9QE91" length="536" description="ABC transporter ATP-binding protein OS=Mycoplasma anatis 1340 GN=GIG_03502 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>79</score>
+      <bits>35.039</bits>
+      <expectation>5.6</expectation>
+      <identity>31.6</identity>
+      <positives>52.6</positives>
+      <gaps>14</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="73">MAYSLMDQKVQHLLINLQIPHVDKVIAF---VFLNQLFLKFESRVADLIPQLNHLKMQFALANLQWVRKMTLDHHD</querySeq>
+      <pattern>+ YSL+DQ V++LLI L I  +  +I+F   +F N+L  K  S ++         K+  + ANL+  +    D +D</pattern>
+      <matchSeq start="39" end="106">LTYSLVDQSVKYLLIYLGILVISLIISFIYSIFKNKLDAKLNSYISK--------KVYISYANLKLCQSSKYDKND</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="TR" id="A0A1S3U4V8_VIGRR" ac="A0A1S3U4V8" length="3031" description="serine/threonine-protein kinase ATM isoform X2 OS=Vigna radiata var. radiata GN=LOC106761920 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>78</score>
+      <bits>34.6538</bits>
+      <expectation>8.7</expectation>
+      <identity>34.8</identity>
+      <positives>55.1</positives>
+      <gaps>9</gaps>
+      <strand>none/none</strand>
+      <querySeq start="3" end="71">YSLMDQKVQHLLINLQIPHVDKVIAFVFLNQLFLKFESRVADLIPQLNHLKMQFALANLQWVRKMTLDH</querySeq>
+      <pattern>+SL  QK    ++N  +  +D+V +F F+  L  +  SR+ +      HL  QFAL +L  V+KM +DH</pattern>
+      <matchSeq start="2492" end="2554">FSLSSQKE---VVNSMLSTIDEVQSFKFI-PLVYQIASRMGNTKDGHAHLNFQFALVSL--VKKMAIDH</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="TR" id="A0A1S3U4Q9_VIGRR" ac="A0A1S3U4Q9" length="3072" description="serine/threonine-protein kinase ATM isoform X1 OS=Vigna radiata var. radiata GN=LOC106761920 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>78</score>
+      <bits>34.6538</bits>
+      <expectation>8.8</expectation>
+      <identity>34.8</identity>
+      <positives>55.1</positives>
+      <gaps>9</gaps>
+      <strand>none/none</strand>
+      <querySeq start="3" end="71">YSLMDQKVQHLLINLQIPHVDKVIAFVFLNQLFLKFESRVADLIPQLNHLKMQFALANLQWVRKMTLDH</querySeq>
+      <pattern>+SL  QK    ++N  +  +D+V +F F+  L  +  SR+ +      HL  QFAL +L  V+KM +DH</pattern>
+      <matchSeq start="2533" end="2595">FSLSSQKE---VVNSMLSTIDEVQSFKFI-PLVYQIASRMGNTKDGHAHLNFQFALVSL--VKKMAIDH</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult></EBIApplicationResult>

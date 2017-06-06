@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="blastp" version="BLASTP 2.2.29+"/>
+  <commandLine command="/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.29+/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-I20170606-181028-0951-17014437-oy.sequence  -num_threads 16 -outfmt 11 -out ncbiblast-I20170606-181028-0951-17014437-oy.archive -matrix BLOSUM62 -num_alignments 50 -evalue 10 -gapopen 11 -gapextend 1 -seg no -comp_based_stats F"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="EMBOSS_001" type="PROTEIN" length="102"/>
+   </sequences>
+   <databases total="1" sequences="85866869" letters="28909108493">
+    <database number="1" name="uniprotkb" type="PROTEIN" created="2017-05-08T11:31:00+01:00"/>
+   </databases>
+   <alignments>50</alignments>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>F</filter>
+   <gapExtension>1.0</gapExtension>
+   <gapOpen>11.0</gapOpen>
+   <matrix>BLOSUM62</matrix>
+   <scores>50</scores>
+  </parameters>
+  <timeInfo start="2017-06-06T18:10:29+01:00" end="2017-06-06T18:10:58+01:00" search="P0Y0M0DT0H0M29.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="50">
+   <hit number="1" database="TR" id="A0A010LEG5_9GAMM" ac="A0A010LEG5" length="102" description="BolA-like family protein OS=Acinetobacter sp. 1566109 GN=J582_2371 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>533</score>
+      <bits>209.92</bits>
+      <expectation>1.7E-67</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="TR" id="A0A0W3DR43_9GAMM" ac="A0A0W3DR43" length="102" description="BolA family transcriptional regulator OS=Acinetobacter sp. FDAARGOS_131 GN=AL489_04900 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>533</score>
+      <bits>209.92</bits>
+      <expectation>1.7E-67</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="TR" id="L9LQK9_9GAMM" ac="L9LQK9" length="102" description="BolA-like protein OS=Acinetobacter sp. OIFC021 GN=ACIN5021_0156 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>533</score>
+      <bits>209.92</bits>
+      <expectation>1.7E-67</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="TR" id="U1U5U4_ACIBA" ac="U1U5U4" length="102" description="BolA family transcriptional regulator OS=Acinetobacter baumannii EGD-HP18 GN=N173_13030 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>533</score>
+      <bits>209.92</bits>
+      <expectation>1.7E-67</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="5" database="TR" id="A0A171EZ32_ACIBA" ac="A0A171EZ32" length="102" description="BolA-like protein OS=Acinetobacter baumannii Naval-82 GN=ACINNAV82_0103 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>533</score>
+      <bits>209.92</bits>
+      <expectation>1.7E-67</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="6" database="TR" id="A0A140QUI7_9GAMM" ac="A0A140QUI7" length="102" description="BolA-like family protein OS=Acinetobacter sp. 216872 GN=J633_1616 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>533</score>
+      <bits>209.92</bits>
+      <expectation>1.7E-67</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="7" database="TR" id="N9HMR2_ACIBA" ac="N9HMR2" length="102" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 201 GN=F922_03623 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>533</score>
+      <bits>209.92</bits>
+      <expectation>1.7E-67</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="8" database="TR" id="D8JIL9_ACISD" ac="D8JIL9" length="102" description="Protein bolA OS=Acinetobacter oleivorans (strain JCM 16667 / KCTC 23045 / DR1) GN=AOLE_18730 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>533</score>
+      <bits>209.92</bits>
+      <expectation>1.7E-67</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="9" database="TR" id="B0VNH1_ACIBS" ac="B0VNH1" length="102" description="Putative activator of morphogenic pathway (BolA), important in general stress response OS=Acinetobacter baumannii (strain SDF) GN=ABSDF0134 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>533</score>
+      <bits>209.92</bits>
+      <expectation>1.7E-67</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="10" database="TR" id="A0A0J1A800_ACIBA" ac="A0A0J1A800" length="102" description="BolA-like protein OS=Acinetobacter baumannii MRSN 3527 GN=T630_0172 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>533</score>
+      <bits>209.92</bits>
+      <expectation>1.7E-67</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="11" database="TR" id="R8XYC3_ACICA" ac="R8XYC3" length="102" description="Uncharacterized protein OS=Acinetobacter calcoaceticus ANC 3811 GN=F935_02948 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>533</score>
+      <bits>209.92</bits>
+      <expectation>1.7E-67</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="12" database="TR" id="S3T0A6_ACIBA" ac="S3T0A6" length="102" description="BolA protein OS=Acinetobacter baumannii NIPH 410 GN=F910_03725 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>533</score>
+      <bits>209.92</bits>
+      <expectation>1.7E-67</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="13" database="TR" id="N9LAR6_ACIBA" ac="N9LAR6" length="102" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 80 GN=F913_00697 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>533</score>
+      <bits>209.92</bits>
+      <expectation>1.7E-67</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="14" database="TR" id="A0A084XLD0_ACINO" ac="A0A084XLD0" length="102" description="BolA family transcriptional regulator OS=Acinetobacter nosocomialis GN=RR32_17400 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>533</score>
+      <bits>209.92</bits>
+      <expectation>1.7E-67</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="15" database="TR" id="L9PA32_ACIBA" ac="L9PA32" length="102" description="BolA-like protein OS=Acinetobacter baumannii Naval-57 GN=ACINNAV57_0147 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>533</score>
+      <bits>209.92</bits>
+      <expectation>1.7E-67</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="16" database="TR" id="A0A009G4I6_ACIBA" ac="A0A009G4I6" length="102" description="BolA-like family protein OS=Acinetobacter baumannii 118362 GN=J517_2556 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>533</score>
+      <bits>209.92</bits>
+      <expectation>1.7E-67</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="17" database="TR" id="A0A062KQ53_ACIBA" ac="A0A062KQ53" length="102" description="BolA-like family protein OS=Acinetobacter baumannii 1571545 GN=J715_3499 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>533</score>
+      <bits>209.92</bits>
+      <expectation>1.7E-67</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="18" database="TR" id="A0A062IF57_ACIBA" ac="A0A062IF57" length="102" description="BolA-like family protein OS=Acinetobacter baumannii 21072 GN=J596_3191 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>533</score>
+      <bits>209.92</bits>
+      <expectation>1.7E-67</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="19" database="TR" id="D0CEN5_ACIB2" ac="D0CEN5" length="102" description="BolA-like protein OS=Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81) GN=F911_00053 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>533</score>
+      <bits>209.92</bits>
+      <expectation>1.7E-67</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="20" database="TR" id="A0A0Q1TPZ2_ACIBA" ac="A0A0Q1TPZ2" length="102" description="BolA family transcriptional regulator OS=Acinetobacter baumannii GN=APD31_05640 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>533</score>
+      <bits>209.92</bits>
+      <expectation>1.7E-67</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="21" database="TR" id="A0A009J690_ACIBA" ac="A0A009J690" length="102" description="BolA-like family protein OS=Acinetobacter baumannii 1419130 GN=J518_2249 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>533</score>
+      <bits>209.92</bits>
+      <expectation>1.7E-67</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="22" database="TR" id="A0A143IV42_ACIPI" ac="A0A143IV42" length="102" description="Transcriptional regulator BolA OS=Acinetobacter pittii GN=IEC338SC_0602 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>532</score>
+      <bits>209.534</bits>
+      <expectation>2.4E-67</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVI+VSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIIVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="23" database="TR" id="N9J061_ACIBA" ac="N9J061" length="102" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 601 GN=F918_03445 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>530</score>
+      <bits>208.764</bits>
+      <expectation>4.9E-67</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPK+</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="24" database="TR" id="N8SF61_9GAMM" ac="N8SF61" length="102" description="Uncharacterized protein OS=Acinetobacter seifertii GN=F985_00850 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>530</score>
+      <bits>208.764</bits>
+      <expectation>4.9E-67</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>M+LEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MNLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="25" database="TR" id="A0A0A8XMJ4_ACICA" ac="A0A0A8XMJ4" length="102" description="Putative activator of morphogenic pathway, BolA OS=Acinetobacter calcoaceticus GN=P23_3421 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>530</score>
+      <bits>208.764</bits>
+      <expectation>4.9E-67</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVS+EFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSDEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="26" database="TR" id="L9MHN8_ACIBA" ac="L9MHN8" length="102" description="BolA-like protein OS=Acinetobacter baumannii WC-A-92 GN=ACINWCA92_0193 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>530</score>
+      <bits>208.764</bits>
+      <expectation>4.9E-67</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPK+</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="27" database="TR" id="N8ZA82_ACIBA" ac="N8ZA82" length="102" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 60 GN=F961_02980 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>530</score>
+      <bits>208.764</bits>
+      <expectation>4.9E-67</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPK+</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="28" database="TR" id="A0A0Q5FNI5_9GAMM" ac="A0A0Q5FNI5" length="102" description="BolA family transcriptional regulator OS=Acinetobacter sp. Leaf130 GN=ASF86_17110 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>530</score>
+      <bits>208.764</bits>
+      <expectation>4.9E-67</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVS+EFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSDEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="29" database="TR" id="A0A009IH72_ACIBA" ac="A0A009IH72" length="102" description="BolA-like family protein OS=Acinetobacter baumannii 1295743 GN=J512_3981 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>530</score>
+      <bits>208.764</bits>
+      <expectation>4.9E-67</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPK+</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="30" database="TR" id="A0A0E1JTE4_ACIBA" ac="A0A0E1JTE4" length="102" description="BolA family transcriptional regulator OS=Acinetobacter baumannii GN=A7M79_11775 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>530</score>
+      <bits>208.764</bits>
+      <expectation>4.9E-67</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPK+</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="31" database="TR" id="A0A0E2GU40_ACINO" ac="A0A0E2GU40" length="102" description="Uncharacterized protein OS=Acinetobacter nosocomialis NIPH 386 GN=F958_00585 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>529</score>
+      <bits>208.379</bits>
+      <expectation>6.9E-67</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVS+EFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSKEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="32" database="TR" id="A0A022J7V8_9GAMM" ac="A0A022J7V8" length="102" description="BolA-like family protein OS=Acinetobacter sp. 1564232 GN=J622_00183 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>529</score>
+      <bits>208.379</bits>
+      <expectation>6.9E-67</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVI+VS+EFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIIVSDEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="33" database="TR" id="K9C853_9GAMM" ac="K9C853" length="102" description="BolA-like protein OS=Acinetobacter sp. WC-487 GN=ACINWC487_0118 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>529</score>
+      <bits>208.379</bits>
+      <expectation>6.9E-67</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVS+EFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSKEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="34" database="TR" id="A0A010MJG0_9GAMM" ac="A0A010MJG0" length="102" description="BolA-like family protein OS=Acinetobacter sp. 1578804 GN=J588_2560 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>529</score>
+      <bits>208.379</bits>
+      <expectation>6.9E-67</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVI+VS+EFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIIVSDEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="35" database="TR" id="A0A011E8D9_9GAMM" ac="A0A011E8D9" length="102" description="BolA-like family protein OS=Acinetobacter sp. 1245249 GN=J623_3438 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>529</score>
+      <bits>208.379</bits>
+      <expectation>6.9E-67</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVI+VS+EFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIIVSDEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="36" database="TR" id="A0A062E9K5_ACIBA" ac="A0A062E9K5" length="102" description="BolA-like family protein OS=Acinetobacter baumannii 855125 GN=J560_4061 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>529</score>
+      <bits>208.379</bits>
+      <expectation>6.9E-67</expectation>
+      <identity>99.0</identity>
+      <positives>99.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQ PASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQTPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="37" database="TR" id="K9CXL8_9GAMM" ac="K9CXL8" length="102" description="BolA-like protein OS=Acinetobacter sp. WC-136 GN=ACINWC136_0173 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>529</score>
+      <bits>208.379</bits>
+      <expectation>6.9E-67</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVI+VS+EFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIIVSDEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="38" database="TR" id="A0A013RXB5_9GAMM" ac="A0A013RXB5" length="102" description="BolA-like family protein OS=Acinetobacter sp. 225588 GN=J687_3145 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>529</score>
+      <bits>208.379</bits>
+      <expectation>6.9E-67</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVI+VS+EFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIIVSDEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="39" database="TR" id="A0A061ZV63_9GAMM" ac="A0A061ZV63" length="102" description="BolA-like family protein OS=Acinetobacter sp. 1264765 GN=J723_2990 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>529</score>
+      <bits>208.379</bits>
+      <expectation>6.9E-67</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVI+VS+EFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIIVSDEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="40" database="TR" id="A0A1A0GM90_ACICA" ac="A0A1A0GM90" length="102" description="BolA family transcriptional regulator OS=Acinetobacter calcoaceticus GN=A9988_05785 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>529</score>
+      <bits>208.379</bits>
+      <expectation>6.9E-67</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVI+VS+EFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIIVSDEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="41" database="TR" id="A0A062LAN8_ACIBA" ac="A0A062LAN8" length="102" description="BolA-like family protein OS=Acinetobacter baumannii 1288284 GN=J608_4003 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>529</score>
+      <bits>208.379</bits>
+      <expectation>6.9E-67</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVI+VS+EFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIIVSDEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="42" database="TR" id="F0KJD8_ACICP" ac="F0KJD8" length="102" description="Putative activator of morphogenic pathway (BolA), important in general stress response OS=Acinetobacter calcoaceticus (strain PHEA-2) GN=bolA PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>529</score>
+      <bits>208.379</bits>
+      <expectation>6.9E-67</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVI+VS+EFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIIVSDEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="43" database="TR" id="A0A127KJS8_9GAMM" ac="A0A127KJS8" length="102" description="BolA family transcriptional regulator OS=Acinetobacter sp. DUT-2 GN=A0J50_17040 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>529</score>
+      <bits>208.379</bits>
+      <expectation>6.9E-67</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVI+VS+EFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIIVSDEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="44" database="TR" id="A0A0J8TBX5_ACIBA" ac="A0A0J8TBX5" length="102" description="BolA-like family protein OS=Acinetobacter baumannii GN=AB895_1631 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>529</score>
+      <bits>208.379</bits>
+      <expectation>6.9E-67</expectation>
+      <identity>99.0</identity>
+      <positives>99.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAP SPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPVSPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="45" database="TR" id="A0A0B2XU06_ACIBA" ac="A0A0B2XU06" length="102" description="BolA family transcriptional regulator OS=Acinetobacter baumannii GN=NT90_10795 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>529</score>
+      <bits>208.379</bits>
+      <expectation>6.9E-67</expectation>
+      <identity>99.0</identity>
+      <positives>99.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIH YLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHVYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="46" database="TR" id="A0A013S1G9_9GAMM" ac="A0A013S1G9" length="102" description="BolA-like family protein OS=Acinetobacter sp. 883425 GN=J672_3495 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>529</score>
+      <bits>208.379</bits>
+      <expectation>6.9E-67</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVI+VS+EFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIIVSDEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="47" database="TR" id="A0A013TTX6_ACIBA" ac="A0A013TTX6" length="102" description="BolA-like family protein OS=Acinetobacter baumannii 573719 GN=J658_3337 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>529</score>
+      <bits>208.379</bits>
+      <expectation>6.9E-67</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVI+VS+EFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIIVSDEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="48" database="TR" id="A0A009RX15_ACIBA" ac="A0A009RX15" length="102" description="BolA-like family protein OS=Acinetobacter baumannii 99063 GN=J529_3652 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>529</score>
+      <bits>208.379</bits>
+      <expectation>6.9E-67</expectation>
+      <identity>99.0</identity>
+      <positives>99.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAP SPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPVSPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="49" database="TR" id="A0A013SBE7_9GAMM" ac="A0A013SBE7" length="102" description="BolA-like family protein OS=Acinetobacter sp. 826659 GN=J663_3326 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>529</score>
+      <bits>208.379</bits>
+      <expectation>6.9E-67</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVI+VS+EFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIIVSDEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="50" database="TR" id="A0A010IDH6_9GAMM" ac="A0A010IDH6" length="102" description="BolA-like family protein OS=Acinetobacter sp. 1542444 GN=J580_3370 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>529</score>
+      <bits>208.379</bits>
+      <expectation>6.9E-67</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</querySeq>
+      <pattern>MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVI+VS+EFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</pattern>
+      <matchSeq start="1" end="102">MSLEQQLIERLQTLAPSHLEVINESAGHGGYFPGKESHFKVIIVSDEFNGLRLVQRHQKVYALASDLMNPGQIHALAIHAYLPSEWQGQAPASPECAHAPKS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult></EBIApplicationResult>

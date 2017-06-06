@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="DB9E1C22-4ADC-11E7-A072-A3A45F09777C">
+    <matches>
+      <protein length="288">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF14833.4" id="NAD_binding_11" type="Pfam-A" class="Domain">
+            <location start="165" end="286" ali_start="165" ali_end="285" hmm_start="1" hmm_end="121" evalue="3.7e-22" bitscore="78.7" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[GaGqavKlvnnlllainlaaasEalvlaekaGldpekvlevinassgrsnalenklpqrvlsrdfdp.gFaidlmlKDlglalelareagaplpllalaeqlyaaaaaegggdaDhsaivrl]]>
+              </hmm>
+              <match_string>
+                <![CDATA[G+Gqa+K++n+l++a+n a+++Ea++la++aG+d   +  ++ ++ + s+ ++  +p r+++++f+p + +++++ KDl++a+ la+++++++p+++ a   +++++++g +++D + ++++]]>
+              </match_string>
+              <pp>
+                <![CDATA[99***************************************************9999.799999987589*************************************************987]]>
+              </pp>
+              <seq>
+                <![CDATA[GTGQATKICNQLIVAANSALIAEAVALADRAGVDTTLLAPALAGGFADSKPFQILAP-RMATHTFEPvQWKVQTLSKDLNNAVTLANNVNLDIPVAQKALLQLQTHQKNGFAEKDLATMIQV]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       GaGqavKlvnnlllainlaaasEalvlaekaGldpekvlevinassgrsnalenklpqrvlsrdfdp.gFaidlmlKDlglalelareagaplpllalaeqlyaaaaaegggdaDhsaivrl
+#MATCH     G+Gqa+K++n+l++a+n a+++Ea++la++aG+d   +  ++ ++ + s+ ++  +p r+++++f+p + +++++ KDl++a+ la+++++++p+++ a   +++++++g +++D + ++++
+#PP        99***************************************************9999.799999987589*************************************************987
+#SEQ       GTGQATKICNQLIVAANSALIAEAVALADRAGVDTTLLAPALAGGFADSKPFQILAP-RMATHTFEPvQWKVQTLSKDLNNAVTLANNVNLDIPVAQKALLQLQTHQKNGFAEKDLATMIQV
+                ]]>
+              </raw>
+            </location>
+          </match>
+          <match accession="PF03446.13" id="NAD_binding_2" type="Pfam-A" class="Domain">
+            <location start="8" end="162" ali_start="9" ali_end="162" hmm_start="2" hmm_end="158" evalue="1.3e-40" bitscore="139.1" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[igfiGlGvMGsnmalnllkagykvavynrtkekveelvaegakaaesieelvasldvvitmvkagkavdeviegllealkkgdilidgstsspedtrelakelkekglkfldaPVSGGeegAekGtLsimvGGseeafervkpvleaigakvthviG]]>
+              </hmm>
+              <match_string>
+                <![CDATA[i+f+G+G MGs ma++l++ag++vav+nrt++++eel++ ga+a++  +  + +  +++t++ ++kav++v +++  +lk+g++++d+s+ s+++t+ la++++++++ ++d PVSGG++gAe+GtL i++GG+++++e+++pv + ++++vt++ G]]>
+              </match_string>
+              <pp>
+                <![CDATA[9****************************************99888766..8888***********************************************************************************************99965.5]]>
+              </pp>
+              <seq>
+                <![CDATA[IAFLGIGLMGSRMASRLIQAGFQVAVWNRTASACEELIDIGAHALDLSN--IGHYPLILTCLADDKAVQAVFDQIQTNLKAGQVIVDFSSLSVAATKALAQAAASQDVIWIDSPVSGGTAGAEQGTLVIFAGGDAQTIEALSPVYNVLSQRVTRM-G]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       igfiGlGvMGsnmalnllkagykvavynrtkekveelvaegakaaesieelvasldvvitmvkagkavdeviegllealkkgdilidgstsspedtrelakelkekglkfldaPVSGGeegAekGtLsimvGGseeafervkpvleaigakvthviG
+#MATCH     i+f+G+G MGs ma++l++ag++vav+nrt++++eel++ ga+a++  +  + +  +++t++ ++kav++v +++  +lk+g++++d+s+ s+++t+ la++++++++ ++d PVSGG++gAe+GtL i++GG+++++e+++pv + ++++vt++ G
+#PP        9****************************************99888766..8888***********************************************************************************************99965.5
+#SEQ       IAFLGIGLMGSRMASRLIQAGFQVAVWNRTASACEELIDIGAHALDLSN--IGHYPLILTCLADDKAVQAVFDQIQTNLKAGQVIVDFSSLSVAATKALAQAAASQDVIWIDSPVSGGTAGAEQGTLVIFAGGDAQTIEALSPVYNVLSQRVTRM-G
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

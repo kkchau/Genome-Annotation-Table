@@ -1,0 +1,299 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"><!-- automatically added by Apache -->
+    <link rel="shortcut icon" href="http://web.expasy.org/favicon.ico" ><!-- automatically added by Apache -->
+    <link rel="stylesheet" href="/css/sib_css/sib.css" type="text/css" media="screen" charset="utf-8" >
+	   <link rel="stylesheet" href="/css/sib_css/sib_print.css" type="text/css" media="print" charset="utf-8" >
+           <!--[if lte IE 6]>
+	   <link rel="stylesheet" href="/css/sib_css/sib_ie6.css" type="text/css" media="screen" title="" charset="utf-8">
+           <![endif]-->
+           <link rel="stylesheet" href="/css/base.css" type="text/css"><!-- automatically added by Apache -->
+<link rel="stylesheet" href="/css/unirule.css" type="text/css"><script src="/unirule/js/unirule.js" language="JavaScript" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<!-- If you have jQuery directly, then skip next line -->
+<script src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+    // If you have jQuery directly, use the following line, instead
+    // $(function() {
+    // If you have jQuery via Google AJAX Libraries
+    $(function() {
+        $(window).scroll(sticky_relocate);
+        sticky_relocate();
+    });
+</script>
+<style type="text/css">
+    .diag_core {font-size:large;}
+    .skipflag {color: #dd4400;}
+    .error {color: red;}
+    .highlight {background-color:#aaddee;}
+
+    #description:before, #technical:before, #references:before, #miscellaneous:before {
+        display:block;
+        content:"";
+        height:3.0em;
+        margin:-3.0em 0 0;
+    }
+</style>
+<title>PROSITE</title>
+  </head>
+  <body>
+<!-- ********************************************************************************************** -->
+<!-- START OF HEADER information on top of the page -->
+<div id='sib_top'><a name='TOP'></a></div>
+<div id='sib_container'>
+
+<!-- TODO: Change id to "sib_header" or "sib_header_small" -->
+<div id='sib_header_small'>
+
+<!-- SIB-ExPASy -->
+<div id="sib_expasy_logo">
+<a href="http://www.isb-sib.ch" id="sib_link" title="SIB Swiss Institute of Bioinformatics"></a>
+<a href="http://www.expasy.org" id="expasy_link" title="ExPASy - SIB Bioinformatics Resource Portal"></a>
+</div>
+<!-- SIB-ExPASy END -->
+
+<div class='sib_title_no_logo'>
+<h1><a href='http://prosite.expasy.org'>PROSITE</a></h1>
+</div>
+
+<! -- Additionnal resource header -->
+<div id='resource_header'></div>
+
+<div id='sib_header_nav'>
+<a href="http://prosite.expasy.org" title="Home page">Home</a>&nbsp;|&nbsp;<a style="font-weight: bold; color: rgb(204,0,0) !important;" href="/contact" title="Contact">Contact</a></div>
+</div>
+<!-- END OF HEADER -->
+<!-- ********************************************************************************************** -->
+<div id='sib_body'>
+<!-- automatically added by Apache -->
+<div class="core"><table class="unirule_head">
+    <tr>
+        
+            <td rowspan="2" class="logo" style="vertical-align:bottom;"><img src="/images/prosite/prosite.gif" alt="Prosite logo"></td>
+        
+        <td class="nav">
+            <div class="navig_menu">
+                <ul class="prosite">
+                    
+                        <li class="prosite_selected"><a href="/prosite.html">Home</a></li>
+                    
+
+                    
+                        <li><a href="/scanprosite/">ScanProsite</a></li>
+                    
+
+                    
+                        <li><a href="/prorule.html">ProRule</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_doc.html">Documents</a></li>
+                    
+
+                    
+                        <li><a href="ftp://ftp.expasy.org/databases/prosite/">Downloads</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_link.html">Links</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_funding.html">Funding</a></li>
+                    
+                </ul>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="title">PROSITE documentation PDOC50110 [for PROSITE entry PS50110]</td>
+    </tr>
+</table>
+<br>
+<div class="section1">Response regulatory domain profile</div><br><div id="sticky-anchor"></div>
+<div id="sticky">
+    <div id="menu_hor">
+        <ul>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#description">Description</a></li>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#technical">Technical section</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#references">References</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#copyright">Copyright</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#miscellaneous">Miscellaneous</a></li>
+
+	</ul>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div id="description" class="section5">Description</div><p>Most prokaryotic signal-transduction systems and a few eukaryotic pathways use
+phosphotransfer schemes   involving  two  conserved  components,  a  histidine
+protein kinase  (HK)  (see &lt;<a href="/PDOC50109">PDOC50109</a>&gt;) and a response regulator protein (RR).
+The HK,  which  is regulated by environmental stimuli, autophosphorylates at a
+histidine residue,   creating   a   high-energy   phosphoryl   group  that  is
+subsequently transferred  to  an aspartate residue in the RR. Most RRs consist
+of two  domains:  a  conserved  N-terminal regulatory domain and a variable C-terminal effector  domain.  Phosphorylation of the regulatory domain induces a
+conformational change  that results in activation of an associated domain that
+effects the  response.  The  regulatory  domains of RRs have three activities.
+First they  interact  with  phosphorylated  HKs  and  catalyze  transfer  of a
+phosphoryl group  to  one  of  their  own  Asp residues. Second, they catalyze
+autodephosphorylation. And  finally  they  regulate  the  activities  of their
+associated effector   domains   in  a  phosphorylation-dependent  manner.  The
+regulatory domains,  often  called  receiver domains, can also be found within
+hybrid histidine kinases or as isolated proteins within phosphorelay pathways.
+In these  contexts,  the  receiver  domains  are  not  physically connected to
+effector domains  and  play  no  direct  role  in  regulating  effector domain
+function.
+</p>
+<p>The RR  domain  has a doubly wound five-stranded &alpha;/&beta; fold consisting of
+about 125  residues  (see  &lt;PDB:<a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=2CHY&amp;ps=PS50110&amp;extract=1">2CHY</a>&gt;).  This  fold  consists  a central five-stranded parallel  &beta;  sheet flanked on both faces by five amphipathic &alpha;
+helices. Residues that are highly conserved in all RR domains are clustered in
+two regions:  an  active-site  cleft  formed  by loops that extend from the C-terminal ends  of  &beta; strands 1, 3 and 5, and a pair of residues that form a
+diagonal path  extending  across the molecule from the active site. The active
+site is  a conserved acidic pocket and contains the phosphorylatable aspartate
+residue [<a title="Stock A.M. et al. [Annu. Rev. Biochem. 69:183-215(2000)]" href="#ref1" onClick="highLightRef('1')">1</a>,<a title="West A.H. et al. [Trends Biochem. Sci. 26:369-376(2001)]" href="#ref2" onClick="highLightRef('2')">2</a>,<a title="Foussard M. et al. [Microbes Infect. 3:417-424(2001)]" href="#ref3" onClick="highLightRef('3')">3</a>].
+</p>
+<p>The profile we developed covers the entire RR domain.
+</p>
+Last update:
+<p> May 2015 / Profile revised.
+</p>
+<div id="technical" class="section5">Technical section</div>
+<p>PROSITE method (with tools and information) covered by this documentation:</p>
+<fieldset class="prosite1">
+<legend class="sp_tools">RESPONSE_REGULATORY,&nbsp;<a href="/PS50110">PS50110</a>;&nbsp;Response regulatory domain profile&nbsp;&nbsp;(MATRIX)</legend>
+<ul>
+<li>
+Sequences in UniProtKB/Swiss-Prot known to belong to this class: 1005<ul>
+<li>
+detected by PS50110: <a href="/PS50110#TP">1003</a> (true positives)</li>
+<li>
+undetected by PS50110: 2 (<a href="/PS50110#FN">2</a> false negatives and 0 '<a href="/prosuser.html#partial_sq">partial</a>')</li>
+</ul>
+
+</li>
+<li>
+Other sequence(s) in UniProtKB/Swiss-Prot detected by PS50110:
+<br>
+NONE.
+</li>
+<li>
+<a href="/cgi-bin/prosite/PSView.cgi?ac=PS50110&amp;onebyarch=1&amp;hscale=0.6">Domain architecture view of Swiss-Prot proteins matching PS50110</a>
+<br>
+<img alt="PS50110" src="/cgi-bin/prosite/PSImage.cgi?hit=1,110,PS50110,RESPONSE_REGULATORY&amp;type=1&amp;len=110&amp;hscale=1.0" border="0" height="40">
+</li>
+<li>
+Retrieve an alignment of UniProtKB/Swiss-Prot true positive hits:<br>
+<a href="/cgi-bin/aligner?psa=PS50110&amp;color=1&amp;maxinsert=10&amp;linelen=0">Clustal format, color, condensed view</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS50110&amp;color=1">Clustal format, color</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS50110">Clustal format, plain text</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS50110&amp;format=FASTA">Fasta format</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/sequence_logo.cgi?ac=PS50110">Retrieve the sequence logo from the alignment</a>
+</li>
+<li>
+<a href=" http://www.uniprot.org/uniprot/?query=database%3A%28type%3Aprosite+PS50110%29&sort=score#orgViewBy" target="_blank">
+Taxonomic distribution of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS50110</a>
+</li>
+<li>
+<a href="http://www.uniprot.org/uniprot/?query=database:(type:prosite PS50110)" target="_blank">
+Retrieve a list of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS50110</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/scanprosite_form.cgi?PS50110">Scan UniProtKB (Swiss-Prot and/or TrEMBL) entries against PS50110</a>
+</li>
+<li>
+<a href="http://www.ebi.ac.uk/pdbe-site/pdbemotif/barChartPattern?pattern1=PS50110" target="_blank">View ligand binding statistics of PS50110</a></li>
+<li>
+Matching PDB structures: <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1A04&amp;ps=PS50110" target="_blank">1A04</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1A0O&amp;ps=PS50110" target="_blank">1A0O</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1A2O&amp;ps=PS50110" target="_blank">1A2O</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1AB5&amp;ps=PS50110" target="_blank">1AB5</a>  ... <a href="/cgi-bin/pdb/pdb_structure_list.cgi?src=PS50110" target="_blank">[ALL]</a>
+</li>
+</fieldset>
+<br>
+<br>
+<div id="references" class="section5">References</div><br>
+<table class="grid" id="ref1" width="100%">
+<tr><td rowspan="5" width="50em">1</td><td width="100em">Authors</td><td>Stock A.M., Robinson V.L., Goudreau P.N.</td></tr>
+<tr><td>Title</td><td>Two-component signal transduction.</td></tr>
+<tr><td>Source</td><td>Annu. Rev. Biochem. 69:183-215(2000).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=10966457" target="_blank">10966457</a></td></tr>
+<tr><td>DOI</td><td><a href="http://dx.doi.org/10.1146/annurev.biochem.69.1.183" target="_blank">10.1146/annurev.biochem.69.1.183</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref2" width="100%">
+<tr><td rowspan="4" width="50em">2</td><td width="100em">Authors</td><td>West A.H., Stock A.M.</td></tr>
+<tr><td>Title</td><td>Histidine kinases and response regulator proteins in two-component signaling systems.</td></tr>
+<tr><td>Source</td><td>Trends Biochem. Sci. 26:369-376(2001).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=11406410" target="_blank">11406410</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref3" width="100%">
+<tr><td rowspan="4" width="50em">3</td><td width="100em">Authors</td><td>Foussard M., Cabantous S., Pedelacq J.-D., Guillet V., Tranier S., Mourey L., Birck C., Samama J.-P.</td></tr>
+<tr><td>Title</td><td>The molecular puzzle of two-component signaling cascades.</td></tr>
+<tr><td>Source</td><td>Microbes Infect. 3:417-424(2001).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=11369279" target="_blank">11369279</a></td></tr>
+</table>
+<br>
+<br>
+<div id="copyright" class="section5">Copyright</div>
+<br>
+PROSITE is copyright.   It  is  produced  by  the  SIB  Swiss  Institute
+    Bioinformatics. There  are no restrictions   on its use by  non-profit
+    institutions as long as its  content is in no way modified. Usage by and
+    for commercial  entities requires a license agreement. For information
+    about  the  licensing  scheme   send  an  email to <form method="POST" name="mailformgh5G6742" action="/contact" style="display:none;">
+<input type="hidden" name="recipient_email" value="license@isb-sib.ch">
+<input type="hidden" name="flag_subject" value="Prosite License">
+<input type="hidden" name="recipient_name" value="Prosite License">
+</form>
+<a href="#" onClick="document.mailformgh5G6742.submit(); return false;">Prosite License</a>
+
+    or see: <a href="/prosite_license.html">prosite_license.html</a>.
+<br><br>
+<div id="miscellaneous" class="section5">Miscellaneous</div>
+<br>
+<a href="/cgi-bin/prosite/get-prodoc-entry?PDOC50110">View entry in original PROSITE document format</a><br>
+<a href="/PDOC50110.txt">View entry in raw text format (no links)</a>
+<br><br>
+</div><!-- sib_body -->
+<br clear="left" />
+</div>
+<!-- ********************************************************************************************** -->
+<!-- START OF FOOTER information at the bottom of the page -->
+<div id = 'sib_footer'>			
+  <!-- This part of the footer is _left_ justified and should contain SIB on the very left -->	
+  <div id = 'sib_footer_content'> 
+    <a href = "http://www.isb-sib.ch">SIB Swiss Institute of Bioinformatics</a>&nbsp;|&nbsp;<a href = "http://www.expasy.org/disclaimer.html">Disclaimer</a>
+
+	<!-- This part of the footer is _right_ justified -->
+	<div id = "sib_footer_right">	
+      <a href="#TOP" id = "sib_footer_gototop"><span style = "padding-left: 10px">Back to the Top</span></a>				
+    </div>
+  </div>
+</div>
+<!-- END OF FOOTER -->
+</div> <!-- sib_container -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23823438-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><!-- automatically added by Apache -->
+
+    </body>
+</html>

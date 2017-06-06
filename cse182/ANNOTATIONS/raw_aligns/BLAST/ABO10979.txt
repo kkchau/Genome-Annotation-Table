@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="blastp" version="BLASTP 2.2.29+"/>
+  <commandLine command="/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.29+/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-I20170606-181118-0263-21579731-oy.sequence  -num_threads 16 -outfmt 11 -out ncbiblast-I20170606-181118-0263-21579731-oy.archive -matrix BLOSUM62 -num_alignments 50 -evalue 10 -gapopen 11 -gapextend 1 -seg no -comp_based_stats F"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="EMBOSS_001" type="PROTEIN" length="144"/>
+   </sequences>
+   <databases total="1" sequences="85866869" letters="28909108493">
+    <database number="1" name="uniprotkb" type="PROTEIN" created="2017-05-08T11:31:00+01:00"/>
+   </databases>
+   <alignments>50</alignments>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>F</filter>
+   <gapExtension>1.0</gapExtension>
+   <gapOpen>11.0</gapOpen>
+   <matrix>BLOSUM62</matrix>
+   <scores>50</scores>
+  </parameters>
+  <timeInfo start="2017-06-06T18:11:18+01:00" end="2017-06-06T18:11:51+01:00" search="P0Y0M0DT0H0M33.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="50">
+   <hit number="1" database="TR" id="A0A009IL70_ACIBA" ac="A0A009IL70" length="144" description="Putative phosphoribosylglycinamide formyltransferase OS=Acinetobacter baumannii 1295743 GN=J512_2224 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>730</score>
+      <bits>285.804</bits>
+      <expectation>4.7E-96</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="TR" id="A0A1E3M7J6_ACIBA" ac="A0A1E3M7J6" length="144" description="Excinuclease OS=Acinetobacter baumannii GN=A7M79_04840 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>730</score>
+      <bits>285.804</bits>
+      <expectation>4.7E-96</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="TR" id="A0A010JKJ5_9GAMM" ac="A0A010JKJ5" length="144" description="Putative phosphoribosylglycinamide formyltransferase OS=Acinetobacter sp. 1542444 GN=J580_2930 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>718</score>
+      <bits>281.182</bits>
+      <expectation>3.1E-94</expectation>
+      <identity>98.6</identity>
+      <positives>98.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="TR" id="A0A013T1I9_ACIBA" ac="A0A013T1I9" length="144" description="Putative phosphoribosylglycinamide formyltransferase OS=Acinetobacter baumannii 573719 GN=J658_1692 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>718</score>
+      <bits>281.182</bits>
+      <expectation>3.1E-94</expectation>
+      <identity>98.6</identity>
+      <positives>98.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="5" database="TR" id="A0A1A0GG07_ACICA" ac="A0A1A0GG07" length="144" description="Excinuclease OS=Acinetobacter calcoaceticus GN=A9988_15920 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>718</score>
+      <bits>281.182</bits>
+      <expectation>3.1E-94</expectation>
+      <identity>98.6</identity>
+      <positives>98.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="6" database="TR" id="A0A013SFI8_9GAMM" ac="A0A013SFI8" length="144" description="Putative phosphoribosylglycinamide formyltransferase OS=Acinetobacter sp. 742879 GN=J690_0771 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>718</score>
+      <bits>281.182</bits>
+      <expectation>3.1E-94</expectation>
+      <identity>98.6</identity>
+      <positives>98.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="7" database="TR" id="R8Z672_ACIPI" ac="R8Z672" length="144" description="Uncharacterized protein OS=Acinetobacter pittii ANC 4052 GN=F929_01434 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>718</score>
+      <bits>281.182</bits>
+      <expectation>3.1E-94</expectation>
+      <identity>98.6</identity>
+      <positives>98.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="8" database="TR" id="A0A0Q1QWH9_ACIPI" ac="A0A0Q1QWH9" length="144" description="Excinuclease OS=Acinetobacter pittii GN=APB94_17645 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>718</score>
+      <bits>281.182</bits>
+      <expectation>3.1E-94</expectation>
+      <identity>98.6</identity>
+      <positives>98.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="9" database="TR" id="A0A009HDW1_9GAMM" ac="A0A009HDW1" length="144" description="Putative phosphoribosylglycinamide formyltransferase OS=Acinetobacter sp. 1295259 GN=J507_0522 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>717</score>
+      <bits>280.796</bits>
+      <expectation>4.4E-94</expectation>
+      <identity>97.9</identity>
+      <positives>98.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLF+AMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFIAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="10" database="TR" id="A0A1C2UH50_ACIPI" ac="A0A1C2UH50" length="144" description="Excinuclease OS=Acinetobacter pittii GN=BFR63_00760 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>717</score>
+      <bits>280.796</bits>
+      <expectation>4.4E-94</expectation>
+      <identity>97.9</identity>
+      <positives>98.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLF+AMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFIAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="11" database="TR" id="A0A0R0RVS0_ACIPI" ac="A0A0R0RVS0" length="144" description="Excinuclease OS=Acinetobacter pittii GN=APC53_09660 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>713</score>
+      <bits>279.256</bits>
+      <expectation>1.8E-93</expectation>
+      <identity>97.9</identity>
+      <positives>97.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKG MMAGVALKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGAMMAGVALKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="12" database="TR" id="A0A151YP23_9GAMM" ac="A0A151YP23" length="144" description="Excinuclease OS=Acinetobacter lactucae GN=AWW73_01525 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>713</score>
+      <bits>279.256</bits>
+      <expectation>1.8E-93</expectation>
+      <identity>97.9</identity>
+      <positives>97.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKG MMAGVALKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGAMMAGVALKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="13" database="TR" id="R8YD12_ACIPI" ac="R8YD12" length="144" description="Uncharacterized protein OS=Acinetobacter pittii ANC 4050 GN=F931_02350 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>712</score>
+      <bits>278.87</bits>
+      <expectation>2.5E-93</expectation>
+      <identity>97.2</identity>
+      <positives>97.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGK+IQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKG MMAGVALKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKIIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGAMMAGVALKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="14" database="TR" id="G2JFR4_ACIBA" ac="G2JFR4" length="144" description="Uncharacterized protein OS=Acinetobacter baumannii MDR-ZJ06 GN=ABZJ_00566 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>712</score>
+      <bits>278.87</bits>
+      <expectation>2.5E-93</expectation>
+      <identity>97.2</identity>
+      <positives>97.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGK+IQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKG MMAGVALKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKIIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGAMMAGVALKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="15" database="TR" id="A0A0E1PUE2_ACIBA" ac="A0A0E1PUE2" length="144" description="Uncharacterized protein OS=Acinetobacter baumannii NCGM 237 GN=AB237_2947 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>712</score>
+      <bits>278.87</bits>
+      <expectation>2.5E-93</expectation>
+      <identity>97.2</identity>
+      <positives>97.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGK+IQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKG MMAGVALKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKIIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGAMMAGVALKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="16" database="TR" id="A0A013TLD7_9GAMM" ac="A0A013TLD7" length="144" description="Putative phosphoribosylglycinamide formyltransferase OS=Acinetobacter sp. 826659 GN=J663_1990 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>712</score>
+      <bits>278.87</bits>
+      <expectation>2.5E-93</expectation>
+      <identity>97.9</identity>
+      <positives>97.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGK AATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKLAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="17" database="TR" id="A0A062MZ65_ACIBA" ac="A0A062MZ65" length="144" description="Putative phosphoribosylglycinamide formyltransferase OS=Acinetobacter baumannii 1288284 GN=J608_0076 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>712</score>
+      <bits>278.87</bits>
+      <expectation>2.5E-93</expectation>
+      <identity>97.2</identity>
+      <positives>97.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGK+IQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKG MMAGVALKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKIIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGAMMAGVALKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="18" database="TR" id="A0A062G6H5_ACIBA" ac="A0A062G6H5" length="144" description="Putative phosphoribosylglycinamide formyltransferase OS=Acinetobacter baumannii 15827 GN=J530_1660 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>712</score>
+      <bits>278.87</bits>
+      <expectation>2.5E-93</expectation>
+      <identity>97.2</identity>
+      <positives>97.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGK+IQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKG MMAGVALKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKIIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGAMMAGVALKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="19" database="TR" id="A0A0R1B618_ACINO" ac="A0A0R1B618" length="144" description="Excinuclease OS=Acinetobacter nosocomialis GN=APC94_18065 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>712</score>
+      <bits>278.87</bits>
+      <expectation>2.5E-93</expectation>
+      <identity>97.2</identity>
+      <positives>97.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGK+IQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKG MMAGVALKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKIIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGAMMAGVALKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="20" database="TR" id="F0KMS1_ACICP" ac="F0KMS1" length="144" description="Phosphoribosylglycinamide formyltransferase OS=Acinetobacter calcoaceticus (strain PHEA-2) GN=BDGL_003438 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>711</score>
+      <bits>278.485</bits>
+      <expectation>3.6E-93</expectation>
+      <identity>97.9</identity>
+      <positives>97.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKG MMAGVALKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHPLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGAMMAGVALKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="21" database="TR" id="N9ELB1_ACICA" ac="N9ELB1" length="144" description="Uncharacterized protein OS=Acinetobacter calcoaceticus ANC 3680 GN=F937_00368 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>709</score>
+      <bits>277.715</bits>
+      <expectation>7.2E-93</expectation>
+      <identity>97.2</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKG MMAGV LKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGAMMAGVTLKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="22" database="TR" id="A0A0Q5FK43_9GAMM" ac="A0A0Q5FK43" length="144" description="Excinuclease OS=Acinetobacter sp. Leaf130 GN=ASF86_13340 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>709</score>
+      <bits>277.715</bits>
+      <expectation>7.2E-93</expectation>
+      <identity>97.2</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKG MMAGV LKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGAMMAGVTLKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="23" database="TR" id="N8WWR6_9GAMM" ac="N8WWR6" length="144" description="Uncharacterized protein OS=Acinetobacter sp. NIPH 817 GN=F968_03287 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>708</score>
+      <bits>277.33</bits>
+      <expectation>1.0E-92</expectation>
+      <identity>96.5</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGK+IQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKG MMAGV LKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKIIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGAMMAGVTLKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="24" database="TR" id="K8ZUI4_9GAMM" ac="K8ZUI4" length="144" description="Uncharacterized protein OS=Acinetobacter sp. WC-141 GN=ACINWC141_0557 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>708</score>
+      <bits>277.33</bits>
+      <expectation>1.0E-92</expectation>
+      <identity>96.5</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGK+IQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKG MMAGV LKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKIIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGAMMAGVTLKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="25" database="TR" id="R8XX28_ACICA" ac="R8XX28" length="144" description="Uncharacterized protein OS=Acinetobacter calcoaceticus ANC 3811 GN=F935_02555 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>708</score>
+      <bits>277.33</bits>
+      <expectation>1.0E-92</expectation>
+      <identity>96.5</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGK+IQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKG MMAGV LKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKIIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGAMMAGVTLKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="26" database="TR" id="A0A0A8XJK0_ACICA" ac="A0A0A8XJK0" length="144" description="Phosphoribosylglycinamide formyltransferase OS=Acinetobacter calcoaceticus GN=P23_2433 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>708</score>
+      <bits>277.33</bits>
+      <expectation>1.0E-92</expectation>
+      <identity>96.5</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGK+IQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKG MMAGV LKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKIIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGAMMAGVTLKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="27" database="TR" id="N9QMZ7_9GAMM" ac="N9QMZ7" length="144" description="Uncharacterized protein OS=Acinetobacter sp. NIPH 542 GN=F886_01041 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>707</score>
+      <bits>276.944</bits>
+      <expectation>1.4E-92</expectation>
+      <identity>96.5</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGK+IQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAV NIVSYFKANETTSTTTYDCYKGTMMAGV LKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKIIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVINIVSYFKANETTSTTTYDCYKGTMMAGVTLKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="28" database="TR" id="D8JGR5_ACISD" ac="D8JGR5" length="144" description="Uncharacterized protein OS=Acinetobacter oleivorans (strain JCM 16667 / KCTC 23045 / DR1) GN=AOLE_16800 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>705</score>
+      <bits>276.174</bits>
+      <expectation>2.9E-92</expectation>
+      <identity>95.8</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTK+GGK+IQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKG MMAGV LKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKTGGKIIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGAMMAGVTLKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="29" database="TR" id="A0A1C2PK09_ACIPI" ac="A0A1C2PK09" length="144" description="Excinuclease OS=Acinetobacter pittii GN=BFR81_13420 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>704</score>
+      <bits>275.789</bits>
+      <expectation>4.1E-92</expectation>
+      <identity>96.5</identity>
+      <positives>96.5</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKD VTNKKTNGFGK AATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANET STTTYDCYKGTMMAGVALKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDVVTNKKTNGFGKPAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETASTTTYDCYKGTMMAGVALKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="30" database="TR" id="D0S5J7_ACICA" ac="D0S5J7" length="144" description="Uncharacterized protein OS=Acinetobacter calcoaceticus RUH2202 GN=HMPREF0012_02900 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>703</score>
+      <bits>275.404</bits>
+      <expectation>5.8E-92</expectation>
+      <identity>96.5</identity>
+      <positives>96.5</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH LNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAV NIVSYFKANETTSTTTYDCYKG MMAGV LKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVINIVSYFKANETTSTTTYDCYKGAMMAGVTLKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="31" database="TR" id="A0A0B2UHS4_9GAMM" ac="A0A0B2UHS4" length="144" description="Excinuclease OS=Acinetobacter oleivorans GN=DH17_08010 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>700</score>
+      <bits>274.248</bits>
+      <expectation>1.7E-91</expectation>
+      <identity>95.8</identity>
+      <positives>95.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH  NFKEAVDRAVADGTLDGSVKFYL GTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKG MMAGV LKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQFNFKEAVDRAVADGTLDGSVKFYLNGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGAMMAGVTLKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="32" database="TR" id="A0A101KJR7_ACICA" ac="A0A101KJR7" length="144" description="Excinuclease OS=Acinetobacter calcoaceticus GN=AV645_16960 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>700</score>
+      <bits>274.248</bits>
+      <expectation>1.7E-91</expectation>
+      <identity>95.8</identity>
+      <positives>95.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLLFVAMLSAGFTATVQA DEVH  NFKEAVDRAVADGTLDGSVKFYL GTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKG MMAGV LKGDVVKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAGDEVHQFNFKEAVDRAVADGTLDGSVKFYLNGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGAMMAGVTLKGDVVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="33" database="TR" id="A0A0W3DPU7_9GAMM" ac="A0A0W3DPU7" length="144" description="Excinuclease OS=Acinetobacter sp. FDAARGOS_131 GN=AL489_02775 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>685</score>
+      <bits>268.47</bits>
+      <expectation>3.1E-89</expectation>
+      <identity>93.1</identity>
+      <positives>94.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLL VAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYL GTKSGGKVIQKD VTNKKTNGF KSA  SCDWVLRSALIQMQNNAKAQGANAVTNIVSYFK+NET STTTYDCYKGTMMAGV LKGD+VKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLLVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLSGTKSGGKVIQKDVVTNKKTNGFAKSAEASCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKSNETRSTTTYDCYKGTMMAGVTLKGDIVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="34" database="TR" id="A0A0B2XNP7_ACIBA" ac="A0A0B2XNP7" length="144" description="Excinuclease OS=Acinetobacter baumannii GN=NT90_02465 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>685</score>
+      <bits>268.47</bits>
+      <expectation>3.1E-89</expectation>
+      <identity>93.1</identity>
+      <positives>94.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>MLNKKLL VAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYL GTKSGGKVIQKD VTNKKTNGF KSA  SCDWVLRSALIQMQNNAKAQGANAVTNIVSYFK+NET STTTYDCYKGTMMAGV LKGD+VKF</pattern>
+      <matchSeq start="1" end="144">MLNKKLLLVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLSGTKSGGKVIQKDVVTNKKTNGFAKSAEASCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKSNETRSTTTYDCYKGTMMAGVTLKGDIVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="35" database="TR" id="Q6FEK0_ACIAD" ac="Q6FEK0" length="144" description="Uncharacterized protein OS=Acinetobacter baylyi (strain ATCC 33305 / BD413 / ADP1) GN=ACIAD0584 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>552</score>
+      <bits>217.238</bits>
+      <expectation>4.5E-69</expectation>
+      <identity>75.0</identity>
+      <positives>85.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>ML K+ L +A+L  G     QAAD VH+L+FK AV+RAVADGTLDGSVKFYL GTKSGGKVIQ   VTNKKTNGFGKSA  +CDWVLRSALIQ+QN AKA+GANAVTNIVSY+K+NET STTTY+C+KGT +AGVALKGD+VKF</pattern>
+      <matchSeq start="1" end="144">MLLKQQLTIAVLCLGAMGAAQAADNVHNLDFKSAVERAVADGTLDGSVKFYLNGTKSGGKVIQPGIVTNKKTNGFGKSAENACDWVLRSALIQLQNAAKAKGANAVTNIVSYYKSNETKSTTTYECHKGTAVAGVALKGDIVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="36" database="TR" id="V2V351_9GAMM" ac="V2V351" length="144" description="Uncharacterized protein OS=Acinetobacter tjernbergiae DSM 14971 = CIP 107465 GN=F990_00783 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>551</score>
+      <bits>216.853</bits>
+      <expectation>6.4E-69</expectation>
+      <identity>74.5</identity>
+      <positives>87.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="4" end="144">KKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>K+L  VA L+ GFTA+VQAAD  H+ +FK AVDRAVADGTLDG+VKFYLKG KSGGKV+++D VTN+KTNGFGKSA TSCDWVLRSAL+Q+   AKA+GANAVTNIVSY+K NET STTTY+C+KG  +AGVALKGD+VKF</pattern>
+      <matchSeq start="4" end="144">KQLFLVAALATGFTASVQAADVTHNFDFKAAVDRAVADGTLDGTVKFYLKGNKSGGKVLEQDIVTNQKTNGFGKSAETSCDWVLRSALLQLDKAAKARGANAVTNIVSYYKKNETKSTTTYECHKGVAVAGVALKGDLVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="37" database="TR" id="V2TFX8_9GAMM" ac="V2TFX8" length="144" description="Uncharacterized protein OS=Acinetobacter gyllenbergii NIPH 230 GN=F987_03891 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>548</score>
+      <bits>215.698</bits>
+      <expectation>1.8E-68</expectation>
+      <identity>74.5</identity>
+      <positives>86.5</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="4" end="144">KKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>K+L    +L+AGFTA+V AAD VH+L+FK AVDRAVADGTLDG+VKFYLKGTKSGGKV+++D VTN+KTNGFGKSA  SCDWVLRSALIQ+   AKA+GANAVTNIVSYFK NE+ S+TTY CYKG  +A VALKGD+VKF</pattern>
+      <matchSeq start="4" end="144">KQLFLATVLTAGFTASVHAADTVHNLDFKAAVDRAVADGTLDGTVKFYLKGTKSGGKVVEQDIVTNQKTNGFGKSAEKSCDWVLRSALIQLDKAAKARGANAVTNIVSYFKKNESQSSTTYQCYKGMAVASVALKGDIVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="38" database="TR" id="R9B560_9GAMM" ac="R9B560" length="144" description="Uncharacterized protein OS=Acinetobacter sp. CIP 110321 GN=F896_00660 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>545</score>
+      <bits>214.542</bits>
+      <expectation>5.1E-68</expectation>
+      <identity>73.8</identity>
+      <positives>86.5</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="4" end="144">KKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>K+L    +L+AGFT +VQAAD VH+L+FK AVDRAVADGTLDG+VKFYLKGTKSGGKV+++D VTN+KTNGFGKSA  SCDWVLRSALIQ+   AKA+GANAVTNIVSYFK NE+ ++TTY CYKG  +A VALKGD+VKF</pattern>
+      <matchSeq start="4" end="144">KQLFLATVLTAGFTVSVQAADTVHNLDFKAAVDRAVADGTLDGTVKFYLKGTKSGGKVLEQDIVTNQKTNGFGKSAEKSCDWVLRSALIQLDKAAKARGANAVTNIVSYFKKNESQNSTTYQCYKGMAVASVALKGDIVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="39" database="TR" id="N8WG57_9GAMM" ac="N8WG57" length="144" description="Uncharacterized protein OS=Acinetobacter sp. CIP 56.2 GN=F966_00821 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>544</score>
+      <bits>214.157</bits>
+      <expectation>7.3E-68</expectation>
+      <identity>73.8</identity>
+      <positives>86.5</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="4" end="144">KKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>K+L    +L+AGF A+VQAAD VH+L+FK AVDRAVADGTLDG+VKFYLKGTKSGGKV+++D VTN+KTNGFGKSA  SCDWVLRSALIQ+   AKA+GANAVTNIVSYFK NE+ ++TTY CYKG  +A VALKGD+VKF</pattern>
+      <matchSeq start="4" end="144">KQLFLATVLTAGFAASVQAADTVHNLDFKAAVDRAVADGTLDGTVKFYLKGTKSGGKVLEQDIVTNQKTNGFGKSAEKSCDWVLRSALIQLDKAAKARGANAVTNIVSYFKKNESQNSTTYQCYKGMAVASVALKGDIVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="40" database="TR" id="N9R5C9_9GAMM" ac="N9R5C9" length="144" description="Uncharacterized protein OS=Acinetobacter sp. CIP 70.18 GN=F902_04128 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>544</score>
+      <bits>214.157</bits>
+      <expectation>7.3E-68</expectation>
+      <identity>73.8</identity>
+      <positives>86.5</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="4" end="144">KKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>K+L    +L+AGF A+VQAAD VH+L+FK AVDRAVADGTLDG+VKFYLKGTKSGGKV+++D VTN+KTNGFGKSA  SCDWVLRSALIQ+   AKA+GANAVTNIVSYFK NE+ ++TTY CYKG  +A VALKGD+VKF</pattern>
+      <matchSeq start="4" end="144">KQLFLATVLTAGFAASVQAADTVHNLDFKAAVDRAVADGTLDGTVKFYLKGTKSGGKVLEQDIVTNQKTNGFGKSAEKSCDWVLRSALIQLDKAAKARGANAVTNIVSYFKKNESQNSTTYQCYKGMAVASVALKGDIVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="41" database="TR" id="A0A1B8U978_9GAMM" ac="A0A1B8U978" length="144" description="Excinuclease OS=Acinetobacter gyllenbergii GN=NG55_17630 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>544</score>
+      <bits>214.157</bits>
+      <expectation>7.3E-68</expectation>
+      <identity>73.8</identity>
+      <positives>85.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="4" end="144">KKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>K+L    +L+ GFTA+V AAD VH+L+FK AVDRAVADGTLDG+VKFYLKGTKSGGKV+++D VTN+KTNGFGKSA  SCDWVLRSALIQ+   AKA+GANAVTNIVSYFK NE+ S+TTY CYKG  +A VALKGD+VKF</pattern>
+      <matchSeq start="4" end="144">KQLFLATVLTTGFTASVHAADTVHNLDFKAAVDRAVADGTLDGTVKFYLKGTKSGGKVVEQDIVTNQKTNGFGKSAEKSCDWVLRSALIQLDKAAKARGANAVTNIVSYFKKNESQSSTTYQCYKGMAVASVALKGDIVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="42" database="TR" id="A0A1C3CUE4_9GAMM" ac="A0A1C3CUE4" length="144" description="Excinuclease OS=Acinetobacter celticus GN=BBP83_10880 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>543</score>
+      <bits>213.772</bits>
+      <expectation>1.0E-67</expectation>
+      <identity>75.0</identity>
+      <positives>84.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>ML +K+    ML+ G  ATVQAAD++H  NFKEAVDRAVADGTLDGSVKFYL GTKSGGKVIQK  VTNKKTNGF KSA ++CD VLRSALIQ QN AKA GANAVTN+VS++K+NET STTTY C KGT +AGVALKGD+VKF</pattern>
+      <matchSeq start="1" end="144">MLLQKICLATMLAFGGIATVQAADKMHDFNFKEAVDRAVADGTLDGSVKFYLAGTKSGGKVIQKGLVTNKKTNGFAKSAESACDHVLRSALIQFQNTAKANGANAVTNLVSFYKSNETRSTTTYQCAKGTAVAGVALKGDIVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="43" database="TR" id="A0A150I016_9GAMM" ac="A0A150I016" length="144" description="Uncharacterized protein OS=Acinetobacter venetianus GN=AVENLUH13518_00281 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>541</score>
+      <bits>213.001</bits>
+      <expectation>2.1E-67</expectation>
+      <identity>72.3</identity>
+      <positives>85.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="4" end="144">KKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>K+L   A+L+ GFTA+V AAD VHH +FK AVDRAVADGTLDGSVKFYLKG KSGG+V++K+ VTN+KTNGFGKSA  +CDWVLRSALIQ+   AKA+GANAVTNIVSY+K NE  S+TTY+C+KG  +AGVALKGD+VKF</pattern>
+      <matchSeq start="4" end="144">KQLFLAAVLTTGFTASVHAADAVHHFDFKAAVDRAVADGTLDGSVKFYLKGNKSGGRVLEKEIVTNQKTNGFGKSAEKACDWVLRSALIQLDKAAKARGANAVTNIVSYYKKNENQSSTTYECHKGMAVAGVALKGDIVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="44" database="TR" id="N9RYA4_9GAMM" ac="N9RYA4" length="144" description="Uncharacterized protein OS=Acinetobacter sp. ANC 3880 GN=F885_00931 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>541</score>
+      <bits>213.001</bits>
+      <expectation>2.1E-67</expectation>
+      <identity>73.0</identity>
+      <positives>86.5</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="4" end="144">KKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>K+L    +L+AGF ++VQAAD VH+L+FK AVDRAVADGTLDG+VKFYLKGTKSGGKV+++D VTN+KTNGFGKSA  SCDWVLRSALIQ+   AKA+GANAVTNIVSYFK NE+ ++TTY CYKG  +A VALKGD+VKF</pattern>
+      <matchSeq start="4" end="144">KQLFLATVLTAGFASSVQAADTVHNLDFKAAVDRAVADGTLDGTVKFYLKGTKSGGKVLEQDIVTNQKTNGFGKSAEKSCDWVLRSALIQLDKAAKARGANAVTNIVSYFKKNESQNSTTYQCYKGMAVASVALKGDIVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="45" database="TR" id="N8YP84_ACIVR" ac="N8YP84" length="144" description="Uncharacterized protein OS=Acinetobacter venetianus (strain ATCC 31012 / CIP 110063 / RAG-1) GN=F959_00568 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>540</score>
+      <bits>212.616</bits>
+      <expectation>2.9E-67</expectation>
+      <identity>71.6</identity>
+      <positives>85.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="4" end="144">KKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>K++   A+L+ GFTA+V AAD VHH +FK AVDRAVADGTLDGSVKFYLKG KSGG+V++K+ VTN+KTNGFGKSA  +CDWVLRSALIQ+   AKA+GANAVTNIVSY+K NE  S+TTY+C+KG  +AGVALKGD+VKF</pattern>
+      <matchSeq start="4" end="144">KQIFLAAVLTTGFTASVHAADAVHHFDFKSAVDRAVADGTLDGSVKFYLKGNKSGGRVLEKEIVTNQKTNGFGKSAEKACDWVLRSALIQLDKAAKARGANAVTNIVSYYKKNENQSSTTYECHKGMAVAGVALKGDIVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="46" database="TR" id="G7GG16_9GAMM" ac="G7GG16" length="144" description="Uncharacterized protein OS=Acinetobacter sp. NBRC 100985 GN=ACT4_033_00230 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>540</score>
+      <bits>212.616</bits>
+      <expectation>2.9E-67</expectation>
+      <identity>71.6</identity>
+      <positives>85.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="4" end="144">KKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>K++   A+L+ GFTA+V AAD VHH +FK AVDRAVADGTLDGSVKFYLKG KSGG+V++K+ VTN+KTNGFGKSA  +CDWVLRSALIQ+   AKA+GANAVTNIVSY+K NE  S+TTY+C+KG  +AGVALKGD+VKF</pattern>
+      <matchSeq start="4" end="144">KQIFLAAVLTTGFTASVHAADAVHHFDFKSAVDRAVADGTLDGSVKFYLKGNKSGGRVLEKEIVTNQKTNGFGKSAEKACDWVLRSALIQLDKAAKARGANAVTNIVSYYKKNENQSSTTYECHKGMAVAGVALKGDIVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="47" database="TR" id="N8QTC4_9GAMM" ac="N8QTC4" length="144" description="Uncharacterized protein OS=Acinetobacter sp. NIPH 809 GN=F993_00503 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>540</score>
+      <bits>212.616</bits>
+      <expectation>2.9E-67</expectation>
+      <identity>73.0</identity>
+      <positives>85.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="4" end="144">KKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>K+L    +L+ GF A+VQAAD VH+L+FK AVDRAVADGTLDG+VKFYLKGTKSGGKV+++D VTN+KTNGFGKSA  SCDWVLRSALIQ+   AKA+GANAVTNIVSYFK NE+ ++TTY CYKG  +A VALKGD+VKF</pattern>
+      <matchSeq start="4" end="144">KQLFLATVLTTGFAASVQAADTVHNLDFKAAVDRAVADGTLDGTVKFYLKGTKSGGKVLEQDIVTNQKTNGFGKSAEKSCDWVLRSALIQLDKAAKARGANAVTNIVSYFKKNESQNSTTYQCYKGMAVASVALKGDIVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="48" database="TR" id="N8QJ81_9GAMM" ac="N8QJ81" length="144" description="Uncharacterized protein OS=Acinetobacter bohemicus ANC 3994 GN=F994_00066 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>540</score>
+      <bits>212.616</bits>
+      <expectation>2.9E-67</expectation>
+      <identity>72.9</identity>
+      <positives>84.7</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="144">MLNKKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>M  KK++   +LS G   + QAAD  H+L+FK AV+RAVADGTLDGSVKFYL GTKSGGKV+QKDAVTNKKTNGF KSA T+CD VLRSALIQ+QN AKA+GANAVTNIVSYFK+NE+ S+TTY C+KGT +A VALKGD+VKF</pattern>
+      <matchSeq start="1" end="144">MFMKKIVLTTVLSLGAVVSAQAADTAHNLDFKSAVERAVADGTLDGSVKFYLAGTKSGGKVLQKDAVTNKKTNGFAKSAETACDHVLRSALIQLQNTAKAKGANAVTNIVSYFKSNESKSSTTYQCFKGTAVASVALKGDLVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="49" database="TR" id="A0A1Q3M6Z1_9GAMM" ac="A0A1Q3M6Z1" length="144" description="Excinuclease OS=Acinetobacter sp. 39-4 GN=BGN93_05475 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>540</score>
+      <bits>212.616</bits>
+      <expectation>2.9E-67</expectation>
+      <identity>73.0</identity>
+      <positives>85.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="4" end="144">KKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>K+L    +L+ GF A+VQAAD VH+L+FK AVDRAVADGTLDG+VKFYLKGTKSGGKV+++D VTN+KTNGFGKSA  SCDWVLRSALIQ+   AKA+GANAVTNIVSYFK NE+ ++TTY CYKG  +A VALKGD+VKF</pattern>
+      <matchSeq start="4" end="144">KQLFLATVLTTGFAASVQAADTVHNLDFKAAVDRAVADGTLDGTVKFYLKGTKSGGKVLEQDIVTNQKTNGFGKSAEKSCDWVLRSALIQLDKAAKARGANAVTNIVSYFKKNESQNSTTYQCYKGMAVASVALKGDIVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="50" database="TR" id="A0A137YAU1_ACIHA" ac="A0A137YAU1" length="144" description="Excinuclease OS=Acinetobacter haemolyticus GN=AYL20_03380 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>540</score>
+      <bits>212.616</bits>
+      <expectation>2.9E-67</expectation>
+      <identity>71.6</identity>
+      <positives>85.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="4" end="144">KKLLFVAMLSAGFTATVQAADEVHHLNFKEAVDRAVADGTLDGSVKFYLKGTKSGGKVIQKDAVTNKKTNGFGKSAATSCDWVLRSALIQMQNNAKAQGANAVTNIVSYFKANETTSTTTYDCYKGTMMAGVALKGDVVKF</querySeq>
+      <pattern>K++   A+L+ GFTA+V AAD VHH +FK AVDRAVADGTLDGSVKFYLKG KSGG+V++K+ VTN+KTNGFGKSA  +CDWVLRSALIQ+   AKA+GANAVTNIVSY+K NE  S+TTY+C+KG  +AGVALKGD+VKF</pattern>
+      <matchSeq start="4" end="144">KQIFLAAVLTTGFTASVHAADAVHHFDFKSAVDRAVADGTLDGSVKFYLKGNKSGGRVLEKEIVTNQKTNGFGKSAEKACDWVLRSALIQLDKAAKARGANAVTNIVSYYKKNENQSSTTYECHKGMAVAGVALKGDIVKF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult></EBIApplicationResult>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="B2B257A0-4ADD-11E7-BD7C-C43295374F7B">
+    <matches>
+      <protein length="222">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF02798.18" id="GST_N" type="Pfam-A" class="Domain">
+            <location start="1" end="74" ali_start="4" ali_end="73" hmm_start="6" hmm_end="75" evalue="7.4e-16" bitscore="58.1" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[ysirgsprahrirlllaakgveyevvpldfeageekspellklnplgkvPaLedngkkltESraIleYia]]>
+              </hmm>
+              <match_string>
+                <![CDATA[+++++++r++ri+++l+++g++y + ++++  +  +++ l+ ++plgk+P L d++++++ES +IleY+ ]]>
+              </match_string>
+              <pp>
+                <![CDATA[7899**************************999988899*****************************97]]>
+              </pp>
+              <seq>
+                <![CDATA[VHHLECSRSFRILWALEELGLDYDIHFYQRLPNYSAPETLKCIHPLGKAPILTDDEQVIAESAVILEYLQ]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       ysirgsprahrirlllaakgveyevvpldfeageekspellklnplgkvPaLedngkkltESraIleYia
+#MATCH     +++++++r++ri+++l+++g++y + ++++  +  +++ l+ ++plgk+P L d++++++ES +IleY+ 
+#PP        7899**************************999988899*****************************97
+#SEQ       VHHLECSRSFRILWALEELGLDYDIHFYQRLPNYSAPETLKCIHPLGKAPILTDDEQVIAESAVILEYLQ
+                ]]>
+              </raw>
+            </location>
+          </match>
+          <match accession="PF14497.4" id="GST_C_3" type="Pfam-A" class="Domain">
+            <location start="115" end="211" ali_start="135" ali_end="206" hmm_start="19" hmm_end="94" evalue="3.1e-08" bitscore="33.6" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[ekkkefleerlpkflkyfekvlkkkgggylvgdklTyADlalfqvldgleeaealkkfpklkalyervearpkika]]>
+              </hmm>
+              <match_string>
+                <![CDATA[  k++f++ r++++++++e++l+  + +y++gd +++AD+ +   l++l++   + k+p+++a+ +r+++rp+ ++]]>
+              </match_string>
+              <pp>
+                <![CDATA[67899******************..899****9.****************99.5689***************9876]]>
+              </pp>
+              <seq>
+                <![CDATA[GVKANFVRPRMKDHISFLENYLA--EHEYFAGD-FSFADIQMSFPLEALQSR-LQGKYPHIQAFLHRIQQRPAFQK]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       ekkkefleerlpkflkyfekvlkkkgggylvgdklTyADlalfqvldgleeaealkkfpklkalyervearpkika
+#MATCH       k++f++ r++++++++e++l+  + +y++gd +++AD+ +   l++l++   + k+p+++a+ +r+++rp+ ++
+#PP        67899******************..899****9.****************99.5689***************9876
+#SEQ       GVKANFVRPRMKDHISFLENYLA--EHEYFAGD-FSFADIQMSFPLEALQSR-LQGKYPHIQAFLHRIQQRPAFQK
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="8396A1B6-4ADC-11E7-B149-A6A45F09777C">
+    <matches>
+      <protein length="167">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF00717.21" id="Peptidase_S24" type="Pfam-A" class="Domain">
+            <location start="79" end="147" ali_start="80" ali_end="146" hmm_start="2" hmm_end="69" evalue="1.5e-13" bitscore="50.4" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[vpGdSM.eptlldGdlilVdkfsepkrGdivvfrlpgeeeayiKrviglpgdrvllasnneypplying]]>
+              </hmm>
+              <match_string>
+                <![CDATA[v + SM ++++ ++d ++Vd++ e+k+ divv+ +++e   ++Kr++ ++++++l+a+n++y+++y+n+]]>
+              </match_string>
+              <pp>
+                <![CDATA[5577**99******************************..***************************96]]>
+              </pp>
+              <seq>
+                <![CDATA[VCSLSMiNAGIDINDELVVDRSLEAKNNDIVVALIENE--FTVKRLKIEGSKIWLKAENPDYQDIYFNE]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       vpGdSM.eptlldGdlilVdkfsepkrGdivvfrlpgeeeayiKrviglpgdrvllasnneypplying
+#MATCH     v + SM ++++ ++d ++Vd++ e+k+ divv+ +++e   ++Kr++ ++++++l+a+n++y+++y+n+
+#PP        5577**99******************************..***************************96
+#SEQ       VCSLSMiNAGIDINDELVVDRSLEAKNNDIVVALIENE--FTVKRLKIEGSKIWLKAENPDYQDIYFNE
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

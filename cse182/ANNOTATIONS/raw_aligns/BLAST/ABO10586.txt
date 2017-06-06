@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="blastp" version="BLASTP 2.2.29+"/>
+  <commandLine command="/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.29+/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-I20170606-181342-0013-85941879-pg.sequence  -num_threads 16 -outfmt 11 -out ncbiblast-I20170606-181342-0013-85941879-pg.archive -matrix BLOSUM62 -num_alignments 50 -evalue 10 -gapopen 11 -gapextend 1 -seg no -comp_based_stats F"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="EMBOSS_001" type="PROTEIN" length="119"/>
+   </sequences>
+   <databases total="1" sequences="85866869" letters="28909108493">
+    <database number="1" name="uniprotkb" type="PROTEIN" created="2017-05-08T11:31:00+01:00"/>
+   </databases>
+   <alignments>50</alignments>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>F</filter>
+   <gapExtension>1.0</gapExtension>
+   <gapOpen>11.0</gapOpen>
+   <matrix>BLOSUM62</matrix>
+   <scores>50</scores>
+  </parameters>
+  <timeInfo start="2017-06-06T18:13:42+01:00" end="2017-06-06T18:14:48+01:00" search="P0Y0M0DT0H1M6.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="50">
+   <hit number="1" database="TR" id="N8X159_9GAMM" ac="N8X159" length="119" description="Uncharacterized protein OS=Acinetobacter sp. NIPH 817 GN=F968_03696 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>594</score>
+      <bits>233.417</bits>
+      <expectation>3.3E-76</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="TR" id="N8R0F9_9GAMM" ac="N8R0F9" length="119" description="Uncharacterized protein OS=Acinetobacter seifertii GN=F985_00874 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>594</score>
+      <bits>233.417</bits>
+      <expectation>3.3E-76</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="TR" id="A0A013SV32_ACIBA" ac="A0A013SV32" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter baumannii 573719 GN=J658_3312 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>594</score>
+      <bits>233.417</bits>
+      <expectation>3.3E-76</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="TR" id="R8XY85_ACICA" ac="R8XY85" length="119" description="Uncharacterized protein OS=Acinetobacter calcoaceticus ANC 3811 GN=F935_02973 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>594</score>
+      <bits>233.417</bits>
+      <expectation>3.3E-76</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="5" database="TR" id="A0A009HLU5_ACIBA" ac="A0A009HLU5" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter baumannii 1295743 GN=J512_2519 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>594</score>
+      <bits>233.417</bits>
+      <expectation>3.3E-76</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="6" database="TR" id="A0A1E3M437_ACIBA" ac="A0A1E3M437" length="119" description="Uncharacterized protein OS=Acinetobacter baumannii GN=BGC29_04465 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>594</score>
+      <bits>233.417</bits>
+      <expectation>3.3E-76</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="7" database="TR" id="A0A1T0MY19_ACIPI" ac="A0A1T0MY19" length="119" description="Uncharacterized protein OS=Acinetobacter pittii GN=BTG92_17990 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>594</score>
+      <bits>233.417</bits>
+      <expectation>3.3E-76</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="8" database="TR" id="A0A1C4HDP9_ACICA" ac="A0A1C4HDP9" length="119" description="YjgF family translation initiation inhibitor OS=Acinetobacter calcoaceticus GN=rutC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>594</score>
+      <bits>233.417</bits>
+      <expectation>3.3E-76</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="9" database="TR" id="A0A0R0RVK8_ACIPI" ac="A0A0R0RVK8" length="119" description="Uncharacterized protein OS=Acinetobacter pittii GN=APC53_00500 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>590</score>
+      <bits>231.876</bits>
+      <expectation>1.3E-75</expectation>
+      <identity>99.2</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDV GQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVVGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="10" database="TR" id="A0A0E2GU77_ACINO" ac="A0A0E2GU77" length="119" description="Uncharacterized protein OS=Acinetobacter nosocomialis NIPH 386 GN=F958_00622 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="11" database="TR" id="A0A009LYG7_9GAMM" ac="A0A009LYG7" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter sp. 1475718 GN=J551_3806 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="12" database="TR" id="K9BM91_9GAMM" ac="K9BM91" length="119" description="Endoribonuclease L-PSP OS=Acinetobacter sp. WC-487 GN=ACINWC487_0083 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="13" database="TR" id="A0A062F7G5_ACIBA" ac="A0A062F7G5" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter baumannii 754286 GN=J567_3207 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="14" database="TR" id="A0A009SGK6_ACIBA" ac="A0A009SGK6" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter baumannii 99063 GN=J529_0771 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="15" database="TR" id="A0A0W3DQI1_9GAMM" ac="A0A0W3DQI1" length="119" description="Uncharacterized protein OS=Acinetobacter sp. FDAARGOS_131 GN=AL489_05020 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="16" database="TR" id="N9HRE5_ACIBA" ac="N9HRE5" length="119" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 601 GN=F918_03469 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="17" database="TR" id="A0A009I6D1_9GAMM" ac="A0A009I6D1" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter sp. 1295259 GN=J507_1100 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="18" database="TR" id="A0A014D379_9GAMM" ac="A0A014D379" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter sp. 25977_4 GN=J807_1723 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="19" database="TR" id="A0A014DV06_9GAMM" ac="A0A014DV06" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter sp. 25977_3 GN=J806_2060 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="20" database="TR" id="A0A013KBE2_9GAMM" ac="A0A013KBE2" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter sp. 1294243 GN=J655_3509 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="21" database="TR" id="A0A171F5D5_ACIBA" ac="A0A171F5D5" length="119" description="Endoribonuclease L-PSP OS=Acinetobacter baumannii Naval-82 GN=ACINNAV82_0078 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="22" database="TR" id="A0A022KPM9_9GAMM" ac="A0A022KPM9" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter sp. 478810 GN=J619_02226 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="23" database="TR" id="A0A140QTV8_9GAMM" ac="A0A140QTV8" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter sp. 216872 GN=J633_1641 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="24" database="TR" id="A0A062FMF2_ACIBA" ac="A0A062FMF2" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter baumannii 940793 GN=J532_3336 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="25" database="TR" id="A0A013SAR5_9GAMM" ac="A0A013SAR5" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter sp. 883425 GN=J672_2364 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="26" database="TR" id="A0A014CW59_9GAMM" ac="A0A014CW59" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter sp. 25977_2 GN=J805_1995 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="27" database="TR" id="A0A009PA39_ACIBA" ac="A0A009PA39" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter baumannii 625974 GN=J506_3738 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="28" database="TR" id="A0A009KS88_ACIBA" ac="A0A009KS88" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter baumannii 1419130 GN=J518_1221 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="29" database="TR" id="A0A014D8R3_9GAMM" ac="A0A014D8R3" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter sp. 25977_10 GN=J813_3178 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="30" database="TR" id="A0A014BJV6_9GAMM" ac="A0A014BJV6" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter sp. 25977_6 GN=J809_1566 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="31" database="TR" id="A0A062IFQ6_ACIBA" ac="A0A062IFQ6" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter baumannii 21072 GN=J596_2675 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="32" database="TR" id="N9GDY3_ACIBA" ac="N9GDY3" length="119" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 201 GN=F922_03647 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="33" database="TR" id="A0A009SFA6_ACIBA" ac="A0A009SFA6" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter baumannii 951631 GN=J552_2808 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="34" database="TR" id="A0A014D115_9GAMM" ac="A0A014D115" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter sp. 25977_7 GN=J810_1574 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="35" database="TR" id="A0A010FRE3_9GAMM" ac="A0A010FRE3" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter sp. 907131 GN=J569_2858 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="36" database="TR" id="A0A0J1DF06_ACIBA" ac="A0A0J1DF06" length="119" description="Endoribonuclease L-PSP OS=Acinetobacter baumannii MRSN 3527 GN=T630_0149 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="37" database="TR" id="N9RIY7_9GAMM" ac="N9RIY7" length="119" description="Uncharacterized protein OS=Acinetobacter sp. NIPH 542 GN=F886_03592 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="38" database="TR" id="A0A009GSB4_9GAMM" ac="A0A009GSB4" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter sp. 1289694 GN=J508_2138 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="39" database="TR" id="A0A062MTS3_ACIBA" ac="A0A062MTS3" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter baumannii 1288284 GN=J608_0431 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="40" database="TR" id="A0A1A0GIG4_ACICA" ac="A0A1A0GIG4" length="119" description="Uncharacterized protein OS=Acinetobacter calcoaceticus GN=A9988_11650 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="41" database="TR" id="S3T3N8_ACIBA" ac="S3T3N8" length="119" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 410 GN=F910_03753 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="42" database="TR" id="B0V6N2_ACIBY" ac="B0V6N2" length="119" description="Uncharacterized protein OS=Acinetobacter baumannii (strain AYE) GN=ABAYE3772 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="43" database="TR" id="L9M0S6_ACIBA" ac="L9M0S6" length="119" description="Endoribonuclease L-PSP OS=Acinetobacter baumannii WC-A-92 GN=ACINWCA92_0141 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="44" database="TR" id="N9JV74_ACIBA" ac="N9JV74" length="119" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 80 GN=F913_00740 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="45" database="TR" id="A0A014BE25_9GAMM" ac="A0A014BE25" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter sp. 25977_8 GN=J811_0480 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="46" database="TR" id="A0A014FHN1_9GAMM" ac="A0A014FHN1" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter sp. 25977_1 GN=J804_2192 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="47" database="TR" id="A0A062G3H9_ACIBA" ac="A0A062G3H9" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter baumannii 15827 GN=J530_1741 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="48" database="TR" id="A0A013TC82_9GAMM" ac="A0A013TC82" length="119" description="Endoribonuclease L-PSP family protein OS=Acinetobacter sp. 742879 GN=J690_2597 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="49" database="TR" id="L9NZQ3_ACIBA" ac="L9NZQ3" length="119" description="Endoribonuclease L-PSP OS=Acinetobacter baumannii Naval-57 GN=ACINNAV57_0130 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="50" database="TR" id="R8YZY4_ACIPI" ac="R8YZY4" length="119" description="Uncharacterized protein OS=Acinetobacter pittii ANC 4052 GN=F929_01017 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>589</score>
+      <bits>231.491</bits>
+      <expectation>1.9E-75</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPNWLIEIAVTAAQK</querySeq>
+      <pattern>MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNP+WLIEIAVTAAQK</pattern>
+      <matchSeq start="1" end="119">MSNSDIQKINTNEVMSAVTVFNKVVYLSGQVPKNTEQDVAGQTREILATIDELLALANTDKSRLLSAQLYLKNLSDFSTVNAIWVDWLKGCVAPSRATIQADLVNPDWLIEIAVTAAQK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult></EBIApplicationResult>

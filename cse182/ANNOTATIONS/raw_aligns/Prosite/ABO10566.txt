@@ -1,0 +1,289 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"><!-- automatically added by Apache -->
+    <link rel="shortcut icon" href="http://web.expasy.org/favicon.ico" ><!-- automatically added by Apache -->
+    <link rel="stylesheet" href="/css/sib_css/sib.css" type="text/css" media="screen" charset="utf-8" >
+	   <link rel="stylesheet" href="/css/sib_css/sib_print.css" type="text/css" media="print" charset="utf-8" >
+           <!--[if lte IE 6]>
+	   <link rel="stylesheet" href="/css/sib_css/sib_ie6.css" type="text/css" media="screen" title="" charset="utf-8">
+           <![endif]-->
+           <link rel="stylesheet" href="/css/base.css" type="text/css"><!-- automatically added by Apache -->
+<link rel="stylesheet" href="/css/unirule.css" type="text/css"><script src="/unirule/js/unirule.js" language="JavaScript" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<!-- If you have jQuery directly, then skip next line -->
+<script src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+    // If you have jQuery directly, use the following line, instead
+    // $(function() {
+    // If you have jQuery via Google AJAX Libraries
+    $(function() {
+        $(window).scroll(sticky_relocate);
+        sticky_relocate();
+    });
+</script>
+<style type="text/css">
+    .diag_core {font-size:large;}
+    .skipflag {color: #dd4400;}
+    .error {color: red;}
+    .highlight {background-color:#aaddee;}
+
+    #description:before, #technical:before, #references:before, #miscellaneous:before {
+        display:block;
+        content:"";
+        height:3.0em;
+        margin:-3.0em 0 0;
+    }
+</style>
+<title>PROSITE</title>
+  </head>
+  <body>
+<!-- ********************************************************************************************** -->
+<!-- START OF HEADER information on top of the page -->
+<div id='sib_top'><a name='TOP'></a></div>
+<div id='sib_container'>
+
+<!-- TODO: Change id to "sib_header" or "sib_header_small" -->
+<div id='sib_header_small'>
+
+<!-- SIB-ExPASy -->
+<div id="sib_expasy_logo">
+<a href="http://www.isb-sib.ch" id="sib_link" title="SIB Swiss Institute of Bioinformatics"></a>
+<a href="http://www.expasy.org" id="expasy_link" title="ExPASy - SIB Bioinformatics Resource Portal"></a>
+</div>
+<!-- SIB-ExPASy END -->
+
+<div class='sib_title_no_logo'>
+<h1><a href='http://prosite.expasy.org'>PROSITE</a></h1>
+</div>
+
+<! -- Additionnal resource header -->
+<div id='resource_header'></div>
+
+<div id='sib_header_nav'>
+<a href="http://prosite.expasy.org" title="Home page">Home</a>&nbsp;|&nbsp;<a style="font-weight: bold; color: rgb(204,0,0) !important;" href="/contact" title="Contact">Contact</a></div>
+</div>
+<!-- END OF HEADER -->
+<!-- ********************************************************************************************** -->
+<div id='sib_body'>
+<!-- automatically added by Apache -->
+<div class="core"><table class="unirule_head">
+    <tr>
+        
+            <td rowspan="2" class="logo" style="vertical-align:bottom;"><img src="/images/prosite/prosite.gif" alt="Prosite logo"></td>
+        
+        <td class="nav">
+            <div class="navig_menu">
+                <ul class="prosite">
+                    
+                        <li class="prosite_selected"><a href="/prosite.html">Home</a></li>
+                    
+
+                    
+                        <li><a href="/scanprosite/">ScanProsite</a></li>
+                    
+
+                    
+                        <li><a href="/prorule.html">ProRule</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_doc.html">Documents</a></li>
+                    
+
+                    
+                        <li><a href="ftp://ftp.expasy.org/databases/prosite/">Downloads</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_link.html">Links</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_funding.html">Funding</a></li>
+                    
+                </ul>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="title">PROSITE documentation PDOC00098 [for PROSITE entry PS00105]</td>
+    </tr>
+</table>
+<br>
+<div class="section1">Aminotransferases class-I pyridoxal-phosphate attachment site</div><br><div id="sticky-anchor"></div>
+<div id="sticky">
+    <div id="menu_hor">
+        <ul>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#description">Description</a></li>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#technical">Technical section</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#references">References</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#copyright">Copyright</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#miscellaneous">Miscellaneous</a></li>
+
+	</ul>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div id="description" class="section5">Description</div><p>Aminotransferases  share certain mechanistic features with   other  pyridoxal-phosphate dependent enzymes, such as  the  covalent  binding of the pyridoxal-phosphate group  to  a  lysine  residue.  On the basis of sequence similarity,
+these various  enzymes  can  be  grouped [<a title="Bairoch A. [Unpublished observations (1992)]" href="#ref1" onClick="highLightRef('1')">1</a>,<a title="Sung M.H. et al. [J. Biol. Chem. 266:2567-2572(1991)]" href="#ref2" onClick="highLightRef('2')">2</a>] into subfamilies. One of these,
+called class-I, currently consists of the following enzymes:
+</p>
+<ul>
+<li>Aspartate aminotransferase (AAT) (EC <a href= "http://enzyme.expasy.org/EC/2.6.1.1">2.6.1.1</a>). AAT catalyzes the reversible
+   transfer of  the  amino  group  from  L-aspartate to 2-oxoglutarate to form
+   oxaloacetate and  L-glutamate.  In  eukaryotes, there are two AAT isozymes:
+   one is  located  in the mitochondrial matrix, the second is cytoplasmic. In
+   prokaryotes, only one form of AAT is found (gene aspC).
+</li>
+<li>Tyrosine  aminotransferase  (EC  <a href= "http://enzyme.expasy.org/EC/2.6.1.5">2.6.1.5</a>) which catalyzes the first step in
+   tyrosine catabolism  by  reversibly  transferring  its  amino  group  to 2-
+   oxoglutarate to form 4-hydroxyphenylpyruvate and L-glutamate.
+</li>
+<li>Aromatic  aminotransferase  (EC <a href= "http://enzyme.expasy.org/EC/2.6.1.57">2.6.1.57</a>) involved in the synthesis of Phe,
+   Tyr, Asp and Leu (gene tyrB).
+</li>
+<li>1-aminocyclopropane-1-carboxylate  synthase   (EC <a href= "http://enzyme.expasy.org/EC/4.4.1.14">4.4.1.14</a>)  (ACC synthase)
+   from plants.   ACC   synthase   catalyzes   the   first  step  in  ethylene
+   biosynthesis.
+</li>
+<li>Pseudomonas   denitrificans   cobC,   which   is   involved   in  cobalamin
+   biosynthesis.
+</li>
+<li>Yeast hypothetical protein YJL060w.
+</li>
+</ul>
+<p>The sequence around the pyridoxal-phosphate  attachment site  of this class of
+enzyme is sufficiently conserved to allow the creation of a specific pattern.
+</p>
+Last update:
+<p> April 2006 / Pattern revised.
+</p>
+<div id="technical" class="section5">Technical section</div>
+<p>PROSITE method (with tools and information) covered by this documentation:</p>
+<fieldset class="prosite1">
+<legend class="sp_tools">AA_TRANSFER_CLASS_1,&nbsp;<a href="/PS00105">PS00105</a>;&nbsp;Aminotransferases class-I pyridoxal-phosphate attachment site&nbsp;&nbsp;(PATTERN)</legend>
+<ul>
+<li>
+Consensus pattern:<br>
+[GS]-[LIVMFYTAC]-[GSTA]-K-x(2)-[GSALVN]-[LIVMFA]-x-[GNAR]-{V}-R-[LIVMA]-[GA]<br>K is the pyridoxal-P attachment site</li>
+<li>
+Sequences in UniProtKB/Swiss-Prot known to belong to this class: 264<ul>
+<li>
+detected by PS00105: <a href="/PS00105#TP">152</a> (true positives)</li>
+<li>
+undetected by PS00105: 112 (<a href="/PS00105#FN">106</a> false negatives and <a href="/PS00105#partial">6</a> '<a href="/prosuser.html#partial_sq">partials</a>')</li>
+</ul>
+
+</li>
+<li>
+Other sequence(s) in UniProtKB/Swiss-Prot detected by PS00105:
+<br>
+<a href="/PS00105#FP">19</a> false positives.
+</li>
+<li>
+Retrieve an alignment of UniProtKB/Swiss-Prot true positive hits:<br>
+<a href="/cgi-bin/aligner?psa=PS00105&amp;color=1&amp;maxinsert=10&amp;linelen=0">Clustal format, color, condensed view</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS00105&amp;color=1">Clustal format, color</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS00105">Clustal format, plain text</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS00105&amp;format=FASTA">Fasta format</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/sequence_logo.cgi?ac=PS00105">Retrieve the sequence logo from the alignment</a>
+</li>
+<li>
+<a href=" http://www.uniprot.org/uniprot/?query=database%3A%28type%3Aprosite+PS00105%29&sort=score#orgViewBy" target="_blank">
+Taxonomic distribution of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS00105</a>
+</li>
+<li>
+<a href="http://www.uniprot.org/uniprot/?query=database:(type:prosite PS00105)" target="_blank">
+Retrieve a list of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS00105</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/scanprosite_form.cgi?PS00105">Scan UniProtKB (Swiss-Prot and/or TrEMBL) entries against PS00105</a>
+</li>
+<li>
+<a href="http://www.ebi.ac.uk/pdbe-site/pdbemotif/barChartPattern?pattern1=PS00105" target="_blank">View ligand binding statistics of PS00105</a></li>
+<li>
+Matching PDB structures: <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1AAM&amp;ps=PS00105" target="_blank">1AAM</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1AAT&amp;ps=PS00105" target="_blank">1AAT</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1AAW&amp;ps=PS00105" target="_blank">1AAW</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1AHE&amp;ps=PS00105" target="_blank">1AHE</a>  ... <a href="/cgi-bin/pdb/pdb_structure_list.cgi?src=PS00105" target="_blank">[ALL]</a>
+</li>
+</fieldset>
+<br>
+<br>
+<div id="references" class="section5">References</div><br>
+<table class="grid" id="ref1" width="100%">
+<tr><td rowspan="2" width="50em">1</td><td width="100em">Authors</td><td>Bairoch A.</td></tr>
+<tr><td>Source</td><td>Unpublished observations (1992).</td></tr>
+</table>
+<br>
+<table class="grid" id="ref2" width="100%">
+<tr><td rowspan="4" width="50em">2</td><td width="100em">Authors</td><td>Sung M.H., Tanizawa K., Tanaka H., Kuramitsu S., Kagamiyama H., Hirotsu K., Okamoto A., Higuchi T., Soda K.</td></tr>
+<tr><td>Title</td><td>Thermostable aspartate aminotransferase from a thermophilic Bacillus species. Gene cloning, sequence determination, and preliminary x-ray characterization.</td></tr>
+<tr><td>Source</td><td>J. Biol. Chem. 266:2567-2572(1991).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=1990006" target="_blank">1990006</a></td></tr>
+</table>
+<br>
+<br>
+<div id="copyright" class="section5">Copyright</div>
+<br>
+PROSITE is copyright.   It  is  produced  by  the  SIB  Swiss  Institute
+    Bioinformatics. There  are no restrictions   on its use by  non-profit
+    institutions as long as its  content is in no way modified. Usage by and
+    for commercial  entities requires a license agreement. For information
+    about  the  licensing  scheme   send  an  email to <form method="POST" name="mailformOiU_q3276" action="/contact" style="display:none;">
+<input type="hidden" name="recipient_email" value="license@isb-sib.ch">
+<input type="hidden" name="flag_subject" value="Prosite License">
+<input type="hidden" name="recipient_name" value="Prosite License">
+</form>
+<a href="#" onClick="document.mailformOiU_q3276.submit(); return false;">Prosite License</a>
+
+    or see: <a href="/prosite_license.html">prosite_license.html</a>.
+<br><br>
+<div id="miscellaneous" class="section5">Miscellaneous</div>
+<br>
+<a href="/cgi-bin/prosite/get-prodoc-entry?PDOC00098">View entry in original PROSITE document format</a><br>
+<a href="/PDOC00098.txt">View entry in raw text format (no links)</a>
+<br><br>
+</div><!-- sib_body -->
+<br clear="left" />
+</div>
+<!-- ********************************************************************************************** -->
+<!-- START OF FOOTER information at the bottom of the page -->
+<div id = 'sib_footer'>			
+  <!-- This part of the footer is _left_ justified and should contain SIB on the very left -->	
+  <div id = 'sib_footer_content'> 
+    <a href = "http://www.isb-sib.ch">SIB Swiss Institute of Bioinformatics</a>&nbsp;|&nbsp;<a href = "http://www.expasy.org/disclaimer.html">Disclaimer</a>
+
+	<!-- This part of the footer is _right_ justified -->
+	<div id = "sib_footer_right">	
+      <a href="#TOP" id = "sib_footer_gototop"><span style = "padding-left: 10px">Back to the Top</span></a>				
+    </div>
+  </div>
+</div>
+<!-- END OF FOOTER -->
+</div> <!-- sib_container -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23823438-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><!-- automatically added by Apache -->
+
+    </body>
+</html>

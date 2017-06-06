@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="33F3D498-4ADD-11E7-8E78-C43295374F7B">
+    <matches>
+      <protein length="118">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF05973.12" id="Gp49" type="Pfam-A" class="Family">
+            <location start="12" end="106" ali_start="12" ali_end="106" hmm_start="1" hmm_end="90" evalue="5e-25" bitscore="87.3" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[eeldalpkkarakilaaldlleeggpdlgkplvkkle....dglwElrpksaggiiRvlyafdpgrkvilLhafqKkt.qktpkkeielAkkrlk]]>
+              </hmm>
+              <match_string>
+                <![CDATA[e+l ++++++++k+laal  l+++gp+lg+plv+++     ++++Elr++++g++ R+++afdp r++i+L+ ++K + ++++k+++++A++ ++]]>
+              </match_string>
+              <pp>
+                <![CDATA[79****************************************************************************78************985]]>
+              </pp>
+              <seq>
+                <![CDATA[EWLVQQDESTQEKVLAALVVLQQQGPSLGRPLVDTVYdskfTNMKELRVQHRGKPLRAFFAFDPLRQAIVLCIGDKGGkKRFYKEMLDIADQQYE]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       eeldalpkkarakilaaldlleeggpdlgkplvkkle....dglwElrpksaggiiRvlyafdpgrkvilLhafqKkt.qktpkkeielAkkrlk
+#MATCH     e+l ++++++++k+laal  l+++gp+lg+plv+++     ++++Elr++++g++ R+++afdp r++i+L+ ++K + ++++k+++++A++ ++
+#PP        79****************************************************************************78************985
+#SEQ       EWLVQQDESTQEKVLAALVVLQQQGPSLGRPLVDTVYdskfTNMKELRVQHRGKPLRAFFAFDPLRQAIVLCIGDKGGkKRFYKEMLDIADQQYE
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

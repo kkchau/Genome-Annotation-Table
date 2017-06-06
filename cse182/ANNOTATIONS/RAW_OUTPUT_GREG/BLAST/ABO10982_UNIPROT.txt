@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="blastp" version="BLASTP 2.2.29+"/>
+  <commandLine command="/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.29+/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-I20170606-181341-0235-52366902-oy.sequence  -num_threads 16 -outfmt 11 -out ncbiblast-I20170606-181341-0235-52366902-oy.archive -matrix BLOSUM62 -num_alignments 50 -evalue 10 -gapopen 11 -gapextend 1 -seg no -comp_based_stats F"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="EMBOSS_001" type="PROTEIN" length="85"/>
+   </sequences>
+   <databases total="1" sequences="85866869" letters="28909108493">
+    <database number="1" name="uniprotkb" type="PROTEIN" created="2017-05-08T11:31:00+01:00"/>
+   </databases>
+   <alignments>50</alignments>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>F</filter>
+   <gapExtension>1.0</gapExtension>
+   <gapOpen>11.0</gapOpen>
+   <matrix>BLOSUM62</matrix>
+   <scores>50</scores>
+  </parameters>
+  <timeInfo start="2017-06-06T18:13:41+01:00" end="2017-06-06T18:14:20+01:00" search="P0Y0M0DT0H0M39.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="50">
+   <hit number="1" database="TR" id="A0A0E2GGV7_ACINO" ac="A0A0E2GGV7" length="85" description="Glutaredoxin 3 OS=Acinetobacter nosocomialis NIPH 386 GN=F958_00191 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="TR" id="K9BSC1_9GAMM" ac="K9BSC1" length="85" description="Glutaredoxin 3 OS=Acinetobacter sp. WC-487 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="TR" id="A0A062FE55_ACIBA" ac="A0A062FE55" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii 754286 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="TR" id="A0A009TP77_ACIBA" ac="A0A009TP77" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii 99063 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="5" database="TR" id="A0A0W3DPG0_9GAMM" ac="A0A0W3DPG0" length="85" description="Glutaredoxin OS=Acinetobacter sp. FDAARGOS_131 GN=AL489_02760 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="6" database="TR" id="A0A010LPP0_9GAMM" ac="A0A010LPP0" length="85" description="Glutaredoxin 3 OS=Acinetobacter sp. 1566109 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="7" database="TR" id="N9J5J6_ACIBA" ac="N9J5J6" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii NIPH 601 GN=F918_03071 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="8" database="TR" id="A0A158LQD3_ACIBA" ac="A0A158LQD3" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii NIPH 190 GN=F962_03183 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="9" database="TR" id="A0A062SYQ7_ACIBA" ac="A0A062SYQ7" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii 25977_9 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="10" database="TR" id="A0A014CH33_9GAMM" ac="A0A014CH33" length="85" description="Glutaredoxin 3 OS=Acinetobacter sp. 25977_3 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="11" database="TR" id="A0A014CZU2_9GAMM" ac="A0A014CZU2" length="85" description="Glutaredoxin 3 OS=Acinetobacter sp. 25977_4 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="12" database="TR" id="L9LV81_9GAMM" ac="L9LV81" length="85" description="Glutaredoxin 3 OS=Acinetobacter sp. OIFC021 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="13" database="TR" id="A0A171EQS9_ACIBA" ac="A0A171EQS9" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii Naval-82 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="14" database="TR" id="U1UI32_ACIBA" ac="U1UI32" length="85" description="Glutaredoxin OS=Acinetobacter baumannii EGD-HP18 GN=N173_14780 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="15" database="TR" id="A0A140QR36_9GAMM" ac="A0A140QR36" length="85" description="Glutaredoxin 3 OS=Acinetobacter sp. 216872 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="16" database="TR" id="A0A062FS99_ACIBA" ac="A0A062FS99" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii 940793 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="17" database="TR" id="A0A062EZE2_ACIBA" ac="A0A062EZE2" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii 855125 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="18" database="TR" id="A0A014CG56_9GAMM" ac="A0A014CG56" length="85" description="Glutaredoxin 3 OS=Acinetobacter sp. 25977_2 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="19" database="TR" id="A0A009PDK4_ACIBA" ac="A0A009PDK4" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii 625974 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="20" database="TR" id="A0A009KIS5_ACIBA" ac="A0A009KIS5" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii 1419130 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="21" database="TR" id="A0A062L9L8_ACIBA" ac="A0A062L9L8" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii 1571545 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="22" database="TR" id="A0A062DJA2_ACIBA" ac="A0A062DJA2" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii 496487 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="23" database="TR" id="A0A014DLH5_9GAMM" ac="A0A014DLH5" length="85" description="Glutaredoxin 3 OS=Acinetobacter sp. 25977_10 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="24" database="TR" id="A0A014BF33_9GAMM" ac="A0A014BF33" length="85" description="Glutaredoxin 3 OS=Acinetobacter sp. 25977_6 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="25" database="TR" id="A0A062IIG0_ACIBA" ac="A0A062IIG0" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii 21072 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="26" database="TR" id="N9HV25_ACIBA" ac="N9HV25" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii NIPH 201 GN=F922_03232 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="27" database="TR" id="A0A009SQ15_ACIBA" ac="A0A009SQ15" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii 951631 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="28" database="TR" id="B0VKR0_ACIBS" ac="B0VKR0" length="85" description="Glutaredoxin OS=Acinetobacter baumannii (strain SDF) GN=grx PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="29" database="TR" id="A0A014DVA1_9GAMM" ac="A0A014DVA1" length="85" description="Glutaredoxin 3 OS=Acinetobacter sp. 25977_7 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="30" database="TR" id="A0A0J1A5W4_ACIBA" ac="A0A0J1A5W4" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii MRSN 3527 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="31" database="TR" id="G2JFR7_ACIBA" ac="G2JFR7" length="85" description="Glutaredoxin OS=Acinetobacter baumannii MDR-ZJ06 GN=ABZJ_00569 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="32" database="TR" id="A0A062MSJ5_ACIBA" ac="A0A062MSJ5" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii 1288284 GN=J608_0073 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="33" database="TR" id="S3U651_ACIBA" ac="S3U651" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii NIPH 410 GN=F910_03339 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="34" database="TR" id="B0V4V3_ACIBY" ac="B0V4V3" length="85" description="Glutaredoxin OS=Acinetobacter baumannii (strain AYE) GN=grx PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="35" database="TR" id="A0A014B705_9GAMM" ac="A0A014B705" length="85" description="Glutaredoxin 3 OS=Acinetobacter sp. 25977_8 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="36" database="TR" id="L9MB60_ACIBA" ac="L9MB60" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii WC-A-92 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="37" database="TR" id="N9KLB6_ACIBA" ac="N9KLB6" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii NIPH 80 GN=F913_03633 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="38" database="TR" id="A0A014E967_9GAMM" ac="A0A014E967" length="85" description="Glutaredoxin 3 OS=Acinetobacter sp. 25977_1 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="39" database="TR" id="N8ZB29_ACIBA" ac="N8ZB29" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii NIPH 60 GN=F961_02591 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="40" database="TR" id="A0A062G3X6_ACIBA" ac="A0A062G3X6" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii 15827 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="41" database="TR" id="L9P724_ACIBA" ac="L9P724" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii Naval-57 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="42" database="TR" id="A0A009HMT3_ACIBA" ac="A0A009HMT3" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii 1295743 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="43" database="TR" id="A0A009GCI1_ACIBA" ac="A0A009GCI1" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii 118362 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="44" database="TR" id="A0A062N1A8_9GAMM" ac="A0A062N1A8" length="85" description="Glutaredoxin 3 OS=Acinetobacter sp. 796380-1375 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="45" database="TR" id="A0A062ILG5_ACIBA" ac="A0A062ILG5" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii 233846 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="46" database="TR" id="A0A0R1B5Z2_ACINO" ac="A0A0R1B5Z2" length="85" description="Glutaredoxin OS=Acinetobacter nosocomialis GN=APC94_18050 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="47" database="TR" id="D0CAE0_ACIB2" ac="D0CAE0" length="85" description="Glutaredoxin 3 OS=Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81) GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="48" database="TR" id="V5VH28_ACIBA" ac="V5VH28" length="85" description="Glutaredoxin OS=Acinetobacter baumannii GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="49" database="TR" id="A0A1C4HEZ2_ACICA" ac="A0A1C4HEZ2" length="85" description="Glutaredoxin OS=Acinetobacter calcoaceticus GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.5E-52</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="50" database="TR" id="A0A022J1P2_9GAMM" ac="A0A022J1P2" length="85" description="Glutaredoxin 3 OS=Acinetobacter sp. 1564232 GN=grxC PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>427</score>
+      <bits>169.088</bits>
+      <expectation>5.9E-52</expectation>
+      <identity>98.8</identity>
+      <positives>98.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRAELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</querySeq>
+      <pattern>MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVR ELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</pattern>
+      <matchSeq start="1" end="85">MAANVIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEAPEVRVELMQRTNHRTVPQIFINDQFIGGFDQLYALEREGKLDELLA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult></EBIApplicationResult>

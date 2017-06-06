@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="FF15C022-497B-11E7-AECF-4F0D95374F7B">
+    <matches>
+      <protein length="271">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF00809.20" id="Pterin_bind" type="Pfam-A" class="Domain">
+            <location start="8" end="249" ali_start="8" ali_end="249" hmm_start="1" hmm_end="244" evalue="3.5e-71" bitscore="239.6" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[mgilNvtpdsfsdggkfedldkalaqarkmveeGAdilDiggestrPgaervdeeeelervvpvlealrdeadvpisiDttkaevaeaAlkagadivNdvsgeerdpkmlelvaeagaavvvmhmrgtpktmqeeegqyedvveeveaflearveaaeeaGvaperillDpgigf..gkteehnlellrrldelrealevpvllGvSrksflgrllelgkaeeRdagtaaflalaaaaGadivrVh]]>
+              </hmm>
+              <match_string>
+                <![CDATA[+gi+N+t dsfsdgg+++++d+a+aqark+++eGAd++D+g +s++P+a++v++++e++r++pvl+al++  ++p+s+D++++ ++ +Al++g++++Nd++g+  d+++++ +a+++a++vvmh+ ++ +  ++e+  + d++++++af++ar++a++ aG++++r++lDpg+gf  g ++e++l++l+r+delr ++++pvll+vSrksfl +l+   ++ +  a+t+a+ ++aaa Gad++r+h]]>
+              </match_string>
+              <pp>
+                <![CDATA[59********************************************************************9.9*******************************.*********************8887777777.*****************************************************************************873.349************************9]]>
+              </pp>
+              <seq>
+                <![CDATA[FGIVNITSDSFSDGGRYLAPDAAIAQARKLMAEGADVIDLGPASSNPDAAPVSSDTEIARIAPVLDALKAD-GIPVSLDSYQPATQAYALSRGVAYLNDIRGFP-DAAFYPQLAKSSAKLVVMHSVQDGQADRREA-PAGDIMDHIAAFFDARIAALTGAGIKRNRLVLDPGMGFflGAAPETSLSVLARFDELRLRFDLPVLLSVSRKSFLRALTG-RGPGDVGAATLAAELAAAAGGADFIRTH]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       mgilNvtpdsfsdggkfedldkalaqarkmveeGAdilDiggestrPgaervdeeeelervvpvlealrdeadvpisiDttkaevaeaAlkagadivNdvsgeerdpkmlelvaeagaavvvmhmrgtpktmqeeegqyedvveeveaflearveaaeeaGvaperillDpgigf..gkteehnlellrrldelrealevpvllGvSrksflgrllelgkaeeRdagtaaflalaaaaGadivrVh
+#MATCH     +gi+N+t dsfsdgg+++++d+a+aqark+++eGAd++D+g +s++P+a++v++++e++r++pvl+al++  ++p+s+D++++ ++ +Al++g++++Nd++g+  d+++++ +a+++a++vvmh+ ++ +  ++e+  + d++++++af++ar++a++ aG++++r++lDpg+gf  g ++e++l++l+r+delr ++++pvll+vSrksfl +l+   ++ +  a+t+a+ ++aaa Gad++r+h
+#PP        59********************************************************************9.9*******************************.*********************8887777777.*****************************************************************************873.349************************9
+#SEQ       FGIVNITSDSFSDGGRYLAPDAAIAQARKLMAEGADVIDLGPASSNPDAAPVSSDTEIARIAPVLDALKAD-GIPVSLDSYQPATQAYALSRGVAYLNDIRGFP-DAAFYPQLAKSSAKLVVMHSVQDGQADRREA-PAGDIMDHIAAFFDARIAALTGAGIKRNRLVLDPGMGFflGAAPETSLSVLARFDELRLRFDLPVLLSVSRKSFLRALTG-RGPGDVGAATLAAELAAAAGGADFIRTH
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

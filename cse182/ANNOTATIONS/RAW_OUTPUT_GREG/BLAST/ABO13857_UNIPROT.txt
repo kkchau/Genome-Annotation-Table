@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="blastp" version="BLASTP 2.2.29+"/>
+  <commandLine command="/ebi/extserv/bin/ncbi-blast-2.2.29+/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-I20170606-181048-0013-35844996-es.sequence  -num_threads 16 -outfmt 11 -out ncbiblast-I20170606-181048-0013-35844996-es.archive -matrix BLOSUM62 -num_alignments 50 -evalue 10 -gapopen 11 -gapextend 1 -seg no -comp_based_stats F"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="EMBOSS_001" type="PROTEIN" length="100"/>
+   </sequences>
+   <databases total="1" sequences="85866869" letters="28909108493">
+    <database number="1" name="uniprotkb" type="PROTEIN" created="2017-05-08T11:31:00+01:00"/>
+   </databases>
+   <alignments>50</alignments>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>F</filter>
+   <gapExtension>1.0</gapExtension>
+   <gapOpen>11.0</gapOpen>
+   <matrix>BLOSUM62</matrix>
+   <scores>50</scores>
+  </parameters>
+  <timeInfo start="2017-06-06T18:10:48+01:00" end="2017-06-06T18:11:20+01:00" search="P0Y0M0DT0H0M32.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="50">
+   <hit number="1" database="TR" id="N9KM46_9GAMM" ac="N9KM46" length="100" description="Uncharacterized protein OS=Acinetobacter sp. NIPH 284 GN=F908_00178 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>488</score>
+      <bits>192.586</bits>
+      <expectation>9.8E-61</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="TR" id="A0A0D8G700_9GAMM" ac="A0A0D8G700" length="100" description="Cro/Cl family transcriptional regulator OS=Acinetobacter sp. FDAARGOS_131 GN=AL489_19010 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>488</score>
+      <bits>192.586</bits>
+      <expectation>9.8E-61</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="TR" id="A0A0Q1PX98_ACIBA" ac="A0A0Q1PX98" length="100" description="Cro/Cl family transcriptional regulator OS=Acinetobacter baumannii GN=APD31_10215 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>488</score>
+      <bits>192.586</bits>
+      <expectation>9.8E-61</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="TR" id="A0A1E7R3M4_9GAMM" ac="A0A1E7R3M4" length="100" description="Transcriptional regulator OS=Acinetobacter proteolyticus GN=BJD20_19740 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>488</score>
+      <bits>192.586</bits>
+      <expectation>9.8E-61</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="5" database="TR" id="A0S0J7_9GAMM" ac="A0S0J7" length="100" description="Cro-like protein OS=Acinetobacter venetianus PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>488</score>
+      <bits>192.586</bits>
+      <expectation>9.8E-61</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="6" database="TR" id="V2W021_9GAMM" ac="V2W021" length="100" description="Uncharacterized protein OS=Acinetobacter tjernbergiae DSM 14971 = CIP 107465 GN=F990_03433 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>484</score>
+      <bits>191.045</bits>
+      <expectation>3.9E-60</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLASRSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLASRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="7" database="TR" id="A0A062DC11_ACIBA" ac="A0A062DC11" length="100" description="Helix-turn-helix family protein OS=Acinetobacter baumannii 496487 GN=J524_3697 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>484</score>
+      <bits>191.045</bits>
+      <expectation>3.9E-60</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLASRSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLASRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="8" database="TR" id="I7E435_ACIBA" ac="I7E435" length="100" description="Cro-like protein OS=Acinetobacter baumannii GN=cro PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>484</score>
+      <bits>191.045</bits>
+      <expectation>3.9E-60</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLASRSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLASRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="9" database="TR" id="A0A0E2G625_ACINO" ac="A0A0E2G625" length="100" description="Uncharacterized protein OS=Acinetobacter nosocomialis NIPH 386 GN=F958_03870 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="10" database="TR" id="K9BXN6_9GAMM" ac="K9BXN6" length="100" description="DNA-binding helix-turn-helix protein OS=Acinetobacter sp. WC-487 GN=ACINWC487_0770 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="11" database="TR" id="A0A010KVQ5_9GAMM" ac="A0A010KVQ5" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 1566109 GN=J582_3972 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="12" database="TR" id="A0A010UIU2_9GAMM" ac="A0A010UIU2" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 263903-2 GN=J733_3398 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="13" database="TR" id="A0A009HTL0_9GAMM" ac="A0A009HTL0" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 1295259 GN=J507_3402 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="14" database="TR" id="A0A062SJN5_ACIBA" ac="A0A062SJN5" length="100" description="Helix-turn-helix family protein OS=Acinetobacter baumannii 25977_9 GN=J812_3971 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="15" database="TR" id="A0A158LUQ2_ACIBA" ac="A0A158LUQ2" length="100" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 190 GN=F962_01868 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="16" database="TR" id="A0A014BLL7_9GAMM" ac="A0A014BLL7" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 25977_4 GN=J807_3601 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="17" database="TR" id="A0A010LRF2_9GAMM" ac="A0A010LRF2" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 1578804 GN=J588_3916 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="18" database="TR" id="A0A013K681_9GAMM" ac="A0A013K681" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 1294243 GN=J655_3961 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="19" database="TR" id="U1UCF7_ACIBA" ac="U1UCF7" length="100" description="Cro/Cl family transcriptional regulator OS=Acinetobacter baumannii EGD-HP18 GN=N173_19100 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="20" database="TR" id="A0A171F2C2_ACIBA" ac="A0A171F2C2" length="100" description="DNA-binding helix-turn-helix protein OS=Acinetobacter baumannii Naval-82 GN=ACINNAV82_1981 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="21" database="TR" id="A0A022KHK2_9GAMM" ac="A0A022KHK2" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 478810 GN=J619_03841 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="22" database="TR" id="A0A062GCI7_9GAMM" ac="A0A062GCI7" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 72431 GN=J584_4264 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="23" database="TR" id="A0A140QNA6_9GAMM" ac="A0A140QNA6" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 216872 GN=J633_3798 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="24" database="TR" id="A0A013R1B2_9GAMM" ac="A0A013R1B2" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 883425 GN=J672_3241 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="25" database="TR" id="N8S159_9GAMM" ac="N8S159" length="100" description="Uncharacterized protein OS=Acinetobacter seifertii GN=F985_04127 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="26" database="TR" id="A0A014F317_9GAMM" ac="A0A014F317" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 25977_2 GN=J805_2560 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="27" database="TR" id="A0A009KCR5_ACIBA" ac="A0A009KCR5" length="100" description="Helix-turn-helix family protein OS=Acinetobacter baumannii 1419130 GN=J518_3909 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="28" database="TR" id="A0A062KNK8_ACIBA" ac="A0A062KNK8" length="100" description="Helix-turn-helix family protein OS=Acinetobacter baumannii 1571545 GN=J715_3826 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="29" database="TR" id="K9C5P6_9GAMM" ac="K9C5P6" length="100" description="DNA-binding helix-turn-helix protein OS=Acinetobacter sp. WC-136 GN=ACINWC136_2351 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="30" database="TR" id="K9BKI4_9GAMM" ac="K9BKI4" length="100" description="DNA-binding helix-turn-helix protein OS=Acinetobacter sp. WC-323 GN=ACINWC323_2041 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="31" database="TR" id="A0A014EAN7_9GAMM" ac="A0A014EAN7" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 25977_10 GN=J813_3459 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="32" database="TR" id="A0A014CQT2_9GAMM" ac="A0A014CQT2" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 25977_6 GN=J809_3598 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="33" database="TR" id="A0A014C5B0_9GAMM" ac="A0A014C5B0" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 25977_7 GN=J810_3829 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="34" database="TR" id="A0A010FMT3_9GAMM" ac="A0A010FMT3" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 907131 GN=J569_3764 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="35" database="TR" id="A0A013R2K4_9GAMM" ac="A0A013R2K4" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 225588 GN=J687_2221 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="36" database="TR" id="A0A009G1F3_9GAMM" ac="A0A009G1F3" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 1289694 GN=J508_4006 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="37" database="TR" id="A0A013TNL6_ACIBA" ac="A0A013TNL6" length="100" description="Helix-turn-helix family protein OS=Acinetobacter baumannii 573719 GN=J658_4152 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="38" database="TR" id="A0A011JIM0_9GAMM" ac="A0A011JIM0" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 723929 GN=J610_3984 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="39" database="TR" id="A0A061ZQQ2_9GAMM" ac="A0A061ZQQ2" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 1264765 GN=J723_4274 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="40" database="TR" id="A0A062J5M5_ACIBA" ac="A0A062J5M5" length="100" description="Helix-turn-helix family protein OS=Acinetobacter baumannii 1288284 GN=J608_5965 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="41" database="TR" id="B0V432_ACIBY" ac="B0V432" length="100" description="Putative HTH-type transcriptional regulator (Cro family) OS=Acinetobacter baumannii (strain AYE) GN=p3ABAYE0050 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="42" database="TR" id="S3U3K4_ACIBA" ac="S3U3K4" length="100" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 410 GN=F910_03930 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="43" database="TR" id="A0A014BQX6_9GAMM" ac="A0A014BQX6" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 25977_8 GN=J811_3761 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="44" database="TR" id="N9L879_ACIBA" ac="N9L879" length="100" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 80 GN=F913_00518 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="45" database="TR" id="A0A014FEJ2_9GAMM" ac="A0A014FEJ2" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 25977_1 GN=J804_2902 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="46" database="TR" id="A0A0A7XP24_ACINO" ac="A0A0A7XP24" length="100" description="Cro/Cl family transcriptional regulator OS=Acinetobacter nosocomialis GN=RR32_18235 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="47" database="TR" id="N9KLD4_9GAMM" ac="N9KLD4" length="100" description="Uncharacterized protein OS=Acinetobacter sp. ANC 3929 GN=F909_00066 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="48" database="TR" id="A0A009IHB7_ACIBA" ac="A0A009IHB7" length="100" description="Helix-turn-helix family protein OS=Acinetobacter baumannii 1295743 GN=J512_4216 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="49" database="TR" id="A0A062D3U7_ACIBA" ac="A0A062D3U7" length="100" description="Helix-turn-helix family protein OS=Acinetobacter baumannii 1451147 GN=J541_4349 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="50" database="TR" id="A0A062N0Y8_9GAMM" ac="A0A062N0Y8" length="100" description="Helix-turn-helix family protein OS=Acinetobacter sp. 796380-1375 GN=J732_3776 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>481</score>
+      <bits>189.889</bits>
+      <expectation>1.1E-59</expectation>
+      <identity>98.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="100">MAKTLQELLASRSPESQARIQKMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</querySeq>
+      <pattern>MAKTLQELLA+RSPESQARIQ+MADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</pattern>
+      <matchSeq start="1" end="100">MAKTLQELLANRSPESQARIQQMADELLLETQLHLIREELEISQKELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult></EBIApplicationResult>

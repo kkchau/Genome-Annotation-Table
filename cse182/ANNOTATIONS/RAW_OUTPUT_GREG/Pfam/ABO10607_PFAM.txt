@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="8C6126E0-4ADC-11E7-B35A-25A55F09777C">
+    <matches>
+      <protein length="102">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF01722.16" id="BolA" type="Pfam-A" class="Family">
+            <location start="11" end="85" ali_start="12" ali_end="85" hmm_start="3" hmm_end="76" evalue="5.8e-25" bitscore="87.2" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[ealkpehlevedeShkhaghaeaggetHFkvvivseaFegkslvarhRlvyalLkeel.akgiHALslktktpee]]>
+              </hmm>
+              <match_string>
+                <![CDATA[++l+p+hlev++eS+ h g    g+e+HFkv +vse+F+g++lv+rh+ vyal ++ +  ++iHAL+++++ p+e]]>
+              </match_string>
+              <pp>
+                <![CDATA[689**************999.99***********************************5556*********9987]]>
+              </pp>
+              <seq>
+                <![CDATA[QTLAPSHLEVINESAGHGGY-FPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMnPGQIHALAIHAYLPSE]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       ealkpehlevedeShkhaghaeaggetHFkvvivseaFegkslvarhRlvyalLkeel.akgiHALslktktpee
+#MATCH     ++l+p+hlev++eS+ h g    g+e+HFkv +vse+F+g++lv+rh+ vyal ++ +  ++iHAL+++++ p+e
+#PP        689**************999.99***********************************5556*********9987
+#SEQ       QTLAPSHLEVINESAGHGGY-FPGKESHFKVIVVSEEFNGLRLVQRHQKVYALASDLMnPGQIHALAIHAYLPSE
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

@@ -1,0 +1,338 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"><!-- automatically added by Apache -->
+    <link rel="shortcut icon" href="http://web.expasy.org/favicon.ico" ><!-- automatically added by Apache -->
+    <link rel="stylesheet" href="/css/sib_css/sib.css" type="text/css" media="screen" charset="utf-8" >
+	   <link rel="stylesheet" href="/css/sib_css/sib_print.css" type="text/css" media="print" charset="utf-8" >
+           <!--[if lte IE 6]>
+	   <link rel="stylesheet" href="/css/sib_css/sib_ie6.css" type="text/css" media="screen" title="" charset="utf-8">
+           <![endif]-->
+           <link rel="stylesheet" href="/css/base.css" type="text/css"><!-- automatically added by Apache -->
+<link rel="stylesheet" href="/css/unirule.css" type="text/css"><script src="/unirule/js/unirule.js" language="JavaScript" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<!-- If you have jQuery directly, then skip next line -->
+<script src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+    // If you have jQuery directly, use the following line, instead
+    // $(function() {
+    // If you have jQuery via Google AJAX Libraries
+    $(function() {
+        $(window).scroll(sticky_relocate);
+        sticky_relocate();
+    });
+</script>
+<style type="text/css">
+    .diag_core {font-size:large;}
+    .skipflag {color: #dd4400;}
+    .error {color: red;}
+    .highlight {background-color:#aaddee;}
+
+    #description:before, #technical:before, #references:before, #miscellaneous:before {
+        display:block;
+        content:"";
+        height:3.0em;
+        margin:-3.0em 0 0;
+    }
+</style>
+<title>PROSITE</title>
+  </head>
+  <body>
+<!-- ********************************************************************************************** -->
+<!-- START OF HEADER information on top of the page -->
+<div id='sib_top'><a name='TOP'></a></div>
+<div id='sib_container'>
+
+<!-- TODO: Change id to "sib_header" or "sib_header_small" -->
+<div id='sib_header_small'>
+
+<!-- SIB-ExPASy -->
+<div id="sib_expasy_logo">
+<a href="http://www.isb-sib.ch" id="sib_link" title="SIB Swiss Institute of Bioinformatics"></a>
+<a href="http://www.expasy.org" id="expasy_link" title="ExPASy - SIB Bioinformatics Resource Portal"></a>
+</div>
+<!-- SIB-ExPASy END -->
+
+<div class='sib_title_no_logo'>
+<h1><a href='http://prosite.expasy.org'>PROSITE</a></h1>
+</div>
+
+<! -- Additionnal resource header -->
+<div id='resource_header'></div>
+
+<div id='sib_header_nav'>
+<a href="http://prosite.expasy.org" title="Home page">Home</a>&nbsp;|&nbsp;<a style="font-weight: bold; color: rgb(204,0,0) !important;" href="/contact" title="Contact">Contact</a></div>
+</div>
+<!-- END OF HEADER -->
+<!-- ********************************************************************************************** -->
+<div id='sib_body'>
+<!-- automatically added by Apache -->
+<div class="core"><table class="unirule_head">
+    <tr>
+        
+            <td rowspan="2" class="logo" style="vertical-align:bottom;"><img src="/images/prosite/prosite.gif" alt="Prosite logo"></td>
+        
+        <td class="nav">
+            <div class="navig_menu">
+                <ul class="prosite">
+                    
+                        <li class="prosite_selected"><a href="/prosite.html">Home</a></li>
+                    
+
+                    
+                        <li><a href="/scanprosite/">ScanProsite</a></li>
+                    
+
+                    
+                        <li><a href="/prorule.html">ProRule</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_doc.html">Documents</a></li>
+                    
+
+                    
+                        <li><a href="ftp://ftp.expasy.org/databases/prosite/">Downloads</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_link.html">Links</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_funding.html">Funding</a></li>
+                    
+                </ul>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="title">PROSITE documentation PDOC00094 [for PROSITE entry PS00101]</td>
+    </tr>
+</table>
+<br>
+<div class="section1">Hexapeptide-repeat containing-transferases signature</div><br><div id="sticky-anchor"></div>
+<div id="sticky">
+    <div id="menu_hor">
+        <ul>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#description">Description</a></li>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#technical">Technical section</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#references">References</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#copyright">Copyright</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#miscellaneous">Miscellaneous</a></li>
+
+	</ul>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div id="description" class="section5">Description</div><p>On the  basis  of  sequence  similarity,  a  number  of transferases have been
+proposed [<a title="Downie J.A. [Mol. Microbiol. 3:1649-1651(1989)]" href="#ref1" onClick="highLightRef('1')">1</a>,<a title="Parent R. et al. [J. Bacteriol. 174:2891-2897(1992)]" href="#ref2" onClick="highLightRef('2')">2</a>,<a title="Vaara M. [FEMS Microbiol. Lett. 76:249-254(1992)]" href="#ref3" onClick="highLightRef('3')">3</a>,<a title="Vuorio R. et al. [FEBS Lett. 337:289-292(1994)]" href="#ref4" onClick="highLightRef('4')">4</a>] to belong to a single family. These proteins are:
+</p>
+<ul>
+<li>Serine  O-acetyltransferase  (EC  <a href= "http://enzyme.expasy.org/EC/2.3.1.30">2.3.1.30</a>)  (SAT)  (gene cysE),  an enzyme
+   involved in cysteine biosynthesis.
+</li>
+<li>Azotobacter  chroococcum  nitrogen  fixation  protein  nifP.  NifP  is most
+   probably a SAT involved in the optimization of nitrogenase activity.
+</li>
+<li>Escherichia coli  thiogalactoside   acetyltransferase  (EC <a href= "http://enzyme.expasy.org/EC/2.3.1.18">2.3.1.18</a>)  (gene
+   lacA), an enzyme involved in the biosynthesis of lactose.
+</li>
+<li>UDP-N-acetylglucosamine  acyltransferase   (EC <a href= "http://enzyme.expasy.org/EC/2.3.1.129">2.3.1.129</a>)  (gene  lpxA), an
+   enzyme involved in the biosynthesis of lipid A, a phosphorylated glycolipid
+   that anchors the lipopolysaccharide to the outer membrane of the cell.
+</li>
+<li>UDP-3-O-[3-hydroxymyristoyl]  glucosamine  N-acyltransferase  (EC  2.3.1.-)
+   (gene lpxD or firA), which is also involved in the biosynthesis of lipid A.
+</li>
+<li>Chloramphenicol O-acetyltransferase (CAT) (EC <a href= "http://enzyme.expasy.org/EC/2.3.1.28">2.3.1.28</a>) from  Agrobacterium
+   tumefaciens,  Bacillus sphaericus,  Escherichia coli  plasmid  IncFII NR79,
+   Pseudomonas aeruginosa, Staphylococcus aureus plasmid pIP630. These CAT are
+   not evolutionary related to the main family of CAT (see &lt;<a href="/PDOC00093">PDOC00093</a>&gt;).
+</li>
+<li>Rhizobium nodulation protein nodL. NodL is an acetyltransferase involved in
+   the O-acetylation of Nod factors.
+</li>
+<li>Bacterial maltose O-acetyltransferase (EC <a href= "http://enzyme.expasy.org/EC/2.3.1.79">2.3.1.79</a>).
+</li>
+<li>Bacterial tetrahydrodipicolinate N-succinyltransferase (EC <a href= "http://enzyme.expasy.org/EC/2.3.1.117">2.3.1.117</a>) (gene
+   dapD) which   catalyzes   the   fourth   step   in   the   biosynthesis  of
+   diaminopimelate and lysine from aspartate semialdehyde.
+</li>
+<li>Bacterial  N-acetylglucosamine-1-phosphate  uridyltransferase (EC <a href= "http://enzyme.expasy.org/EC/2.7.7.23">2.7.7.23</a>)
+   (gene glmU  or  gcaD  or  tms),    an  enzyme involved in peptidoglycan and
+   lipopolysaccharide biosynthesis.
+</li>
+<li>Staphylococcus  aureus  protein  capG  which is involved in biosynthesis of
+   type 1 capsular polysaccharide.
+</li>
+<li>Yeast  hypothetical protein YJL218w, which is highly similar to Escherichia
+   coli lacA.
+</li>
+<li>Fission yeast hypothetical protein SpAC18B11.09c.
+</li>
+<li>Methanococcus jannaschii hypothetical protein MJ1064.
+</li>
+</ul>
+<p>These proteins have been shown [<a title="Vaara M. [FEMS Microbiol. Lett. 76:249-254(1992)]" href="#ref3" onClick="highLightRef('3')">3</a>,<a title="Vuorio R. et al. [FEBS Lett. 337:289-292(1994)]" href="#ref4" onClick="highLightRef('4')">4</a>] to contain a repeat structure composed of
+tandem repeats  of a [LIV]-G-x(4) hexapeptide which, in the tertiary structure
+of lpxA  [<a title="Raetz C.R.H. et al. [Science 270:997-1000(1995)]" href="#ref5" onClick="highLightRef('5')">5</a>],  has  been shown to form a left-handed parallel &beta; helix.  Our
+signature pattern is based on a fourfold repeat of this hexapeptide.
+</p>
+Expert(s) to contact by email:
+<p><a href="mailto:proy@rsvs.ulaval.ca">Roy P.H.<br></a>
+</p>
+Last update:
+<p> July 1998 / Text revised.
+</p>
+<div id="technical" class="section5">Technical section</div>
+<p>PROSITE method (with tools and information) covered by this documentation:</p>
+<fieldset class="prosite1">
+<legend class="sp_tools">HEXAPEP_TRANSFERASES,&nbsp;<a href="/PS00101">PS00101</a>;&nbsp;Hexapeptide-repeat containing-transferases signature&nbsp;&nbsp;(PATTERN)</legend>
+<ul>
+<li>
+Consensus pattern:<br>
+[LIV]-[GAED]-x(2)-[STAV]-x-[LIV]-x(3)-[LIVAC]-x-[LIV]-[GAED]-x(2)-[STAVR]-x-[LIV]-[GAED]-x(2)-[STAV]-x-[LIV]-x(3)-[LIV]</li>
+<li>
+Sequences in UniProtKB/Swiss-Prot known to belong to this class: 1759<ul>
+<li>
+detected by PS00101: <a href="/PS00101#TP">1220</a> (true positives)</li>
+<li>
+undetected by PS00101: 539 (<a href="/PS00101#FN">537</a> false negatives and <a href="/PS00101#partial">2</a> '<a href="/prosuser.html#partial_sq">partials</a>')</li>
+</ul>
+
+</li>
+<li>
+Other sequence(s) in UniProtKB/Swiss-Prot detected by PS00101:
+<br>
+<a href="/PS00101#FP">3</a> false positives.
+</li>
+<li>
+Retrieve an alignment of UniProtKB/Swiss-Prot true positive hits:<br>
+<a href="/cgi-bin/aligner?psa=PS00101&amp;color=1&amp;maxinsert=10&amp;linelen=0">Clustal format, color, condensed view</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS00101&amp;color=1">Clustal format, color</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS00101">Clustal format, plain text</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS00101&amp;format=FASTA">Fasta format</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/sequence_logo.cgi?ac=PS00101">Retrieve the sequence logo from the alignment</a>
+</li>
+<li>
+<a href=" http://www.uniprot.org/uniprot/?query=database%3A%28type%3Aprosite+PS00101%29&sort=score#orgViewBy" target="_blank">
+Taxonomic distribution of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS00101</a>
+</li>
+<li>
+<a href="http://www.uniprot.org/uniprot/?query=database:(type:prosite PS00101)" target="_blank">
+Retrieve a list of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS00101</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/scanprosite_form.cgi?PS00101">Scan UniProtKB (Swiss-Prot and/or TrEMBL) entries against PS00101</a>
+</li>
+<li>
+<a href="http://www.ebi.ac.uk/pdbe-site/pdbemotif/barChartPattern?pattern1=PS00101" target="_blank">View ligand binding statistics of PS00101</a></li>
+<li>
+Matching PDB structures: <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1G95&amp;ps=PS00101" target="_blank">1G95</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1G97&amp;ps=PS00101" target="_blank">1G97</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1HM0&amp;ps=PS00101" target="_blank">1HM0</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1HM8&amp;ps=PS00101" target="_blank">1HM8</a>  ... <a href="/cgi-bin/pdb/pdb_structure_list.cgi?src=PS00101" target="_blank">[ALL]</a>
+</li>
+</fieldset>
+<br>
+<br>
+<div id="references" class="section5">References</div><br>
+<table class="grid" id="ref1" width="100%">
+<tr><td rowspan="4" width="50em">1</td><td width="100em">Authors</td><td>Downie J.A.</td></tr>
+<tr><td>Title</td><td>The nodL gene from Rhizobium leguminosarum is homologous to the acetyl transferases encoded by lacA and cysE.</td></tr>
+<tr><td>Source</td><td>Mol. Microbiol. 3:1649-1651(1989).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=2615659" target="_blank">2615659</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref2" width="100%">
+<tr><td rowspan="4" width="50em">2</td><td width="100em">Authors</td><td>Parent R., Roy P.H.</td></tr>
+<tr><td>Title</td><td>The chloramphenicol acetyltransferase gene of Tn2424: a new breed of cat.</td></tr>
+<tr><td>Source</td><td>J. Bacteriol. 174:2891-2897(1992).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=1314803" target="_blank">1314803</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref3" width="100%">
+<tr><td rowspan="4" width="50em">3</td><td width="100em">Authors</td><td>Vaara M.</td></tr>
+<tr><td>Title</td><td>Eight bacterial proteins, including UDP-N-acetylglucosamine acyltransferase (LpxA) and three other transferases of Escherichia coli, consist of a six-residue periodicity theme.</td></tr>
+<tr><td>Source</td><td>FEMS Microbiol. Lett. 76:249-254(1992).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=1427014" target="_blank">1427014</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref4" width="100%">
+<tr><td rowspan="4" width="50em">4</td><td width="100em">Authors</td><td>Vuorio R., Haerkonen T., Tolvanen M., Vaara M.</td></tr>
+<tr><td>Title</td><td>The novel hexapeptide motif found in the acyltransferases LpxA and LpxD of lipid A biosynthesis is conserved in various bacteria.</td></tr>
+<tr><td>Source</td><td>FEBS Lett. 337:289-292(1994).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=8293817" target="_blank">8293817</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref5" width="100%">
+<tr><td rowspan="4" width="50em">5</td><td width="100em">Authors</td><td>Raetz C.R.H., Roderick S.L.</td></tr>
+<tr><td>Title</td><td>A left-handed parallel beta helix in the structure of UDP-N-acetylglucosamine acyltransferase.</td></tr>
+<tr><td>Source</td><td>Science 270:997-1000(1995).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=7481807" target="_blank">7481807</a></td></tr>
+</table>
+<br>
+<br>
+<div id="copyright" class="section5">Copyright</div>
+<br>
+PROSITE is copyright.   It  is  produced  by  the  SIB  Swiss  Institute
+    Bioinformatics. There  are no restrictions   on its use by  non-profit
+    institutions as long as its  content is in no way modified. Usage by and
+    for commercial  entities requires a license agreement. For information
+    about  the  licensing  scheme   send  an  email to <form method="POST" name="mailformn4ddm20941" action="/contact" style="display:none;">
+<input type="hidden" name="recipient_email" value="license@isb-sib.ch">
+<input type="hidden" name="flag_subject" value="Prosite License">
+<input type="hidden" name="recipient_name" value="Prosite License">
+</form>
+<a href="#" onClick="document.mailformn4ddm20941.submit(); return false;">Prosite License</a>
+
+    or see: <a href="/prosite_license.html">prosite_license.html</a>.
+<br><br>
+<div id="miscellaneous" class="section5">Miscellaneous</div>
+<br>
+<a href="/cgi-bin/prosite/get-prodoc-entry?PDOC00094">View entry in original PROSITE document format</a><br>
+<a href="/PDOC00094.txt">View entry in raw text format (no links)</a>
+<br><br>
+</div><!-- sib_body -->
+<br clear="left" />
+</div>
+<!-- ********************************************************************************************** -->
+<!-- START OF FOOTER information at the bottom of the page -->
+<div id = 'sib_footer'>			
+  <!-- This part of the footer is _left_ justified and should contain SIB on the very left -->	
+  <div id = 'sib_footer_content'> 
+    <a href = "http://www.isb-sib.ch">SIB Swiss Institute of Bioinformatics</a>&nbsp;|&nbsp;<a href = "http://www.expasy.org/disclaimer.html">Disclaimer</a>
+
+	<!-- This part of the footer is _right_ justified -->
+	<div id = "sib_footer_right">	
+      <a href="#TOP" id = "sib_footer_gototop"><span style = "padding-left: 10px">Back to the Top</span></a>				
+    </div>
+  </div>
+</div>
+<!-- END OF FOOTER -->
+</div> <!-- sib_container -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23823438-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><!-- automatically added by Apache -->
+
+    </body>
+</html>

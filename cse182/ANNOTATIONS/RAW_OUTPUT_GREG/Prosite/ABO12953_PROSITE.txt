@@ -1,0 +1,550 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"><!-- automatically added by Apache -->
+    <link rel="shortcut icon" href="http://web.expasy.org/favicon.ico" ><!-- automatically added by Apache -->
+    <link rel="stylesheet" href="/css/sib_css/sib.css" type="text/css" media="screen" charset="utf-8" >
+	   <link rel="stylesheet" href="/css/sib_css/sib_print.css" type="text/css" media="print" charset="utf-8" >
+           <!--[if lte IE 6]>
+	   <link rel="stylesheet" href="/css/sib_css/sib_ie6.css" type="text/css" media="screen" title="" charset="utf-8">
+           <![endif]-->
+           <link rel="stylesheet" href="/css/base.css" type="text/css"><!-- automatically added by Apache -->
+<link rel="stylesheet" href="/css/unirule.css" type="text/css"><script src="/unirule/js/unirule.js" language="JavaScript" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<!-- If you have jQuery directly, then skip next line -->
+<script src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+    // If you have jQuery directly, use the following line, instead
+    // $(function() {
+    // If you have jQuery via Google AJAX Libraries
+    $(function() {
+        $(window).scroll(sticky_relocate);
+        sticky_relocate();
+    });
+</script>
+<style type="text/css">
+    .diag_core {font-size:large;}
+    .skipflag {color: #dd4400;}
+    .error {color: red;}
+    .highlight {background-color:#aaddee;}
+
+    #description:before, #technical:before, #references:before, #miscellaneous:before {
+        display:block;
+        content:"";
+        height:3.0em;
+        margin:-3.0em 0 0;
+    }
+</style>
+<title>PROSITE</title>
+  </head>
+  <body>
+<!-- ********************************************************************************************** -->
+<!-- START OF HEADER information on top of the page -->
+<div id='sib_top'><a name='TOP'></a></div>
+<div id='sib_container'>
+
+<!-- TODO: Change id to "sib_header" or "sib_header_small" -->
+<div id='sib_header_small'>
+
+<!-- SIB-ExPASy -->
+<div id="sib_expasy_logo">
+<a href="http://www.isb-sib.ch" id="sib_link" title="SIB Swiss Institute of Bioinformatics"></a>
+<a href="http://www.expasy.org" id="expasy_link" title="ExPASy - SIB Bioinformatics Resource Portal"></a>
+</div>
+<!-- SIB-ExPASy END -->
+
+<div class='sib_title_no_logo'>
+<h1><a href='http://prosite.expasy.org'>PROSITE</a></h1>
+</div>
+
+<! -- Additionnal resource header -->
+<div id='resource_header'></div>
+
+<div id='sib_header_nav'>
+<a href="http://prosite.expasy.org" title="Home page">Home</a>&nbsp;|&nbsp;<a style="font-weight: bold; color: rgb(204,0,0) !important;" href="/contact" title="Contact">Contact</a></div>
+</div>
+<!-- END OF HEADER -->
+<!-- ********************************************************************************************** -->
+<div id='sib_body'>
+<!-- automatically added by Apache -->
+<div class="core"><table class="unirule_head">
+    <tr>
+        
+            <td rowspan="2" class="logo" style="vertical-align:bottom;"><img src="/images/prosite/prosite.gif" alt="Prosite logo"></td>
+        
+        <td class="nav">
+            <div class="navig_menu">
+                <ul class="prosite">
+                    
+                        <li class="prosite_selected"><a href="/prosite.html">Home</a></li>
+                    
+
+                    
+                        <li><a href="/scanprosite/">ScanProsite</a></li>
+                    
+
+                    
+                        <li><a href="/prorule.html">ProRule</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_doc.html">Documents</a></li>
+                    
+
+                    
+                        <li><a href="ftp://ftp.expasy.org/databases/prosite/">Downloads</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_link.html">Links</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_funding.html">Funding</a></li>
+                    
+                </ul>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="title">PROSITE documentation PDOC00185 [for PROSITE entry PS50893]</td>
+    </tr>
+</table>
+<br>
+<div class="section1">ATP-binding cassette, ABC transporter-type, signature and profile</div><br><div id="sticky-anchor"></div>
+<div id="sticky">
+    <div id="menu_hor">
+        <ul>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#description">Description</a></li>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#technical">Technical section</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#references">References</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#copyright">Copyright</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#miscellaneous">Miscellaneous</a></li>
+
+	</ul>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div id="description" class="section5">Description</div><p>ABC  transporters  belong  to the ATP-Binding Cassette (ABC) superfamily which
+uses  the  hydrolysis  of  ATP  to  energize  diverse  biological systems. ABC
+transporters  are  minimally  constituted  of  two conserved regions: a highly
+conserved ATP binding cassette (ABC) and a less conserved transmembrane domain
+(TMD).  These  regions  can  be  found on the same protein or on two different
+ones.  Most ABC transporters function as a dimer and therefore are constituted
+of four domains, two ABC modules and two TMDs [<a title="Holland I.B. et al. [(In) ABC proteins from bacteria to man, Academic Press, San Diego, (2003)]" href="#ref1" onClick="highLightRef('1')">1</a>].
+</p>
+<p>ABC  transporters  are  involved  in the export or import of a wide variety of
+substrates  ranging  from  small ions to macromolecules. The major function of
+ABC  import  systems  is  to provide essential nutrients to bacteria. They are
+found  only  in  prokaryotes  and  their four constitutive domains are usually
+encoded  by  independent polypeptides (two ABC proteins and two TMD proteins).
+Prokaryotic importers  require  additional  extracytoplasmic  binding proteins
+(one or  more  per  systems)  for  function.  In  contrast, export systems are
+involved in  the  extrusion of noxious substances, the export of extracellular
+toxins and  the targeting of membrane components. They are found in all living
+organisms and  in  general  the TMD is fused to the ABC module in a variety of
+combinations. Some   eukaryotic   exporters   encode   the   four  domains  on
+the same polypeptide chain [<a title="Holland I.B. et al. [J. Mol. Biol. 293:381-399(1999)]" href="#ref2" onClick="highLightRef('2')">2</a>,<a title="Saurin W. et al. [J. Mol. Evol. 48:22-41(1999)]" href="#ref3" onClick="highLightRef('3')">3</a>].
+</p>
+<p>The  ABC  module  (approximately  two hundred amino acid residues) is known to
+bind  and  hydrolyze  ATP,  thereby  coupling transport to ATP hydrolysis in a
+large  number  of  biological processes. The cassette is duplicated in several
+subfamilies.  Its  primary  sequence is highly conserved, displaying a typical
+phosphate-binding loop:  Walker A  (see  &lt;<a href="/PDOC00017">PDOC00017</a>&gt;), and a magnesium binding
+site:  Walker  B.  Besides these two regions, three other conserved motifs are
+present  in  the  ABC  cassette:  the switch region which contains a histidine
+loop,  postulated to polarize the attaching water molecule for hydrolysis, the
+signature  conserved  motif  (LSGGQ)  specific to the ABC transporter, and the
+Q-motif  (between  Walker A and the signature), which interacts with the &gamma;
+phosphate  through  a  water  bond.  The Walker A, Walker B, Q-loop and switch
+region form the nucleotide binding site [<a title="Higgins C.F. [Res. Microbiol. 152:205-210(2001)]" href="#ref4" onClick="highLightRef('4')">4</a>,<a title="Higgins C.F. [Annu. Rev. Cell Biol. 8:67-113(1992)]" href="#ref5" onClick="highLightRef('5')">5</a>,<a title="Schneider E. et al. [FEMS Microbiol. Rev. 22:1-20(1998)]" href="#ref6" onClick="highLightRef('6')">6</a>].
+</p>
+<p>The  3D  structure  of a monomeric ABC module adopts a stubby L-shape with two
+distinct  arms  (see  &lt;PDB:<a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1B0U&amp;ps=PS50893&amp;extract=1">1B0U</a>&gt;). ArmI (mainly &beta;-strand) contains Walker A
+and  Walker  B.  The  important residues for ATP hydrolysis and/or binding are
+located  in  the P-loop. The ATP-binding pocket is located at the extremity of
+armI. The perpendicular armII contains mostly the &alpha; helical subdomain with
+the  signature motif. It only seems to be required for structural integrity of
+the  ABC  module.  ArmII  is in direct contact with the TMD. The hinge between
+armI and armII contains both the histidine loop and the Q-loop, making contact
+with  the  &gamma;  phosphate  of  the  ATP  molecule. ATP hydrolysis leads to a
+conformational  change that could facilitate ADP release. In the dimer the two
+ABC  cassettes  contact  each  other  through  hydrophobic interactions at the
+antiparallel &beta;-sheet of armI by a two-fold axis [<a title="Kerr I.D. [Biochim. Biophys. Acta 1561:47-64(2002)]" href="#ref7" onClick="highLightRef('7')">7</a>,<a title="Karpowich N. et al. [Structure 9:571-586(2001)]" href="#ref8" onClick="highLightRef('8')">8</a>,<a title="Yuan Y.R. et al. [J. Biol. Chem. 276:32313-32321(2001)]" href="#ref9" onClick="highLightRef('9')">9</a>,<a title="Hung L.W. et al. [Nature 396:703-707(1998)]" href="#ref10" onClick="highLightRef('10')">10</a>,<a title="Diederichs K. et al. [EMBO J. 19:5951-5961(2000)]" href="#ref11" onClick="highLightRef('11')">11</a>,<a title="Gaudet R. et al. [EMBO J. 20:4964-4972(2001)]" href="#ref12" onClick="highLightRef('12')">12</a>].
+</p>
+<p>Proteins  known  to belong to this family are classified in several functional
+subfamilies depending on the substrate used [<a title="http://www.tcdb.org/tcdb/index.php?tc=3.A.1" href="http://www.tcdb.org/tcdb/index.php?tc=3.A.1" target="_blank">E1</a>].
+</p>
+<p>All  different  types of transporters with a functional attribution are listed
+below (references are only provided for recently characterized proteins).
+</p>
+<p>In prokaryotes:
+</p>
+<p>Active import transport system components:
+</p>
+<ul>
+<li>Carbohydrate uptake transporter.
+</li>
+<li>Cobalt uptake transporter (cbiO).
+</li>
+<li>Ferric iron uptake transporter.
+</li>
+<li>Hydrophobic amino acid uptake transporter.
+</li>
+<li>Iron Chelate uptake transporter.
+</li>
+<li>Manganese/Zinc/Iron chelate uptake transporter.
+</li>
+<li>Molybdate uptake transporter.
+</li>
+<li>Nitrate/Nitrite/Cyanate uptake transporter.
+</li>
+<li>Peptide/Opine/Nickel uptake transporter.
+</li>
+<li>Phosphate uptake transporter.
+</li>
+<li>Phosphonate uptake transporter.
+</li>
+<li>Polyamine/Opine/Phosphonate uptake transporter.
+</li>
+<li>Quaternary amine uptake transporter.
+</li>
+<li>Sulfate uptake transporter.
+</li>
+<li>Taurine uptake tranporter (tauB).
+</li>
+<li>Thiamin uptake transporter (thiamin/thiamin pyrophosphate) (thiQ/yabJ).
+</li>
+<li>Vitamine B12 uptake tranporter (btuD).
+</li>
+</ul>
+<p>Active export transport system components:
+</p>
+<ul>
+<li>Capsular polysaccharide exporter (kpsT).
+</li>
+<li>Drug exporter-1: daunorubicin/doxorubicin (drrA); oleandomycin (oleC4).
+</li>
+<li>Drug resistance ATPase-1.
+</li>
+<li>Drug/siderophore exporter-3.
+</li>
+<li>Glucan exporter: &beta;-(1,2)-glucan export (chvA/ndvA).
+</li>
+<li>Lipid A exporter (msbA).
+</li>
+<li>Lantibiotic exporter: hemolysin/bacteriocin (cylB).
+</li>
+<li>Lipooligosaccharide exporter (nodulation protein nodI from Rhizobium).
+</li>
+<li>Lipopolysaccharide exporter (rbfA).
+</li>
+<li>Micrococin B17 exporter (mcbF).
+</li>
+<li>Micrococin J25 exporter (mcjD).
+</li>
+<li>Peptide-2 exporter: competence factor (comA/comB).
+</li>
+<li>Peptide-3 exporter: modified cyclic peptide (syrD.
+</li>
+<li>Protein-1 exporter: hemolysin (hlyB).
+</li>
+<li>Protein-2 exporter: colicin V(cvaB).
+</li>
+<li>S-layer protein exporter (rsaD/sapD).
+</li>
+<li>Techoic Acid Exporter (tagH).
+</li>
+</ul>
+<p>In eukaryotes:
+</p>
+<ul>
+<li>ALDP, a peroxisomal protein involved in X-linked adrenoleukodystrophy.
+</li>
+<li>Antigen  peptide  transporters  1  (TAP1,  PSF1,  RING4, HAM-1, mtp1) and 2
+   (TAP2, PSF2,  RING11, HAM-2, mtp2), which  are involved in the transport of
+   antigens from      the   cytoplasm  to  a  membrane-bound  compartment  for
+   association with MHC class I molecules.
+</li>
+<li>Cystic fibrosis transmembrane conductance regulator (CFTR),  which  is most
+   probably involved in the transport of chloride ions.
+</li>
+<li>Drosophila  proteins  white  (w)  and brown (bw), which are involved in the
+   import of ommatidium screening pigments.
+</li>
+<li>Fungal elongation factor 3 (EF-3).
+</li>
+<li>Multidrug   transporters  (Mdr1)  (P-glycoprotein),  a  family  of  closely
+   related proteins which extrude a wide variety of drugs out of the cell.
+</li>
+<li>70 Kd peroxisomal membrane protein (PMP70).
+</li>
+<li>Sulfonylurea  receptor,  a  putative  subunit  of the B-cell  ATP-sensitive
+   potassium channel.
+</li>
+</ul>
+<p>As a signature pattern for this class of proteins, we use a  conserved  region
+which is  located  between the &#39;A&#39; and the &#39;B&#39; motifs of the ATP-binding site.
+The  profile  we  developed  is  directed  against the conserved ABC module by
+covering  the  region  between  &beta; strand 1 and &alpha; helix 9, including not
+only  the conserved motifs but also structural elements found N and C terminal
+to  them.  Our profile also recognizes the UvrA family which is evolutionarily
+related to the ABC transporter family.
+</p>
+Note:
+<p> The ATP-binding region is  duplicated in araG, mdl, msrA,  rbsA,  tlrC,
+uvrA, yejF, Mdr&#39;s, CFTR, pmd1 and in EF-3.  In  some  of  those proteins, the
+above pattern only detect one of the two copies of the domain.
+</p>
+Last update:
+<p> November 2003 / Text revised.
+</p>
+<div id="technical" class="section5">Technical section</div>
+<p>PROSITE methods (with tools and information) covered by this documentation:</p>
+<fieldset class="prosite1">
+<legend class="sp_tools">ABC_TRANSPORTER_2,&nbsp;<a href="/PS50893">PS50893</a>;&nbsp;ATP-binding cassette, ABC transporter-type domain profile&nbsp;&nbsp;(MATRIX)</legend>
+<ul>
+<li>
+Sequences in UniProtKB/Swiss-Prot known to belong to this class: 4002<ul>
+<li>
+detected by PS50893: <a href="/PS50893#TP">3987</a> (true positives)</li>
+<li>
+undetected by PS50893: 15 (<a href="/PS50893#FN">5</a> false negatives and <a href="/PS50893#partial">10</a> '<a href="/prosuser.html#partial_sq">partials</a>')</li>
+</ul>
+
+</li>
+<li>
+Other sequence(s) in UniProtKB/Swiss-Prot detected by PS50893:
+<br>
+NONE.
+</li>
+<li>
+<a href="/cgi-bin/prosite/PSView.cgi?ac=PS50893&amp;onebyarch=1&amp;hscale=0.6">Domain architecture view of Swiss-Prot proteins matching PS50893</a>
+<br>
+<img alt="PS50893" src="/cgi-bin/prosite/PSImage.cgi?hit=1,110,PS50893,ABC_TRANSPORTER_2&amp;type=1&amp;len=110&amp;hscale=1.0" border="0" height="40">
+</li>
+<li>
+Retrieve an alignment of UniProtKB/Swiss-Prot true positive hits:<br>
+<a href="/cgi-bin/aligner?psa=PS50893&amp;color=1&amp;maxinsert=10&amp;linelen=0">Clustal format, color, condensed view</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS50893&amp;color=1">Clustal format, color</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS50893">Clustal format, plain text</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS50893&amp;format=FASTA">Fasta format</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/sequence_logo.cgi?ac=PS50893">Retrieve the sequence logo from the alignment</a>
+</li>
+<li>
+<a href=" http://www.uniprot.org/uniprot/?query=database%3A%28type%3Aprosite+PS50893%29&sort=score#orgViewBy" target="_blank">
+Taxonomic distribution of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS50893</a>
+</li>
+<li>
+<a href="http://www.uniprot.org/uniprot/?query=database:(type:prosite PS50893)" target="_blank">
+Retrieve a list of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS50893</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/scanprosite_form.cgi?PS50893">Scan UniProtKB (Swiss-Prot and/or TrEMBL) entries against PS50893</a>
+</li>
+<li>
+<a href="http://www.ebi.ac.uk/pdbe-site/pdbemotif/barChartPattern?pattern1=PS50893" target="_blank">View ligand binding statistics of PS50893</a></li>
+<li>
+Matching PDB structures: <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1B0U&amp;ps=PS50893" target="_blank">1B0U</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1F3O&amp;ps=PS50893" target="_blank">1F3O</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1G29&amp;ps=PS50893" target="_blank">1G29</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1G6H&amp;ps=PS50893" target="_blank">1G6H</a>  ... <a href="/cgi-bin/pdb/pdb_structure_list.cgi?src=PS50893" target="_blank">[ALL]</a>
+</li>
+</fieldset>
+<br>
+<fieldset class="prosite1">
+<legend class="sp_tools">ABC_TRANSPORTER_1,&nbsp;<a href="/PS00211">PS00211</a>;&nbsp;ABC transporters family signature&nbsp;&nbsp;(PATTERN)</legend>
+<ul>
+<li>
+Consensus pattern:<br>
+[LIVMFYC]-[SA]-[SAPGLVFYKQH]-G-[DENQMW]-[KRQASPCLIMFW]-[KRNQSTAVM]-[KRACLVM]-[LIVMFYPAN]-{PHY}-[LIVMFW]-[SAGCLIVP]-{FYWHP}-{KRHP}-[LIVMFYWSTA]</li>
+<li>
+Sequences in UniProtKB/Swiss-Prot known to belong to this class: 4007<ul>
+<li>
+detected by PS00211: <a href="/PS00211#TP">3671</a> (true positives)</li>
+<li>
+undetected by PS00211: 336 (<a href="/PS00211#FN">328</a> false negatives and <a href="/PS00211#partial">8</a> '<a href="/prosuser.html#partial_sq">partials</a>')</li>
+</ul>
+
+</li>
+<li>
+Other sequence(s) in UniProtKB/Swiss-Prot detected by PS00211:
+<br>
+<a href="/PS00211#FP">201</a> false positives.
+</li>
+<li>
+Retrieve an alignment of UniProtKB/Swiss-Prot true positive hits:<br>
+<a href="/cgi-bin/aligner?psa=PS00211&amp;color=1&amp;maxinsert=10&amp;linelen=0">Clustal format, color, condensed view</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS00211&amp;color=1">Clustal format, color</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS00211">Clustal format, plain text</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS00211&amp;format=FASTA">Fasta format</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/sequence_logo.cgi?ac=PS00211">Retrieve the sequence logo from the alignment</a>
+</li>
+<li>
+<a href=" http://www.uniprot.org/uniprot/?query=database%3A%28type%3Aprosite+PS00211%29&sort=score#orgViewBy" target="_blank">
+Taxonomic distribution of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS00211</a>
+</li>
+<li>
+<a href="http://www.uniprot.org/uniprot/?query=database:(type:prosite PS00211)" target="_blank">
+Retrieve a list of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS00211</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/scanprosite_form.cgi?PS00211">Scan UniProtKB (Swiss-Prot and/or TrEMBL) entries against PS00211</a>
+</li>
+<li>
+<a href="http://www.ebi.ac.uk/pdbe-site/pdbemotif/barChartPattern?pattern1=PS00211" target="_blank">View ligand binding statistics of PS00211</a></li>
+<li>
+Matching PDB structures: <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1B0U&amp;ps=PS00211" target="_blank">1B0U</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1F3O&amp;ps=PS00211" target="_blank">1F3O</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1G29&amp;ps=PS00211" target="_blank">1G29</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1G6H&amp;ps=PS00211" target="_blank">1G6H</a>  ... <a href="/cgi-bin/pdb/pdb_structure_list.cgi?src=PS00211" target="_blank">[ALL]</a>
+</li>
+</fieldset>
+<br>
+<br>
+<div id="references" class="section5">References</div><br>
+<table class="grid" id="ref1" width="100%">
+<tr><td rowspan="2" width="50em">1</td><td width="100em">Authors</td><td>Holland I.B., Cole S.P.C., Kuchler K., Higgins C.F.</td></tr>
+<tr><td>Source</td><td>(In) ABC proteins from bacteria to man, Academic Press, San Diego, (2003).</td></tr>
+</table>
+<br>
+<table class="grid" id="ref2" width="100%">
+<tr><td rowspan="2" width="50em">2</td><td width="100em">Authors</td><td>Holland I.B., Blight M.A.</td></tr>
+<tr><td>Source</td><td>J. Mol. Biol. 293:381-399(1999).</td></tr>
+</table>
+<br>
+<table class="grid" id="ref3" width="100%">
+<tr><td rowspan="4" width="50em">3</td><td width="100em">Authors</td><td>Saurin W., Hofnung M., Dassa E.</td></tr>
+<tr><td>Title</td><td>Getting in or out: early segregation between importers and exporters in the evolution of ATP-binding cassette (ABC) transporters.</td></tr>
+<tr><td>Source</td><td>J. Mol. Evol. 48:22-41(1999).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=9873074" target="_blank">9873074</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref4" width="100%">
+<tr><td rowspan="4" width="50em">4</td><td width="100em">Authors</td><td>Higgins C.F.</td></tr>
+<tr><td>Title</td><td>ABC transporters: physiology, structure and mechanism--an overview.</td></tr>
+<tr><td>Source</td><td>Res. Microbiol. 152:205-210(2001).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=11421269" target="_blank">11421269</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref5" width="100%">
+<tr><td rowspan="5" width="50em">5</td><td width="100em">Authors</td><td>Higgins C.F.</td></tr>
+<tr><td>Title</td><td>ABC transporters: from microorganisms to man.</td></tr>
+<tr><td>Source</td><td>Annu. Rev. Cell Biol. 8:67-113(1992).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=1282354" target="_blank">1282354</a></td></tr>
+<tr><td>DOI</td><td><a href="http://dx.doi.org/10.1146/annurev.cb.08.110192.000435" target="_blank">10.1146/annurev.cb.08.110192.000435</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref6" width="100%">
+<tr><td rowspan="4" width="50em">6</td><td width="100em">Authors</td><td>Schneider E., Hunke S.</td></tr>
+<tr><td>Title</td><td>ATP-binding-cassette (ABC) transport systems: functional and structural aspects of the ATP-hydrolyzing subunits/domains.</td></tr>
+<tr><td>Source</td><td>FEMS Microbiol. Rev. 22:1-20(1998).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=9640644" target="_blank">9640644</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref7" width="100%">
+<tr><td rowspan="4" width="50em">7</td><td width="100em">Authors</td><td>Kerr I.D.</td></tr>
+<tr><td>Title</td><td>Structure and association of ATP-binding cassette transporter nucleotide-binding domains.</td></tr>
+<tr><td>Source</td><td>Biochim. Biophys. Acta 1561:47-64(2002).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=11988180" target="_blank">11988180</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref8" width="100%">
+<tr><td rowspan="4" width="50em">8</td><td width="100em">Authors</td><td>Karpowich N., Martsinkevich O., Millen L., Yuan Y.R., Dai P.L., MacVey K., Thomas P.J., Hunt J.F.</td></tr>
+<tr><td>Title</td><td>Crystal structures of the MJ1267 ATP binding cassette reveal an induced-fit effect at the ATPase active site of an ABC transporter.</td></tr>
+<tr><td>Source</td><td>Structure 9:571-586(2001).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=11470432" target="_blank">11470432</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref9" width="100%">
+<tr><td rowspan="5" width="50em">9</td><td width="100em">Authors</td><td>Yuan Y.R., Blecker S., Martsinkevich O., Millen L., Thomas P.J., Hunt J.F.</td></tr>
+<tr><td>Title</td><td>The crystal structure of the MJ0796 ATP-binding cassette. Implications for the structural consequences of ATP hydrolysis in the active site of an ABC transporter.</td></tr>
+<tr><td>Source</td><td>J. Biol. Chem. 276:32313-32321(2001).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=11402022" target="_blank">11402022</a></td></tr>
+<tr><td>DOI</td><td><a href="http://dx.doi.org/10.1074/jbc.M100758200" target="_blank">10.1074/jbc.M100758200</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref10" width="100%">
+<tr><td rowspan="2" width="50em">10</td><td width="100em">Authors</td><td>Hung L.W., Wang I.X., Nikaido K., Liu P.Q., Ames G.F., Kim S.H.</td></tr>
+<tr><td>Source</td><td>Nature 396:703-707(1998).</td></tr>
+</table>
+<br>
+<table class="grid" id="ref11" width="100%">
+<tr><td rowspan="2" width="50em">11</td><td width="100em">Authors</td><td>Diederichs K., Diez J., Greller G., Muller C., Breed J., Schnell C., Vonrhein C., Boos W., Welte W.</td></tr>
+<tr><td>Source</td><td>EMBO J. 19:5951-5961(2000).</td></tr>
+</table>
+<br>
+<table class="grid" id="ref12" width="100%">
+<tr><td rowspan="2" width="50em">12</td><td width="100em">Authors</td><td>Gaudet R., Wiley D.C.</td></tr>
+<tr><td>Source</td><td>EMBO J. 20:4964-4972(2001).</td></tr>
+</table>
+<br>
+<table class="grid" id="refE1" width="100%">
+<tr><td rowspan="1" width="50em">E1</td><td width="100em">Source</td><td><a href="http://www.tcdb.org/tcdb/index.php?tc=3.A.1" target="_blank">http://www.tcdb.org/tcdb/index.php?tc=3.A.1</a></td></tr>
+</table>
+<br>
+<br>
+<div id="copyright" class="section5">Copyright</div>
+<br>
+PROSITE is copyright.   It  is  produced  by  the  SIB  Swiss  Institute
+    Bioinformatics. There  are no restrictions   on its use by  non-profit
+    institutions as long as its  content is in no way modified. Usage by and
+    for commercial  entities requires a license agreement. For information
+    about  the  licensing  scheme   send  an  email to <form method="POST" name="mailformFe5F400" action="/contact" style="display:none;">
+<input type="hidden" name="recipient_email" value="license@isb-sib.ch">
+<input type="hidden" name="flag_subject" value="Prosite License">
+<input type="hidden" name="recipient_name" value="Prosite License">
+</form>
+<a href="#" onClick="document.mailformFe5F400.submit(); return false;">Prosite License</a>
+
+    or see: <a href="/prosite_license.html">prosite_license.html</a>.
+<br><br>
+<div id="miscellaneous" class="section5">Miscellaneous</div>
+<br>
+<a href="/cgi-bin/prosite/get-prodoc-entry?PDOC00185">View entry in original PROSITE document format</a><br>
+<a href="/PDOC00185.txt">View entry in raw text format (no links)</a>
+<br><br>
+</div><!-- sib_body -->
+<br clear="left" />
+</div>
+<!-- ********************************************************************************************** -->
+<!-- START OF FOOTER information at the bottom of the page -->
+<div id = 'sib_footer'>			
+  <!-- This part of the footer is _left_ justified and should contain SIB on the very left -->	
+  <div id = 'sib_footer_content'> 
+    <a href = "http://www.isb-sib.ch">SIB Swiss Institute of Bioinformatics</a>&nbsp;|&nbsp;<a href = "http://www.expasy.org/disclaimer.html">Disclaimer</a>
+
+	<!-- This part of the footer is _right_ justified -->
+	<div id = "sib_footer_right">	
+      <a href="#TOP" id = "sib_footer_gototop"><span style = "padding-left: 10px">Back to the Top</span></a>				
+    </div>
+  </div>
+</div>
+<!-- END OF FOOTER -->
+</div> <!-- sib_container -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23823438-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><!-- automatically added by Apache -->
+
+    </body>
+</html>

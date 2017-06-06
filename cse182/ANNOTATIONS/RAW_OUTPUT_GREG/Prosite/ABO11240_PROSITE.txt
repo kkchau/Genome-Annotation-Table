@@ -1,0 +1,355 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"><!-- automatically added by Apache -->
+    <link rel="shortcut icon" href="http://web.expasy.org/favicon.ico" ><!-- automatically added by Apache -->
+    <link rel="stylesheet" href="/css/sib_css/sib.css" type="text/css" media="screen" charset="utf-8" >
+	   <link rel="stylesheet" href="/css/sib_css/sib_print.css" type="text/css" media="print" charset="utf-8" >
+           <!--[if lte IE 6]>
+	   <link rel="stylesheet" href="/css/sib_css/sib_ie6.css" type="text/css" media="screen" title="" charset="utf-8">
+           <![endif]-->
+           <link rel="stylesheet" href="/css/base.css" type="text/css"><!-- automatically added by Apache -->
+<link rel="stylesheet" href="/css/unirule.css" type="text/css"><script src="/unirule/js/unirule.js" language="JavaScript" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<!-- If you have jQuery directly, then skip next line -->
+<script src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+    // If you have jQuery directly, use the following line, instead
+    // $(function() {
+    // If you have jQuery via Google AJAX Libraries
+    $(function() {
+        $(window).scroll(sticky_relocate);
+        sticky_relocate();
+    });
+</script>
+<style type="text/css">
+    .diag_core {font-size:large;}
+    .skipflag {color: #dd4400;}
+    .error {color: red;}
+    .highlight {background-color:#aaddee;}
+
+    #description:before, #technical:before, #references:before, #miscellaneous:before {
+        display:block;
+        content:"";
+        height:3.0em;
+        margin:-3.0em 0 0;
+    }
+</style>
+<title>PROSITE</title>
+  </head>
+  <body>
+<!-- ********************************************************************************************** -->
+<!-- START OF HEADER information on top of the page -->
+<div id='sib_top'><a name='TOP'></a></div>
+<div id='sib_container'>
+
+<!-- TODO: Change id to "sib_header" or "sib_header_small" -->
+<div id='sib_header_small'>
+
+<!-- SIB-ExPASy -->
+<div id="sib_expasy_logo">
+<a href="http://www.isb-sib.ch" id="sib_link" title="SIB Swiss Institute of Bioinformatics"></a>
+<a href="http://www.expasy.org" id="expasy_link" title="ExPASy - SIB Bioinformatics Resource Portal"></a>
+</div>
+<!-- SIB-ExPASy END -->
+
+<div class='sib_title_no_logo'>
+<h1><a href='http://prosite.expasy.org'>PROSITE</a></h1>
+</div>
+
+<! -- Additionnal resource header -->
+<div id='resource_header'></div>
+
+<div id='sib_header_nav'>
+<a href="http://prosite.expasy.org" title="Home page">Home</a>&nbsp;|&nbsp;<a style="font-weight: bold; color: rgb(204,0,0) !important;" href="/contact" title="Contact">Contact</a></div>
+</div>
+<!-- END OF HEADER -->
+<!-- ********************************************************************************************** -->
+<div id='sib_body'>
+<!-- automatically added by Apache -->
+<div class="core"><table class="unirule_head">
+    <tr>
+        
+            <td rowspan="2" class="logo" style="vertical-align:bottom;"><img src="/images/prosite/prosite.gif" alt="Prosite logo"></td>
+        
+        <td class="nav">
+            <div class="navig_menu">
+                <ul class="prosite">
+                    
+                        <li class="prosite_selected"><a href="/prosite.html">Home</a></li>
+                    
+
+                    
+                        <li><a href="/scanprosite/">ScanProsite</a></li>
+                    
+
+                    
+                        <li><a href="/prorule.html">ProRule</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_doc.html">Documents</a></li>
+                    
+
+                    
+                        <li><a href="ftp://ftp.expasy.org/databases/prosite/">Downloads</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_link.html">Links</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_funding.html">Funding</a></li>
+                    
+                </ul>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="title">PROSITE documentation PDOC50850 [for PROSITE entry PS50850]</td>
+    </tr>
+</table>
+<br>
+<div class="section1">Major facilitator superfamily (MFS) profile</div><br><div id="sticky-anchor"></div>
+<div id="sticky">
+    <div id="menu_hor">
+        <ul>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#description">Description</a></li>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#technical">Technical section</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#references">References</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#copyright">Copyright</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#miscellaneous">Miscellaneous</a></li>
+
+	</ul>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div id="description" class="section5">Description</div><p>Transporters can  be  grouped  in two classes, primary and secondary carriers.
+The primary  active  transporters  drive  solute  accumulation or extrusion by
+using ATP    hydrolysis,   photon   absorption,   electron   flow,   substrate
+decarboxylation or methyl transfer. If charged molecules are  unidirectionally
+pumped as  a  consequence  of  the  consumption  of  a primary cellular energy
+source, electron  chemical  potential results. This potential can than be used
+to drive the active transport of additional solutes via secondary carriers.
+</p>
+<p>Among   the   different  transporter  the  two  largest  families  that  occur
+ubiquitously  in all classifications of organisms are the ATP-Binding Cassette
+(ABC)   primary  transporter  superfamily  (see  &lt;<a href="/PDOC00185">PDOC00185</a>&gt;)  and  the  Major
+Facilitator  Superfamily  (MFS).  The  MFS transporters are single-polypeptide
+secondary  carriers  capable only of transporting small solutes in response to
+chemiosmotic  ion  gradients [<a title="Pao S.S. et al. [Microbiol. Mol. Biol. Rev. 62:1-34(1998)]" href="#ref1" onClick="highLightRef('1')">1</a>,<a title="Walmsley A.R. et al. [Trends Biochem. Sci. 23:476-481(1998)]" href="#ref2" onClick="highLightRef('2')">2</a>]. They function as uniporters, symporters or
+antiporters.  In  addition  their  solute  specificity  are  also diverse. MFS
+proteins contain 12 transmembrane regions (with some variations).
+</p>
+<p>The  3D-structure  of  human  GLUT1,  an  archetype  of the  major facilitator
+superfamily  has  been  solved (see &lt;PDB:<a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1JA5&amp;ps=PS50850">1JA5</a>&gt;) [<a title="Zuniga F.A. et al. [J. Biol. Chem. 276:44970-44975(2001)]" href="#ref3" onClick="highLightRef('3')">3</a>]. Helices 1-5, 8, 10-12 are
+arranged  in  a  9-member barrel-like manner, delimiting a hydrophilic central
+channel.  Helix 7 is located in the center of the channel suggesting a role in
+regulating transport of solutes through the channel.
+</p>
+<p>Some proteins known to belong to the MFS superfamily are listed below:
+</p>
+<ul>
+<li>Sugar  transporters. The  largest  family,  they  can  function by uniport,
+   solute-solute  antiport or solute-cation symport depending on the system or
+   conditions (see &lt;<a href="/PDOC00190">PDOC00190</a>&gt;).
+</li>
+<li>Drug:H+  antiporters  or multidrug transporters. The extrusion of cytotoxic
+   drugs from multidrug resistant cells by overexpressed multidrug transporter
+   is  an  important  cause  of failure of the drug-based treatment of patient
+   with  cancers  or infections  by pathogenic  microorganisms [<a title="Van Veen H.W. [Semin. Cell Dev. Biol. 12:239-245(2001)]" href="#ref4" onClick="highLightRef('4')">4</a>].
+</li>
+<li>Organophosphate:Pi   antiporters   (OPA).  Small  permeases  restricted  to
+   bacteria.
+</li>
+<li>Oligosaccharide:H+ symporters (OHS). Permeases restricted to bacteria.
+</li>
+<li>Metabolite:H+ symporters (MHS).
+</li>
+<li>Nitrate/nitrite  symporter (NNP). This family is present in bacteria, fungi
+   and plants. It catalyzes either nitrate uptake or nitrite efflux.
+</li>
+<li>Phosphate:H+ symporters (PHS). It is present only in fungi and plants.
+</li>
+<li>Nucleoside:H+ symporters (NHS). Small permeases restricted to Gram-negative
+   bacteria.
+</li>
+<li>Oxalate/formate   antiporters  (OFA).  Present  in  bacteria,  archaea  and
+   eukaryotes.
+</li>
+<li>Sialate:H+    symporters (SHS). Small permeases restricted to Gram-negative
+   bacteria.
+</li>
+<li>Monocarboxylate porters (MCP).
+</li>
+<li>Anion:cation symporters (ACS).
+</li>
+<li>Aromatic   acid:H+  symporters (AAHS). They transport a variety of aromatic
+   acids  as well as cis,cis-muconate. One member of this family (PCAK) serves
+   as a chemoreceptor allowing the bacteria to swim up concentration gradiants
+   of its substrate [<a title="Harwood C.S. et al. [J. Bacteriol. 176:6479-6488(1994)]" href="#ref5" onClick="highLightRef('5')">5</a>].
+</li>
+<li>Cyanate permeases (CP). Small bacterial proteins of around 400 residues.
+</li>
+<li>Proton-dependent oligopeptide transporters (POT). AAHS and POT are the most
+   divergent MFS families.
+</li>
+</ul>
+<p>The profile we developed covers the 12 transmembrane regions.
+</p>
+Last update:
+<p> June 2003 / First entry.
+</p>
+<div id="technical" class="section5">Technical section</div>
+<p>PROSITE method (with tools and information) covered by this documentation:</p>
+<fieldset class="prosite1">
+<legend class="sp_tools">MFS,&nbsp;<a href="/PS50850">PS50850</a>;&nbsp;Major facilitator superfamily (MFS) profile&nbsp;&nbsp;(MATRIX)</legend>
+<ul>
+<li>
+Sequences in UniProtKB/Swiss-Prot known to belong to this class: 1844<ul>
+<li>
+detected by PS50850: <a href="/PS50850#TP">1653</a> (true positives)</li>
+<li>
+undetected by PS50850: 191 (<a href="/PS50850#FN">186</a> false negatives and <a href="/PS50850#partial">5</a> '<a href="/prosuser.html#partial_sq">partials</a>')</li>
+</ul>
+
+</li>
+<li>
+Other sequence(s) in UniProtKB/Swiss-Prot detected by PS50850:
+<br>
+<a href="/PS50850#FP">4</a> false positives and <a href="/PS50850#unknown">1</a> unknown.
+</li>
+<li>
+<a href="/cgi-bin/prosite/PSView.cgi?ac=PS50850&amp;onebyarch=1&amp;hscale=0.6">Domain architecture view of Swiss-Prot proteins matching PS50850</a>
+<br>
+<img alt="PS50850" src="/cgi-bin/prosite/PSImage.cgi?hit=1,110,PS50850,MFS&amp;type=1&amp;len=110&amp;hscale=1.0" border="0" height="40">
+</li>
+<li>
+Retrieve an alignment of UniProtKB/Swiss-Prot true positive hits:<br>
+<a href="/cgi-bin/aligner?psa=PS50850&amp;color=1&amp;maxinsert=10&amp;linelen=0">Clustal format, color, condensed view</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS50850&amp;color=1">Clustal format, color</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS50850">Clustal format, plain text</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS50850&amp;format=FASTA">Fasta format</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/sequence_logo.cgi?ac=PS50850">Retrieve the sequence logo from the alignment</a>
+</li>
+<li>
+<a href=" http://www.uniprot.org/uniprot/?query=database%3A%28type%3Aprosite+PS50850%29&sort=score#orgViewBy" target="_blank">
+Taxonomic distribution of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS50850</a>
+</li>
+<li>
+<a href="http://www.uniprot.org/uniprot/?query=database:(type:prosite PS50850)" target="_blank">
+Retrieve a list of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS50850</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/scanprosite_form.cgi?PS50850">Scan UniProtKB (Swiss-Prot and/or TrEMBL) entries against PS50850</a>
+</li>
+<li>
+<a href="http://www.ebi.ac.uk/pdbe-site/pdbemotif/barChartPattern?pattern1=PS50850" target="_blank">View ligand binding statistics of PS50850</a></li>
+<li>
+Matching PDB structures: <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1PV6&amp;ps=PS50850" target="_blank">1PV6</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1PV7&amp;ps=PS50850" target="_blank">1PV7</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1PW4&amp;ps=PS50850" target="_blank">1PW4</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=2CFP&amp;ps=PS50850" target="_blank">2CFP</a>  ... <a href="/cgi-bin/pdb/pdb_structure_list.cgi?src=PS50850" target="_blank">[ALL]</a>
+</li>
+</fieldset>
+<br>
+<br>
+<div id="references" class="section5">References</div><br>
+<table class="grid" id="ref1" width="100%">
+<tr><td rowspan="4" width="50em">1</td><td width="100em">Authors</td><td>Pao S.S., Paulsen I.T., Saier M.H. Jr.</td></tr>
+<tr><td>Title</td><td>Major facilitator superfamily.</td></tr>
+<tr><td>Source</td><td>Microbiol. Mol. Biol. Rev. 62:1-34(1998).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=9529885" target="_blank">9529885</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref2" width="100%">
+<tr><td rowspan="4" width="50em">2</td><td width="100em">Authors</td><td>Walmsley A.R., Barrett M.P., Bringaud F., Gould G.W.</td></tr>
+<tr><td>Title</td><td>Sugar transporters from bacteria, parasites and mammals: structure-activity relationships.</td></tr>
+<tr><td>Source</td><td>Trends Biochem. Sci. 23:476-481(1998).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=9868370" target="_blank">9868370</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref3" width="100%">
+<tr><td rowspan="5" width="50em">3</td><td width="100em">Authors</td><td>Zuniga F.A., Shi G., Haller J.F., Rubashkin A., Flynn D.R., Iserovich P., Fischbarg J.</td></tr>
+<tr><td>Title</td><td>A three-dimensional model of the human facilitative glucose transporter Glut1.</td></tr>
+<tr><td>Source</td><td>J. Biol. Chem. 276:44970-44975(2001).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=11571301" target="_blank">11571301</a></td></tr>
+<tr><td>DOI</td><td><a href="http://dx.doi.org/10.1074/jbc.M107350200" target="_blank">10.1074/jbc.M107350200</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref4" width="100%">
+<tr><td rowspan="2" width="50em">4</td><td width="100em">Authors</td><td>Van Veen H.W.</td></tr>
+<tr><td>Source</td><td>Semin. Cell Dev. Biol. 12:239-245(2001).</td></tr>
+</table>
+<br>
+<table class="grid" id="ref5" width="100%">
+<tr><td rowspan="4" width="50em">5</td><td width="100em">Authors</td><td>Harwood C.S., Nichols N.N., Kim M.K., Ditty J.L., Parales R.E.</td></tr>
+<tr><td>Title</td><td>Identification of the pcaRKF gene cluster from Pseudomonas putida: involvement in chemotaxis, biodegradation, and transport of 4-hydroxybenzoate.</td></tr>
+<tr><td>Source</td><td>J. Bacteriol. 176:6479-6488(1994).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=7961399" target="_blank">7961399</a></td></tr>
+</table>
+<br>
+<br>
+<div id="copyright" class="section5">Copyright</div>
+<br>
+PROSITE is copyright.   It  is  produced  by  the  SIB  Swiss  Institute
+    Bioinformatics. There  are no restrictions   on its use by  non-profit
+    institutions as long as its  content is in no way modified. Usage by and
+    for commercial  entities requires a license agreement. For information
+    about  the  licensing  scheme   send  an  email to <form method="POST" name="mailformxH67045821" action="/contact" style="display:none;">
+<input type="hidden" name="recipient_email" value="license@isb-sib.ch">
+<input type="hidden" name="flag_subject" value="Prosite License">
+<input type="hidden" name="recipient_name" value="Prosite License">
+</form>
+<a href="#" onClick="document.mailformxH67045821.submit(); return false;">Prosite License</a>
+
+    or see: <a href="/prosite_license.html">prosite_license.html</a>.
+<br><br>
+<div id="miscellaneous" class="section5">Miscellaneous</div>
+<br>
+<a href="/cgi-bin/prosite/get-prodoc-entry?PDOC50850">View entry in original PROSITE document format</a><br>
+<a href="/PDOC50850.txt">View entry in raw text format (no links)</a>
+<br><br>
+</div><!-- sib_body -->
+<br clear="left" />
+</div>
+<!-- ********************************************************************************************** -->
+<!-- START OF FOOTER information at the bottom of the page -->
+<div id = 'sib_footer'>			
+  <!-- This part of the footer is _left_ justified and should contain SIB on the very left -->	
+  <div id = 'sib_footer_content'> 
+    <a href = "http://www.isb-sib.ch">SIB Swiss Institute of Bioinformatics</a>&nbsp;|&nbsp;<a href = "http://www.expasy.org/disclaimer.html">Disclaimer</a>
+
+	<!-- This part of the footer is _right_ justified -->
+	<div id = "sib_footer_right">	
+      <a href="#TOP" id = "sib_footer_gototop"><span style = "padding-left: 10px">Back to the Top</span></a>				
+    </div>
+  </div>
+</div>
+<!-- END OF FOOTER -->
+</div> <!-- sib_container -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23823438-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><!-- automatically added by Apache -->
+
+    </body>
+</html>

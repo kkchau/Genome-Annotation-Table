@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="0ACF4E44-4ADD-11E7-865E-C73295374F7B">
+    <matches>
+      <protein length="383">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF16576.3" id="HlyD_D23" type="Pfam-A" class="Domain">
+            <location start="55" end="325" ali_start="65" ali_end="322" hmm_start="18" hmm_end="181" evalue="5e-15" bitscore="55.2" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[rlarvsarveGwveklyvkatgdkVkkGqpLaelyspe....lvaaqeeyllalk..................................................................................akkklkkke.............lleaarerLrllgvseeqiae..lektgkvqktvtvkapisGvVtelnvreGqyvqpgdtlftiadlstVWveaevpeqqlalvkvGqkvevtvealpgk.tfeGkv]]>
+              </hmm>
+              <match_string>
+                <![CDATA[++a++++ v+G v ++ vk   ++V++G+ L++++  +    l++a++e+ +a++                                                                                  a       +               ea  +       ++ q+a+  +e+ +   +++ ++ap++Gv+t++n++ Gq+v pg++++ i  l++++v+a+  e+ql++v++Gq+v++t + + ++ +++Gkv]]>
+              </match_string>
+              <pp>
+                <![CDATA[6899***************.99************97654444999*********988888888888888888888888888888888888888888887777777777777766666666666665555555555551.......055555556655543334444445566666666652266777778999*************************************************************998764677777]]>
+              </pp>
+              <seq>
+                <![CDATA[ETAQITSMVSGQVAQVLVK-DTQTVHRGDVLVRIDDRDakiaLAQAEAELAKAKRqykqtaanssslnsqvvvradeinsakaqvaqaqadydkaalelnrraqlaasgavskeeltkaqsavetakaglelakaglA-------QatssrkaaestlaANEALIQGVSETSTPDVQVAQahVEQAQLDLERTVIRAPVDGVITRRNIQVGQRVAPGTSMMMIVPLNDLYVDANFKESQLKKVRPGQPVTLTSDLYGDDvEYHGKV]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       rlarvsarveGwveklyvkatgdkVkkGqpLaelyspe....lvaaqeeyllalk..................................................................................akkklkkke.............lleaarerLrllgvseeqiae..lektgkvqktvtvkapisGvVtelnvreGqyvqpgdtlftiadlstVWveaevpeqqlalvkvGqkvevtvealpgk.tfeGkv
+#MATCH     ++a++++ v+G v ++ vk   ++V++G+ L++++  +    l++a++e+ +a++                                                                                  a       +               ea  +       ++ q+a+  +e+ +   +++ ++ap++Gv+t++n++ Gq+v pg++++ i  l++++v+a+  e+ql++v++Gq+v++t + + ++ +++Gkv
+#PP        6899***************.99************97654444999*********988888888888888888888888888888888888888888887777777777777766666666666665555555555551.......055555556655543334444445566666666652266777778999*************************************************************998764677777
+#SEQ       ETAQITSMVSGQVAQVLVK-DTQTVHRGDVLVRIDDRDakiaLAQAEAELAKAKRqykqtaanssslnsqvvvradeinsakaqvaqaqadydkaalelnrraqlaasgavskeeltkaqsavetakaglelakaglA-------QatssrkaaestlaANEALIQGVSETSTPDVQVAQahVEQAQLDLERTVIRAPVDGVITRRNIQVGQRVAPGTSMMMIVPLNDLYVDANFKESQLKKVRPGQPVTLTSDLYGDDvEYHGKV
+                ]]>
+              </raw>
+            </location>
+          </match>
+          <match accession="PF00529.18" id="HlyD" type="Pfam-A" class="Family">
+            <location start="29" end="380" ali_start="51" ali_end="379" hmm_start="12" hmm_end="79" evalue="1.9e-16" bitscore="59.6" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[a.................................................................................................................................................................................................................................................etdldqvrvgqpvevrfdAfpqtktgkftgvVvgispd......................rvpvrvvvekaqgpyyplriglkagalvr]]>
+              </hmm>
+              <match_string>
+                <![CDATA[                                                                                                                                                                                                                                                  e +l++vr+gqpv++++d +++++  +++g+Vvg s++                      r+pvr+ ++++    +plr+gl+++a+v+]]>
+              </match_string>
+              <pp>
+                <![CDATA[25555555555555555555666666666666666666666666666666666666666666666666666666666666666666667777777777777777777777777777777777777777777777777777778888888999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999************************..*************************************************************97]]>
+              </pp>
+              <seq>
+                <![CDATA[LnhsvstdnayvgaetaqitsmvsgqvaqvlvkdtqtvhrgdvlvriddrdakialaqaeaelakakrqykqtaanssslnsqvvvradeinsakaqvaqaqadydkaalelnrraqlaasgavskeeltkaqsavetakaglelakaglaqatssrkaaestlaanealiqgvsetstpdvqvaqahveqaqldlertvirapvdgvitrrniqvgqrvapgtsmmmivplndlyvdanfkESQLKKVRPGQPVTLTSDLYGDDV--EYHGKVVGFSGGtgsafalipaqnatgnwikvvqRLPVRIALDPKELAEHPLRVGLSMEAKVD]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       a.................................................................................................................................................................................................................................................etdldqvrvgqpvevrfdAfpqtktgkftgvVvgispd......................rvpvrvvvekaqgpyyplriglkagalvr
+#MATCH                                                                                                                                                                                                                                                       e +l++vr+gqpv++++d +++++  +++g+Vvg s++                      r+pvr+ ++++    +plr+gl+++a+v+
+#PP        25555555555555555555666666666666666666666666666666666666666666666666666666666666666666667777777777777777777777777777777777777777777777777777778888888999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999************************..*************************************************************97
+#SEQ       LnhsvstdnayvgaetaqitsmvsgqvaqvlvkdtqtvhrgdvlvriddrdakialaqaeaelakakrqykqtaanssslnsqvvvradeinsakaqvaqaqadydkaalelnrraqlaasgavskeeltkaqsavetakaglelakaglaqatssrkaaestlaanealiqgvsetstpdvqvaqahveqaqldlertvirapvdgvitrrniqvgqrvapgtsmmmivplndlyvdanfkESQLKKVRPGQPVTLTSDLYGDDV--EYHGKVVGFSGGtgsafalipaqnatgnwikvvqRLPVRIALDPKELAEHPLRVGLSMEAKVD
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

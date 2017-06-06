@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="6AA144EE-4ADD-11E7-96B0-C23295374F7B">
+    <matches>
+      <protein length="225">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF03720.13" id="UDPG_MGDP_dh_C" type="Pfam-A" class="Domain">
+            <location start="105" end="209" ali_start="105" ali_end="209" hmm_start="1" hmm_end="105" evalue="4e-26" bitscore="91.3" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[ailGlafKkdtdDlReSpaldiieeLleegaevkiyDPkvkeeaveaeleekgvevvdsleealkgadaiviltehdefkeldlaklkelmkpavvfDgrnvldp]]>
+              </hmm>
+              <match_string>
+                <![CDATA[ai+G +fK++t  + +Sp+  +++ L ++g++v+ +DP++ +e +  ++++++++++++ +ea++ga+a++++t+++++ + d+++l+++m++++++Dgrn++dp]]>
+              </match_string>
+              <pp>
+                <![CDATA[8*************************************************99***************************************************96]]>
+              </pp>
+              <seq>
+                <![CDATA[AIWGASFKENTSSTHNSPIHILLAALWAQGVKVRLHDPQALDEIATTYGDREDLVLCADQYEAAQGAHALCLVTAWKQYWSPDFKQLQQVMQHPLILDGRNIYDP]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       ailGlafKkdtdDlReSpaldiieeLleegaevkiyDPkvkeeaveaeleekgvevvdsleealkgadaiviltehdefkeldlaklkelmkpavvfDgrnvldp
+#MATCH     ai+G +fK++t  + +Sp+  +++ L ++g++v+ +DP++ +e +  ++++++++++++ +ea++ga+a++++t+++++ + d+++l+++m++++++Dgrn++dp
+#PP        8*************************************************99***************************************************96
+#SEQ       AIWGASFKENTSSTHNSPIHILLAALWAQGVKVRLHDPQALDEIATTYGDREDLVLCADQYEAAQGAHALCLVTAWKQYWSPDFKQLQQVMQHPLILDGRNIYDP
+                ]]>
+              </raw>
+            </location>
+          </match>
+          <match accession="PF00984.17" id="UDPG_MGDP_dh" type="Pfam-A" class="Domain">
+            <location start="1" end="82" ali_start="1" ali_end="81" hmm_start="13" hmm_end="93" evalue="8.5e-22" bitscore="77.0" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[flatkIsfiNelanlcealgidveeVieavgldprigpkflkpglGvGGsclpkDvkaLvalaeelgleaelleavrevNe]]>
+              </hmm>
+              <match_string>
+                <![CDATA[+lat+Is++N+la+++e+lgid+++V +++++d+rig ++l++g+G+GG+ +  D+  L ++++  g + +lle+v ++Ne]]>
+              </match_string>
+              <pp>
+                <![CDATA[79******************************************************************************8]]>
+              </pp>
+              <seq>
+                <![CDATA[MLATRISYMNDLAMVAEKLGIDIANVKHGIAADTRIGAAYLSAGVGFGGENFSHDILTLSSTVSGTGAKSRLLEQVWAINE]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       flatkIsfiNelanlcealgidveeVieavgldprigpkflkpglGvGGsclpkDvkaLvalaeelgleaelleavrevNe
+#MATCH     +lat+Is++N+la+++e+lgid+++V +++++d+rig ++l++g+G+GG+ +  D+  L ++++  g + +lle+v ++Ne
+#PP        79******************************************************************************8
+#SEQ       MLATRISYMNDLAMVAEKLGIDIANVKHGIAADTRIGAAYLSAGVGFGGENFSHDILTLSSTVSGTGAKSRLLEQVWAINE
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

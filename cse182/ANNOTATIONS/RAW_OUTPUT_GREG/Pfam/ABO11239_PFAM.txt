@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="BD949A80-4ADC-11E7-97EC-A1A45F09777C">
+    <matches>
+      <protein length="196">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF07690.14" id="MFS_1" type="Pfam-A" class="Family">
+            <location start="23" end="178" ali_start="24" ali_end="165" hmm_start="3" hmm_end="145" evalue="5.5e-10" bitscore="38.6" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[laaflsalarsilgpalplalaedlgispseigllltlyalgaavaslplGrlsdrfGrrr.vlllglllfalg.lllllfasslwlllvlrvlqGlgagalfpagaaliadwfpk.eergraigllsagfslGailg.pllgglla]]>
+              </hmm>
+              <match_string>
+                <![CDATA[l++f  ++a+s+ +p++p + ++ l+++++ +glll + ++g+++a++ +G+l+ r+G r+ + ++++ll++l  +l ++  +sl  ++v+ ++ G +a +++ +++ l a ++ k + r+++ ++ ++  slG ++g +l+ +lla]]>
+              </match_string>
+              <pp>
+                <![CDATA[5789999***********.******************************************8888888888888555555..99889*********996.55555556666666662555555555555.56666666265555555]]>
+              </pp>
+              <seq>
+                <![CDATA[LSFFSLGFAISAWAPLIP-YAQQRLNLNHANFGLLLLCMGIGSMIAMPATGALVKRWGCRPlIAVATILLMVLLpSLTIW--HSLVSMAVALFIFGTAA-GSLGVAINLQAVVVEKhSLRALMSSFHGM-CSLGGLIGaMLVTALLA]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       laaflsalarsilgpalplalaedlgispseigllltlyalgaavaslplGrlsdrfGrrr.vlllglllfalg.lllllfasslwlllvlrvlqGlgagalfpagaaliadwfpk.eergraigllsagfslGailg.pllgglla
+#MATCH     l++f  ++a+s+ +p++p + ++ l+++++ +glll + ++g+++a++ +G+l+ r+G r+ + ++++ll++l  +l ++  +sl  ++v+ ++ G +a +++ +++ l a ++ k + r+++ ++ ++  slG ++g +l+ +lla
+#PP        5789999***********.******************************************8888888888888555555..99889*********996.55555556666666662555555555555.56666666265555555
+#SEQ       LSFFSLGFAISAWAPLIP-YAQQRLNLNHANFGLLLLCMGIGSMIAMPATGALVKRWGCRPlIAVATILLMVLLpSLTIW--HSLVSMAVALFIFGTAA-GSLGVAINLQAVVVEKhSLRALMSSFHGM-CSLGGLIGaMLVTALLA
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

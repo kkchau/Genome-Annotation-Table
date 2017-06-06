@@ -21,13 +21,14 @@ def base(request):
         'pfam': 0, 
         'prosite': 0, 
         'kegg': 0, 
+        'nuc': 0,
         'go': 0, 
         'coment': 0
     }
 
     # calculate statistics
     for annotation in annotations:
-        fields = ['name', 'blast', 'pfam', 'prosite', 'kegg', 'go', 'coment']
+        fields = ['name', 'blast', 'pfam', 'prosite', 'kegg', 'nuc', 'go', 'coment']
         for key in fields:
             if getattr(annotation, key):
                 statistics[key] += 1
@@ -61,6 +62,7 @@ def raw_disp(request, filename):
         'Pfam': ['No Annotation'], 
         'Prosite': ['No Annotation'], 
         'KEGG': ['No Annotation'], 
+        'NucPloc': ['No Annotation'],
         'GO': ['No Annotation']
     }
     for a in raw_annotations:

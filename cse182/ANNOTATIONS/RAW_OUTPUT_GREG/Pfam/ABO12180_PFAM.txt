@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="FD4E2E70-4ADC-11E7-9BFF-A6A45F09777C">
+    <matches>
+      <protein length="247">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF00072.22" id="Response_reg" type="Pfam-A" class="Domain">
+            <location start="15" end="124" ali_start="15" ali_end="123" hmm_start="1" hmm_end="111" evalue="2.1e-29" bitscore="101.8" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[vlivdDdplvrellrqlleeegyeevaeaedgkealellkeekvdlillDinmpgmdGlellkeireedpelpviiltahseeedavealkagaddflsKpfdpeeLlkal]]>
+              </hmm>
+              <match_string>
+                <![CDATA[+l+v+Dd ++ ++++++l++eg+ +v  a +gk+a+el  ++ +dlillDi++p+++G e+l++ir++  ++pvi+lta +++ d+v al++gaddf++Kpf+p+e+++++]]>
+              </match_string>
+              <pp>
+                <![CDATA[8**********************.9999***************************************99.*************************************9998]]>
+              </pp>
+              <seq>
+                <![CDATA[ILVVEDDYDIGDIIENYLKREGM-SVIRAMNGKQAIELHASQPIDLILLDIKLPELNGWEVLNKIRQKA-QTPVIMLTALDQDIDKVMALRIGADDFVVKPFNPNEVVARV]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       vlivdDdplvrellrqlleeegyeevaeaedgkealellkeekvdlillDinmpgmdGlellkeireedpelpviiltahseeedavealkagaddflsKpfdpeeLlkal
+#MATCH     +l+v+Dd ++ ++++++l++eg+ +v  a +gk+a+el  ++ +dlillDi++p+++G e+l++ir++  ++pvi+lta +++ d+v al++gaddf++Kpf+p+e+++++
+#PP        8**********************.9999***************************************99.*************************************9998
+#SEQ       ILVVEDDYDIGDIIENYLKREGM-SVIRAMNGKQAIELHASQPIDLILLDIKLPELNGWEVLNKIRQKA-QTPVIMLTALDQDIDKVMALRIGADDFVVKPFNPNEVVARV
+                ]]>
+              </raw>
+            </location>
+          </match>
+          <match accession="PF00486.26" id="Trans_reg_C" type="Pfam-A" class="Domain">
+            <location start="160" end="237" ali_start="166" ali_end="237" hmm_start="4" hmm_end="77" evalue="3e-17" bitscore="62.4" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[veltpkefklLelLlenpgrvvsreeLleevwgededvddrtvdvhisrLRkkLeddekkprlIetvrgvGYrl]]>
+              </hmm>
+              <match_string>
+                <![CDATA[++lt +e+k++ +++ +p++v++r eL++++ ++++   +rtvd+h+s+LRkkLe+++   +++ +vrgvGYrl]]>
+              </match_string>
+              <pp>
+                <![CDATA[689******************************998.*******************65.447**********97]]>
+              </pp>
+              <seq>
+                <![CDATA[LNLTLTEYKIISFMIDQPHKVFTRGELMNHCMNDSD-ALERTVDSHVSKLRKKLEEQG-IFQMLINVRGVGYRL]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       veltpkefklLelLlenpgrvvsreeLleevwgededvddrtvdvhisrLRkkLeddekkprlIetvrgvGYrl
+#MATCH     ++lt +e+k++ +++ +p++v++r eL++++ ++++   +rtvd+h+s+LRkkLe+++   +++ +vrgvGYrl
+#PP        689******************************998.*******************65.447**********97
+#SEQ       LNLTLTEYKIISFMIDQPHKVFTRGELMNHCMNDSD-ALERTVDSHVSKLRKKLEEQG-IFQMLINVRGVGYRL
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

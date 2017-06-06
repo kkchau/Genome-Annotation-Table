@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="B2F9C492-4ADC-11E7-8815-A5A45F09777C">
+    <matches>
+      <protein length="293">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF03466.18" id="LysR_substrate" type="Pfam-A" class="Family">
+            <location start="84" end="285" ali_start="85" ali_end="284" hmm_start="2" hmm_end="208" evalue="1e-28" bitscore="100.0" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[gglrgrLrigapptlaayllppllarfraryPevelelvegdseelldllaegelDlairlgppedsglearpLaeeplvlvaspdhpLargepv.sledLadeplilleegsglrdlledalreaglkprvalevnsleallalvaaGlGiallprsavrdeladgrlvalplpepplprelylvyrkgrelspavrafidflreal]]>
+              </hmm>
+              <match_string>
+                <![CDATA[+ l+gr+rig+p+ +++ +l++lla+f  +yP ++++l   +   +++ l ++e+D+++  ++p++  +++++L ++ l ++ s+++ La+  p+ +ledL +++++ + ++  +  +l   l++  lk+++ ++++s+ a + +v+aG G+a+lp+++++d    ++l+ +  ++ +++ ++++++  + ++ p+++ ++d+lr+++]]>
+              </match_string>
+              <pp>
+                <![CDATA[789***************************************..****.**************************************.********************997777777776.8899***********************************99...999997777777999************************9975]]>
+              </pp>
+              <seq>
+                <![CDATA[QPLQGRVRIGTPEGFGTAFLARLLAEFSIQYPLLTIDLIPVP--KMIK-LSHREADIVVSIERPTSGPYIITRLSDYCLKIYGSQNY-LAQNPPIrRLEDLTQHRFVNYIDDLVYSPELY-CLERLPLKLNANFRSSSILAQQIAVSAGAGLAILPKFLADD---KPELEEVLEQQVRFTHTFWMLTFVDLQHEPRIKLVWDYLRKQA]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       gglrgrLrigapptlaayllppllarfraryPevelelvegdseelldllaegelDlairlgppedsglearpLaeeplvlvaspdhpLargepv.sledLadeplilleegsglrdlledalreaglkprvalevnsleallalvaaGlGiallprsavrdeladgrlvalplpepplprelylvyrkgrelspavrafidflreal
+#MATCH     + l+gr+rig+p+ +++ +l++lla+f  +yP ++++l   +   +++ l ++e+D+++  ++p++  +++++L ++ l ++ s+++ La+  p+ +ledL +++++ + ++  +  +l   l++  lk+++ ++++s+ a + +v+aG G+a+lp+++++d    ++l+ +  ++ +++ ++++++  + ++ p+++ ++d+lr+++
+#PP        789***************************************..****.**************************************.********************997777777776.8899***********************************99...999997777777999************************9975
+#SEQ       QPLQGRVRIGTPEGFGTAFLARLLAEFSIQYPLLTIDLIPVP--KMIK-LSHREADIVVSIERPTSGPYIITRLSDYCLKIYGSQNY-LAQNPPIrRLEDLTQHRFVNYIDDLVYSPELY-CLERLPLKLNANFRSSSILAQQIAVSAGAGLAILPKFLADD---KPELEEVLEQQVRFTHTFWMLTFVDLQHEPRIKLVWDYLRKQA
+                ]]>
+              </raw>
+            </location>
+          </match>
+          <match accession="PF00126.25" id="HTH_1" type="Pfam-A" class="Domain">
+            <location start="5" end="64" ali_start="5" ali_end="63" hmm_start="1" hmm_end="59" evalue="3.3e-13" bitscore="49.2" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[lrqlrlfvavaeegsftrAAeeLglsqpavsrqikrLEeelgvpLfeRtgrglrLTeaG]]>
+              </hmm>
+              <match_string>
+                <![CDATA[+++l+ f+ +a+++++t AA+  g+ +++v r+i++LE +lg++Lf R   g +LT +G]]>
+              </match_string>
+              <pp>
+                <![CDATA[589*****************************************************998]]>
+              </pp>
+              <seq>
+                <![CDATA[WDHLQFFLVLARTKTLTNAARIIGVEHSTVARRIQALELALGTTLFKREATGYELTLEG]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       lrqlrlfvavaeegsftrAAeeLglsqpavsrqikrLEeelgvpLfeRtgrglrLTeaG
+#MATCH     +++l+ f+ +a+++++t AA+  g+ +++v r+i++LE +lg++Lf R   g +LT +G
+#PP        589*****************************************************998
+#SEQ       WDHLQFFLVLARTKTLTNAARIIGVEHSTVARRIQALELALGTTLFKREATGYELTLEG
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="A74F9360-4ADC-11E7-8815-A5A45F09777C">
+    <matches>
+      <protein length="85">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF00462.22" id="Glutaredoxin" type="Pfam-A" class="Domain">
+            <location start="5" end="65" ali_start="5" ali_end="65" hmm_start="1" hmm_end="60" evalue="1.8e-22" bitscore="79.2" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[vvlftkptCpyCkkakrlLkelgvkfeeidvdkde.eireelkelsgvrtvPqvfidgkhv]]>
+              </hmm>
+              <match_string>
+                <![CDATA[v++++++ CpyC++ak+lL+++gv+++e++++ ++ e+r+el+++++ rtvPq+fi+++++]]>
+              </match_string>
+              <pp>
+                <![CDATA[89*******************************956***********************97]]>
+              </pp>
+              <seq>
+                <![CDATA[VIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEApEVRAELMQRTNHRTVPQIFINDQFI]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       vvlftkptCpyCkkakrlLkelgvkfeeidvdkde.eireelkelsgvrtvPqvfidgkhv
+#MATCH     v++++++ CpyC++ak+lL+++gv+++e++++ ++ e+r+el+++++ rtvPq+fi+++++
+#PP        89*******************************956***********************97
+#SEQ       VIVYSTSVCPYCVRAKQLLERKGVAYKEVNLSVEApEVRAELMQRTNHRTVPQIFINDQFI
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

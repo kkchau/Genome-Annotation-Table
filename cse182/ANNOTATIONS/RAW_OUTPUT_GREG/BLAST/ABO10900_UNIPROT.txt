@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="blastp" version="BLASTP 2.2.29+"/>
+  <commandLine command="/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.29+/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-I20170606-181421-0879-76904705-pg.sequence  -num_threads 16 -outfmt 11 -out ncbiblast-I20170606-181421-0879-76904705-pg.archive -matrix BLOSUM62 -num_alignments 50 -evalue 10 -gapopen 11 -gapextend 1 -seg no -comp_based_stats F"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="EMBOSS_001" type="PROTEIN" length="92"/>
+   </sequences>
+   <databases total="1" sequences="85866869" letters="28909108493">
+    <database number="1" name="uniprotkb" type="PROTEIN" created="2017-05-08T11:31:00+01:00"/>
+   </databases>
+   <alignments>50</alignments>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>F</filter>
+   <gapExtension>1.0</gapExtension>
+   <gapOpen>11.0</gapOpen>
+   <matrix>BLOSUM62</matrix>
+   <scores>50</scores>
+  </parameters>
+  <timeInfo start="2017-06-06T18:14:22+01:00" end="2017-06-06T18:14:54+01:00" search="P0Y0M0DT0H0M32.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="50">
+   <hit number="1" database="TR" id="A0A062FBR2_ACIBA" ac="A0A062FBR2" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii 754286 GN=J567_2467 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="TR" id="A0A009TPG1_ACIBA" ac="A0A009TPG1" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii 99063 GN=J529_0673 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="TR" id="N9J6U7_ACIBA" ac="N9J6U7" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 601 GN=F918_03134 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="TR" id="A0A158LQ67_ACIBA" ac="A0A158LQ67" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 190 GN=F962_03246 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="5" database="TR" id="U1VGG1_ACIBA" ac="U1VGG1" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii EGD-HP18 GN=N173_08335 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="6" database="TR" id="A0A171EKI4_ACIBA" ac="A0A171EKI4" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii Naval-82 GN=ACINNAV82_0434 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="7" database="TR" id="A0A062FP16_ACIBA" ac="A0A062FP16" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii 940793 GN=J532_2080 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="8" database="TR" id="A0A062EY00_ACIBA" ac="A0A062EY00" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii 855125 GN=J560_1820 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="9" database="TR" id="A0A009PN52_ACIBA" ac="A0A009PN52" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii 625974 GN=J506_0221 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="10" database="TR" id="A0A009K3G3_ACIBA" ac="A0A009K3G3" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii 1419130 GN=J518_0093 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="11" database="TR" id="A0A062DSK7_ACIBA" ac="A0A062DSK7" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii 496487 GN=J524_0083 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="12" database="TR" id="A0A062IL48_ACIBA" ac="A0A062IL48" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii 21072 GN=J596_0594 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="13" database="TR" id="A0A009RJ83_ACIBA" ac="A0A009RJ83" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii 951631 GN=J552_0136 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="14" database="TR" id="A0A0J1DCI4_ACIBA" ac="A0A0J1DCI4" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii MRSN 3527 GN=T630_0508 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="15" database="TR" id="A0A062MWD6_ACIBA" ac="A0A062MWD6" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii 1288284 GN=J608_0712 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="16" database="TR" id="B0V4N4_ACIBY" ac="B0V4N4" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii (strain AYE) GN=ABAYE3328 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="17" database="TR" id="S3T0I5_ACIBA" ac="S3T0I5" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 410 GN=F910_03403 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="18" database="TR" id="N9J530_ACIBA" ac="N9J530" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 80 GN=F913_03696 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="19" database="TR" id="N8Z540_ACIBA" ac="N8Z540" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 60 GN=F961_02655 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="20" database="TR" id="A0A062G9Z4_ACIBA" ac="A0A062G9Z4" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii 15827 GN=J530_0654 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="21" database="TR" id="A0A0R1BG77_ACINO" ac="A0A0R1BG77" length="92" description="Uncharacterized protein OS=Acinetobacter nosocomialis GN=APC94_18460 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="22" database="TR" id="A0A009IMK7_ACIBA" ac="A0A009IMK7" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii 1295743 GN=J512_1763 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="23" database="TR" id="L9P7E1_ACIBA" ac="L9P7E1" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii Naval-57 GN=ACINNAV57_0473 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="24" database="TR" id="A0A009GG62_ACIBA" ac="A0A009GG62" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii 118362 GN=J517_0323 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="25" database="TR" id="A0A062ITY9_ACIBA" ac="A0A062ITY9" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii 233846 GN=J635_2301 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="26" database="TR" id="D0CAL3_ACIB2" ac="D0CAL3" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81) GN=F911_03463 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="27" database="TR" id="V5VH06_ACIBA" ac="V5VH06" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii GN=A7M79_04400 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>1.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="28" database="TR" id="G2JFB3_ACIBA" ac="G2JFB3" length="109" description="Uncharacterized protein OS=Acinetobacter baumannii MDR-ZJ06 GN=ABZJ_00486 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>2.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="18" end="109">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="29" database="TR" id="A0A0E1Q0N4_ACIBA" ac="A0A0E1Q0N4" length="109" description="Uncharacterized protein OS=Acinetobacter baumannii NCGM 237 GN=AB237_3016 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>452</score>
+      <bits>178.718</bits>
+      <expectation>2.6E-55</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="18" end="109">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="30" database="TR" id="A0A1C4HEF9_ACICA" ac="A0A1C4HEF9" length="92" description="Uncharacterised protein OS=Acinetobacter calcoaceticus GN=NCTC7364_00463 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>449</score>
+      <bits>177.563</bits>
+      <expectation>4.5E-55</expectation>
+      <identity>98.9</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQH+IQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHLIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="31" database="TR" id="N9HWB2_ACIBA" ac="N9HWB2" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 201 GN=F922_03295 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>448</score>
+      <bits>177.178</bits>
+      <expectation>6.4E-55</expectation>
+      <identity>98.9</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSD+LKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDKLKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="32" database="TR" id="A0A0E2GUY6_ACINO" ac="A0A0E2GUY6" length="92" description="Uncharacterized protein OS=Acinetobacter nosocomialis NIPH 386 GN=F958_00259 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>447</score>
+      <bits>176.792</bits>
+      <expectation>9.0E-55</expectation>
+      <identity>98.9</identity>
+      <positives>98.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELK ILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKEILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="33" database="TR" id="K9BBH2_9GAMM" ac="K9BBH2" length="92" description="Uncharacterized protein OS=Acinetobacter sp. WC-487 GN=ACINWC487_0448 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>447</score>
+      <bits>176.792</bits>
+      <expectation>9.0E-55</expectation>
+      <identity>98.9</identity>
+      <positives>98.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELK ILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKEILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="34" database="TR" id="A0A0Q1IAW6_9GAMM" ac="A0A0Q1IAW6" length="92" description="Uncharacterized protein OS=Acinetobacter sp. FDAARGOS_131 GN=AL489_03175 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>447</score>
+      <bits>176.792</bits>
+      <expectation>9.0E-55</expectation>
+      <identity>98.9</identity>
+      <positives>98.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELK ILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKEILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="35" database="TR" id="A0A062ST14_ACIBA" ac="A0A062ST14" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii 25977_9 GN=J812_1457 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>447</score>
+      <bits>176.792</bits>
+      <expectation>9.0E-55</expectation>
+      <identity>98.9</identity>
+      <positives>98.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELK ILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKEILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="36" database="TR" id="A0A014E2L3_9GAMM" ac="A0A014E2L3" length="92" description="Uncharacterized protein OS=Acinetobacter sp. 25977_3 GN=J806_0442 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>447</score>
+      <bits>176.792</bits>
+      <expectation>9.0E-55</expectation>
+      <identity>98.9</identity>
+      <positives>98.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELK ILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKEILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="37" database="TR" id="A0A014CEG4_9GAMM" ac="A0A014CEG4" length="92" description="Uncharacterized protein OS=Acinetobacter sp. 25977_4 GN=J807_0287 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>447</score>
+      <bits>176.792</bits>
+      <expectation>9.0E-55</expectation>
+      <identity>98.9</identity>
+      <positives>98.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELK ILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKEILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="38" database="TR" id="L9LUZ8_9GAMM" ac="L9LUZ8" length="92" description="Uncharacterized protein OS=Acinetobacter sp. OIFC021 GN=ACIN5021_0497 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>447</score>
+      <bits>176.792</bits>
+      <expectation>9.0E-55</expectation>
+      <identity>98.9</identity>
+      <positives>98.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELK ILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKEILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="39" database="TR" id="A0A140QZH7_9GAMM" ac="A0A140QZH7" length="92" description="Uncharacterized protein OS=Acinetobacter sp. 216872 GN=J633_0483 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>447</score>
+      <bits>176.792</bits>
+      <expectation>9.0E-55</expectation>
+      <identity>98.9</identity>
+      <positives>98.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELK ILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKEILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="40" database="TR" id="A0A014DUL2_9GAMM" ac="A0A014DUL2" length="92" description="Uncharacterized protein OS=Acinetobacter sp. 25977_2 GN=J805_0926 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>447</score>
+      <bits>176.792</bits>
+      <expectation>9.0E-55</expectation>
+      <identity>98.9</identity>
+      <positives>98.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELK ILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKEILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="41" database="TR" id="A0A062L695_ACIBA" ac="A0A062L695" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii 1571545 GN=J715_0126 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>447</score>
+      <bits>176.792</bits>
+      <expectation>9.0E-55</expectation>
+      <identity>98.9</identity>
+      <positives>98.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELK ILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKEILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="42" database="TR" id="A0A014G2W7_9GAMM" ac="A0A014G2W7" length="92" description="Uncharacterized protein OS=Acinetobacter sp. 25977_10 GN=J813_2508 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>447</score>
+      <bits>176.792</bits>
+      <expectation>9.0E-55</expectation>
+      <identity>98.9</identity>
+      <positives>98.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELK ILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKEILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="43" database="TR" id="A0A014ED46_9GAMM" ac="A0A014ED46" length="92" description="Uncharacterized protein OS=Acinetobacter sp. 25977_6 GN=J809_0383 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>447</score>
+      <bits>176.792</bits>
+      <expectation>9.0E-55</expectation>
+      <identity>98.9</identity>
+      <positives>98.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELK ILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKEILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="44" database="TR" id="A0A014BQ88_9GAMM" ac="A0A014BQ88" length="92" description="Uncharacterized protein OS=Acinetobacter sp. 25977_7 GN=J810_0162 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>447</score>
+      <bits>176.792</bits>
+      <expectation>9.0E-55</expectation>
+      <identity>98.9</identity>
+      <positives>98.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELK ILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKEILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="45" database="TR" id="A0A014BAX0_9GAMM" ac="A0A014BAX0" length="92" description="Uncharacterized protein OS=Acinetobacter sp. 25977_8 GN=J811_1161 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>447</score>
+      <bits>176.792</bits>
+      <expectation>9.0E-55</expectation>
+      <identity>98.9</identity>
+      <positives>98.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELK ILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKEILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="46" database="TR" id="A0A014D0R4_9GAMM" ac="A0A014D0R4" length="92" description="Uncharacterized protein OS=Acinetobacter sp. 25977_1 GN=J804_0538 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>447</score>
+      <bits>176.792</bits>
+      <expectation>9.0E-55</expectation>
+      <identity>98.9</identity>
+      <positives>98.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELK ILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKEILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="47" database="TR" id="A0A062N320_9GAMM" ac="A0A062N320" length="92" description="Uncharacterized protein OS=Acinetobacter sp. 796380-1375 GN=J732_2298 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>447</score>
+      <bits>176.792</bits>
+      <expectation>9.0E-55</expectation>
+      <identity>98.9</identity>
+      <positives>98.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELK ILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKEILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="48" database="TR" id="B0VL82_ACIBS" ac="B0VL82" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii (strain SDF) GN=ABSDF3066 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>446</score>
+      <bits>176.407</bits>
+      <expectation>1.3E-54</expectation>
+      <identity>98.9</identity>
+      <positives>98.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGS KEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSAKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="49" database="TR" id="A0A0B2XZE4_ACIBA" ac="A0A0B2XZE4" length="92" description="Uncharacterized protein OS=Acinetobacter baumannii GN=NT90_02065 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>446</score>
+      <bits>176.407</bits>
+      <expectation>1.3E-54</expectation>
+      <identity>97.8</identity>
+      <positives>98.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELK ILGEQTP+VAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKEILGEQTPVVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="50" database="TR" id="N8QZU8_9GAMM" ac="N8QZU8" length="92" description="Uncharacterized protein OS=Acinetobacter seifertii GN=A7P21_05960 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>446</score>
+      <bits>176.407</bits>
+      <expectation>1.3E-54</expectation>
+      <identity>97.8</identity>
+      <positives>98.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKAILGEQTPIVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</querySeq>
+      <pattern>MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELK ILGEQTP+VAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</pattern>
+      <matchSeq start="1" end="92">MSIQQLKELFGNQEAVLELVQLEGGELALRNAGSEKEPLVKIQFSDELKEILGEQTPVVAQHMIQAALFGLLEKQVNEWQAEVVDEQPKFLS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult></EBIApplicationResult>

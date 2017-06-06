@@ -1,0 +1,422 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"><!-- automatically added by Apache -->
+    <link rel="shortcut icon" href="http://web.expasy.org/favicon.ico" ><!-- automatically added by Apache -->
+    <link rel="stylesheet" href="/css/sib_css/sib.css" type="text/css" media="screen" charset="utf-8" >
+	   <link rel="stylesheet" href="/css/sib_css/sib_print.css" type="text/css" media="print" charset="utf-8" >
+           <!--[if lte IE 6]>
+	   <link rel="stylesheet" href="/css/sib_css/sib_ie6.css" type="text/css" media="screen" title="" charset="utf-8">
+           <![endif]-->
+           <link rel="stylesheet" href="/css/base.css" type="text/css"><!-- automatically added by Apache -->
+<link rel="stylesheet" href="/css/unirule.css" type="text/css"><script src="/unirule/js/unirule.js" language="JavaScript" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<!-- If you have jQuery directly, then skip next line -->
+<script src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+    // If you have jQuery directly, use the following line, instead
+    // $(function() {
+    // If you have jQuery via Google AJAX Libraries
+    $(function() {
+        $(window).scroll(sticky_relocate);
+        sticky_relocate();
+    });
+</script>
+<style type="text/css">
+    .diag_core {font-size:large;}
+    .skipflag {color: #dd4400;}
+    .error {color: red;}
+    .highlight {background-color:#aaddee;}
+
+    #description:before, #technical:before, #references:before, #miscellaneous:before {
+        display:block;
+        content:"";
+        height:3.0em;
+        margin:-3.0em 0 0;
+    }
+</style>
+<title>PROSITE</title>
+  </head>
+  <body>
+<!-- ********************************************************************************************** -->
+<!-- START OF HEADER information on top of the page -->
+<div id='sib_top'><a name='TOP'></a></div>
+<div id='sib_container'>
+
+<!-- TODO: Change id to "sib_header" or "sib_header_small" -->
+<div id='sib_header_small'>
+
+<!-- SIB-ExPASy -->
+<div id="sib_expasy_logo">
+<a href="http://www.isb-sib.ch" id="sib_link" title="SIB Swiss Institute of Bioinformatics"></a>
+<a href="http://www.expasy.org" id="expasy_link" title="ExPASy - SIB Bioinformatics Resource Portal"></a>
+</div>
+<!-- SIB-ExPASy END -->
+
+<div class='sib_title_no_logo'>
+<h1><a href='http://prosite.expasy.org'>PROSITE</a></h1>
+</div>
+
+<! -- Additionnal resource header -->
+<div id='resource_header'></div>
+
+<div id='sib_header_nav'>
+<a href="http://prosite.expasy.org" title="Home page">Home</a>&nbsp;|&nbsp;<a style="font-weight: bold; color: rgb(204,0,0) !important;" href="/contact" title="Contact">Contact</a></div>
+</div>
+<!-- END OF HEADER -->
+<!-- ********************************************************************************************** -->
+<div id='sib_body'>
+<!-- automatically added by Apache -->
+<div class="core"><table class="unirule_head">
+    <tr>
+        
+            <td rowspan="2" class="logo" style="vertical-align:bottom;"><img src="/images/prosite/prosite.gif" alt="Prosite logo"></td>
+        
+        <td class="nav">
+            <div class="navig_menu">
+                <ul class="prosite">
+                    
+                        <li class="prosite_selected"><a href="/prosite.html">Home</a></li>
+                    
+
+                    
+                        <li><a href="/scanprosite/">ScanProsite</a></li>
+                    
+
+                    
+                        <li><a href="/prorule.html">ProRule</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_doc.html">Documents</a></li>
+                    
+
+                    
+                        <li><a href="ftp://ftp.expasy.org/databases/prosite/">Downloads</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_link.html">Links</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_funding.html">Funding</a></li>
+                    
+                </ul>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="title">PROSITE documentation PDOC00012 [for PROSITE entry PS50075]</td>
+    </tr>
+</table>
+<br>
+<div class="section1">Carrier protein (CP) domain profile and phosphopantetheine attachment site signature</div><br><div id="sticky-anchor"></div>
+<div id="sticky">
+    <div id="menu_hor">
+        <ul>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#description">Description</a></li>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#technical">Technical section</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#references">References</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#copyright">Copyright</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#miscellaneous">Miscellaneous</a></li>
+
+	</ul>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div id="description" class="section5">Description</div><p>Carrier protein  (CP)  domains are crucial components involved in the transfer
+of thiol  ester-bound  intermediates  during  the  biosynthesis of primary and
+secondary metabolites  such  as  fatty  acids,  polyketides,  and nonribosomal
+peptides. CP  domains, also referred to as thiolation domains, are responsible
+for transporting  the  substrate  and  chain  intermediates  to  the catalytic
+centers of  the  polyketide  synthase  (PKS),  nonribosomal peptide synthetase
+(NRPS), and  fatty  acid synthase (FAS) assembly lines. The biosynthetic chain
+intermediates are   tethered   as  thioesters  on  the  terminal  thiol  of  a
+phosphopantetheine (or pantetheine 4&#39; phosphate) (Ppant) prosthetic group that
+is covalently  attached  to  an  invariant serine residue of the CP domain. CP
+domains, typically  consisting  of 70–100 residues, are either freestanding or
+embedded in  these  multifunctional  proteins  and exist as three variants: an
+acyl carrier  protein (ACP) found in PKSs and FASs, a peptidyl carrier protein
+(PCP) found in NRPS systems, and an aryl carrier protein (ArCP) commonly found
+in siderophore NRPS synthetases [<a title="Qiao C. et al. [J. Am. Chem. Soc. 129:6350-6351(2007)]" href="#ref1" onClick="highLightRef('1')">1</a>,<a title="Wattana-amorn P. et al. [Biochemistry 49:2186-2193(2010)]" href="#ref2" onClick="highLightRef('2')">2</a>,<a title="Byers D.M. et al. [Biochem. Cell Biol. 85:649-662(2007)]" href="#ref3" onClick="highLightRef('3')">3</a>]. CP domains have been found in various
+enzyme systems which are listed below:
+</p>
+<ul>
+<li>Fatty  acid  synthase  (FAS),  which  catalyzes the formation of long-chain
+   fatty acids  from  acetyl-CoA,  malonyl-CoA  and NADPH. Bacterial and plant
+   chloroplast FAS are composed of eight separate subunits which correspond to
+   the different enzymatic activities; CP is one of these polypeptides. Fungal
+   FAS consists  of two multifunctional proteins, FAS1 and FAS2; the CP domain
+   is located  in the N-terminal section of FAS2. Vertebrate FAS consists of a
+   single multifunctional  enzyme;  the CP domain is located between the &beta;-
+   ketoacyl reductase domain and the C-terminal thioesterase domain [<a title="Witkowski A. et al. [Eur. J. Biochem. 198:571-579(1991)]" href="#ref4" onClick="highLightRef('4')">4</a>].
+</li>
+<li>Polyketide antibiotics  synthase enzyme systems.  Polyketides are secondary
+   metabolites produced from simple fatty acids, by microorganisms and plants.
+   CP is  one of the polypeptidic  components  involved in the biosynthesis of
+   Streptomyces polyketide  antibiotics  actinorhodin,  curamycin, granatacin,
+   monensin, oxytetracycline and tetracenomycin C.
+</li>
+<li>Bacillus  subtilis  putative polyketide synthases pksK, pksL and pksM which
+   respectively contain three, five and one CP domains.
+</li>
+<li>The multifunctional 6-methysalicylic acid synthase (MSAS) from  Penicillium
+   patulum. This is a multifunctional enzyme involved in the biosynthesis of a
+   polyketide antibiotic  and  which  contains  a  CP domain in the C-terminal
+   extremity.
+</li>
+<li>Multifunctional  mycocerosic  acid  synthase  (gene mas) from Mycobacterium
+   bovis.
+</li>
+<li>Gramicidin  S  synthase  I  (gene  grsA)  from Bacillus brevis. This enzyme
+   catalyzes the  first  step  in  the  biosynthesis  of the cyclic antibiotic
+   gramicidin S.
+</li>
+<li>Tyrocidine  synthase  I  (gene  tycA)  from  Bacillus  brevis. The reaction
+   carried out by tycA is identical to that catalyzed by grsA.
+</li>
+<li>Gramicidin S synthase II (gene grsB) from Bacillus brevis. This enzyme is a
+   multifunctional protein  that  activates  and  polymerizes proline, valine,
+   ornithine and leucine. GrsB contains four CP domains.
+</li>
+<li>Erythronolide synthase proteins 1, 2 and 3 from Saccharopolyspora erythraea
+   which is   involved  in  the  biosynthesis  of  the  polyketide  antibiotic
+   erythromicin. Each of these proteins contains two CP domains.
+</li>
+<li>Conidial green pigment synthase from Aspergillus nidulans.
+</li>
+<li>ACV  synthase  from  various fungi. This enzyme catalyzes the first step in
+   the biosynthesis  of  penicillin  and  cephalosporin.  It contains three CP
+   domains.
+</li>
+<li>Enterobactin  synthase  component F (gene entF) from Escherichia coli. This
+   enzyme is  involved  in  the  ATP-dependent  activation  of  serine  during
+   enterobactin (enterochelin) biosynthesis.
+</li>
+<li>Cyclic  peptide  antibiotic  surfactin  synthase  subunits  1, 2 and 3 from
+   Bacillus subtilis.  Subunits  1  and  2 contain three related domains while
+   subunit 3 only contains a single domain.
+</li>
+<li>HC-toxin  synthase  (gene  HTS1)  from  Cochliobolus  carbonum. This enzyme
+   synthesizes HC-toxin, a cyclic tetrapeptide. HTS1 contains four CP domains.
+</li>
+<li>Fungal  mitochondrial  ACP,  which  is  part  of the respiratory chain NADH
+   dehydrogenase (complex I).
+</li>
+<li>Rhizobium  nodulation  protein  nodF,  which  probably acts as an CP in the
+   synthesis of the nodulation Nod factor fatty acyl chain.
+</li>
+</ul>
+<p>The CP  domain  fold  is  variably  referred  to as a 3- or 4-helix bundle and
+typically consists  of  3 major &alpha; helices, with helix I being antiparallel
+to helices  II and IV, plus a short 3(10) or &alpha;-helical segment (helix III)
+linking helices II and IV (see &lt;PDB:<a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1ACP&amp;ps=PS50075&amp;extract=1">1ACP</a>&gt;) [<a title="Byers D.M. et al. [Biochem. Cell Biol. 85:649-662(2007)]" href="#ref3" onClick="highLightRef('3')">3</a>].
+</p>
+<p>The sequence around the phosphopantetheine attachment site is conserved in all
+these proteins  and  can  be  used  as a signature pattern. A profile was also
+developed that spans the complete CP domain.
+</p>
+Last update:
+<p> December 2016 / Profile and text revised.
+</p>
+<div id="technical" class="section5">Technical section</div>
+<p>PROSITE methods (with tools and information) covered by this documentation:</p>
+<fieldset class="prosite1">
+<legend class="sp_tools">CARRIER,&nbsp;<a href="/PS50075">PS50075</a>;&nbsp;Carrier protein (CP) domain profile&nbsp;&nbsp;(MATRIX)</legend>
+<ul>
+<li>
+Sequences in UniProtKB/Swiss-Prot known to belong to this class: 1021<ul>
+<li>
+detected by PS50075: <a href="/PS50075#TP">1021</a> (true positives)</li>
+<li>
+undetected by PS50075: 0 (false negative or '<a href="/prosuser.html#partial_sq">partial</a>')</li>
+</ul>
+
+</li>
+<li>
+Other sequence(s) in UniProtKB/Swiss-Prot detected by PS50075:
+<br>
+NONE.
+</li>
+<li>
+<a href="/cgi-bin/prosite/PSView.cgi?ac=PS50075&amp;onebyarch=1&amp;hscale=0.6">Domain architecture view of Swiss-Prot proteins matching PS50075</a>
+<br>
+<img alt="PS50075" src="/cgi-bin/prosite/PSImage.cgi?hit=1,110,PS50075,CARRIER&amp;type=1&amp;len=110&amp;hscale=1.0" border="0" height="40">
+</li>
+<li>
+Retrieve an alignment of UniProtKB/Swiss-Prot true positive hits:<br>
+<a href="/cgi-bin/aligner?psa=PS50075&amp;color=1&amp;maxinsert=10&amp;linelen=0">Clustal format, color, condensed view</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS50075&amp;color=1">Clustal format, color</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS50075">Clustal format, plain text</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS50075&amp;format=FASTA">Fasta format</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/sequence_logo.cgi?ac=PS50075">Retrieve the sequence logo from the alignment</a>
+</li>
+<li>
+<a href=" http://www.uniprot.org/uniprot/?query=database%3A%28type%3Aprosite+PS50075%29&sort=score#orgViewBy" target="_blank">
+Taxonomic distribution of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS50075</a>
+</li>
+<li>
+<a href="http://www.uniprot.org/uniprot/?query=database:(type:prosite PS50075)" target="_blank">
+Retrieve a list of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS50075</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/scanprosite_form.cgi?PS50075">Scan UniProtKB (Swiss-Prot and/or TrEMBL) entries against PS50075</a>
+</li>
+<li>
+<a href="http://www.ebi.ac.uk/pdbe-site/pdbemotif/barChartPattern?pattern1=PS50075" target="_blank">View ligand binding statistics of PS50075</a></li>
+<li>
+Matching PDB structures: <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1ACP&amp;ps=PS50075" target="_blank">1ACP</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1AF8&amp;ps=PS50075" target="_blank">1AF8</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1DNY&amp;ps=PS50075" target="_blank">1DNY</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1DV5&amp;ps=PS50075" target="_blank">1DV5</a>  ... <a href="/cgi-bin/pdb/pdb_structure_list.cgi?src=PS50075" target="_blank">[ALL]</a>
+</li>
+</fieldset>
+<br>
+<fieldset class="prosite1">
+<legend class="sp_tools">PHOSPHOPANTETHEINE,&nbsp;<a href="/PS00012">PS00012</a>;&nbsp;Phosphopantetheine attachment site&nbsp;&nbsp;(PATTERN)</legend>
+<ul>
+<li>
+Consensus pattern:<br>
+[DEQGSTALMKRH]-[LIVMFYSTAC]-[GNQ]-[LIVMFYAG]-[DNEKHS]-S-[LIVMST]-{PCFY}-[STAGCPQLIVMF]-[LIVMATN]-[DENQGTAKRHLM]-[LIVMWSTA]-[LIVGSTACR]-{LPIY}-{VY}-[LIVMFA]<br>S is the pantetheine attachment site</li>
+<li>
+Sequences in UniProtKB/Swiss-Prot known to belong to this class: 923<ul>
+<li>
+detected by PS00012: <a href="/PS00012#TP">689</a> (true positives)</li>
+<li>
+undetected by PS00012: 234 (<a href="/PS00012#FN">229</a> false negatives and <a href="/PS00012#partial">5</a> '<a href="/prosuser.html#partial_sq">partials</a>')</li>
+</ul>
+
+</li>
+<li>
+Other sequence(s) in UniProtKB/Swiss-Prot detected by PS00012:
+<br>
+<a href="/PS00012#FP">372</a> false positives and <a href="/PS00012#unknown">2</a> unknowns.
+</li>
+<li>
+Retrieve an alignment of UniProtKB/Swiss-Prot true positive hits:<br>
+<a href="/cgi-bin/aligner?psa=PS00012&amp;color=1&amp;maxinsert=10&amp;linelen=0">Clustal format, color, condensed view</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS00012&amp;color=1">Clustal format, color</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS00012">Clustal format, plain text</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS00012&amp;format=FASTA">Fasta format</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/sequence_logo.cgi?ac=PS00012">Retrieve the sequence logo from the alignment</a>
+</li>
+<li>
+<a href=" http://www.uniprot.org/uniprot/?query=database%3A%28type%3Aprosite+PS00012%29&sort=score#orgViewBy" target="_blank">
+Taxonomic distribution of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS00012</a>
+</li>
+<li>
+<a href="http://www.uniprot.org/uniprot/?query=database:(type:prosite PS00012)" target="_blank">
+Retrieve a list of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS00012</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/scanprosite_form.cgi?PS00012">Scan UniProtKB (Swiss-Prot and/or TrEMBL) entries against PS00012</a>
+</li>
+<li>
+<a href="http://www.ebi.ac.uk/pdbe-site/pdbemotif/barChartPattern?pattern1=PS00012" target="_blank">View ligand binding statistics of PS00012</a></li>
+<li>
+Matching PDB structures: <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1ACP&amp;ps=PS00012" target="_blank">1ACP</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1AF8&amp;ps=PS00012" target="_blank">1AF8</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1DNY&amp;ps=PS00012" target="_blank">1DNY</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1HY8&amp;ps=PS00012" target="_blank">1HY8</a>  ... <a href="/cgi-bin/pdb/pdb_structure_list.cgi?src=PS00012" target="_blank">[ALL]</a>
+</li>
+</fieldset>
+<br>
+<br>
+<div id="references" class="section5">References</div><br>
+<table class="grid" id="ref1" width="100%">
+<tr><td rowspan="5" width="50em">1</td><td width="100em">Authors</td><td>Qiao C., Wilson D.J., Bennett E.M., Aldrich C.C.</td></tr>
+<tr><td>Title</td><td>A mechanism-based aryl carrier protein/thiolation domain affinity probe.</td></tr>
+<tr><td>Source</td><td>J. Am. Chem. Soc. 129:6350-6351(2007).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=17469819" target="_blank">17469819</a></td></tr>
+<tr><td>DOI</td><td><a href="http://dx.doi.org/10.1021/ja069201e" target="_blank">10.1021/ja069201e</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref2" width="100%">
+<tr><td rowspan="5" width="50em">2</td><td width="100em">Authors</td><td>Wattana-amorn P., Williams C., Ploskon E., Cox R.J., Simpson T.J., Crosby J., Crump M.P.</td></tr>
+<tr><td>Title</td><td>Solution structure of an acyl carrier protein domain from a fungal type I polyketide synthase.</td></tr>
+<tr><td>Source</td><td>Biochemistry 49:2186-2193(2010).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=20136099" target="_blank">20136099</a></td></tr>
+<tr><td>DOI</td><td><a href="http://dx.doi.org/10.1021/bi902176v" target="_blank">10.1021/bi902176v</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref3" width="100%">
+<tr><td rowspan="5" width="50em">3</td><td width="100em">Authors</td><td>Byers D.M., Gong H.</td></tr>
+<tr><td>Title</td><td>Acyl carrier protein: structure-function relationships in a conserved multifunctional protein family.</td></tr>
+<tr><td>Source</td><td>Biochem. Cell Biol. 85:649-662(2007).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=18059524" target="_blank">18059524</a></td></tr>
+<tr><td>DOI</td><td><a href="http://dx.doi.org/10.1139/o07-109" target="_blank">10.1139/o07-109</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref4" width="100%">
+<tr><td rowspan="4" width="50em">4</td><td width="100em">Authors</td><td>Witkowski A., Rangan V.S., Randhawa Z.I., Amy C.M., Smith S.</td></tr>
+<tr><td>Title</td><td>Structural organization of the multifunctional animal fatty-acid synthase.</td></tr>
+<tr><td>Source</td><td>Eur. J. Biochem. 198:571-579(1991).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=2050137" target="_blank">2050137</a></td></tr>
+</table>
+<br>
+<br>
+<div id="copyright" class="section5">Copyright</div>
+<br>
+PROSITE is copyright.   It  is  produced  by  the  SIB  Swiss  Institute
+    Bioinformatics. There  are no restrictions   on its use by  non-profit
+    institutions as long as its  content is in no way modified. Usage by and
+    for commercial  entities requires a license agreement. For information
+    about  the  licensing  scheme   send  an  email to <form method="POST" name="mailformDDX2162" action="/contact" style="display:none;">
+<input type="hidden" name="recipient_email" value="license@isb-sib.ch">
+<input type="hidden" name="flag_subject" value="Prosite License">
+<input type="hidden" name="recipient_name" value="Prosite License">
+</form>
+<a href="#" onClick="document.mailformDDX2162.submit(); return false;">Prosite License</a>
+
+    or see: <a href="/prosite_license.html">prosite_license.html</a>.
+<br><br>
+<div id="miscellaneous" class="section5">Miscellaneous</div>
+<br>
+<a href="/cgi-bin/prosite/get-prodoc-entry?PDOC00012">View entry in original PROSITE document format</a><br>
+<a href="/PDOC00012.txt">View entry in raw text format (no links)</a>
+<br><br>
+</div><!-- sib_body -->
+<br clear="left" />
+</div>
+<!-- ********************************************************************************************** -->
+<!-- START OF FOOTER information at the bottom of the page -->
+<div id = 'sib_footer'>			
+  <!-- This part of the footer is _left_ justified and should contain SIB on the very left -->	
+  <div id = 'sib_footer_content'> 
+    <a href = "http://www.isb-sib.ch">SIB Swiss Institute of Bioinformatics</a>&nbsp;|&nbsp;<a href = "http://www.expasy.org/disclaimer.html">Disclaimer</a>
+
+	<!-- This part of the footer is _right_ justified -->
+	<div id = "sib_footer_right">	
+      <a href="#TOP" id = "sib_footer_gototop"><span style = "padding-left: 10px">Back to the Top</span></a>				
+    </div>
+  </div>
+</div>
+<!-- END OF FOOTER -->
+</div> <!-- sib_container -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23823438-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><!-- automatically added by Apache -->
+
+    </body>
+</html>

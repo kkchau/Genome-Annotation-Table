@@ -1,0 +1,311 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"><!-- automatically added by Apache -->
+    <link rel="shortcut icon" href="http://web.expasy.org/favicon.ico" ><!-- automatically added by Apache -->
+    <link rel="stylesheet" href="/css/sib_css/sib.css" type="text/css" media="screen" charset="utf-8" >
+	   <link rel="stylesheet" href="/css/sib_css/sib_print.css" type="text/css" media="print" charset="utf-8" >
+           <!--[if lte IE 6]>
+	   <link rel="stylesheet" href="/css/sib_css/sib_ie6.css" type="text/css" media="screen" title="" charset="utf-8">
+           <![endif]-->
+           <link rel="stylesheet" href="/css/base.css" type="text/css"><!-- automatically added by Apache -->
+<link rel="stylesheet" href="/css/unirule.css" type="text/css"><script src="/unirule/js/unirule.js" language="JavaScript" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<!-- If you have jQuery directly, then skip next line -->
+<script src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+    // If you have jQuery directly, use the following line, instead
+    // $(function() {
+    // If you have jQuery via Google AJAX Libraries
+    $(function() {
+        $(window).scroll(sticky_relocate);
+        sticky_relocate();
+    });
+</script>
+<style type="text/css">
+    .diag_core {font-size:large;}
+    .skipflag {color: #dd4400;}
+    .error {color: red;}
+    .highlight {background-color:#aaddee;}
+
+    #description:before, #technical:before, #references:before, #miscellaneous:before {
+        display:block;
+        content:"";
+        height:3.0em;
+        margin:-3.0em 0 0;
+    }
+</style>
+<title>PROSITE</title>
+  </head>
+  <body>
+<!-- ********************************************************************************************** -->
+<!-- START OF HEADER information on top of the page -->
+<div id='sib_top'><a name='TOP'></a></div>
+<div id='sib_container'>
+
+<!-- TODO: Change id to "sib_header" or "sib_header_small" -->
+<div id='sib_header_small'>
+
+<!-- SIB-ExPASy -->
+<div id="sib_expasy_logo">
+<a href="http://www.isb-sib.ch" id="sib_link" title="SIB Swiss Institute of Bioinformatics"></a>
+<a href="http://www.expasy.org" id="expasy_link" title="ExPASy - SIB Bioinformatics Resource Portal"></a>
+</div>
+<!-- SIB-ExPASy END -->
+
+<div class='sib_title_no_logo'>
+<h1><a href='http://prosite.expasy.org'>PROSITE</a></h1>
+</div>
+
+<! -- Additionnal resource header -->
+<div id='resource_header'></div>
+
+<div id='sib_header_nav'>
+<a href="http://prosite.expasy.org" title="Home page">Home</a>&nbsp;|&nbsp;<a style="font-weight: bold; color: rgb(204,0,0) !important;" href="/contact" title="Contact">Contact</a></div>
+</div>
+<!-- END OF HEADER -->
+<!-- ********************************************************************************************** -->
+<div id='sib_body'>
+<!-- automatically added by Apache -->
+<div class="core"><table class="unirule_head">
+    <tr>
+        
+            <td rowspan="2" class="logo" style="vertical-align:bottom;"><img src="/images/prosite/prosite.gif" alt="Prosite logo"></td>
+        
+        <td class="nav">
+            <div class="navig_menu">
+                <ul class="prosite">
+                    
+                        <li class="prosite_selected"><a href="/prosite.html">Home</a></li>
+                    
+
+                    
+                        <li><a href="/scanprosite/">ScanProsite</a></li>
+                    
+
+                    
+                        <li><a href="/prorule.html">ProRule</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_doc.html">Documents</a></li>
+                    
+
+                    
+                        <li><a href="ftp://ftp.expasy.org/databases/prosite/">Downloads</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_link.html">Links</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_funding.html">Funding</a></li>
+                    
+                </ul>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="title">PROSITE documentation PDOC00469 [for PROSITE entry PS00543]</td>
+    </tr>
+</table>
+<br>
+<div class="section1">HlyD family secretion proteins signature</div><br><div id="sticky-anchor"></div>
+<div id="sticky">
+    <div id="menu_hor">
+        <ul>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#description">Description</a></li>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#technical">Technical section</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#references">References</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#copyright">Copyright</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#miscellaneous">Miscellaneous</a></li>
+
+	</ul>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div id="description" class="section5">Description</div><p>Gram-negative bacteria  produce  a  number of proteins which are secreted into
+the growth medium by a mechanism that  does  not  require a cleaved N-terminal
+signal sequence. These proteins, while having different functions, require the
+help of two or more proteins  for  their  secretion  across the cell envelope.
+Amongst which a  protein  belonging  to  the  ABC transporters family (see the
+relevant entry  &lt;<a href="/PDOC00185">PDOC00185</a>&gt;)  and  a  protein  belonging  to a family which is
+currently composed [<a title="Gilson L. et al. [EMBO J. 9:3875-3894(1990)]" href="#ref1" onClick="highLightRef('1')">1</a>,<a title="Letoffe S. et al. [EMBO J. 9:1375-1382(1990)]" href="#ref2" onClick="highLightRef('2')">2</a>,<a title="Stoddard G.W. et al. [Appl. Environ. Microbiol. 58:1952-1961(1992)]" href="#ref3" onClick="highLightRef('3')">3</a>,<a title="Duong F. et al. [Gene 121:47-54(1992)]" href="#ref4" onClick="highLightRef('4')">4</a>,<a title="Lewis K. [Trends Biochem. Sci. 19:119-123(1994)]" href="#ref5" onClick="highLightRef('5')">5</a>] of the following members:
+</p>
+<pre class="diag_core"> Gene  Species                  Protein which is exported
+ ----  ----------------------   --------------------------------------------
+ hlyD  Escherichia coli         Hemolysin
+ appD  A.pleuropneumoniae       Hemolysin
+ lcnD  Lactococcus lactis       Lactococcin A
+ lktD  A.actinomycetemcomitans  Leukotoxin
+       Pasteurella haemolytica
+ rtxD  A.pleuropneumoniae       Toxin-III
+ cyaD  Bordetella pertussis     Calmodulin-sensitive adenylate cyclase-
+                                hemolysin (cyclolysin)
+ cvaA  Escherichia coli         Colicin V
+ prtE  Erwinia chrysanthemi     Extracellular proteases B and C
+ aprE  Pseudomonas aeruginosa   Alkaline protease
+ emrA  Escherichia coli         Drugs and toxins
+ yjcR  Escherichia coli         Unknown
+</pre>
+<p>These proteins  are  evolutionary related and consist of from 390 to 480 amino
+acid residues. They  seem to be anchored in the inner membrane by a N-terminal
+transmembrane region.  Their  exact  role in the  secretion process is not yet
+known.
+</p>
+<p>The C-terminal section of these proteins is the best conserved region; we have
+derived a signature pattern from that region.
+</p>
+Last update:
+<p> December 2004 / Pattern and text revised.
+</p>
+<div id="technical" class="section5">Technical section</div>
+<p>PROSITE method (with tools and information) covered by this documentation:</p>
+<fieldset class="prosite1">
+<legend class="sp_tools">HLYD_FAMILY,&nbsp;<a href="/PS00543">PS00543</a>;&nbsp;HlyD family secretion proteins signature&nbsp;&nbsp;(PATTERN)</legend>
+<ul>
+<li>
+Consensus pattern:<br>
+[LIVM]-x(2)-G-[LM]-x(3)-[STGAV]-x-[LIVMT]-x-[LIVMTK]-[GE]-x-[KR]-x-[LIVMFYW](2)-x-[LIVMFYW](2)-[LIVMFYWK]</li>
+<li>
+Sequences in UniProtKB/Swiss-Prot known to belong to this class: 21<ul>
+<li>
+detected by PS00543: <a href="/PS00543#TP">17</a> (true positives)</li>
+<li>
+undetected by PS00543: 4 (<a href="/PS00543#FN">4</a> false negatives and 0 '<a href="/prosuser.html#partial_sq">partial</a>')</li>
+</ul>
+
+</li>
+<li>
+Other sequence(s) in UniProtKB/Swiss-Prot detected by PS00543:
+<br>
+NONE.
+</li>
+<li>
+Retrieve an alignment of UniProtKB/Swiss-Prot true positive hits:<br>
+<a href="/cgi-bin/aligner?psa=PS00543&amp;color=1&amp;maxinsert=10&amp;linelen=0">Clustal format, color, condensed view</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS00543&amp;color=1">Clustal format, color</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS00543">Clustal format, plain text</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS00543&amp;format=FASTA">Fasta format</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/sequence_logo.cgi?ac=PS00543">Retrieve the sequence logo from the alignment</a>
+</li>
+<li>
+<a href=" http://www.uniprot.org/uniprot/?query=database%3A%28type%3Aprosite+PS00543%29&sort=score#orgViewBy" target="_blank">
+Taxonomic distribution of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS00543</a>
+</li>
+<li>
+<a href="http://www.uniprot.org/uniprot/?query=database:(type:prosite PS00543)" target="_blank">
+Retrieve a list of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS00543</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/scanprosite_form.cgi?PS00543">Scan UniProtKB (Swiss-Prot and/or TrEMBL) entries against PS00543</a>
+</li>
+<li>
+<a href="http://www.ebi.ac.uk/pdbe-site/pdbemotif/barChartPattern?pattern1=PS00543" target="_blank">View ligand binding statistics of PS00543</a></li>
+</li>
+</fieldset>
+<br>
+<br>
+<div id="references" class="section5">References</div><br>
+<table class="grid" id="ref1" width="100%">
+<tr><td rowspan="4" width="50em">1</td><td width="100em">Authors</td><td>Gilson L., Mahanty H.K., Kolter R.</td></tr>
+<tr><td>Title</td><td>Genetic analysis of an MDR-like export system: the secretion of colicin V.</td></tr>
+<tr><td>Source</td><td>EMBO J. 9:3875-3894(1990).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=2249654" target="_blank">2249654</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref2" width="100%">
+<tr><td rowspan="4" width="50em">2</td><td width="100em">Authors</td><td>Letoffe S., Delepelaire P., Wandersman C.</td></tr>
+<tr><td>Title</td><td>Protease secretion by Erwinia chrysanthemi: the specific secretion functions are analogous to those of Escherichia coli alpha-haemolysin.</td></tr>
+<tr><td>Source</td><td>EMBO J. 9:1375-1382(1990).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=2184029" target="_blank">2184029</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref3" width="100%">
+<tr><td rowspan="4" width="50em">3</td><td width="100em">Authors</td><td>Stoddard G.W., Petzel J.P., van Belkum M.J., Kok J., McKay L.L.</td></tr>
+<tr><td>Title</td><td>Molecular analyses of the lactococcin A gene cluster from Lactococcus lactis subsp. lactis biovar diacetylactis WM4.</td></tr>
+<tr><td>Source</td><td>Appl. Environ. Microbiol. 58:1952-1961(1992).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=1622271" target="_blank">1622271</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref4" width="100%">
+<tr><td rowspan="4" width="50em">4</td><td width="100em">Authors</td><td>Duong F., Lazdunski A., Cami B., Murgier M.</td></tr>
+<tr><td>Title</td><td>Sequence of a cluster of genes controlling synthesis and secretion of alkaline protease in Pseudomonas aeruginosa: relationships to other secretory pathways.</td></tr>
+<tr><td>Source</td><td>Gene 121:47-54(1992).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=1427098" target="_blank">1427098</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref5" width="100%">
+<tr><td rowspan="4" width="50em">5</td><td width="100em">Authors</td><td>Lewis K.</td></tr>
+<tr><td>Title</td><td>Multidrug resistance pumps in bacteria: variations on a theme.</td></tr>
+<tr><td>Source</td><td>Trends Biochem. Sci. 19:119-123(1994).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=8203018" target="_blank">8203018</a></td></tr>
+</table>
+<br>
+<br>
+<div id="copyright" class="section5">Copyright</div>
+<br>
+PROSITE is copyright.   It  is  produced  by  the  SIB  Swiss  Institute
+    Bioinformatics. There  are no restrictions   on its use by  non-profit
+    institutions as long as its  content is in no way modified. Usage by and
+    for commercial  entities requires a license agreement. For information
+    about  the  licensing  scheme   send  an  email to <form method="POST" name="mailformmR35071" action="/contact" style="display:none;">
+<input type="hidden" name="recipient_email" value="license@isb-sib.ch">
+<input type="hidden" name="flag_subject" value="Prosite License">
+<input type="hidden" name="recipient_name" value="Prosite License">
+</form>
+<a href="#" onClick="document.mailformmR35071.submit(); return false;">Prosite License</a>
+
+    or see: <a href="/prosite_license.html">prosite_license.html</a>.
+<br><br>
+<div id="miscellaneous" class="section5">Miscellaneous</div>
+<br>
+<a href="/cgi-bin/prosite/get-prodoc-entry?PDOC00469">View entry in original PROSITE document format</a><br>
+<a href="/PDOC00469.txt">View entry in raw text format (no links)</a>
+<br><br>
+</div><!-- sib_body -->
+<br clear="left" />
+</div>
+<!-- ********************************************************************************************** -->
+<!-- START OF FOOTER information at the bottom of the page -->
+<div id = 'sib_footer'>			
+  <!-- This part of the footer is _left_ justified and should contain SIB on the very left -->	
+  <div id = 'sib_footer_content'> 
+    <a href = "http://www.isb-sib.ch">SIB Swiss Institute of Bioinformatics</a>&nbsp;|&nbsp;<a href = "http://www.expasy.org/disclaimer.html">Disclaimer</a>
+
+	<!-- This part of the footer is _right_ justified -->
+	<div id = "sib_footer_right">	
+      <a href="#TOP" id = "sib_footer_gototop"><span style = "padding-left: 10px">Back to the Top</span></a>				
+    </div>
+  </div>
+</div>
+<!-- END OF FOOTER -->
+</div> <!-- sib_container -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23823438-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><!-- automatically added by Apache -->
+
+    </body>
+</html>

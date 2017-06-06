@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="01906EC6-4ADD-11E7-9669-C23295374F7B">
+    <matches>
+      <protein length="74">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF13548.4" id="DUF4126" type="Pfam-A" class="Domain">
+            <location start="7" end="71" ali_start="7" ali_end="70" hmm_start="1" hmm_end="64" evalue="2.3e-19" bitscore="69.6" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[lllglglsaaaGlrvylplLllglaarfgliplpeglewlgspvvlgalavltlvElvadkipv]]>
+              </hmm>
+              <match_string>
+                <![CDATA[l++g+glsaa+G+rv++plL++++a+ +g+++ ++g+ewl+ p v +al+v+t++E++a++ip+]]>
+              </match_string>
+              <pp>
+                <![CDATA[689************************************************************9]]>
+              </pp>
+              <seq>
+                <![CDATA[LCIGVGLSAACGFRVFVPLLVMSIATMMGWFEPSKGFEWLALPSVCLALGVATVCEVAAYYIPW]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       lllglglsaaaGlrvylplLllglaarfgliplpeglewlgspvvlgalavltlvElvadkipv
+#MATCH     l++g+glsaa+G+rv++plL++++a+ +g+++ ++g+ewl+ p v +al+v+t++E++a++ip+
+#PP        689************************************************************9
+#SEQ       LCIGVGLSAACGFRVFVPLLVMSIATMMGWFEPSKGFEWLALPSVCLALGVATVCEVAAYYIPW
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

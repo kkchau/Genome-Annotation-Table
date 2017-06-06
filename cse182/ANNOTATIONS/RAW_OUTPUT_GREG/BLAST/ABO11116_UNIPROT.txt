@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="blastp" version="BLASTP 2.2.29+"/>
+  <commandLine command="/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.29+/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-I20170606-182228-0213-38581075-oy.sequence  -num_threads 16 -outfmt 11 -out ncbiblast-I20170606-182228-0213-38581075-oy.archive -matrix BLOSUM62 -num_alignments 50 -evalue 10 -gapopen 11 -gapextend 1 -seg no -comp_based_stats F"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="EMBOSS_001" type="PROTEIN" length="74"/>
+   </sequences>
+   <databases total="1" sequences="85866869" letters="28909108493">
+    <database number="1" name="uniprotkb" type="PROTEIN" created="2017-05-08T11:31:00+01:00"/>
+   </databases>
+   <alignments>50</alignments>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>F</filter>
+   <gapExtension>1.0</gapExtension>
+   <gapOpen>11.0</gapOpen>
+   <matrix>BLOSUM62</matrix>
+   <scores>50</scores>
+  </parameters>
+  <timeInfo start="2017-06-06T18:22:28+01:00" end="2017-06-06T18:22:44+01:00" search="P0Y0M0DT0H0M16.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="50">
+   <hit number="1" database="TR" id="A0A1L3IMP9_PROST" ac="A0A1L3IMP9" length="74" description="Toxin of toxin-antitoxin system OS=Providencia stuartii GN=BGK56_20755 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="TR" id="A0A0J1NHZ6_9ENTR" ac="A0A0J1NHZ6" length="74" description="Uncharacterized protein OS=Citrobacter sp. MGH109 GN=SK37_00512 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="TR" id="A0A0K1XD00_9GAMM" ac="A0A0K1XD00" length="74" description="Toxin of toxin-antitoxin system OS=Oblitimonas alkaliphila GN=AKN88_03645 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="TR" id="A0A1B9KKR9_9GAMM" ac="A0A1B9KKR9" length="74" description="Toxin of toxin-antitoxin system OS=Gilliamella apicola GN=A9G14_07095 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="5" database="TR" id="N8WF08_9GAMM" ac="N8WF08" length="74" description="Uncharacterized protein OS=Acinetobacter sp. CIP 56.2 GN=F966_00458 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="6" database="TR" id="A0A1C2TE01_ACIPI" ac="A0A1C2TE01" length="74" description="Toxin of toxin-antitoxin system OS=Acinetobacter pittii GN=BFR63_10820 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="7" database="TR" id="N9P2Z6_9GAMM" ac="N9P2Z6" length="74" description="Uncharacterized protein OS=Acinetobacter sp. CIP 64.7 GN=F890_03245 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="8" database="TR" id="A0A090NMR9_SHIDY" ac="A0A090NMR9" length="74" description="Uncharacterized protein OS=Shigella dysenteriae WRSd3 GN=WRSd3_00557 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="9" database="TR" id="A0A063UY74_BORBO" ac="A0A063UY74" length="74" description="Toxin of toxin-antitoxin type 1 system domain protein OS=Bordetella bronchiseptica OSU553 GN=L533_2448 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="10" database="TR" id="U9YFJ7_ECOLX" ac="U9YFJ7" length="74" description="Uncharacterized protein OS=Escherichia coli 113290 GN=HMPREF1589_01742 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="11" database="TR" id="S1PTI6_ECOLX" ac="S1PTI6" length="74" description="Uncharacterized protein OS=Escherichia coli KTE182 GN=A13A_02681 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="12" database="TR" id="N9FBA9_ACIBZ" ac="N9FBA9" length="74" description="Uncharacterized protein OS=Acinetobacter bereziniae LMG 1003 = CIP 70.12 GN=F938_00250 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="13" database="TR" id="N9MBD6_9GAMM" ac="N9MBD6" length="74" description="Uncharacterized protein OS=Acinetobacter sp. CIP 53.82 GN=F905_02522 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="14" database="TR" id="A0A0A7Y3G5_ECOLX" ac="A0A0A7Y3G5" length="74" description="Toxin of toxin-antitoxin system OS=Escherichia coli GN=AKG99_22465 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="15" database="TR" id="U1I4M3_9PAST" ac="U1I4M3" length="74" description="Toxin of toxin-antitoxin type 1 system OS=Gallibacterium anatis 12656/12 GN=N561_06975 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="16" database="TR" id="A0A1E3M597_ACIBA" ac="A0A1E3M597" length="74" description="Toxin of toxin-antitoxin system OS=Acinetobacter baumannii GN=BGC29_17435 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="17" database="TR" id="Q0ADV5_NITEC" ac="Q0ADV5" length="74" description="Uncharacterized protein OS=Nitrosomonas eutropha (strain C91) GN=Neut_0671 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="18" database="TR" id="D0CEZ8_ACIB2" ac="D0CEZ8" length="74" description="Uncharacterized protein OS=Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81) GN=F911_00167 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="19" database="TR" id="A0A0A2Z1Q9_9PAST" ac="A0A0A2Z1Q9" length="74" description="Toxin of toxin-antitoxin system OS=Gallibacterium anatis GN=IO46_03910 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="20" database="TR" id="G3CAC6_MORMO" ac="G3CAC6" length="74" description="Uncharacterized protein OS=Morganella morganii GN=R485_63 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="21" database="TR" id="A0A142BWL4_9BACT" ac="A0A142BWL4" length="74" description="Toxin of toxin-antitoxin type 1 system OS=uncultured bacterium IN-14 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="22" database="TR" id="A0A1D9B9I4_PSEAI" ac="A0A1D9B9I4" length="74" description="Uncharacterized protein OS=Pseudomonas aeruginosa PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>366</score>
+      <bits>145.591</bits>
+      <expectation>4.7E-43</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</querySeq>
+      <pattern>MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</pattern>
+      <matchSeq start="1" end="74">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQACS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="23" database="TR" id="A0A1I7H655_9PROT" ac="A0A1I7H655" length="76" description="Toxin of toxin-antitoxin type 1 system OS=Nitrosomonas eutropha GN=SAMN05216339_10493 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>284</score>
+      <bits>114.005</bits>
+      <expectation>1.2E-30</expectation>
+      <identity>77.8</identity>
+      <positives>90.3</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="72">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQA</querySeq>
+      <pattern>MTTQH+IEPGQ VHQAAAIL+SLEYI+Q  A+ LGPLAEAVANAFMVVYYQAETGRAT+ DF EA+ A+R++</pattern>
+      <matchSeq start="1" end="72">MTTQHLIEPGQVVHQAAAILASLEYIDQGAAQRLGPLAEAVANAFMVVYYQAETGRATRNDFCEALEAIRRS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="24" database="TR" id="A0A1Q4CMP0_9BURK" ac="A0A1Q4CMP0" length="80" description="Toxin of toxin-antitoxin system OS=Pandoraea sp. 64-18 GN=BGP02_01500 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>284</score>
+      <bits>114.005</bits>
+      <expectation>1.3E-30</expectation>
+      <identity>77.5</identity>
+      <positives>90.1</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="71">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQ</querySeq>
+      <pattern>MTTQH+IE GQ VHQAA+IL+SLE+I+QA A+ +GP+AEAVAN FMVVYYQAETGRAT ADFQEAMN L+Q</pattern>
+      <matchSeq start="1" end="71">MTTQHLIEAGQVVHQAASILASLEFIDQAAAQQIGPMAEAVANVFMVVYYQAETGRATPADFQEAMNTLQQ</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="25" database="TR" id="A0A1E4LJI9_9BURK" ac="A0A1E4LJI9" length="80" description="Toxin of toxin-antitoxin system OS=Comamonadaceae bacterium SCN 68-20 GN=ABT02_20390 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>284</score>
+      <bits>114.005</bits>
+      <expectation>1.3E-30</expectation>
+      <identity>77.5</identity>
+      <positives>90.1</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="71">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQ</querySeq>
+      <pattern>MTTQH+IE GQ VHQAA+IL+SLE+I+QA A+ +GP+AEAVAN FMVVYYQAETGRAT ADFQEAMN L+Q</pattern>
+      <matchSeq start="1" end="71">MTTQHLIEAGQVVHQAASILASLEFIDQAAAQQIGPMAEAVANVFMVVYYQAETGRATPADFQEAMNTLQQ</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="26" database="TR" id="U1ZUI8_9BURK" ac="U1ZUI8" length="76" description="Uncharacterized protein OS=Alcaligenes sp. EGD-AK7 GN=N879_03900 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>273</score>
+      <bits>109.768</bits>
+      <expectation>5.3E-29</expectation>
+      <identity>75.0</identity>
+      <positives>87.5</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="72">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQA</querySeq>
+      <pattern>MTTQH+IEP Q VHQAAAIL+SLEYI+Q  A+ LGPLAEAV NAFMVVYYQAETGRAT+ DF EA+ A+R++</pattern>
+      <matchSeq start="1" end="72">MTTQHLIEPDQVVHQAAAILASLEYIDQGAAQRLGPLAEAVTNAFMVVYYQAETGRATRNDFCEALEAIRRS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="27" database="TR" id="Q3BTM0_XANC5" ac="Q3BTM0" length="76" description="Uncharacterized protein OS=Xanthomonas campestris pv. vesicatoria (strain 85-10) GN=XCV2162 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>227</score>
+      <bits>92.0485</bits>
+      <expectation>4.3E-22</expectation>
+      <identity>65.3</identity>
+      <positives>80.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="72">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQA</querySeq>
+      <pattern>M T +     QAVH AA  L++L++I+Q  AR LGPLAEAVANAFMVV+YQAETGRAT ADF+EA+NA+RQ+</pattern>
+      <matchSeq start="1" end="72">MATLNPTNATQAVHHAAVQLAALDWIDQDAARQLGPLAEAVANAFMVVFYQAETGRATPADFREALNAVRQS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="28" database="TR" id="A0A1T1TA66_XANCA" ac="A0A1T1TA66" length="76" description="Toxin of toxin-antitoxin system OS=Xanthomonas campestris pv. azadirachtae GN=Xazr_00120 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>227</score>
+      <bits>92.0485</bits>
+      <expectation>4.3E-22</expectation>
+      <identity>65.3</identity>
+      <positives>80.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="72">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQA</querySeq>
+      <pattern>M T +     QAVH AA  L++L++I+Q  AR LGPLAEAVANAFMVV+YQAETGRAT ADF+EA+NA+RQ+</pattern>
+      <matchSeq start="1" end="72">MATLNPTNATQAVHHAAVQLAALDWIDQDAARQLGPLAEAVANAFMVVFYQAETGRATPADFREALNAVRQS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="29" database="TR" id="A1U1D1_MARHV" ac="A1U1D1" length="78" description="Uncharacterized protein OS=Marinobacter hydrocarbonoclasticus (strain ATCC 700491 / DSM 11845 / VT8) GN=Maqu_1716 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>227</score>
+      <bits>92.0485</bits>
+      <expectation>4.5E-22</expectation>
+      <identity>62.5</identity>
+      <positives>77.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="72">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQA</querySeq>
+      <pattern>MT  H IE  QA+HQAA  LS+L++I+Q  AR + P+AEAVAN F ++YYQAETGRATQ DFQEA+  +RQA</pattern>
+      <matchSeq start="1" end="72">MTATHNIEVQQAIHQAATKLSALKFIDQETARQISPVAEAVANMFTILYYQAETGRATQEDFQEALATIRQA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="30" database="TR" id="A0A1B0TCY5_ENTCL" ac="A0A1B0TCY5" length="74" description="Tox OS=Enterobacter cloacae GN=tox PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>226</score>
+      <bits>91.6633</bits>
+      <expectation>5.7E-22</expectation>
+      <identity>61.6</identity>
+      <positives>75.3</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="73">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQAC</querySeq>
+      <pattern>M TQ+  +  Q V  AA +L+ L++I+Q  AR L P+AEAVAN F +VYYQAETGR TQADFQEAM+ LRQAC</pattern>
+      <matchSeq start="1" end="73">MATQYTTQATQTVQHAATLLAGLDWIDQDMARQLSPMAEAVANMFTLVYYQAETGRLTQADFQEAMSTLRQAC</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="31" database="TR" id="A0A069XKT7_ECOLX" ac="A0A069XKT7" length="74" description="Toxin of toxin-antitoxin type 1 system family protein OS=Escherichia coli 3-373-03_S4_C2 GN=AD17_2192 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>222</score>
+      <bits>90.1225</bits>
+      <expectation>2.3E-21</expectation>
+      <identity>61.1</identity>
+      <positives>76.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="72">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQA</querySeq>
+      <pattern>MTT H IE    +HQAA  L++LE+I+Q  AR + P+AEAVAN F ++YYQAETGRAT  DFQEA+N +RQA</pattern>
+      <matchSeq start="1" end="72">MTTAHNIEVQNVIHQAATKLAALEFIDQETARQILPVAEAVANMFTILYYQAETGRATPEDFQEALNTIRQA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="32" database="TR" id="A0A1M5SD01_9PSED" ac="A0A1M5SD01" length="75" description="Toxin of toxin-antitoxin type 1 system OS=Pseudomonas xanthomarina DSM 18231 GN=SAMN02744645_3405 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>219</score>
+      <bits>88.9669</bits>
+      <expectation>6.6E-21</expectation>
+      <identity>61.1</identity>
+      <positives>81.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="72">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQA</querySeq>
+      <pattern>M T +     QAVH AA  L++L++I+Q EA+ LGP+AEAVANAFMVV+YQAETG+AT ADF+EA++A+RQ+</pattern>
+      <matchSeq start="1" end="72">MATVNFNNVTQAVHHAAVQLAALDWIDQEEAQQLGPMAEAVANAFMVVFYQAETGQATPADFREALDAVRQS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="33" database="TR" id="A0A0J0UL50_9BURK" ac="A0A0J0UL50" length="76" description="Toxin of toxin-antitoxin system OS=Diaphorobacter sp. J5-51 GN=OX89_10475 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>216</score>
+      <bits>87.8113</bits>
+      <expectation>1.9E-20</expectation>
+      <identity>61.1</identity>
+      <positives>80.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="72">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQA</querySeq>
+      <pattern>M T +     QAVH AA  L++L++++Q  AR LGPLAEAVANAFMVV+YQAETG+AT ADF+EA++A+RQ+</pattern>
+      <matchSeq start="1" end="72">MATLNPTNATQAVHHAAVQLAALDWLDQDAARQLGPLAEAVANAFMVVFYQAETGQATPADFREALDAVRQS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="34" database="TR" id="A1W8W7_ACISJ" ac="A1W8W7" length="76" description="Uncharacterized protein OS=Acidovorax sp. (strain JS42) GN=Ajs_2534 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>216</score>
+      <bits>87.8113</bits>
+      <expectation>1.9E-20</expectation>
+      <identity>61.1</identity>
+      <positives>80.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="72">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQA</querySeq>
+      <pattern>M T +     QAVH AA  L++L++++Q  AR LGPLAEAVANAFMVV+YQAETG+AT ADF+EA++A+RQ+</pattern>
+      <matchSeq start="1" end="72">MATLNPTNATQAVHHAAVQLAALDWLDQDAARQLGPLAEAVANAFMVVFYQAETGQATPADFREALDAVRQS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="35" database="TR" id="K0MDV4_BORPB" ac="K0MDV4" length="76" description="Uncharacterized protein OS=Bordetella parapertussis (strain Bpp5) GN=BN117_2219 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>216</score>
+      <bits>87.8113</bits>
+      <expectation>1.9E-20</expectation>
+      <identity>61.1</identity>
+      <positives>80.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="72">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQA</querySeq>
+      <pattern>M T +     QAVH AA  L++L++++Q  AR LGPLAEAVANAFMVV+YQAETG+AT ADF+EA++A+RQ+</pattern>
+      <matchSeq start="1" end="72">MATLNPTNATQAVHHAAVQLAALDWLDQDAARQLGPLAEAVANAFMVVFYQAETGQATPADFREALDAVRQS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="36" database="TR" id="A0A1C3NSA1_9XANT" ac="A0A1C3NSA1" length="76" description="Toxin of toxin-antitoxin system OS=Xanthomonas bromi GN=XBLMG947_4101 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>215</score>
+      <bits>87.4261</bits>
+      <expectation>2.7E-20</expectation>
+      <identity>61.1</identity>
+      <positives>80.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="72">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQA</querySeq>
+      <pattern>M T +     QAVH AA  L++L++++Q  AR LGPLAEAVANAFMVV+YQAETG+ATQ DF+EA++A+RQ+</pattern>
+      <matchSeq start="1" end="72">MATLNPTNAKQAVHHAALQLAALDWLDQDAARQLGPLAEAVANAFMVVFYQAETGQATQDDFREALDAVRQS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="37" database="TR" id="A0A0E2YNB2_XANCA" ac="A0A0E2YNB2" length="73" description="Toxin of toxin-antitoxin system OS=Xanthomonas campestris pv. musacearum NCPPB 2005 GN=KWM_0116685 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>214</score>
+      <bits>87.0409</bits>
+      <expectation>3.5E-20</expectation>
+      <identity>67.7</identity>
+      <positives>88.7</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="11" end="72">QAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQA</querySeq>
+      <pattern>QAVH AA  L++L++++Q  AR LGPLAEAVANAFMVV+YQAETG+AT ADF+EA++A+RQ+</pattern>
+      <matchSeq start="8" end="69">QAVHHAAVQLAALDWLDQDAARQLGPLAEAVANAFMVVFYQAETGQATPADFREALDAVRQS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="38" database="TR" id="G2LUL2_9XANT" ac="G2LUL2" length="75" description="Uncharacterized protein OS=Xanthomonas axonopodis pv. citrumelo F1 GN=XACM_2283 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>213</score>
+      <bits>86.6557</bits>
+      <expectation>5.2E-20</expectation>
+      <identity>61.1</identity>
+      <positives>80.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="72">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQA</querySeq>
+      <pattern>M T +     QAVH AA  L++L++I+Q  A+ LGPLAEAVANAFMVV+YQAETG+AT ADF+EA++A+RQ+</pattern>
+      <matchSeq start="1" end="72">MATLNPTNVTQAVHHAAVQLAALDWIDQDAAQQLGPLAEAVANAFMVVFYQAETGQATPADFREALDAVRQS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="39" database="TR" id="H4UMC6_ECOLX" ac="H4UMC6" length="80" description="Uncharacterized protein OS=Escherichia coli DEC6A GN=ECDEC6A_3095 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>210</score>
+      <bits>85.5001</bits>
+      <expectation>1.6E-19</expectation>
+      <identity>57.7</identity>
+      <positives>77.5</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="71">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQ</querySeq>
+      <pattern>MTT H IE  QA+HQAA  L++LE+I+Q  AR + P+AEAVAN F ++YYQAETGR T  DF++A++ +RQ</pattern>
+      <matchSeq start="1" end="71">MTTTHNIEVQQAIHQAAIKLAALEFIDQETARQVLPVAEAVANMFTILYYQAETGRVTPEDFEQALDTIRQ</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="40" database="TR" id="W0AYI3_9ESCH" ac="W0AYI3" length="80" description="Toxin component OS=Escherichia albertii KF1 GN=EAKF1_ch3507 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>210</score>
+      <bits>85.5001</bits>
+      <expectation>1.6E-19</expectation>
+      <identity>57.7</identity>
+      <positives>77.5</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="71">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQ</querySeq>
+      <pattern>MTT H IE  QA+HQAA  L++LE+I+Q  AR + P+AEAVAN F ++YYQAETGR T  DF++A++ +RQ</pattern>
+      <matchSeq start="1" end="71">MTTTHNIEVQQAIHQAAIKLAALEFIDQETARQVLPVAEAVANMFTILYYQAETGRVTPEDFEQALDTIRQ</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="41" database="TR" id="H4IE62_ECOLX" ac="H4IE62" length="80" description="Uncharacterized protein OS=Escherichia coli DEC1B GN=ECDEC1B_2944 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>210</score>
+      <bits>85.5001</bits>
+      <expectation>1.6E-19</expectation>
+      <identity>57.7</identity>
+      <positives>77.5</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="71">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQ</querySeq>
+      <pattern>MTT H IE  QA+HQAA  L++LE+I+Q  AR + P+AEAVAN F ++YYQAETGR T  DF++A++ +RQ</pattern>
+      <matchSeq start="1" end="71">MTTTHNIEVQQAIHQAAIKLAALEFIDQETARQVLPVAEAVANMFTILYYQAETGRVTPEDFEQALDTIRQ</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="42" database="TR" id="A0A0K1NC43_9BURK" ac="A0A0K1NC43" length="77" description="Toxin of toxin-antitoxin system OS=Ottowia sp. oral taxon 894 GN=ADJ79_02715 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>205</score>
+      <bits>83.5741</bits>
+      <expectation>8.5E-19</expectation>
+      <identity>64.5</identity>
+      <positives>87.1</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="11" end="72">QAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQA</querySeq>
+      <pattern>QAVH AAA L++L++I+Q  AR L P+AEAVAN FMV+YYQAETGRAT+ DF++A++A+RQ+</pattern>
+      <matchSeq start="13" end="74">QAVHHAAAQLAALDWIDQDAARQLSPMAEAVANMFMVLYYQAETGRATRDDFRQALDAVRQS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="43" database="TR" id="D2UDH0_XANAP" ac="D2UDH0" length="75" description="Uncharacterized protein OS=Xanthomonas albilineans (strain GPE PC73 / CFBP 7063) GN=XALc_1567 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>1.6E-18</expectation>
+      <identity>57.7</identity>
+      <positives>71.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="71">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQ</querySeq>
+      <pattern>M T H IE  Q +H AA  L+ L++++Q  A+ L  +AEAVAN FMVV+YQAETGRAT  DF EAM A+RQ</pattern>
+      <matchSeq start="1" end="71">MATTHDIEARQVIHHAATQLADLDFMDQRTAQELSTMAEAVANLFMVVFYQAETGRATHGDFSEAMAAVRQ</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="44" database="TR" id="A0A1N6M060_9VIBR" ac="A0A1N6M060" length="75" description="Toxin of toxin-antitoxin type 1 system OS=Vibrio sp. CECT 9026 GN=VSP9026_00377 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>202</score>
+      <bits>82.4185</bits>
+      <expectation>2.3E-18</expectation>
+      <identity>56.3</identity>
+      <positives>74.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="71">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQ</querySeq>
+      <pattern>MT  H IE   A+HQAA  L+SLE+I+Q  A+ + P+AEAVAN F ++YYQAETGRAT  DF++A+  +RQ</pattern>
+      <matchSeq start="1" end="71">MTITHNIEIQHAIHQAAIKLASLEFIDQETAQQISPVAEAVANMFTILYYQAETGRATPEDFEQALVTIRQ</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="45" database="TR" id="A0A0X8NUH6_ALCXX" ac="A0A0X8NUH6" length="77" description="Toxin of toxin-antitoxin system OS=Alcaligenes xylosoxydans xylosoxydans GN=AL504_00125 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>202</score>
+      <bits>82.4185</bits>
+      <expectation>2.4E-18</expectation>
+      <identity>62.9</identity>
+      <positives>87.1</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="11" end="72">QAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQA</querySeq>
+      <pattern>QAVH AAA L++L++I+Q  AR L P+AEAVAN FMV+YYQAETG+AT+ DF++A++A+RQ+</pattern>
+      <matchSeq start="13" end="74">QAVHHAAAQLAALDWIDQEAARQLSPMAEAVANMFMVLYYQAETGQATRDDFRQALDAVRQS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="46" database="TR" id="A0A1L5QZM0_9XANT" ac="A0A1L5QZM0" length="77" description="Toxin of toxin-antitoxin system OS=Xanthomonas perforans GN=BJD13_01105 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>202</score>
+      <bits>82.4185</bits>
+      <expectation>2.4E-18</expectation>
+      <identity>62.9</identity>
+      <positives>87.1</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="11" end="72">QAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQA</querySeq>
+      <pattern>QAVH AAA L++L++I+Q  AR L P+AEAVAN FMV+YYQAETG+AT+ DF++A++A+RQ+</pattern>
+      <matchSeq start="13" end="74">QAVHHAAAQLAALDWIDQEAARQLSPMAEAVANMFMVLYYQAETGQATRDDFRQALDAVRQS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="47" database="TR" id="A7MAH3_PSEAI" ac="A7MAH3" length="77" description="Uncharacterized protein OS=Pseudomonas aeruginosa PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>202</score>
+      <bits>82.4185</bits>
+      <expectation>2.4E-18</expectation>
+      <identity>62.9</identity>
+      <positives>87.1</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="11" end="72">QAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQA</querySeq>
+      <pattern>QAVH AAA L++L++I+Q  AR L P+AEAVAN FMV+YYQAETG+AT+ DF++A++A+RQ+</pattern>
+      <matchSeq start="13" end="74">QAVHHAAAQLAALDWIDQEAARQLSPMAEAVANMFMVLYYQAETGQATRDDFRQALDAVRQS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="48" database="TR" id="A0A107P3N6_BURCE" ac="A0A107P3N6" length="76" description="Toxin of toxin-antitoxin type 1 system OS=Burkholderia cepacia GN=WL94_15165 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>199</score>
+      <bits>81.2629</bits>
+      <expectation>6.5E-18</expectation>
+      <identity>56.3</identity>
+      <positives>71.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="71">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQ</querySeq>
+      <pattern>M T H  E  Q +H AA  L+ L++++Q  AR L  +AEAVAN FMVV+YQAETGRAT+ DF EAM A+R+</pattern>
+      <matchSeq start="1" end="71">MATTHNTEAQQVIHHAATQLADLDFMDQRTARELSKMAEAVANLFMVVFYQAETGRATRLDFSEAMAAVRE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="49" database="TR" id="A0A088YHV1_BURPE" ac="A0A088YHV1" length="76" description="Toxin of toxin-antitoxin type 1 system family protein OS=Burkholderia pseudomallei GN=DP46_940 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>199</score>
+      <bits>81.2629</bits>
+      <expectation>6.5E-18</expectation>
+      <identity>56.3</identity>
+      <positives>71.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="71">MTTQHIIEPGQAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQ</querySeq>
+      <pattern>M T H  E  Q +H AA  L+ L++++Q  AR L  +AEAVAN FMVV+YQAETGRAT+ DF EAM A+R+</pattern>
+      <matchSeq start="1" end="71">MATTHNTEAQQVIHHAATQLADLDFMDQRTARELSKMAEAVANLFMVVFYQAETGRATRLDFSEAMAAVRE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="50" database="TR" id="W8WY27_CASDE" ac="W8WY27" length="78" description="Uncharacterized protein OS=Castellaniella defragrans 65Phen GN=BN940_10891 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>198</score>
+      <bits>80.8777</bits>
+      <expectation>9.6E-18</expectation>
+      <identity>62.9</identity>
+      <positives>85.5</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="11" end="72">QAVHQAAAILSSLEYINQAEARSLGPLAEAVANAFMVVYYQAETGRATQADFQEAMNALRQA</querySeq>
+      <pattern>QAVH AAA L++L++I+Q  AR L P+AEAVAN FMV+YYQAETG A++ DF+EA++A+RQ+</pattern>
+      <matchSeq start="13" end="74">QAVHHAAAQLAALDWIDQEAARQLSPMAEAVANMFMVLYYQAETGLASRDDFREALDAVRQS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult></EBIApplicationResult>

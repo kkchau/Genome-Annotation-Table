@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="48BA541A-4ADD-11E7-96B0-C23295374F7B">
+    <matches>
+      <protein length="659">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF00580.19" id="UvrD-helicase" type="Pfam-A" class="Domain">
+            <location start="10" end="272" ali_start="10" ali_end="270" hmm_start="1" hmm_end="313" evalue="4.3e-54" bitscore="184.0" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[lnpeqreaiaslggpilveAsAGsGKTfvlaerilrlikeeeiepdrilvvTFTnkAaeElkeRieealkkaeqessdderlrlalqnlseanisTlHsfcqkilkkeanrigldpnfrildeedeedlkqqellkelleksaddslnldkkkleklikelsksrnikkeelslskskaeelrelvskak..ekqlspkelkkafekasdlqkkiaeflkeyqeqkkeenalDfsdllhallelleeneelaealrerykeiliDEyQDTnkiQyrilkllasgheelfmvGDpkQsIYgFRgAdielflkkkkd]]>
+              </hmm>
+              <match_string>
+                <![CDATA[ln++q++a+++  +++lv+A+AG GKT+++++r ++li+++   +++i ++TFT++Aa+E+ +R+e++++ +                ++ +  sT+H fc  +l+++ +  gl  +f+i+d +d      q l+++ll    +d+ n+  k++e                          l+ l s a   +++ls+  lk+  ++a +++++iae++k+y+++k+e+n lD++d+l+ +   l++ e l++ +    + +l+DE QDTn+ Q+++l+ l+ +  +lf+vGD+ QsIYgFRgAd+e++ ++k++]]>
+              </match_string>
+              <pp>
+                <![CDATA[699**************************************.**************************9986................79**********************986.6********......666667775..2333344444433..........................4444444440044455554454.46889999*******************************999877777777777799***********************8.8************************9987]]>
+              </pp>
+              <seq>
+                <![CDATA[LNAQQKKAATTKAQNCLVLAGAGCGKTKTIVARAAYLIDQG-LPANQIQILTFTRRAASEIVARVEQHVGAQ----------------AKGLRASTFHTFCMYLLRRNPQAFGLT-QFSIIDRDD------QLLMFRLLR--GKDKDNVLPKAAE--------------------------LCDLYSYARntQSKLSEALLKQ-LPEAYEYKSQIAELMKTYEQRKRERNFLDYDDILSIVAVHLQNSEALTNWVAGFCQALLVDEMQDTNPLQWALLQPLIGKV-KLFCVGDDAQSIYGFRGADFENIHSFKER]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       lnpeqreaiaslggpilveAsAGsGKTfvlaerilrlikeeeiepdrilvvTFTnkAaeElkeRieealkkaeqessdderlrlalqnlseanisTlHsfcqkilkkeanrigldpnfrildeedeedlkqqellkelleksaddslnldkkkleklikelsksrnikkeelslskskaeelrelvskak..ekqlspkelkkafekasdlqkkiaeflkeyqeqkkeenalDfsdllhallelleeneelaealrerykeiliDEyQDTnkiQyrilkllasgheelfmvGDpkQsIYgFRgAdielflkkkkd
+#MATCH     ln++q++a+++  +++lv+A+AG GKT+++++r ++li+++   +++i ++TFT++Aa+E+ +R+e++++ +                ++ +  sT+H fc  +l+++ +  gl  +f+i+d +d      q l+++ll    +d+ n+  k++e                          l+ l s a   +++ls+  lk+  ++a +++++iae++k+y+++k+e+n lD++d+l+ +   l++ e l++ +    + +l+DE QDTn+ Q+++l+ l+ +  +lf+vGD+ QsIYgFRgAd+e++ ++k++
+#PP        699**************************************.**************************9986................79**********************986.6********......666667775..2333344444433..........................4444444440044455554454.46889999*******************************999877777777777799***********************8.8************************9987
+#SEQ       LNAQQKKAATTKAQNCLVLAGAGCGKTKTIVARAAYLIDQG-LPANQIQILTFTRRAASEIVARVEQHVGAQ----------------AKGLRASTFHTFCMYLLRRNPQAFGLT-QFSIIDRDD------QLLMFRLLR--GKDKDNVLPKAAE--------------------------LCDLYSYARntQSKLSEALLKQ-LPEAYEYKSQIAELMKTYEQRKRERNFLDYDDILSIVAVHLQNSEALTNWVAGFCQALLVDEMQDTNPLQWALLQPLIGKV-KLFCVGDDAQSIYGFRGADFENIHSFKER
+                ]]>
+              </raw>
+            </location>
+          </match>
+          <match accession="PF13361.4" id="UvrD_C" type="Pfam-A" class="Domain">
+            <location start="277" end="599" ali_start="278" ali_end="597" hmm_start="2" hmm_end="347" evalue="1.9e-39" bitscore="135.9" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[vLekNyRStksLlkaankflenilnrrale.kekktvekgekivvleaeteeeEaekiaatikallekneklediavLvRsnkdadkiskaLkkegipfnvvdeekfFkreeikdilaylkllankqdkialkrilkrlvlgigkatveriseelkklglsltDfikedtleygeeFieliraleeknl.....elllkkiektaeerqalvskyadlfkelaeklaelkekseskrkkeeklenlreLysllkelekkeeeeeveeklneileiatLseseleeskkkekipiiTiHqAKGlEFdvVflagleegtfPsyrskk.ekrleEEkRlfYVaiTRAkkrLfisys]]>
+              </hmm>
+              <match_string>
+                <![CDATA[+L  NyRSt+++l+++n +l++   +  ++ + ++ + kg+k +++ + +e eEa++ia+ + +  ++  +  d  vLvRs + a+ ++ a+ + +ip++ +++ k+++   +kd+l +l+++ n+qd++a+ r l +l  gig+  + ++ +e          +++      + e  e  + le++ +      l+   +++    +q++ ++ + +  +l+e+l++  ++++        +++ ++ ++l+k+l +k+ + +     + +le +++se e+    +++ +++iTiH+AKG E  v ++ +++ +++P  r++   +++eEE+R++YVa+TRA ++L++++ ]]>
+              </match_string>
+              <pp>
+                <![CDATA[6999****************555444..221334999**********************98888877*******************************************************************66.68899999999999222..........222......222223334555444423322112...2222333333444444444455555444333333........33333334666777663333221.112344555555555553..3349*****************************9998877789********************9976]]>
+              </pp>
+              <seq>
+                <![CDATA[TLDLNYRSTQEILDLSNWLLAHSPID--YQkQLQAHRGKGQKPQLHLFGNEFEEANWIAQDLIERHQQGANWYDHMVLVRSGYSARYLEGAFIAAEIPYRFIGGVKLLESAHVKDVLSLLRIVSNPQDDLAWMRFL-TLWDGIGDVGASKLAQE----------LMS------ISEVEERCQRLERHGKvplqaILI---LKQLDVLQQHVEASIGLALDALSEQLEQNYKTKD--------WSRRARDFDLVKQLARKHASLGE-FLEEYVLEPISISEIEKA--GDDDLVTLITIHSAKGAEQKVCYVPHVSPNQYPYARAQGdFDEVEEERRVLYVALTRAENELILTKQ]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       vLekNyRStksLlkaankflenilnrrale.kekktvekgekivvleaeteeeEaekiaatikallekneklediavLvRsnkdadkiskaLkkegipfnvvdeekfFkreeikdilaylkllankqdkialkrilkrlvlgigkatveriseelkklglsltDfikedtleygeeFieliraleeknl.....elllkkiektaeerqalvskyadlfkelaeklaelkekseskrkkeeklenlreLysllkelekkeeeeeveeklneileiatLseseleeskkkekipiiTiHqAKGlEFdvVflagleegtfPsyrskk.ekrleEEkRlfYVaiTRAkkrLfisys
+#MATCH     +L  NyRSt+++l+++n +l++   +  ++ + ++ + kg+k +++ + +e eEa++ia+ + +  ++  +  d  vLvRs + a+ ++ a+ + +ip++ +++ k+++   +kd+l +l+++ n+qd++a+ r l +l  gig+  + ++ +e          +++      + e  e  + le++ +      l+   +++    +q++ ++ + +  +l+e+l++  ++++        +++ ++ ++l+k+l +k+ + +     + +le +++se e+    +++ +++iTiH+AKG E  v ++ +++ +++P  r++   +++eEE+R++YVa+TRA ++L++++ 
+#PP        6999****************555444..221334999**********************98888877*******************************************************************66.68899999999999222..........222......222223334555444423322112...2222333333444444444455555444333333........33333334666777663333221.112344555555555553..3349*****************************9998877789********************9976
+#SEQ       TLDLNYRSTQEILDLSNWLLAHSPID--YQkQLQAHRGKGQKPQLHLFGNEFEEANWIAQDLIERHQQGANWYDHMVLVRSGYSARYLEGAFIAAEIPYRFIGGVKLLESAHVKDVLSLLRIVSNPQDDLAWMRFL-TLWDGIGDVGASKLAQE----------LMS------ISEVEERCQRLERHGKvplqaILI---LKQLDVLQQHVEASIGLALDALSEQLEQNYKTKD--------WSRRARDFDLVKQLARKHASLGE-FLEEYVLEPISISEIEKA--GDDDLVTLITIHSAKGAEQKVCYVPHVSPNQYPYARAQGdFDEVEEERRVLYVALTRAENELILTKQ
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

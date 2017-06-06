@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="blastp" version="BLASTP 2.2.29+"/>
+  <commandLine command="/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.29+/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-I20170606-181800-0619-25460599-pg.sequence  -num_threads 16 -outfmt 11 -out ncbiblast-I20170606-181800-0619-25460599-pg.archive -matrix BLOSUM62 -num_alignments 50 -evalue 10 -gapopen 11 -gapextend 1 -seg no -comp_based_stats F"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="EMBOSS_001" type="PROTEIN" length="42"/>
+   </sequences>
+   <databases total="1" sequences="85866869" letters="28909108493">
+    <database number="1" name="uniprotkb" type="PROTEIN" created="2017-05-08T11:31:00+01:00"/>
+   </databases>
+   <alignments>50</alignments>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>F</filter>
+   <gapExtension>1.0</gapExtension>
+   <gapOpen>11.0</gapOpen>
+   <matrix>BLOSUM62</matrix>
+   <scores>50</scores>
+  </parameters>
+  <timeInfo start="2017-06-06T18:18:00+01:00" end="2017-06-06T18:18:26+01:00" search="P0Y0M0DT0H0M26.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="50">
+   <hit number="1" database="TR" id="N8X2H1_9GAMM" ac="N8X2H1" length="86" description="Acyl carrier protein OS=Acinetobacter sp. NIPH 817 GN=F968_03303 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="TR" id="R8YDE9_ACIPI" ac="R8YDE9" length="86" description="Acyl carrier protein OS=Acinetobacter pittii ANC 4050 GN=F931_02366 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="TR" id="A0A009I915_9GAMM" ac="A0A009I915" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter sp. 1295259 GN=J507_0506 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="TR" id="A0A010JZS5_9GAMM" ac="A0A010JZS5" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter sp. 1542444 GN=J580_2914 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="5" database="TR" id="D0S5I1_ACICA" ac="D0S5I1" length="86" description="Acyl carrier protein OS=Acinetobacter calcoaceticus RUH2202 GN=acpP PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="6" database="TR" id="D8JGT1_ACISD" ac="D8JGT1" length="86" description="Acyl carrier protein OS=Acinetobacter oleivorans (strain JCM 16667 / KCTC 23045 / DR1) GN=AOLE_16880 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="7" database="TR" id="N9ESF5_ACICA" ac="N9ESF5" length="86" description="Acyl carrier protein OS=Acinetobacter calcoaceticus ANC 3680 GN=F937_00384 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="8" database="TR" id="N9S708_9GAMM" ac="N9S708" length="86" description="Acyl carrier protein OS=Acinetobacter sp. NIPH 542 GN=F886_01025 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="9" database="TR" id="A0A013RYI7_ACIBA" ac="A0A013RYI7" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter baumannii 573719 GN=J658_1676 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="10" database="TR" id="A0A013SSK4_9GAMM" ac="A0A013SSK4" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter sp. 826659 GN=J663_2006 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="11" database="TR" id="R8XYA2_ACICA" ac="R8XYA2" length="86" description="Acyl carrier protein OS=Acinetobacter calcoaceticus ANC 3811 GN=F935_02571 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="12" database="TR" id="A0A062MP93_ACIBA" ac="A0A062MP93" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter baumannii 1288284 GN=J608_0092 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="13" database="TR" id="A0A151YP40_9GAMM" ac="A0A151YP40" length="86" description="Acyl carrier protein OS=Acinetobacter lactucae GN=AWW73_01605 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="14" database="TR" id="A0A062G3V2_ACIBA" ac="A0A062G3V2" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter baumannii 15827 GN=J530_1643 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="15" database="TR" id="A0A013SFJ8_9GAMM" ac="A0A013SFJ8" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter sp. 742879 GN=J690_0787 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="16" database="TR" id="F0KMQ5_ACICP" ac="F0KMQ5" length="86" description="Uncharacterized protein OS=Acinetobacter calcoaceticus (strain PHEA-2) GN=BDGL_003422 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="17" database="TR" id="A0A0R1B630_ACINO" ac="A0A0R1B630" length="86" description="Acyl carrier protein OS=Acinetobacter nosocomialis GN=APC94_18145 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="18" database="TR" id="A0A0Q5FK59_9GAMM" ac="A0A0Q5FK59" length="86" description="Acyl carrier protein OS=Acinetobacter sp. Leaf130 GN=ASF86_13420 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="19" database="TR" id="A0A009INP4_ACIBA" ac="A0A009INP4" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter baumannii 1295743 GN=J512_2208 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="20" database="TR" id="R8Z1K3_ACIPI" ac="R8Z1K3" length="86" description="Acyl carrier protein OS=Acinetobacter pittii ANC 4052 GN=F929_01418 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="21" database="TR" id="A0A0B2XNN2_ACIBA" ac="A0A0B2XNN2" length="86" description="Acyl carrier protein OS=Acinetobacter baumannii GN=NT90_02385 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="22" database="TR" id="A0A0Q1YK18_ACIPI" ac="A0A0Q1YK18" length="86" description="Acyl carrier protein OS=Acinetobacter pittii GN=acpP_1 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="23" database="TR" id="A0A059ZUB2_ACIBA" ac="A0A059ZUB2" length="86" description="Acyl carrier protein OS=Acinetobacter baumannii GN=A7M79_04760 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="24" database="TR" id="A0A0A8XLM1_ACICA" ac="A0A0A8XLM1" length="86" description="Acyl carrier protein OS=Acinetobacter calcoaceticus GN=A9988_16000 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.0E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="25" database="TR" id="G2JFP8_ACIBA" ac="G2JFP8" length="92" description="Acyl carrier protein OS=Acinetobacter baumannii MDR-ZJ06 GN=ABZJ_00550 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>203</score>
+      <bits>82.8037</bits>
+      <expectation>6.9E-19</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="7" end="48">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="26" database="TR" id="A0A0B2UH18_9GAMM" ac="A0A0B2UH18" length="86" description="Acyl carrier protein OS=Acinetobacter oleivorans GN=DH17_07930 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>200</score>
+      <bits>81.6481</bits>
+      <expectation>1.7E-18</expectation>
+      <identity>97.6</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDT+APLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTDAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="27" database="TR" id="A0A101KJQ8_ACICA" ac="A0A101KJQ8" length="86" description="Acyl carrier protein OS=Acinetobacter calcoaceticus GN=AV645_16880 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>200</score>
+      <bits>81.6481</bits>
+      <expectation>1.7E-18</expectation>
+      <identity>97.6</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADIDT+APLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTDAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="28" database="TR" id="K8ZU28_9GAMM" ac="K8ZU28" length="86" description="Putative acyl carrier protein OS=Acinetobacter sp. WC-141 GN=ACINWC141_0541 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>199</score>
+      <bits>81.2629</bits>
+      <expectation>2.4E-18</expectation>
+      <identity>97.6</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADI+TEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIETEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="29" database="TR" id="A0A0W3DPP8_9GAMM" ac="A0A0W3DPP8" length="86" description="Acyl carrier protein OS=Acinetobacter sp. FDAARGOS_131 GN=AL489_02855 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>198</score>
+      <bits>80.8777</bits>
+      <expectation>3.3E-18</expectation>
+      <identity>97.6</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITIADI+TEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADINTEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="30" database="TR" id="A0A1C3CUK3_9GAMM" ac="A0A1C3CUK3" length="86" description="Acyl carrier protein OS=Acinetobacter celticus GN=BBP83_10960 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>194</score>
+      <bits>79.337</bits>
+      <expectation>1.3E-17</expectation>
+      <identity>95.2</identity>
+      <positives>97.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDITI DIDTEAPLFG+GLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDITIDDIDTEAPLFGDGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="31" database="TR" id="N8QPR6_9GAMM" ac="N8QPR6" length="86" description="Acyl carrier protein OS=Acinetobacter sp. NIPH 809 GN=F993_00519 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>192</score>
+      <bits>78.5666</bits>
+      <expectation>2.6E-17</expectation>
+      <identity>92.9</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDI+I+DI+TEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDISISDIETEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="32" database="TR" id="A0A0B0KMJ6_9GAMM" ac="A0A0B0KMJ6" length="86" description="Acyl carrier protein (ACP1) OS=Acinetobacter sp. neg1 GN=PJ15_0046 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>189</score>
+      <bits>77.411</bits>
+      <expectation>7.3E-17</expectation>
+      <identity>90.5</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDI+I+DI+T+APLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDISISDIETDAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="33" database="TR" id="N9MPP0_9GAMM" ac="N9MPP0" length="86" description="Acyl carrier protein OS=Acinetobacter sp. NIPH 298 GN=F903_01036 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>189</score>
+      <bits>77.411</bits>
+      <expectation>7.3E-17</expectation>
+      <identity>90.5</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDI+I+DI+TEAPLFG+GLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDISISDIETEAPLFGDGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="34" database="TR" id="V2TKS2_9GAMM" ac="V2TKS2" length="86" description="Acyl carrier protein OS=Acinetobacter gyllenbergii NIPH 230 GN=F987_03875 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>189</score>
+      <bits>77.411</bits>
+      <expectation>7.3E-17</expectation>
+      <identity>92.9</identity>
+      <positives>97.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDI I+DI+TEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDIGISDIETEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="35" database="TR" id="N9L1F3_9GAMM" ac="N9L1F3" length="86" description="Acyl carrier protein OS=Acinetobacter sp. ANC 4105 GN=F904_03867 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>189</score>
+      <bits>77.411</bits>
+      <expectation>7.3E-17</expectation>
+      <identity>90.5</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDI+I+DI+T+APLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDISISDIETDAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="36" database="TR" id="N8WGC3_9GAMM" ac="N8WGC3" length="86" description="Acyl carrier protein OS=Acinetobacter sp. CIP 56.2 GN=F966_00805 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>189</score>
+      <bits>77.411</bits>
+      <expectation>7.3E-17</expectation>
+      <identity>92.9</identity>
+      <positives>97.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDI I+DI+TEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDIGISDIETEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="37" database="TR" id="N9R5E0_9GAMM" ac="N9R5E0" length="86" description="Acyl carrier protein OS=Acinetobacter sp. CIP 70.18 GN=F902_04144 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>189</score>
+      <bits>77.411</bits>
+      <expectation>7.3E-17</expectation>
+      <identity>92.9</identity>
+      <positives>97.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDI I+DI+TEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDIGISDIETEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="38" database="TR" id="R9B5A6_9GAMM" ac="R9B5A6" length="86" description="Acyl carrier protein OS=Acinetobacter sp. CIP 110321 GN=F896_00644 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>189</score>
+      <bits>77.411</bits>
+      <expectation>7.3E-17</expectation>
+      <identity>92.9</identity>
+      <positives>97.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDI I+DI+TEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDIGISDIETEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="39" database="TR" id="A0A0M2ZVD5_9GAMM" ac="A0A0M2ZVD5" length="86" description="Acyl carrier protein OS=Acinetobacter sp. AG1 GN=AAV96_17025 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>189</score>
+      <bits>77.411</bits>
+      <expectation>7.3E-17</expectation>
+      <identity>90.5</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDI+I+DI+TEAPLFG+GLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDISISDIETEAPLFGDGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="40" database="TR" id="N9NGQ2_9GAMM" ac="N9NGQ2" length="86" description="Acyl carrier protein OS=Acinetobacter sp. NIPH 2168 GN=F892_03183 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>189</score>
+      <bits>77.411</bits>
+      <expectation>7.3E-17</expectation>
+      <identity>90.5</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDI+I+DI+T+APLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDISISDIETDAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="41" database="TR" id="A0A1B8U9D5_9GAMM" ac="A0A1B8U9D5" length="86" description="Acyl carrier protein OS=Acinetobacter gyllenbergii GN=NG55_17710 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>189</score>
+      <bits>77.411</bits>
+      <expectation>7.3E-17</expectation>
+      <identity>92.9</identity>
+      <positives>97.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDI I+DI+TEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDIGISDIETEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="42" database="TR" id="N9TH43_9GAMM" ac="N9TH43" length="86" description="Acyl carrier protein OS=Acinetobacter sp. ANC 3880 GN=F885_00915 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>189</score>
+      <bits>77.411</bits>
+      <expectation>7.3E-17</expectation>
+      <identity>92.9</identity>
+      <positives>97.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDI I+DI+TEAPLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDIGISDIETEAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="43" database="TR" id="N8V1C9_9GAMM" ac="N8V1C9" length="86" description="Acyl carrier protein OS=Acinetobacter sp. NIPH 758 GN=F971_00895 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>189</score>
+      <bits>77.411</bits>
+      <expectation>7.3E-17</expectation>
+      <identity>90.5</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDI+I+DI+T+APLFGEGLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDISISDIETDAPLFGEGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="44" database="TR" id="R9B204_9GAMM" ac="R9B204" length="86" description="Acyl carrier protein OS=Acinetobacter tandoii DSM 14970 = CIP 107469 GN=I593_01641 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>187</score>
+      <bits>76.6406</bits>
+      <expectation>1.5E-16</expectation>
+      <identity>90.5</identity>
+      <positives>97.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDI+I DIDT+APLFG+GLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDISIDDIDTDAPLFGDGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="45" database="TR" id="A0A151Y0L0_9GAMM" ac="A0A151Y0L0" length="86" description="Acyl carrier protein OS=Acinetobacter sp. ANC 4149 GN=AZH43_13885 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>187</score>
+      <bits>76.6406</bits>
+      <expectation>1.5E-16</expectation>
+      <identity>90.5</identity>
+      <positives>97.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDI+I DIDT+APLFG+GLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDISIDDIDTDAPLFGDGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="46" database="TR" id="N8QIH6_ACIJO" ac="N8QIH6" length="86" description="Acyl carrier protein OS=Acinetobacter johnsonii CIP 64.6 GN=F986_03014 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>186</score>
+      <bits>76.2554</bits>
+      <expectation>2.1E-16</expectation>
+      <identity>90.5</identity>
+      <positives>95.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDI I DIDT+APLFG+GLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDIRIEDIDTDAPLFGDGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="47" database="TR" id="A0A0W8H4G6_ACIJO" ac="A0A0W8H4G6" length="86" description="Acyl carrier protein OS=Acinetobacter johnsonii GN=AAU60_00430 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>186</score>
+      <bits>76.2554</bits>
+      <expectation>2.1E-16</expectation>
+      <identity>90.5</identity>
+      <positives>95.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDI I DIDT+APLFG+GLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDIRIEDIDTDAPLFGDGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="48" database="TR" id="D0SG39_ACIJO" ac="D0SG39" length="86" description="Phosphopantetheine attachment domain protein OS=Acinetobacter johnsonii SH046 GN=HMPREF0016_02812 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>186</score>
+      <bits>76.2554</bits>
+      <expectation>2.1E-16</expectation>
+      <identity>90.5</identity>
+      <positives>95.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDI I DIDT+APLFG+GLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDIRIEDIDTDAPLFGDGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="49" database="TR" id="A0A178GQF6_9GAMM" ac="A0A178GQF6" length="86" description="Acyl carrier protein OS=Acinetobacter sp. SFC GN=AY608_11260 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>186</score>
+      <bits>76.2554</bits>
+      <expectation>2.1E-16</expectation>
+      <identity>90.5</identity>
+      <positives>97.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDI+I DI+TEAPLFG+GLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDISIDDIETEAPLFGDGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="50" database="TR" id="N9C837_9GAMM" ac="N9C837" length="86" description="Acyl carrier protein OS=Acinetobacter bouvetii DSM 14964 = CIP 107468 GN=F941_02803 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>186</score>
+      <bits>76.2554</bits>
+      <expectation>2.1E-16</expectation>
+      <identity>90.5</identity>
+      <positives>95.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="42">MSNLADELKQMIIDVLALEDITIADIDTEAPLFGEGLGLDSI</querySeq>
+      <pattern>MSNLADELKQMIIDVLALEDI I DIDT+APLFG+GLGLDSI</pattern>
+      <matchSeq start="1" end="42">MSNLADELKQMIIDVLALEDIRIEDIDTDAPLFGDGLGLDSI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult></EBIApplicationResult>

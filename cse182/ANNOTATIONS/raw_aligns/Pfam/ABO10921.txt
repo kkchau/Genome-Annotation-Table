@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="7872658A-4ADD-11E7-9102-C33295374F7B">
+    <matches>
+      <protein length="72">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF02416.14" id="MttA_Hcf106" type="Pfam-A" class="Family">
+            <location start="4" end="69" ali_start="4" ali_end="49" hmm_start="1" hmm_end="46" evalue="4.1e-13" bitscore="48.3" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[lgapelliIlvValllFGpkkLPEvaraLGktLreFkkavkeleee]]>
+              </hmm>
+              <match_string>
+                <![CDATA[l++++++i ++V++llFG +kL  +++  G + r Fkk v+e++e ]]>
+              </match_string>
+              <pp>
+                <![CDATA[69****************************************9885]]>
+              </pp>
+              <seq>
+                <![CDATA[LSIWHVVIFAIVVILLFGTSKLKNIGKDVGGAVRDFKKSVREEDEA]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       lgapelliIlvValllFGpkkLPEvaraLGktLreFkkavkeleee
+#MATCH     l++++++i ++V++llFG +kL  +++  G + r Fkk v+e++e 
+#PP        69****************************************9885
+#SEQ       LSIWHVVIFAIVVILLFGTSKLKNIGKDVGGAVRDFKKSVREEDEA
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

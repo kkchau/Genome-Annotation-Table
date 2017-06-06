@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="E69BFBE4-4ADC-11E7-98B3-C73295374F7B">
+    <matches>
+      <protein length="61">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF01783.21" id="Ribosomal_L32p" type="Pfam-A" class="Family">
+            <location start="2" end="56" ali_start="2" ali_end="55" hmm_start="1" hmm_end="55" evalue="2.6e-20" bitscore="72.3" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[AVPKrKtSksrrrkRrahwklkapnlvecpncgelklpHrvcpscGyYkgrevie]]>
+              </hmm>
+              <match_string>
+                <![CDATA[AV+++++S+srr++Rr+h++l+ ++l++++ +ge++++H+v+++ G+Y+gr+ ++]]>
+              </match_string>
+              <pp>
+                <![CDATA[9*******************************************.*******876]]>
+              </pp>
+              <seq>
+                <![CDATA[AVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKD-GFYRGRQLFA]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       AVPKrKtSksrrrkRrahwklkapnlvecpncgelklpHrvcpscGyYkgrevie
+#MATCH     AV+++++S+srr++Rr+h++l+ ++l++++ +ge++++H+v+++ G+Y+gr+ ++
+#PP        9*******************************************.*******876
+#SEQ       AVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKD-GFYRGRQLFA
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

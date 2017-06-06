@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="63934094-4ADD-11E7-898D-A0A45F09777C">
+    <matches>
+      <protein length="192">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF00132.22" id="Hexapep" type="Pfam-A" class="Repeat">
+            <location start="14" end="49" ali_start="14" ali_end="49" hmm_start="1" hmm_end="36" evalue="1.4e-07" bitscore="30.8" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[stvIGsnvlIgpfaviggnVkIGdnvkIgagvvigg]]>
+              </hmm>
+              <match_string>
+                <![CDATA[+++IG+++ +++f++++g++kIG++v +g +v +g+]]>
+              </match_string>
+              <pp>
+                <![CDATA[589******************************986]]>
+              </pp>
+              <seq>
+                <![CDATA[GAQIGEGSRVWHFVHVCGGAKIGKGVSLGQNVFVGN]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       stvIGsnvlIgpfaviggnVkIGdnvkIgagvvigg
+#MATCH     +++IG+++ +++f++++g++kIG++v +g +v +g+
+#PP        589******************************986
+#SEQ       GAQIGEGSRVWHFVHVCGGAKIGKGVSLGQNVFVGN
+                ]]>
+              </raw>
+            </location>
+            <location start="50" end="79" ali_start="51" ali_end="75" hmm_start="2" hmm_end="26" evalue="0.00025" bitscore="20.5" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[tvIGsnvlIgpfaviggnVkIGdnv]]>
+              </hmm>
+              <match_string>
+                <![CDATA[+vIG+++++ +++ +++nV++ ++v]]>
+              </match_string>
+              <pp>
+                <![CDATA[79*******************9998]]>
+              </pp>
+              <seq>
+                <![CDATA[VVIGDHCKVQNNVSVYDNVTLEEGV]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       tvIGsnvlIgpfaviggnVkIGdnv
+#MATCH     +vIG+++++ +++ +++nV++ ++v
+#PP        79*******************9998
+#SEQ       VVIGDHCKVQNNVSVYDNVTLEEGV
+                ]]>
+              </raw>
+            </location>
+            <location start="101" end="136" ali_start="102" ali_end="136" hmm_start="2" hmm_end="36" evalue="2.6e-06" bitscore="26.8" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[tvIGsnvlIgpfaviggnVkIGdnvkIgagvvigg]]>
+              </hmm>
+              <match_string>
+                <![CDATA[t + +++++g++++i  +V+IG ++ Igag+v+++]]>
+              </match_string>
+              <pp>
+                <![CDATA[5677899*************************985]]>
+              </pp>
+              <seq>
+                <![CDATA[TLVKKGATLGANCTIVCGVTIGAYAFIGAGAVVNK]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       tvIGsnvlIgpfaviggnVkIGdnvkIgagvvigg
+#MATCH     t + +++++g++++i  +V+IG ++ Igag+v+++
+#PP        5677899*************************985
+#SEQ       TLVKKGATLGANCTIVCGVTIGAYAFIGAGAVVNK
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

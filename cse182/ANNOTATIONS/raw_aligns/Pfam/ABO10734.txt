@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="6180E5FA-4ADC-11E7-A28C-733295374F7B">
+    <matches>
+      <protein length="344">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF00206.18" id="Lyase_1" type="Pfam-A" class="Domain">
+            <location start="1" end="258" ali_start="2" ali_end="258" hmm_start="39" hmm_end="312" evalue="2.2e-71" bitscore="240.7" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[aakanvelkeeaaaiikaldevleegklddqfvlkviqegsgtavnmnlneviaellgqkvepndkvhtgqSsnDqvpTalrlalkkalsekLlpaleqLidalkekakefkdvvkiGrThlqdAtPvtlgqelsayaealerdlerlkellkrllveklgggtavgtglnadpefaelvaeelakitglpvkaansfeavsdrDavvellgalkllavsLskiaeDlrllssgpaglvelslaesepGSSiMPgKvNPvqlElltgvagrvvG]]>
+              </hmm>
+              <match_string>
+                <![CDATA[+ak++v++++e ++ii++l+ +++e++++ +f+   + e+ + + + +l++ i+        + +k+htg+S+nDqv+T++rl l++++ +++l  le+L+++l   a ++ +++++G+Thlq A+Pvt+g+ l a+ e+l rd erl++ +kr++  +lg+++++gt + +d+    + ae l+ ++    +++ns++avsdrD+ +e+ +a++l++++Ls+++e+l+l  s  + +v++ ++  + GSSiMP+K+NP+ +El++g++grv+G]]>
+              </match_string>
+              <pp>
+                <![CDATA[79***************************.************************.......778*************************.55***********************************************************************************...9999999.999...9******************************************************.*************************9]]>
+              </pp>
+              <seq>
+                <![CDATA[LAKVGVLTEAERDDIIEGLSTIRAEIEAG-TFEWRIDLEDVHMNIESRLTQRIG-------ITGKKLHTGRSRNDQVATDIRLYLRDEI-DDILGLLERLQKGLLGLAAKNVNTIMPGFTHLQTAQPVTFGHHLLAWFEMLVRDTERLQDCRKRVNRMPLGSAALAGTTYPIDRA---YTAELLG-FEA---VSENSLDAVSDRDFAIEFNAAASLIMMHLSRMSEELILWTSAQFKFVNIPDRFCT-GSSIMPQKKNPDVPELIRGKSGRVFG]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       aakanvelkeeaaaiikaldevleegklddqfvlkviqegsgtavnmnlneviaellgqkvepndkvhtgqSsnDqvpTalrlalkkalsekLlpaleqLidalkekakefkdvvkiGrThlqdAtPvtlgqelsayaealerdlerlkellkrllveklgggtavgtglnadpefaelvaeelakitglpvkaansfeavsdrDavvellgalkllavsLskiaeDlrllssgpaglvelslaesepGSSiMPgKvNPvqlElltgvagrvvG
+#MATCH     +ak++v++++e ++ii++l+ +++e++++ +f+   + e+ + + + +l++ i+        + +k+htg+S+nDqv+T++rl l++++ +++l  le+L+++l   a ++ +++++G+Thlq A+Pvt+g+ l a+ e+l rd erl++ +kr++  +lg+++++gt + +d+    + ae l+ ++    +++ns++avsdrD+ +e+ +a++l++++Ls+++e+l+l  s  + +v++ ++  + GSSiMP+K+NP+ +El++g++grv+G
+#PP        79***************************.************************.......778*************************.55***********************************************************************************...9999999.999...9******************************************************.*************************9
+#SEQ       LAKVGVLTEAERDDIIEGLSTIRAEIEAG-TFEWRIDLEDVHMNIESRLTQRIG-------ITGKKLHTGRSRNDQVATDIRLYLRDEI-DDILGLLERLQKGLLGLAAKNVNTIMPGFTHLQTAQPVTFGHHLLAWFEMLVRDTERLQDCRKRVNRMPLGSAALAGTTYPIDRA---YTAELLG-FEA---VSENSLDAVSDRDFAIEFNAAASLIMMHLSRMSEELILWTSAQFKFVNIPDRFCT-GSSIMPQKKNPDVPELIRGKSGRVFG
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="18D8133C-4A7D-11E7-8C95-4D2695374F7B">
+    <matches>
+      <protein length="121">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF03692.13" id="CxxCxxCC" type="Pfam-A" class="Family">
+            <location start="10" end="100" ali_start="10" ali_end="89" hmm_start="1" hmm_end="75" evalue="8.8e-08" bitscore="32.6" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[eCkeCgaCCk........elkvklteedlerlkaaevaeeeeeskkiakadgrCvfldeetk...lCkiYeeRpkicrlfpaseke]]>
+              </hmm>
+              <match_string>
+                <![CDATA[eC +CgaCC+        ++   ++e+ +e l+++  +++ +++ +      rC++l++e +    C+iY+ R+++cr+ + ++ e]]>
+              </match_string>
+              <pp>
+                <![CDATA[6*********5555555444444445555555555555555555555.....******99888889************988753.3]]>
+              </pp>
+              <seq>
+                <![CDATA[ECLRCGACCAhfrvsfywAEAELMEEHLVEPLTPVYSCMRGTNQPEP-----RCQALTGEIGkevGCSIYAVRSSTCREVQIAD-E]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       eCkeCgaCCk........elkvklteedlerlkaaevaeeeeeskkiakadgrCvfldeetk...lCkiYeeRpkicrlfpaseke
+#MATCH     eC +CgaCC+        ++   ++e+ +e l+++  +++ +++ +      rC++l++e +    C+iY+ R+++cr+ + ++ e
+#PP        6*********5555555444444445555555555555555555555.....******99888889************988753.3
+#SEQ       ECLRCGACCAhfrvsfywAEAELMEEHLVEPLTPVYSCMRGTNQPEP-----RCQALTGEIGkevGCSIYAVRSSTCREVQIAD-E
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

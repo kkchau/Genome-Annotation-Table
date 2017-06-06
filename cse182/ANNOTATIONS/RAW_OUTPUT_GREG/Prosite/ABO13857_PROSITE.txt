@@ -1,0 +1,339 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"><!-- automatically added by Apache -->
+    <link rel="shortcut icon" href="http://web.expasy.org/favicon.ico" ><!-- automatically added by Apache -->
+    <link rel="stylesheet" href="/css/sib_css/sib.css" type="text/css" media="screen" charset="utf-8" >
+	   <link rel="stylesheet" href="/css/sib_css/sib_print.css" type="text/css" media="print" charset="utf-8" >
+           <!--[if lte IE 6]>
+	   <link rel="stylesheet" href="/css/sib_css/sib_ie6.css" type="text/css" media="screen" title="" charset="utf-8">
+           <![endif]-->
+           <link rel="stylesheet" href="/css/base.css" type="text/css"><!-- automatically added by Apache -->
+<link rel="stylesheet" href="/css/unirule.css" type="text/css"><script src="/unirule/js/unirule.js" language="JavaScript" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<!-- If you have jQuery directly, then skip next line -->
+<script src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+    // If you have jQuery directly, use the following line, instead
+    // $(function() {
+    // If you have jQuery via Google AJAX Libraries
+    $(function() {
+        $(window).scroll(sticky_relocate);
+        sticky_relocate();
+    });
+</script>
+<style type="text/css">
+    .diag_core {font-size:large;}
+    .skipflag {color: #dd4400;}
+    .error {color: red;}
+    .highlight {background-color:#aaddee;}
+
+    #description:before, #technical:before, #references:before, #miscellaneous:before {
+        display:block;
+        content:"";
+        height:3.0em;
+        margin:-3.0em 0 0;
+    }
+</style>
+<title>PROSITE</title>
+  </head>
+  <body>
+<!-- ********************************************************************************************** -->
+<!-- START OF HEADER information on top of the page -->
+<div id='sib_top'><a name='TOP'></a></div>
+<div id='sib_container'>
+
+<!-- TODO: Change id to "sib_header" or "sib_header_small" -->
+<div id='sib_header_small'>
+
+<!-- SIB-ExPASy -->
+<div id="sib_expasy_logo">
+<a href="http://www.isb-sib.ch" id="sib_link" title="SIB Swiss Institute of Bioinformatics"></a>
+<a href="http://www.expasy.org" id="expasy_link" title="ExPASy - SIB Bioinformatics Resource Portal"></a>
+</div>
+<!-- SIB-ExPASy END -->
+
+<div class='sib_title_no_logo'>
+<h1><a href='http://prosite.expasy.org'>PROSITE</a></h1>
+</div>
+
+<! -- Additionnal resource header -->
+<div id='resource_header'></div>
+
+<div id='sib_header_nav'>
+<a href="http://prosite.expasy.org" title="Home page">Home</a>&nbsp;|&nbsp;<a style="font-weight: bold; color: rgb(204,0,0) !important;" href="/contact" title="Contact">Contact</a></div>
+</div>
+<!-- END OF HEADER -->
+<!-- ********************************************************************************************** -->
+<div id='sib_body'>
+<!-- automatically added by Apache -->
+<div class="core"><table class="unirule_head">
+    <tr>
+        
+            <td rowspan="2" class="logo" style="vertical-align:bottom;"><img src="/images/prosite/prosite.gif" alt="Prosite logo"></td>
+        
+        <td class="nav">
+            <div class="navig_menu">
+                <ul class="prosite">
+                    
+                        <li class="prosite_selected"><a href="/prosite.html">Home</a></li>
+                    
+
+                    
+                        <li><a href="/scanprosite/">ScanProsite</a></li>
+                    
+
+                    
+                        <li><a href="/prorule.html">ProRule</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_doc.html">Documents</a></li>
+                    
+
+                    
+                        <li><a href="ftp://ftp.expasy.org/databases/prosite/">Downloads</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_link.html">Links</a></li>
+                    
+
+                    
+                        <li><a href="/prosite_funding.html">Funding</a></li>
+                    
+                </ul>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="title">PROSITE documentation PDOC50943 [for PROSITE entry PS50943]</td>
+    </tr>
+</table>
+<br>
+<div class="section1">Cro/C1-type HTH domain profile</div><br><div id="sticky-anchor"></div>
+<div id="sticky">
+    <div id="menu_hor">
+        <ul>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#description">Description</a></li>
+
+            <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#technical">Technical section</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#references">References</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#copyright">Copyright</a></li>
+
+	    <li onmouseover=javascript:showMenu() onmouseout=hideAllMenus()><a href="#miscellaneous">Miscellaneous</a></li>
+
+	</ul>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div id="description" class="section5">Description</div><p>The  cro/C1-type HTH domain is a DNA-binding, helix-turn-helix (HTH) domain of
+about  50-60  residues  present  in  transcriptional regulators. The domain is
+named   after   the   transcriptional  repressors  cro  and  C1  of  temperate
+bacteriophages  434  and  lambda,  respectively.  Besides  in  bacteriophages,
+cro/C1-type  regulators  are  present  in  prokaryotes  and in eukaryotes. The
+helix-turn-helix DNA-binding motif is generally located in the N-terminal part
+of  these  transcriptional  regulators.  The  C-terminal  part  may contain an
+oligomerization  domain, e.g. C1 repressors and CopR act as dimers, while SinR
+is  a tetramer. The cro/C1-type HTH domain also occurs in combination with the
+TPR  repeat  and  the  C-terminal part of C-5 cytosine-specific DNA methylases
+contains regions related to the enzymatic function (see &lt;<a href="/PDOC00089">PDOC00089</a>&gt;).
+</p>
+<p>Several   structures  of  cro/C1-type  transcriptional  repressors  have  been
+resolved and their DNA-binding domain encompasses five &alpha; helices, of which
+the  extremities are less conserved (see &lt;PDB:<a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=2OR1&amp;ps=PS50943&amp;extract=1">2OR1</a>&gt;) [<a title="Aggarwal A.K. et al. [Science 242:899-907(1988)]" href="#ref1" onClick="highLightRef('1')">1</a>]. The helix-turn-helix
+motif  comprises  the  second  and  third  helices, the third being called the
+recognition  helix.  The HTH is involved in DNA-binding into the major groove,
+where  the  recognition  helix  makes  most  DNA-contacts.  The  bacteriophage
+repressors   regulate  lysogeny/lytic  growth  by  binding  with  differential
+affinity  to  the  operators.  These  operators  show  2-fold symmetry and the
+repressors  bind as dimers. Binding of the repressor to the operator positions
+the DNA backbone into a slightly bent twist [<a title="Aggarwal A.K. et al. [Science 242:899-907(1988)]" href="#ref1" onClick="highLightRef('1')">1</a>,<a title="Steinmetzer K. et al. [Nucleic Acids Res. 30:2052-2060(2002)]" href="#ref2" onClick="highLightRef('2')">2</a>].
+</p>
+<p>Some proteins known to contain a cro/C1-type HTH domain:
+</p>
+<ul>
+<li>Bacteriophage  434  cro and C1, transcriptional repressors that bind to the
+   operator DNA. Upon induction, proteases in the bacterial host cleave the C1
+   dimerization  domain  from  the  DNA-binding  domain, so that genes for the
+   lytic pathway are no longer repressed.
+</li>
+<li>PBSX xre, a repressor protein of the defective prophage in Bacillus.
+</li>
+<li>Bacillus  subtilis  sinR,  a  transcriptional  repressor  for inhibition of
+   sporulation.  The  structure  and  function are related to phage repressors
+   [<a title="Lewis R.J. et al. [J. Mol. Biol. 283:907-912(1998)]" href="#ref3" onClick="highLightRef('3')">3</a>].
+</li>
+<li>Bombyx   mori   (Silk   moth)  MBF1,  multiprotein  bridging  factor  1,  a
+   transcriptional  coactivator  that  mediates  transcriptional activation by
+   connecting  a  general  and  a  gene-specific transcription factor. MBF1 is
+   conserved in eukaryotes from yeast to human [<a title="Takemaru K. et al. [Proc. Natl. Acad. Sci. U.S.A. 94:7251-7256(1997)]" href="#ref4" onClick="highLightRef('4')">4</a>,<a title="Kabe Y. et al. [J. Biol. Chem. 274:34196-34202(1999)]" href="#ref5" onClick="highLightRef('5')">5</a>].
+</li>
+<li>Plasmid  pIP501 copR, a transcriptional repressor and activator involved in
+   plasmid copy number regulation.
+</li>
+<li>Escherichia   coli   nadR,   a   transcriptional  regulator  of  early  NAD
+   biosynthetic genes.
+</li>
+<li>Dictyostelium  discoideum  (Slime  mold)  H7, a vegetative specific protein
+   which is deactivated upon the initiation of development.
+</li>
+</ul>
+<p>The  profile we developed covers the entire DNA-binding domain, from the major
+part  of  helix  1, including the helix-turn-helix motif and the major part of
+helix 5.
+</p>
+Last update:
+<p> November 2003 / First entry.
+</p>
+<div id="technical" class="section5">Technical section</div>
+<p>PROSITE method (with tools and information) covered by this documentation:</p>
+<fieldset class="prosite1">
+<legend class="sp_tools">HTH_CROC1,&nbsp;<a href="/PS50943">PS50943</a>;&nbsp;Cro/C1-type HTH domain profile&nbsp;&nbsp;(MATRIX)</legend>
+<ul>
+<li>
+Sequences in UniProtKB/Swiss-Prot known to belong to this class: 267<ul>
+<li>
+detected by PS50943: <a href="/PS50943#TP">259</a> (true positives)</li>
+<li>
+undetected by PS50943: 8 (<a href="/PS50943#FN">7</a> false negatives and <a href="/PS50943#partial">1</a> '<a href="/prosuser.html#partial_sq">partial</a>')</li>
+</ul>
+
+</li>
+<li>
+Other sequence(s) in UniProtKB/Swiss-Prot detected by PS50943:
+<br>
+<a href="/PS50943#FP">5</a> false positives.
+</li>
+<li>
+<a href="/cgi-bin/prosite/PSView.cgi?ac=PS50943&amp;onebyarch=1&amp;hscale=0.6">Domain architecture view of Swiss-Prot proteins matching PS50943</a>
+<br>
+<img alt="PS50943" src="/cgi-bin/prosite/PSImage.cgi?hit=1,110,PS50943,HTH_CROC1&amp;type=1&amp;len=110&amp;hscale=1.0" border="0" height="40">
+</li>
+<li>
+Retrieve an alignment of UniProtKB/Swiss-Prot true positive hits:<br>
+<a href="/cgi-bin/aligner?psa=PS50943&amp;color=1&amp;maxinsert=10&amp;linelen=0">Clustal format, color, condensed view</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS50943&amp;color=1">Clustal format, color</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS50943">Clustal format, plain text</a>
+&nbsp;/&nbsp;
+<a href="/cgi-bin/aligner?psa=PS50943&amp;format=FASTA">Fasta format</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/sequence_logo.cgi?ac=PS50943">Retrieve the sequence logo from the alignment</a>
+</li>
+<li>
+<a href=" http://www.uniprot.org/uniprot/?query=database%3A%28type%3Aprosite+PS50943%29&sort=score#orgViewBy" target="_blank">
+Taxonomic distribution of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS50943</a>
+</li>
+<li>
+<a href="http://www.uniprot.org/uniprot/?query=database:(type:prosite PS50943)" target="_blank">
+Retrieve a list of all UniProtKB (Swiss-Prot + TrEMBL) entries matching PS50943</a>
+</li>
+<li>
+<a href="/cgi-bin/prosite/scanprosite_form.cgi?PS50943">Scan UniProtKB (Swiss-Prot and/or TrEMBL) entries against PS50943</a>
+</li>
+<li>
+<a href="http://www.ebi.ac.uk/pdbe-site/pdbemotif/barChartPattern?pattern1=PS50943" target="_blank">View ligand binding statistics of PS50943</a></li>
+<li>
+Matching PDB structures: <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1ADR&amp;ps=PS50943" target="_blank">1ADR</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1B0N&amp;ps=PS50943" target="_blank">1B0N</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1LLI&amp;ps=PS50943" target="_blank">1LLI</a> <a href="/cgi-bin/pdb/pdb_structure_viewer.cgi?pdb=1LMB&amp;ps=PS50943" target="_blank">1LMB</a>  ... <a href="/cgi-bin/pdb/pdb_structure_list.cgi?src=PS50943" target="_blank">[ALL]</a>
+</li>
+</fieldset>
+<br>
+<br>
+<div id="references" class="section5">References</div><br>
+<table class="grid" id="ref1" width="100%">
+<tr><td rowspan="4" width="50em">1</td><td width="100em">Authors</td><td>Aggarwal A.K., Rodgers D.W., Drottar M., Ptashne M., Harrison S.C.</td></tr>
+<tr><td>Title</td><td>Recognition of a DNA operator by the repressor of phage 434: a view at high resolution.</td></tr>
+<tr><td>Source</td><td>Science 242:899-907(1988).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=3187531" target="_blank">3187531</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref2" width="100%">
+<tr><td rowspan="4" width="50em">2</td><td width="100em">Authors</td><td>Steinmetzer K., Behlke J., Brantl S., Lorenz M.</td></tr>
+<tr><td>Title</td><td>CopR binds and bends its target DNA: a footprinting and fluorescence resonance energy transfer study.</td></tr>
+<tr><td>Source</td><td>Nucleic Acids Res. 30:2052-2060(2002).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=11972345" target="_blank">11972345</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref3" width="100%">
+<tr><td rowspan="4" width="50em">3</td><td width="100em">Authors</td><td>Lewis R.J., Brannigan J.A., Offen W.A., Smith I., Wilkinson A.J.</td></tr>
+<tr><td>Title</td><td>An evolutionary link between sporulation and prophage induction in the structure of a repressor:anti-repressor complex.</td></tr>
+<tr><td>Source</td><td>J. Mol. Biol. 283:907-912(1998).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=9799632" target="_blank">9799632</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref4" width="100%">
+<tr><td rowspan="4" width="50em">4</td><td width="100em">Authors</td><td>Takemaru K., Li F.Q., Ueda H., Hirose S.</td></tr>
+<tr><td>Title</td><td>Multiprotein bridging factor 1 (MBF1) is an evolutionarily conserved transcriptional coactivator that connects a regulatory factor and TATA element-binding protein.</td></tr>
+<tr><td>Source</td><td>Proc. Natl. Acad. Sci. U.S.A. 94:7251-7256(1997).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=9207077" target="_blank">9207077</a></td></tr>
+</table>
+<br>
+<table class="grid" id="ref5" width="100%">
+<tr><td rowspan="4" width="50em">5</td><td width="100em">Authors</td><td>Kabe Y., Goto M., Shima D., Imai T., Wada T., Morohashi K., Shirakawa M., Hirose S., Handa H.</td></tr>
+<tr><td>Title</td><td>The role of human MBF1 as a transcriptional coactivator.</td></tr>
+<tr><td>Source</td><td>J. Biol. Chem. 274:34196-34202(1999).</td></tr>
+<tr><td>PubMed ID</td><td><a href="/cgi-bin/redirect.pl?http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=10567391" target="_blank">10567391</a></td></tr>
+</table>
+<br>
+<br>
+<div id="copyright" class="section5">Copyright</div>
+<br>
+PROSITE is copyright.   It  is  produced  by  the  SIB  Swiss  Institute
+    Bioinformatics. There  are no restrictions   on its use by  non-profit
+    institutions as long as its  content is in no way modified. Usage by and
+    for commercial  entities requires a license agreement. For information
+    about  the  licensing  scheme   send  an  email to <form method="POST" name="mailform_NQ072" action="/contact" style="display:none;">
+<input type="hidden" name="recipient_email" value="license@isb-sib.ch">
+<input type="hidden" name="flag_subject" value="Prosite License">
+<input type="hidden" name="recipient_name" value="Prosite License">
+</form>
+<a href="#" onClick="document.mailform_NQ072.submit(); return false;">Prosite License</a>
+
+    or see: <a href="/prosite_license.html">prosite_license.html</a>.
+<br><br>
+<div id="miscellaneous" class="section5">Miscellaneous</div>
+<br>
+<a href="/cgi-bin/prosite/get-prodoc-entry?PDOC50943">View entry in original PROSITE document format</a><br>
+<a href="/PDOC50943.txt">View entry in raw text format (no links)</a>
+<br><br>
+</div><!-- sib_body -->
+<br clear="left" />
+</div>
+<!-- ********************************************************************************************** -->
+<!-- START OF FOOTER information at the bottom of the page -->
+<div id = 'sib_footer'>			
+  <!-- This part of the footer is _left_ justified and should contain SIB on the very left -->	
+  <div id = 'sib_footer_content'> 
+    <a href = "http://www.isb-sib.ch">SIB Swiss Institute of Bioinformatics</a>&nbsp;|&nbsp;<a href = "http://www.expasy.org/disclaimer.html">Disclaimer</a>
+
+	<!-- This part of the footer is _right_ justified -->
+	<div id = "sib_footer_right">	
+      <a href="#TOP" id = "sib_footer_gototop"><span style = "padding-left: 10px">Back to the Top</span></a>				
+    </div>
+  </div>
+</div>
+<!-- END OF FOOTER -->
+</div> <!-- sib_container -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23823438-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><!-- automatically added by Apache -->
+
+    </body>
+</html>

@@ -31,8 +31,9 @@ def file_to_json(anno_file, tsv=False):
         2: 'pfam',
         3: 'prosite',
         4: 'kegg',
-        5: 'go',
-        6: 'coment'         # still too lazy to fix typo
+        5: 'nuc',
+        6: 'go',
+        7: 'coment'         # still too lazy to fix typo
     }
 
     # convert each record to JSON object

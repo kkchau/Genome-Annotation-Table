@@ -16,6 +16,7 @@ fields = [
     'Pfam',
     'Prosite',
     'KEGG Pathway',
+    'NucPloc',
     'Gene Ontology',
     'Comments'
 ]
@@ -36,6 +37,14 @@ def concat_files():
 
         all_df = []
         for f in filenames:
+
+            # skip these files
+            if f[0] == '#':
+                continue
+
+            print(f)
+
+            # check extension
             ext = re.findall("\S*.([ct]sv)", f)[0]
             this_df = None
 

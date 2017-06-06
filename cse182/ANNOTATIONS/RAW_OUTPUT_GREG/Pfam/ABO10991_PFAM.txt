@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="D5936486-4ADC-11E7-BEAC-BA3295374F7B">
+    <matches>
+      <protein length="288">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF13533.4" id="Biotin_lipoyl_2" type="Pfam-A" class="Domain">
+            <location start="1" end="40" ali_start="2" ali_end="35" hmm_start="17" hmm_end="50" evalue="1.1e-05" bitscore="25.1" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[lVkdGqrVkaGdvLaelDsralqlalaqaeaqla]]>
+              </hmm>
+              <match_string>
+                <![CDATA[+V+ G++Vk+G+++a++Ds+  ++ l+   a+++]]>
+              </match_string>
+              <pp>
+                <![CDATA[7899********************9998777775]]>
+              </pp>
+              <seq>
+                <![CDATA[YVQLGDQVKQGQLIAQIDSTTQENSLKTSDANIK]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       lVkdGqrVkaGdvLaelDsralqlalaqaeaqla
+#MATCH     +V+ G++Vk+G+++a++Ds+  ++ l+   a+++
+#PP        7899********************9998777775
+#SEQ       YVQLGDQVKQGQLIAQIDSTTQENSLKTSDANIK
+                ]]>
+              </raw>
+            </location>
+          </match>
+          <match accession="PF13437.4" id="HlyD_3" type="Pfam-A" class="Family">
+            <location start="111" end="230" ali_start="112" ali_end="221" hmm_start="2" hmm_end="96" evalue="2.8e-10" bitscore="40.7" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[lrApvdGvvvelnvqegevvqagde...lleiippdklkveakvpeadlgsikkegqkvtlkldqgsdytlkgkierisptvd...........aktg.....aykvevsledp]]>
+              </hmm>
+              <match_string>
+                <![CDATA[+ Ap dG+vv++  +eg+ v+a++    +++i+  +++ ++a+v+ead+ ++ ++gq+v +++  g + +  +++ +i p +d           +        +y++ + ++++]]>
+              </match_string>
+              <pp>
+                <![CDATA[89**********************9999999999******************.5*********9.6667888*******9887444433333331..02333344445555544]]>
+              </pp>
+              <seq>
+                <![CDATA[IVAPTDGTVVAIVTEEGQTVNANQSaptIVKIAKLQNMTIKAQVSEADIMKV-EKGQQVYFTTL-GDETKRYATLRQIEPAPDsissesnsttsS--TtssavYYNALFDVPNT]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       lrApvdGvvvelnvqegevvqagde...lleiippdklkveakvpeadlgsikkegqkvtlkldqgsdytlkgkierisptvd...........aktg.....aykvevsledp
+#MATCH     + Ap dG+vv++  +eg+ v+a++    +++i+  +++ ++a+v+ead+ ++ ++gq+v +++  g + +  +++ +i p +d           +        +y++ + ++++
+#PP        89**********************9999999999******************.5*********9.6667888*******9887444433333331..02333344445555544
+#SEQ       IVAPTDGTVVAIVTEEGQTVNANQSaptIVKIAKLQNMTIKAQVSEADIMKV-EKGQQVYFTTL-GDETKRYATLRQIEPAPDsissesnsttsS--TtssavYYNALFDVPNT
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

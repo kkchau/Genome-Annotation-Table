@@ -11,6 +11,7 @@ class Annotation(models.Model):
     pfam = models.CharField(max_length=200, verbose_name='pfam_hit')
     prosite = models.CharField(max_length=200, verbose_name='prosite_hit')
     kegg = models.CharField(max_length=200, verbose_name='kegg_pathway_hit')
+    nuc = models.CharField(max_length=200, verbose_name='nucploc_hit')
     go = models.CharField(max_length=200, verbose_name='GO_hit')
     coment = models.CharField(max_length=200, verbose_name='comments')
 

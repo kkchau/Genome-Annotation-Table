@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="blastp" version="BLASTP 2.2.29+"/>
+  <commandLine command="/ebi/extserv/bin/ncbi-blast-2.2.29+/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-I20170606-181243-0086-49627961-es.sequence  -num_threads 16 -outfmt 11 -out ncbiblast-I20170606-181243-0086-49627961-es.archive -matrix BLOSUM62 -num_alignments 50 -evalue 10 -gapopen 11 -gapextend 1 -seg no -comp_based_stats F"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="EMBOSS_001" type="PROTEIN" length="154"/>
+   </sequences>
+   <databases total="1" sequences="85866869" letters="28909108493">
+    <database number="1" name="uniprotkb" type="PROTEIN" created="2017-05-08T11:31:00+01:00"/>
+   </databases>
+   <alignments>50</alignments>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>F</filter>
+   <gapExtension>1.0</gapExtension>
+   <gapOpen>11.0</gapOpen>
+   <matrix>BLOSUM62</matrix>
+   <scores>50</scores>
+  </parameters>
+  <timeInfo start="2017-06-06T18:12:43+01:00" end="2017-06-06T18:13:40+01:00" search="P0Y0M0DT0H0M57.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="50">
+   <hit number="1" database="TR" id="A0A022J5L1_9GAMM" ac="A0A022J5L1" length="154" description="Bacterioferritin OS=Acinetobacter sp. 1564232 GN=J622_00769 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="TR" id="A0A0E2GAW0_ACINO" ac="A0A0E2GAW0" length="154" description="Bacterioferritin OS=Acinetobacter nosocomialis NIPH 386 GN=F958_03721 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="TR" id="A0A009NNY0_9GAMM" ac="A0A009NNY0" length="154" description="Bacterioferritin OS=Acinetobacter sp. 1475718 GN=J551_0975 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="TR" id="A0A0W3DPB0_9GAMM" ac="A0A0W3DPB0" length="154" description="Bacterioferritin OS=Acinetobacter sp. FDAARGOS_131 GN=AL489_01665 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="5" database="TR" id="A0A010K0U8_9GAMM" ac="A0A010K0U8" length="154" description="Bacterioferritin OS=Acinetobacter sp. 1566109 GN=J582_1136 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="6" database="TR" id="N9J8R9_ACIBA" ac="N9J8R9" length="154" description="Bacterioferritin OS=Acinetobacter baumannii NIPH 601 GN=F918_02753 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="7" database="TR" id="A0A010W9L4_9GAMM" ac="A0A010W9L4" length="154" description="Bacterioferritin OS=Acinetobacter sp. 263903-2 GN=J733_3249 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="8" database="TR" id="R8YCG2_ACIPI" ac="R8YCG2" length="154" description="Bacterioferritin OS=Acinetobacter pittii ANC 4050 GN=F931_02131 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="9" database="TR" id="A0A158LRF2_ACIBA" ac="A0A158LRF2" length="154" description="Bacterioferritin OS=Acinetobacter baumannii NIPH 190 GN=F962_02955 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="10" database="TR" id="A0A009I9L9_9GAMM" ac="A0A009I9L9" length="154" description="Bacterioferritin OS=Acinetobacter sp. 1295259 GN=J507_0804 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="11" database="TR" id="A0A062SR01_ACIBA" ac="A0A062SR01" length="154" description="Bacterioferritin OS=Acinetobacter baumannii 25977_9 GN=J812_1843 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="12" database="TR" id="A0A010MS02_9GAMM" ac="A0A010MS02" length="154" description="Bacterioferritin OS=Acinetobacter sp. 1578804 GN=J588_0747 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="13" database="TR" id="A0A0B2UEC0_9GAMM" ac="A0A0B2UEC0" length="154" description="Bacterioferritin OS=Acinetobacter oleivorans GN=DH17_14990 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="14" database="TR" id="A0A013MEQ0_9GAMM" ac="A0A013MEQ0" length="154" description="Bacterioferritin OS=Acinetobacter sp. 1294243 GN=J655_2829 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="15" database="TR" id="A0A011C8D6_9GAMM" ac="A0A011C8D6" length="154" description="Bacterioferritin OS=Acinetobacter sp. 1245249 GN=J623_3569 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="16" database="TR" id="L9M6W1_9GAMM" ac="L9M6W1" length="154" description="Bacterioferritin OS=Acinetobacter sp. OIFC021 GN=bfr_1 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="17" database="TR" id="U1VA06_ACIBA" ac="U1VA06" length="154" description="Bacterioferritin OS=Acinetobacter baumannii EGD-HP18 GN=N173_10350 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="18" database="TR" id="A0A171EWK1_ACIBA" ac="A0A171EWK1" length="154" description="Bacterioferritin OS=Acinetobacter baumannii Naval-82 GN=bfr_1 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="19" database="TR" id="A0A022KSP7_9GAMM" ac="A0A022KSP7" length="154" description="Bacterioferritin OS=Acinetobacter sp. 478810 GN=J619_00351 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="20" database="TR" id="A0A062GR52_9GAMM" ac="A0A062GR52" length="154" description="Bacterioferritin OS=Acinetobacter sp. 72431 GN=J584_0586 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="21" database="TR" id="A0A010JTX0_9GAMM" ac="A0A010JTX0" length="154" description="Bacterioferritin OS=Acinetobacter sp. 1542444 GN=J580_1488 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="22" database="TR" id="A0A140QUS5_9GAMM" ac="A0A140QUS5" length="154" description="Bacterioferritin OS=Acinetobacter sp. 216872 GN=J633_0877 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="23" database="TR" id="A0A062FPK4_ACIBA" ac="A0A062FPK4" length="154" description="Bacterioferritin OS=Acinetobacter baumannii 940793 GN=J532_1859 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="24" database="TR" id="A0A062F294_ACIBA" ac="A0A062F294" length="154" description="Bacterioferritin OS=Acinetobacter baumannii 855125 GN=J560_0425 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="25" database="TR" id="A0A013R1I9_9GAMM" ac="A0A013R1I9" length="154" description="Bacterioferritin OS=Acinetobacter sp. 883425 GN=J672_1831 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="26" database="TR" id="D0S0U5_ACICA" ac="D0S0U5" length="154" description="Bacterioferritin OS=Acinetobacter calcoaceticus RUH2202 GN=bfr PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="27" database="TR" id="A0A014DTM5_9GAMM" ac="A0A014DTM5" length="154" description="Bacterioferritin OS=Acinetobacter sp. 25977_2 GN=J805_1344 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="28" database="TR" id="A0A009PKJ7_ACIBA" ac="A0A009PKJ7" length="154" description="Bacterioferritin OS=Acinetobacter baumannii 625974 GN=J506_0774 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="29" database="TR" id="A0A009KA88_ACIBA" ac="A0A009KA88" length="154" description="Bacterioferritin OS=Acinetobacter baumannii 1419130 GN=J518_1408 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="30" database="TR" id="A0A062KWG2_ACIBA" ac="A0A062KWG2" length="154" description="Bacterioferritin OS=Acinetobacter baumannii 1571545 GN=J715_2377 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="31" database="TR" id="K9C960_9GAMM" ac="K9C960" length="154" description="Bacterioferritin OS=Acinetobacter sp. WC-136 GN=bfr_1 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="32" database="TR" id="A0A014FFB8_9GAMM" ac="A0A014FFB8" length="154" description="Bacterioferritin OS=Acinetobacter sp. 25977_10 GN=J813_0485 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="33" database="TR" id="A0A062IEZ8_ACIBA" ac="A0A062IEZ8" length="154" description="Bacterioferritin OS=Acinetobacter baumannii 21072 GN=J596_2913 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="34" database="TR" id="N9GHI0_ACIBA" ac="N9GHI0" length="154" description="Bacterioferritin OS=Acinetobacter baumannii NIPH 201 GN=F922_02932 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="35" database="TR" id="D8JFC3_ACISD" ac="D8JFC3" length="154" description="Bacterioferritin OS=Acinetobacter oleivorans (strain JCM 16667 / KCTC 23045 / DR1) GN=AOLE_15660 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="36" database="TR" id="B0VU01_ACIBS" ac="B0VU01" length="154" description="Bacterioferritin OS=Acinetobacter baumannii (strain SDF) GN=bfrA PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="37" database="TR" id="A0A010GVS3_9GAMM" ac="A0A010GVS3" length="154" description="Bacterioferritin OS=Acinetobacter sp. 907131 GN=J569_2108 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="38" database="TR" id="A0A0J0ZZQ5_ACIBA" ac="A0A0J0ZZQ5" length="154" description="Bacterioferritin OS=Acinetobacter baumannii MRSN 3527 GN=bfr_1 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="39" database="TR" id="G2JNE7_ACIBA" ac="G2JNE7" length="154" description="Bacterioferritin OS=Acinetobacter baumannii MDR-ZJ06 GN=ABZJ_00801 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="40" database="TR" id="A0A013QVA8_9GAMM" ac="A0A013QVA8" length="154" description="Bacterioferritin OS=Acinetobacter sp. 225588 GN=J687_2149 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="41" database="TR" id="N9RU17_9GAMM" ac="N9RU17" length="154" description="Bacterioferritin OS=Acinetobacter sp. NIPH 542 GN=F886_01268 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="42" database="TR" id="A0A011IQ10_9GAMM" ac="A0A011IQ10" length="154" description="Bacterioferritin OS=Acinetobacter sp. 723929 GN=J610_1438 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="43" database="TR" id="A0A009HDY7_9GAMM" ac="A0A009HDY7" length="154" description="Bacterioferritin OS=Acinetobacter sp. 1289694 GN=J508_1754 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="44" database="TR" id="A0A013RHL3_ACIBA" ac="A0A013RHL3" length="154" description="Bacterioferritin OS=Acinetobacter baumannii 573719 GN=J658_3446 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="45" database="TR" id="A0A062A174_9GAMM" ac="A0A062A174" length="154" description="Bacterioferritin OS=Acinetobacter sp. 1264765 GN=J723_2333 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="46" database="TR" id="R8XYS1_ACICA" ac="R8XYS1" length="154" description="Bacterioferritin OS=Acinetobacter calcoaceticus ANC 3811 GN=F935_02328 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="47" database="TR" id="A0A062LRM1_ACIBA" ac="A0A062LRM1" length="154" description="Bacterioferritin OS=Acinetobacter baumannii 1288284 GN=J608_3522 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="48" database="TR" id="A0A151YT65_9GAMM" ac="A0A151YT65" length="154" description="Bacterioferritin OS=Acinetobacter lactucae GN=AWW73_12360 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="49" database="TR" id="A0A0R4J770_ACIBY" ac="A0A0R4J770" length="154" description="Bacterioferritin OS=Acinetobacter baumannii (strain AYE) GN=bfrA PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="50" database="TR" id="S3TLG7_ACIBA" ac="S3TLG7" length="154" description="Bacterioferritin OS=Acinetobacter baumannii NIPH 410 GN=F910_03083 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>802</score>
+      <bits>313.538</bits>
+      <expectation>1.1E-106</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</querySeq>
+      <pattern>MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</pattern>
+      <matchSeq start="1" end="154">MRGNPEVIDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINVGTDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLRQQLSDTEEDHTYWLEKQLRLIELIGLQNYIQSQI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult></EBIApplicationResult>

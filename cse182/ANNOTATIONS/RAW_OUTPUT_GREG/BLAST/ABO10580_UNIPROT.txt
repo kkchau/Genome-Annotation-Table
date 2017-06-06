@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="blastp" version="BLASTP 2.2.29+"/>
+  <commandLine command="/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.29+/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-I20170606-181253-0318-61300475-pg.sequence  -num_threads 16 -outfmt 11 -out ncbiblast-I20170606-181253-0318-61300475-pg.archive -matrix BLOSUM62 -num_alignments 50 -evalue 10 -gapopen 11 -gapextend 1 -seg no -comp_based_stats F"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="EMBOSS_001" type="PROTEIN" length="126"/>
+   </sequences>
+   <databases total="1" sequences="85866869" letters="28909108493">
+    <database number="1" name="uniprotkb" type="PROTEIN" created="2017-05-08T11:31:00+01:00"/>
+   </databases>
+   <alignments>50</alignments>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>F</filter>
+   <gapExtension>1.0</gapExtension>
+   <gapOpen>11.0</gapOpen>
+   <matrix>BLOSUM62</matrix>
+   <scores>50</scores>
+  </parameters>
+  <timeInfo start="2017-06-06T18:12:53+01:00" end="2017-06-06T18:13:21+01:00" search="P0Y0M0DT0H0M28.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="50">
+   <hit number="1" database="TR" id="A0A0H4UEU9_ACIBA" ac="A0A0H4UEU9" length="126" description="Polyketide cyclase OS=Acinetobacter baumannii GN=BGC29_04435 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>655</score>
+      <bits>256.914</bits>
+      <expectation>3.0E-85</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="TR" id="N8Z4S3_ACIBA" ac="N8Z4S3" length="126" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 60 GN=F961_03007 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>4.3E-85</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="TR" id="A0A009I3M1_ACIBA" ac="A0A009I3M1" length="126" description="SnoaL-like polyketide cyclase family protein OS=Acinetobacter baumannii 1295743 GN=J512_2513 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>4.3E-85</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="TR" id="A0A0H5FF01_ACIBA" ac="A0A0H5FF01" length="126" description="Polyketide cyclase OS=Acinetobacter baumannii GN=APD31_15345 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>4.3E-85</expectation>
+      <identity>99.2</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="5" database="TR" id="A0A009G152_ACIBA" ac="A0A009G152" length="126" description="SnoaL-like polyketide cyclase family protein OS=Acinetobacter baumannii 118362 GN=J517_2525 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>650</score>
+      <bits>254.988</bits>
+      <expectation>1.7E-84</expectation>
+      <identity>98.4</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYT PNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTTPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="6" database="TR" id="A0A1S2FVN1_ACIBA" ac="A0A1S2FVN1" length="126" description="Polyketide cyclase OS=Acinetobacter baumannii GN=A7M90_08210 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>650</score>
+      <bits>254.988</bits>
+      <expectation>1.7E-84</expectation>
+      <identity>98.4</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDG LVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGTLVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="7" database="TR" id="A0A1T0ZS27_ACIBA" ac="A0A1T0ZS27" length="126" description="Polyketide cyclase OS=Acinetobacter baumannii GN=BTG83_02855 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>650</score>
+      <bits>254.988</bits>
+      <expectation>1.7E-84</expectation>
+      <identity>98.4</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYT PNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTTPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="8" database="TR" id="A0A022J8T5_9GAMM" ac="A0A022J8T5" length="126" description="SnoaL-like polyketide cyclase family protein OS=Acinetobacter sp. 1564232 GN=J622_00218 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>649</score>
+      <bits>254.603</bits>
+      <expectation>2.5E-84</expectation>
+      <identity>98.4</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMN+KLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNDKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="9" database="TR" id="A0A062F6N3_ACIBA" ac="A0A062F6N3" length="126" description="SnoaL-like polyketide cyclase family protein OS=Acinetobacter baumannii 754286 GN=J567_3201 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>649</score>
+      <bits>254.603</bits>
+      <expectation>2.5E-84</expectation>
+      <identity>98.4</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMN+KLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNDKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="10" database="TR" id="A0A009TND2_ACIBA" ac="A0A009TND2" length="126" description="SnoaL-like polyketide cyclase family protein OS=Acinetobacter baumannii 99063 GN=J529_0777 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>649</score>
+      <bits>254.603</bits>
+      <expectation>2.5E-84</expectation>
+      <identity>98.4</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMN+KLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNDKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="11" database="TR" id="A0A011CZG3_9GAMM" ac="A0A011CZG3" length="126" description="SnoaL-like polyketide cyclase family protein OS=Acinetobacter sp. 1245249 GN=J623_2099 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>649</score>
+      <bits>254.603</bits>
+      <expectation>2.5E-84</expectation>
+      <identity>98.4</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMN+KLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNDKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="12" database="TR" id="A0A171EKU8_ACIBA" ac="A0A171EKU8" length="126" description="SnoaL-like domain protein OS=Acinetobacter baumannii Naval-82 GN=ACINNAV82_0072 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>649</score>
+      <bits>254.603</bits>
+      <expectation>2.5E-84</expectation>
+      <identity>98.4</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMN+KLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNDKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="13" database="TR" id="A0A062FKI8_ACIBA" ac="A0A062FKI8" length="126" description="SnoaL-like polyketide cyclase family protein OS=Acinetobacter baumannii 940793 GN=J532_3330 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>649</score>
+      <bits>254.603</bits>
+      <expectation>2.5E-84</expectation>
+      <identity>98.4</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMN+KLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNDKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="14" database="TR" id="A0A062ELA3_ACIBA" ac="A0A062ELA3" length="126" description="SnoaL-like polyketide cyclase family protein OS=Acinetobacter baumannii 855125 GN=J560_3687 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>649</score>
+      <bits>254.603</bits>
+      <expectation>2.5E-84</expectation>
+      <identity>98.4</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMN+KLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNDKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="15" database="TR" id="A0A009KVT5_ACIBA" ac="A0A009KVT5" length="126" description="SnoaL-like polyketide cyclase family protein OS=Acinetobacter baumannii 1419130 GN=J518_1215 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>649</score>
+      <bits>254.603</bits>
+      <expectation>2.5E-84</expectation>
+      <identity>98.4</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMN+KLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNDKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="16" database="TR" id="A0A009S6V8_ACIBA" ac="A0A009S6V8" length="126" description="SnoaL-like polyketide cyclase family protein OS=Acinetobacter baumannii 951631 GN=J552_2814 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>649</score>
+      <bits>254.603</bits>
+      <expectation>2.5E-84</expectation>
+      <identity>98.4</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMN+KLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNDKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="17" database="TR" id="A0A010GJM9_9GAMM" ac="A0A010GJM9" length="126" description="SnoaL-like polyketide cyclase family protein OS=Acinetobacter sp. 907131 GN=J569_2852 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>649</score>
+      <bits>254.603</bits>
+      <expectation>2.5E-84</expectation>
+      <identity>98.4</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMN+KLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNDKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="18" database="TR" id="A0A0J1A7X3_ACIBA" ac="A0A0J1A7X3" length="126" description="SnoaL-like domain protein OS=Acinetobacter baumannii MRSN 3527 GN=T630_0143 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>649</score>
+      <bits>254.603</bits>
+      <expectation>2.5E-84</expectation>
+      <identity>98.4</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMN+KLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNDKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="19" database="TR" id="S3TFI9_ACIBA" ac="S3TFI9" length="126" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 410 GN=F910_03759 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>649</score>
+      <bits>254.603</bits>
+      <expectation>2.5E-84</expectation>
+      <identity>98.4</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMN+KLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNDKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="20" database="TR" id="B0V6L5_ACIBY" ac="B0V6L5" length="126" description="Uncharacterized protein OS=Acinetobacter baumannii (strain AYE) GN=ABAYE3778 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>649</score>
+      <bits>254.603</bits>
+      <expectation>2.5E-84</expectation>
+      <identity>98.4</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMN+KLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNDKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="21" database="TR" id="N9JVB9_ACIBA" ac="N9JVB9" length="126" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 80 GN=F913_00746 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>649</score>
+      <bits>254.603</bits>
+      <expectation>2.5E-84</expectation>
+      <identity>98.4</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMN+KLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNDKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="22" database="TR" id="L9NZT3_ACIBA" ac="L9NZT3" length="126" description="SnoaL-like domain protein OS=Acinetobacter baumannii Naval-57 GN=ACINNAV57_0124 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>649</score>
+      <bits>254.603</bits>
+      <expectation>2.5E-84</expectation>
+      <identity>98.4</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMN+KLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNDKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="23" database="TR" id="D0CER3_ACIB2" ac="D0CER3" length="126" description="SnoaL-like polyketide cyclase OS=Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81) GN=F911_00083 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>649</score>
+      <bits>254.603</bits>
+      <expectation>2.5E-84</expectation>
+      <identity>98.4</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMN+KLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNDKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="24" database="TR" id="A0A081H9G8_ACIBA" ac="A0A081H9G8" length="126" description="Polyketide cyclase OS=Acinetobacter baumannii GN=A7M79_11925 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>649</score>
+      <bits>254.603</bits>
+      <expectation>2.5E-84</expectation>
+      <identity>98.4</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMN+KLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNDKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="25" database="TR" id="A0A1C4HDI7_ACICA" ac="A0A1C4HDI7" length="126" description="SnoaL-like polyketide cyclase family protein OS=Acinetobacter calcoaceticus GN=NCTC7364_00115 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>648</score>
+      <bits>254.218</bits>
+      <expectation>3.5E-84</expectation>
+      <identity>98.4</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYG YTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGTYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="26" database="TR" id="A0A1T0DFH8_ACIBA" ac="A0A1T0DFH8" length="126" description="Polyketide cyclase OS=Acinetobacter baumannii GN=BTG56_00405 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>648</score>
+      <bits>254.218</bits>
+      <expectation>3.5E-84</expectation>
+      <identity>98.4</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDK SLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKISLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="27" database="TR" id="N9GE25_ACIBA" ac="N9GE25" length="126" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 201 GN=F922_03653 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>646</score>
+      <bits>253.447</bits>
+      <expectation>7.0E-84</expectation>
+      <identity>98.4</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFEN KIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENEKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="28" database="TR" id="B0VNF1_ACIBS" ac="B0VNF1" length="126" description="Uncharacterized protein OS=Acinetobacter baumannii (strain SDF) GN=ABSDF0112 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>646</score>
+      <bits>253.447</bits>
+      <expectation>7.0E-84</expectation>
+      <identity>98.4</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFEN KIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENEKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="29" database="TR" id="A0A1C9CPL4_ACIBA" ac="A0A1C9CPL4" length="126" description="Polyketide cyclase OS=Acinetobacter baumannii GN=AN158_09245 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>646</score>
+      <bits>253.447</bits>
+      <expectation>7.0E-84</expectation>
+      <identity>98.4</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHIC FENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICCFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="30" database="TR" id="A0A158LQH5_ACIBA" ac="A0A158LQH5" length="126" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 190 GN=F962_03580 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>643</score>
+      <bits>252.292</bits>
+      <expectation>2.0E-83</expectation>
+      <identity>97.6</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRE A+ETPNKVLEVQHVIEDGALVAVHSKLEMQMN+KLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMREIAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNDKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="31" database="TR" id="A0A009Q523_ACIBA" ac="A0A009Q523" length="126" description="SnoaL-like polyketide cyclase family protein OS=Acinetobacter baumannii 625974 GN=J506_3732 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>643</score>
+      <bits>252.292</bits>
+      <expectation>2.0E-83</expectation>
+      <identity>97.6</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRE A+ETPNKVLEVQHVIEDGALVAVHSKLEMQMN+KLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMREIAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNDKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="32" database="TR" id="A0A062IGP7_ACIBA" ac="A0A062IGP7" length="126" description="SnoaL-like domain protein OS=Acinetobacter baumannii 21072 GN=J596_2681 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>643</score>
+      <bits>252.292</bits>
+      <expectation>2.0E-83</expectation>
+      <identity>97.6</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMN+KLTILAVVHICRFE GKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNDKLTILAVVHICRFEKGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="33" database="TR" id="N9HRL1_ACIBA" ac="N9HRL1" length="126" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 601 GN=F918_03475 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>640</score>
+      <bits>251.136</bits>
+      <expectation>5.7E-83</expectation>
+      <identity>97.6</identity>
+      <positives>98.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDK SLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFEN KIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKISLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENEKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="34" database="TR" id="U1U5Q4_ACIBA" ac="U1U5Q4" length="126" description="Polyketide cyclase OS=Acinetobacter baumannii EGD-HP18 GN=N173_12880 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>640</score>
+      <bits>251.136</bits>
+      <expectation>5.7E-83</expectation>
+      <identity>97.6</identity>
+      <positives>98.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDK SLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFEN KIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKISLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENEKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="35" database="TR" id="G2JKM7_ACIBA" ac="G2JKM7" length="126" description="Uncharacterized protein OS=Acinetobacter baumannii MDR-ZJ06 GN=ABZJ_00120 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>640</score>
+      <bits>251.136</bits>
+      <expectation>5.7E-83</expectation>
+      <identity>97.6</identity>
+      <positives>98.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDK SLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFEN KIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKISLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENEKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="36" database="TR" id="A0A0E1PVE7_ACIBA" ac="A0A0E1PVE7" length="126" description="Uncharacterized protein OS=Acinetobacter baumannii NCGM 237 GN=AB237_3356 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>640</score>
+      <bits>251.136</bits>
+      <expectation>5.7E-83</expectation>
+      <identity>97.6</identity>
+      <positives>98.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDK SLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFEN KIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKISLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENEKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="37" database="TR" id="A0A062MR10_ACIBA" ac="A0A062MR10" length="126" description="SnoaL-like domain protein OS=Acinetobacter baumannii 1288284 GN=J608_0425 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>640</score>
+      <bits>251.136</bits>
+      <expectation>5.7E-83</expectation>
+      <identity>97.6</identity>
+      <positives>98.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDK SLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFEN KIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKISLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENEKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="38" database="TR" id="A0A062FZD8_ACIBA" ac="A0A062FZD8" length="126" description="SnoaL-like domain protein OS=Acinetobacter baumannii 15827 GN=J530_1735 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>640</score>
+      <bits>251.136</bits>
+      <expectation>5.7E-83</expectation>
+      <identity>97.6</identity>
+      <positives>98.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDK SLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFEN KIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKISLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENEKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="39" database="TR" id="A0A0R1BH19_ACINO" ac="A0A0R1BH19" length="126" description="Polyketide cyclase OS=Acinetobacter nosocomialis GN=APC94_14770 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>640</score>
+      <bits>251.136</bits>
+      <expectation>5.7E-83</expectation>
+      <identity>97.6</identity>
+      <positives>98.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDK SLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFEN KIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKISLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENEKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="40" database="TR" id="A0A059ZKY1_ACIBA" ac="A0A059ZKY1" length="126" description="SnoaL-like domain protein OS=Acinetobacter baumannii GN=AB988_1393 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>640</score>
+      <bits>251.136</bits>
+      <expectation>5.7E-83</expectation>
+      <identity>97.6</identity>
+      <positives>98.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDK SLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFEN KIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKISLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENEKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="41" database="TR" id="A0A1T0LDF6_ACIBA" ac="A0A1T0LDF6" length="126" description="Polyketide cyclase OS=Acinetobacter baumannii GN=BTH33_15165 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>639</score>
+      <bits>250.751</bits>
+      <expectation>8.1E-83</expectation>
+      <identity>96.8</identity>
+      <positives>98.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEIAVRFLELA AGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHV+EDGALVAVHSKLEMQMNNKLTILAVVHICRFEN KIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIAVRFLELADAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVVEDGALVAVHSKLEMQMNNKLTILAVVHICRFENEKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="42" database="TR" id="A0A1S8UPU2_ACIBA" ac="A0A1S8UPU2" length="126" description="Polyketide cyclase OS=Acinetobacter baumannii GN=A4W99_06985 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>638</score>
+      <bits>250.366</bits>
+      <expectation>1.1E-82</expectation>
+      <identity>96.8</identity>
+      <positives>97.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQKEI VRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKV EVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFEN KIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKEIVVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVFEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENEKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="43" database="TR" id="L9M0K7_ACIBA" ac="L9M0K7" length="140" description="SnoaL-like domain protein OS=Acinetobacter baumannii WC-A-92 GN=ACINWCA92_0135 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>626</score>
+      <bits>245.743</bits>
+      <expectation>1.2E-80</expectation>
+      <identity>98.4</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="122">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNE</querySeq>
+      <pattern>MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESA+ETPNKVLEVQHVIEDGALVAVHSKLEMQMN+KLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNE</pattern>
+      <matchSeq start="1" end="122">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAIETPNKVLEVQHVIEDGALVAVHSKLEMQMNDKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="44" database="TR" id="D8JJ33_ACISD" ac="D8JJ33" length="126" description="SnoaL-like polyketide cyclase family protein OS=Acinetobacter oleivorans (strain JCM 16667 / KCTC 23045 / DR1) GN=AOLE_18870 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>596</score>
+      <bits>234.187</bits>
+      <expectation>2.7E-76</expectation>
+      <identity>88.1</identity>
+      <positives>94.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>M+LSQK+IAVRFLELAAAGEVDEAY NYTAPNF+HHNPYYAGD TSLKEGMRESA E PNKV +VQHVIEDG LVAVHSKLEMQMN+K TI+AVVHICRFENGKIAEFWDIGQ+QPDP+VNENGMF</pattern>
+      <matchSeq start="1" end="126">MNLSQKQIAVRFLELAAAGEVDEAYSNYTAPNFRHHNPYYAGDATSLKEGMRESAAENPNKVFDVQHVIEDGTLVAVHSKLEMQMNDKPTIVAVVHICRFENGKIAEFWDIGQVQPDPIVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="45" database="TR" id="N8SDK1_9GAMM" ac="N8SDK1" length="126" description="Polyketide cyclase OS=Acinetobacter seifertii GN=A7P21_09215 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>591</score>
+      <bits>232.261</bits>
+      <expectation>1.5E-75</expectation>
+      <identity>88.1</identity>
+      <positives>93.7</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>M+LSQK+IAVRFLELAAAGEVDEAY NYTAPNFKHHNPYYAGD TSLKEGMRESA E PNKV +VQHVIEDG LVAVHSKLEMQMN+K TI+AVVHICRFENGKIAE WDIGQ+QP+PLVNENGMF</pattern>
+      <matchSeq start="1" end="126">MNLSQKQIAVRFLELAAAGEVDEAYSNYTAPNFKHHNPYYAGDATSLKEGMRESAAENPNKVFDVQHVIEDGTLVAVHSKLEMQMNDKPTIVAVVHICRFENGKIAELWDIGQVQPEPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="46" database="TR" id="N9EMK8_ACICA" ac="N9EMK8" length="125" description="Uncharacterized protein OS=Acinetobacter calcoaceticus ANC 3680 GN=F937_00790 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>590</score>
+      <bits>231.876</bits>
+      <expectation>2.1E-75</expectation>
+      <identity>90.5</identity>
+      <positives>93.7</positives>
+      <gaps>1</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>M+LSQK+IAVRFLELAAAGEVDEAY NYTAPNFKHHNPYYAGD TSLKEGMRESA+ETPNK  EVQHVIEDG LVAVHSK+EMQMN  LT LAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="125">MNLSQKQIAVRFLELAAAGEVDEAYSNYTAPNFKHHNPYYAGDVTSLKEGMRESAIETPNKFFEVQHVIEDGDLVAVHSKIEMQMNG-LTTLAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="47" database="TR" id="R8XZC8_ACICA" ac="R8XZC8" length="125" description="Uncharacterized protein OS=Acinetobacter calcoaceticus ANC 3811 GN=F935_02979 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>590</score>
+      <bits>231.876</bits>
+      <expectation>2.1E-75</expectation>
+      <identity>90.5</identity>
+      <positives>93.7</positives>
+      <gaps>1</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>M+LSQK+IAVRFLELAAAGEVDEAY NYTAPNFKHHNPYYAGD TSLKEGMRESA+ETPNK  EVQHVIEDG LVAVHSK+EMQMN  LT LAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</pattern>
+      <matchSeq start="1" end="125">MNLSQKQIAVRFLELAAAGEVDEAYSNYTAPNFKHHNPYYAGDVTSLKEGMRESAIETPNKFFEVQHVIEDGDLVAVHSKIEMQMNG-LTTLAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="48" database="TR" id="K9C0Q9_9GAMM" ac="K9C0Q9" length="126" description="SnoaL-like domain protein OS=Acinetobacter sp. WC-487 GN=ACINWC487_0077 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>590</score>
+      <bits>231.876</bits>
+      <expectation>2.2E-75</expectation>
+      <identity>89.7</identity>
+      <positives>92.1</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQK+IAVRFLELAAAGEVDEAY NYTAPNFKHHNPYYAGD TSLKEGMRESA E PNKV  VQHVIEDG LVAVHSKLEMQMN+K TILAVVHICRFENGKIAE WDIGQIQP+ LVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKQIAVRFLELAAAGEVDEAYSNYTAPNFKHHNPYYAGDATSLKEGMRESAAENPNKVFNVQHVIEDGTLVAVHSKLEMQMNDKATILAVVHICRFENGKIAELWDIGQIQPEQLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="49" database="TR" id="A0A0Q1D9X5_9GAMM" ac="A0A0Q1D9X5" length="126" description="Polyketide cyclase OS=Acinetobacter sp. FDAARGOS_131 GN=AL489_05050 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>590</score>
+      <bits>231.876</bits>
+      <expectation>2.2E-75</expectation>
+      <identity>89.7</identity>
+      <positives>92.1</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQK+IAVRFLELAAAGEVDEAY NYTAPNFKHHNPYYAGD TSLKEGMRESA E PNKV  VQHVIEDG LVAVHSKLEMQMN+K TILAVVHICRFENGKIAE WDIGQIQP+ LVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKQIAVRFLELAAAGEVDEAYSNYTAPNFKHHNPYYAGDATSLKEGMRESAAENPNKVFNVQHVIEDGTLVAVHSKLEMQMNDKATILAVVHICRFENGKIAELWDIGQIQPEQLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="50" database="TR" id="A0A062SMU2_ACIBA" ac="A0A062SMU2" length="126" description="SnoaL-like polyketide cyclase family protein OS=Acinetobacter baumannii 25977_9 GN=J812_2795 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>590</score>
+      <bits>231.876</bits>
+      <expectation>2.2E-75</expectation>
+      <identity>89.7</identity>
+      <positives>92.1</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="126">MSLSQKEIAVRFLELAAAGEVDEAYGNYTAPNFKHHNPYYAGDKTSLKEGMRESAVETPNKVLEVQHVIEDGALVAVHSKLEMQMNNKLTILAVVHICRFENGKIAEFWDIGQIQPDPLVNENGMF</querySeq>
+      <pattern>MSLSQK+IAVRFLELAAAGEVDEAY NYTAPNFKHHNPYYAGD TSLKEGMRESA E PNKV  VQHVIEDG LVAVHSKLEMQMN+K TILAVVHICRFENGKIAE WDIGQIQP+ LVNENGMF</pattern>
+      <matchSeq start="1" end="126">MSLSQKQIAVRFLELAAAGEVDEAYSNYTAPNFKHHNPYYAGDATSLKEGMRESAAENPNKVFNVQHVIEDGTLVAVHSKLEMQMNDKATILAVVHICRFENGKIAELWDIGQIQPEQLVNENGMF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult></EBIApplicationResult>

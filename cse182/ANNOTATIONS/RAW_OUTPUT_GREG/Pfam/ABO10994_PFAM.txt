@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="EFAFD9C6-4ADC-11E7-86CD-25A55F09777C">
+    <matches>
+      <protein length="238">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF08264.11" id="Anticodon_1" type="Pfam-A" class="Domain">
+            <location start="80" end="206" ali_start="82" ali_end="199" hmm_start="3" hmm_end="145" evalue="9e-15" bitscore="54.8" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[wilselnklvkevteayee.yrfnkaasalyeffwndlcdwylelvkprlysesaedsraaqevllevletllrllaPfmPfitEelwqreeellgkkesimlaewpe.kseelekeleeeevellkeivkairklrselkikps]]>
+              </hmm>
+              <match_string>
+                <![CDATA[ + +++++++++v++++e+   fn+a++al+e+  n+  ++ +e+ k++ +           +v +e++ tll llaPf+P+++++l      ++g +  +  a +pe +++ l+ +      ++   +v++++klr++l+++ +]]>
+              </match_string>
+              <pp>
+                <![CDATA[57789*************99************7.553..577777.44432......2....899***********************....665555..88899***988777332....3566...9***********99855]]>
+              </pp>
+              <seq>
+                <![CDATA[DLRRKTHETIQKVSDDIERrHAFNTAIAALMEL-LNA--SNKFEA-KDDND------V----AVEREAITTLLTLLAPFAPHLSQTLL----AQFGTD--LTEATFPEvDASALTRN----TQTI---VVQVNGKLRGKLEVSVD]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       wilselnklvkevteayee.yrfnkaasalyeffwndlcdwylelvkprlysesaedsraaqevllevletllrllaPfmPfitEelwqreeellgkkesimlaewpe.kseelekeleeeevellkeivkairklrselkikps
+#MATCH      + +++++++++v++++e+   fn+a++al+e+  n+  ++ +e+ k++ +           +v +e++ tll llaPf+P+++++l      ++g +  +  a +pe +++ l+ +      ++   +v++++klr++l+++ +
+#PP        57789*************99************7.553..577777.44432......2....899***********************....665555..88899***988777332....3566...9***********99855
+#SEQ       DLRRKTHETIQKVSDDIERrHAFNTAIAALMEL-LNA--SNKFEA-KDDND------V----AVEREAITTLLTLLAPFAPHLSQTLL----AQFGTD--LTEATFPEvDASALTRN----TQTI---VVQVNGKLRGKLEVSVD
+                ]]>
+              </raw>
+            </location>
+          </match>
+          <match accession="PF00133.20" id="tRNA-synt_1" type="Pfam-A" class="Family">
+            <location start="1" end="40" ali_start="1" ali_end="39" hmm_start="564" hmm_end="601" evalue="3.5e-06" bitscore="25.4" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[mSKslgNvidpldvikkygadalRltli.lsdvgrdinl]]>
+              </hmm>
+              <match_string>
+                <![CDATA[mSKs+ N idp+ +i++ygad  R +++  ++  + +++]]>
+              </match_string>
+              <pp>
+                <![CDATA[9***********************999977777776666]]>
+              </pp>
+              <seq>
+                <![CDATA[MSKSKNNGIDPQAIIDQYGADTARVFMMfAAPPDQSLEW]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       mSKslgNvidpldvikkygadalRltli.lsdvgrdinl
+#MATCH     mSKs+ N idp+ +i++ygad  R +++  ++  + +++
+#PP        9***********************999977777776666
+#SEQ       MSKSKNNGIDPQAIIDQYGADTARVFMMfAAPPDQSLEW
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

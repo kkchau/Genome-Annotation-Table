@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="5651F40C-4ADD-11E7-898D-A0A45F09777C">
+    <matches>
+      <protein length="366">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF02563.14" id="Poly_export" type="Pfam-A" class="Family">
+            <location start="73" end="163" ali_start="75" ali_end="162" hmm_start="3" hmm_end="81" evalue="1.6e-23" bitscore="82.6" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[aeseyrigpgDvLsItVwehpels.........ssqalqgylVdpdGtIslPllGrikvaGltveelreeieeklskylkdpqvtVrv]]>
+              </hmm>
+              <match_string>
+                <![CDATA[++s yr+ pgDvLsI+ w  pe++         +s + +gy +d++G+I++Pl+Gr k+aG+t++++++e+ ++l+++lk+p+v Vrv]]>
+              </match_string>
+              <pp>
+                <![CDATA[7888****************************988889*************************************************9]]>
+              </pp>
+              <seq>
+                <![CDATA[QQSIYRLSPGDVLSIQLWAYPEITppvnnisneQSIQANGYPIDQSGYIQFPLVGRYKAAGKTLAQVNRELHSQLARFLKNPDVVVRV]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       aeseyrigpgDvLsItVwehpels.........ssqalqgylVdpdGtIslPllGrikvaGltveelreeieeklskylkdpqvtVrv
+#MATCH     ++s yr+ pgDvLsI+ w  pe++         +s + +gy +d++G+I++Pl+Gr k+aG+t++++++e+ ++l+++lk+p+v Vrv
+#PP        7888****************************988889*************************************************9
+#SEQ       QQSIYRLSPGDVLSIQLWAYPEITppvnnisneQSIQANGYPIDQSGYIQFPLVGRYKAAGKTLAQVNRELHSQLARFLKNPDVVVRV
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

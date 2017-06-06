@@ -32,6 +32,7 @@
             {title: "Pfam ({{ statistics.pfam }})"},
             {title: "Prosite ({{ statistics.prosite}})"},
             {title: "KEGG Pathway ({{ statistics.kegg }})"},
+            {title: "NucPloc ({{ statistics.nuc }})"},
             {title: "Gene Ontology ({{ statistics.go }})"},
             {title: "Comments"}
         ]
@@ -78,9 +79,10 @@
                 <th>Sequence</th>
                 <th>BLAST({{ statistics.blast }})</th>
                 <th>Pfam({{ statistics.pfam }})</th>
-                <th>Prosite({{ statistics.prosite}})</th>
+                <th>Prosite({{ statistics.prosite }})</th>
                 <th>KEGG Pathway({{ statistics.kegg }})</th>
-                <th>Gene Ontology({{ statistics.kegg }})</th>
+                <th>NucPloc({{ statistics.nuc }})</th>
+                <th>Gene Ontology({{ statistics.go }})</th>
                 <th>Comments</th>
             </tr>
         </thead>
@@ -91,6 +93,7 @@
                 <th>Pfam</th>
                 <th>Prosite</th>
                 <th>KEGG Pathway</th>
+                <th>NucPloc</th>
                 <th>Gene Ontology</th>
                 <th>Comments</th>
             </tr>
@@ -103,6 +106,7 @@
                 <td>{{ annotation.pfam }}</td>
                 <td>{{ annotation.prosite }}</td>
                 <td>{{ annotation.kegg }}</td>
+                <td>{{ annotation.nuc }}</td>
                 <td>{{ annotation.go }}</td>
                 <td>{{ annotation.coment }}</td>
             </tr>

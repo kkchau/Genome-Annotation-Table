@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="9A42DEFC-4ADC-11E7-9738-A3A45F09777C">
+    <matches>
+      <protein length="152">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF02556.12" id="SecB" type="Pfam-A" class="Family">
+            <location start="4" end="143" ali_start="5" ali_end="142" hmm_start="2" hmm_end="141" evalue="3.2e-49" bitscore="166.3" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[qeaqpqlriqkqYvkDlSfenpnapeifleaeekPeikvnlnveakkleeevyevvlkvtvtakaeektaFlvevkyaGiftienipeeqlepllliecPriLFPyaReivsdlvreggfppllLepinFealyqqqlaq]]>
+              </hmm>
+              <match_string>
+                <![CDATA[q+ qpql+++++Y+kD+Sfe+p a ++f++ +++Pe+++nl+  a+k++ +++ev+lkv v+a+++++taF+v+v+++Gif i+ni+e++l  +l+++cP+iLFP++Re+v+dlv++g+fp+llL+pinF+a +++++++]]>
+              </match_string>
+              <pp>
+                <![CDATA[789*******************98.57767.9********************************************************************************************************9986]]>
+              </pp>
+              <seq>
+                <![CDATA[QQVQPQLALERIYTKDISFEVPGA-QVFTK-QWQPELNINLSSAAEKIDPTHFEVSLKVVVQANNDNETAFIVDVTQSGIFLIDNIEEDRLPYILGAYCPNILFPFLREAVNDLVTKGSFPQLLLTPINFDAEFEANMQR]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       qeaqpqlriqkqYvkDlSfenpnapeifleaeekPeikvnlnveakkleeevyevvlkvtvtakaeektaFlvevkyaGiftienipeeqlepllliecPriLFPyaReivsdlvreggfppllLepinFealyqqqlaq
+#MATCH     q+ qpql+++++Y+kD+Sfe+p a ++f++ +++Pe+++nl+  a+k++ +++ev+lkv v+a+++++taF+v+v+++Gif i+ni+e++l  +l+++cP+iLFP++Re+v+dlv++g+fp+llL+pinF+a +++++++
+#PP        789*******************98.57767.9********************************************************************************************************9986
+#SEQ       QQVQPQLALERIYTKDISFEVPGA-QVFTK-QWQPELNINLSSAAEKIDPTHFEVSLKVVVQANNDNETAFIVDVTQSGIFLIDNIEEDRLPYILGAYCPNILFPFLREAVNDLVTKGSFPQLLLTPINFDAEFEANMQR
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="blastp" version="BLASTP 2.2.29+"/>
+  <commandLine command="/ebi/extserv/bin/ncbi-blast-2.2.29+/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-I20170606-065424-0208-35178864-es.sequence  -num_threads 16 -outfmt 11 -out ncbiblast-I20170606-065424-0208-35178864-es.archive -matrix BLOSUM62 -num_alignments 50 -evalue 10 -gapopen 11 -gapextend 1 -seg no -comp_based_stats F"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="EMBOSS_001" type="PROTEIN" length="121"/>
+   </sequences>
+   <databases total="1" sequences="85866869" letters="28909108493">
+    <database number="1" name="uniprotkb" type="PROTEIN" created="2017-05-08T11:31:00+01:00"/>
+   </databases>
+   <alignments>50</alignments>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>F</filter>
+   <gapExtension>1.0</gapExtension>
+   <gapOpen>11.0</gapOpen>
+   <matrix>BLOSUM62</matrix>
+   <scores>50</scores>
+  </parameters>
+  <timeInfo start="2017-06-06T06:54:24+01:00" end="2017-06-06T06:54:53+01:00" search="P0Y0M0DT0H0M29.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="50">
+   <hit number="1" database="TR" id="A0A062FA72_ACIBA" ac="A0A062FA72" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter baumannii 754286 GN=J567_2110 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>3.0E-85</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="TR" id="A0A009TPL4_ACIBA" ac="A0A009TPL4" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter baumannii 99063 GN=J529_0537 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>3.0E-85</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="TR" id="U1VWV6_ACIBA" ac="U1VWV6" length="121" description="Ferredoxin OS=Acinetobacter baumannii EGD-HP18 GN=N173_01455 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>3.0E-85</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="TR" id="A0A062FUX3_ACIBA" ac="A0A062FUX3" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter baumannii 940793 GN=J532_0196 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>3.0E-85</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="5" database="TR" id="A0A009PHK6_ACIBA" ac="A0A009PHK6" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter baumannii 625974 GN=J506_1163 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>3.0E-85</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="6" database="TR" id="A0A009K0H9_ACIBA" ac="A0A009K0H9" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter baumannii 1419130 GN=J518_0309 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>3.0E-85</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="7" database="TR" id="A0A062DNL1_ACIBA" ac="A0A062DNL1" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter baumannii 496487 GN=J524_0942 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>3.0E-85</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="8" database="TR" id="A0A062IMA3_ACIBA" ac="A0A062IMA3" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter baumannii 21072 GN=J596_1422 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>3.0E-85</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="9" database="TR" id="A0A009SDP4_ACIBA" ac="A0A009SDP4" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter baumannii 951631 GN=J552_0964 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>3.0E-85</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="10" database="TR" id="A0A0J0ZLP3_ACIBA" ac="A0A0J0ZLP3" length="121" description="Zinc-or iron-chelating domain protein OS=Acinetobacter baumannii MRSN 3527 GN=T630_3898 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>3.0E-85</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="11" database="TR" id="G2JEA7_ACIBA" ac="G2JEA7" length="121" description="Putative ferredoxin OS=Acinetobacter baumannii MDR-ZJ06 GN=ABZJ_03711 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>3.0E-85</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="12" database="TR" id="A0A0E1PLR3_ACIBA" ac="A0A0E1PLR3" length="121" description="Ferredoxin OS=Acinetobacter baumannii NCGM 237 GN=AB237_0162 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>3.0E-85</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="13" database="TR" id="A0A062LYZ4_ACIBA" ac="A0A062LYZ4" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter baumannii 1288284 GN=J608_2627 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>3.0E-85</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="14" database="TR" id="B0V9E8_ACIBY" ac="B0V9E8" length="121" description="Putative ferredoxin OS=Acinetobacter baumannii (strain AYE) GN=ABAYE0165 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>3.0E-85</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="15" database="TR" id="L9M1V1_ACIBA" ac="L9M1V1" length="121" description="Flagellin N-methylase OS=Acinetobacter baumannii WC-A-92 GN=ACINWCA92_3662 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>3.0E-85</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="16" database="TR" id="A0A0R1B4T5_ACINO" ac="A0A0R1B4T5" length="121" description="Ferredoxin OS=Acinetobacter nosocomialis GN=APC94_19870 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>3.0E-85</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="17" database="TR" id="A0A059ZPF1_ACIBA" ac="A0A059ZPF1" length="121" description="Ferredoxin OS=Acinetobacter baumannii GN=A7M79_15875 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>3.0E-85</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="18" database="TR" id="A0A062FZ78_ACIBA" ac="A0A062FZ78" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter baumannii 15827 GN=J530_1770 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>3.0E-85</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="19" database="SP" id="FERX_ACICA" ac="P31004" length="121" description="Putative ferredoxin OS=Acinetobacter calcoaceticus PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>654</score>
+      <bits>256.529</bits>
+      <expectation>3.0E-85</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="20" database="TR" id="A0A009IB07_ACIBA" ac="A0A009IB07" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter baumannii 1295743 GN=J512_0392 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>648</score>
+      <bits>254.218</bits>
+      <expectation>2.4E-84</expectation>
+      <identity>98.3</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLI+V+PADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIEVNPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="21" database="TR" id="A0A0J8TQQ1_ACIBA" ac="A0A0J8TQQ1" length="121" description="Ferredoxin OS=Acinetobacter baumannii GN=A7M90_07145 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>648</score>
+      <bits>254.218</bits>
+      <expectation>2.4E-84</expectation>
+      <identity>99.2</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCR VQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCRAVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="22" database="TR" id="A0A1T0LSA7_ACIBA" ac="A0A1T0LSA7" length="121" description="Zinc/iron-chelating domain-containing protein OS=Acinetobacter baumannii GN=BTH33_03750 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>648</score>
+      <bits>254.218</bits>
+      <expectation>2.4E-84</expectation>
+      <identity>98.3</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLI+V+PADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIEVNPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="23" database="TR" id="A0A062F054_ACIBA" ac="A0A062F054" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter baumannii 855125 GN=J560_1041 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>647</score>
+      <bits>253.832</bits>
+      <expectation>3.4E-84</expectation>
+      <identity>99.2</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDY QVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYHQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="24" database="TR" id="A0A1T0DP90_ACIBA" ac="A0A1T0DP90" length="121" description="Zinc/iron-chelating domain-containing protein OS=Acinetobacter baumannii GN=BTG55_14025 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>647</score>
+      <bits>253.832</bits>
+      <expectation>3.4E-84</expectation>
+      <identity>99.2</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDY QVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYHQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="25" database="TR" id="L9NX41_ACIBA" ac="L9NX41" length="121" description="Flagellin N-methylase OS=Acinetobacter baumannii Naval-57 GN=ACINNAV57_3683 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>646</score>
+      <bits>253.447</bits>
+      <expectation>4.9E-84</expectation>
+      <identity>99.2</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQ EPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQSEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="26" database="TR" id="D0CF45_ACIB2" ac="D0CF45" length="121" description="Uncharacterized protein OS=Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81) GN=HMPREF0010_03511 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>645</score>
+      <bits>253.062</bits>
+      <expectation>6.9E-84</expectation>
+      <identity>98.3</identity>
+      <positives>98.3</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVA PDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIY VRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVAAPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYTVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="27" database="TR" id="A0A171EXR5_ACIBA" ac="A0A171EXR5" length="121" description="Flagellin N-methylase OS=Acinetobacter baumannii Naval-82 GN=ACINNAV82_3748 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>644</score>
+      <bits>252.677</bits>
+      <expectation>9.8E-84</expectation>
+      <identity>99.2</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQ EPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQLEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="28" database="TR" id="A0A009HC69_ACIBA" ac="A0A009HC69" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter baumannii 118362 GN=J517_0438 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>644</score>
+      <bits>252.677</bits>
+      <expectation>9.8E-84</expectation>
+      <identity>99.2</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQ EPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQLEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="29" database="TR" id="A0A062J165_ACIBA" ac="A0A062J165" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter baumannii 233846 GN=J635_0978 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>644</score>
+      <bits>252.677</bits>
+      <expectation>9.8E-84</expectation>
+      <identity>99.2</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQ EPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQLEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="30" database="TR" id="A0A0B9W7U5_ACIBA" ac="A0A0B9W7U5" length="121" description="Ferredoxin OS=Acinetobacter baumannii GN=IX87_13625 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>644</score>
+      <bits>252.677</bits>
+      <expectation>9.8E-84</expectation>
+      <identity>99.2</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQ EPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQLEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="31" database="TR" id="B0VNY1_ACIBS" ac="B0VNY1" length="121" description="Putative ferredoxin OS=Acinetobacter baumannii (strain SDF) GN=ABSDF3450 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>637</score>
+      <bits>249.98</bits>
+      <expectation>1.1E-82</expectation>
+      <identity>97.5</identity>
+      <positives>98.3</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEI KEVGCSI+AVRSSTCREVQIADEQCNKARL HQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEICKEVGCSIFAVRSSTCREVQIADEQCNKARLVHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="32" database="TR" id="A0A013T041_ACIBA" ac="A0A013T041" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter baumannii 573719 GN=J658_1855 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>637</score>
+      <bits>249.98</bits>
+      <expectation>1.1E-82</expectation>
+      <identity>95.9</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAE+++EHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGC+IYAVRSSTCREV+IADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAEVIDEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCTIYAVRSSTCREVRIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="33" database="TR" id="A0A1C9CNW3_ACIBA" ac="A0A1C9CNW3" length="121" description="Ferredoxin OS=Acinetobacter baumannii GN=AN158_07895 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>637</score>
+      <bits>249.98</bits>
+      <expectation>1.1E-82</expectation>
+      <identity>98.3</identity>
+      <positives>98.3</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQ EPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAH LIPLIQVSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQLEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHLLIPLIQVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="34" database="TR" id="A0A0W3DRA5_9GAMM" ac="A0A0W3DRA5" length="121" description="Ferredoxin OS=Acinetobacter sp. FDAARGOS_131 GN=AL489_06480 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>634</score>
+      <bits>248.825</bits>
+      <expectation>3.2E-82</expectation>
+      <identity>95.9</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELM+EHLVEPLTPVYSCMRGTNQ +PRCQALTGEIGKEVGCSIYAVRSSTC+EVQIADEQCNKARLAHQLIPLI+VSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMDEHLVEPLTPVYSCMRGTNQAQPRCQALTGEIGKEVGCSIYAVRSSTCKEVQIADEQCNKARLAHQLIPLIEVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="35" database="TR" id="A0A010LGV2_9GAMM" ac="A0A010LGV2" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter sp. 1566109 GN=J582_1850 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>634</score>
+      <bits>248.825</bits>
+      <expectation>3.2E-82</expectation>
+      <identity>95.9</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELM+EHLVEPLTPVYSCMRGTNQ +PRCQALTGEIGKEVGCSIYAVRSSTC+EVQIADEQCNKARLAHQLIPLI+VSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMDEHLVEPLTPVYSCMRGTNQAQPRCQALTGEIGKEVGCSIYAVRSSTCKEVQIADEQCNKARLAHQLIPLIEVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="36" database="TR" id="A0A062SNJ0_ACIBA" ac="A0A062SNJ0" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter baumannii 25977_9 GN=J812_1372 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>634</score>
+      <bits>248.825</bits>
+      <expectation>3.2E-82</expectation>
+      <identity>95.9</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELM+EHLVEPLTPVYSCMRGTNQ +PRCQALTGEIGKEVGCSIYAVRSSTC+EVQIADEQCNKARLAHQLIPLI+VSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMDEHLVEPLTPVYSCMRGTNQAQPRCQALTGEIGKEVGCSIYAVRSSTCKEVQIADEQCNKARLAHQLIPLIEVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="37" database="TR" id="A0A014CRG4_9GAMM" ac="A0A014CRG4" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter sp. 25977_3 GN=J806_0834 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>634</score>
+      <bits>248.825</bits>
+      <expectation>3.2E-82</expectation>
+      <identity>95.9</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELM+EHLVEPLTPVYSCMRGTNQ +PRCQALTGEIGKEVGCSIYAVRSSTC+EVQIADEQCNKARLAHQLIPLI+VSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMDEHLVEPLTPVYSCMRGTNQAQPRCQALTGEIGKEVGCSIYAVRSSTCKEVQIADEQCNKARLAHQLIPLIEVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="38" database="TR" id="A0A014D8I3_9GAMM" ac="A0A014D8I3" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter sp. 25977_4 GN=J807_0593 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>634</score>
+      <bits>248.825</bits>
+      <expectation>3.2E-82</expectation>
+      <identity>95.9</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELM+EHLVEPLTPVYSCMRGTNQ +PRCQALTGEIGKEVGCSIYAVRSSTC+EVQIADEQCNKARLAHQLIPLI+VSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMDEHLVEPLTPVYSCMRGTNQAQPRCQALTGEIGKEVGCSIYAVRSSTCKEVQIADEQCNKARLAHQLIPLIEVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="39" database="TR" id="L9LRP6_9GAMM" ac="L9LRP6" length="121" description="Flagellin N-methylase OS=Acinetobacter sp. OIFC021 GN=ACIN5021_3822 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>634</score>
+      <bits>248.825</bits>
+      <expectation>3.2E-82</expectation>
+      <identity>95.9</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELM+EHLVEPLTPVYSCMRGTNQ +PRCQALTGEIGKEVGCSIYAVRSSTC+EVQIADEQCNKARLAHQLIPLI+VSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMDEHLVEPLTPVYSCMRGTNQAQPRCQALTGEIGKEVGCSIYAVRSSTCKEVQIADEQCNKARLAHQLIPLIEVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="40" database="TR" id="A0A140QU14_9GAMM" ac="A0A140QU14" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter sp. 216872 GN=J633_1677 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>634</score>
+      <bits>248.825</bits>
+      <expectation>3.2E-82</expectation>
+      <identity>95.9</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELM+EHLVEPLTPVYSCMRGTNQ +PRCQALTGEIGKEVGCSIYAVRSSTC+EVQIADEQCNKARLAHQLIPLI+VSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMDEHLVEPLTPVYSCMRGTNQAQPRCQALTGEIGKEVGCSIYAVRSSTCKEVQIADEQCNKARLAHQLIPLIEVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="41" database="TR" id="A0A014CR70_9GAMM" ac="A0A014CR70" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter sp. 25977_2 GN=J805_0858 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>634</score>
+      <bits>248.825</bits>
+      <expectation>3.2E-82</expectation>
+      <identity>95.9</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELM+EHLVEPLTPVYSCMRGTNQ +PRCQALTGEIGKEVGCSIYAVRSSTC+EVQIADEQCNKARLAHQLIPLI+VSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMDEHLVEPLTPVYSCMRGTNQAQPRCQALTGEIGKEVGCSIYAVRSSTCKEVQIADEQCNKARLAHQLIPLIEVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="42" database="TR" id="A0A062L485_ACIBA" ac="A0A062L485" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter baumannii 1571545 GN=J715_0694 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>634</score>
+      <bits>248.825</bits>
+      <expectation>3.2E-82</expectation>
+      <identity>95.9</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELM+EHLVEPLTPVYSCMRGTNQ +PRCQALTGEIGKEVGCSIYAVRSSTC+EVQIADEQCNKARLAHQLIPLI+VSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMDEHLVEPLTPVYSCMRGTNQAQPRCQALTGEIGKEVGCSIYAVRSSTCKEVQIADEQCNKARLAHQLIPLIEVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="43" database="TR" id="A0A014EW31_9GAMM" ac="A0A014EW31" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter sp. 25977_10 GN=J813_1225 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>634</score>
+      <bits>248.825</bits>
+      <expectation>3.2E-82</expectation>
+      <identity>95.9</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELM+EHLVEPLTPVYSCMRGTNQ +PRCQALTGEIGKEVGCSIYAVRSSTC+EVQIADEQCNKARLAHQLIPLI+VSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMDEHLVEPLTPVYSCMRGTNQAQPRCQALTGEIGKEVGCSIYAVRSSTCKEVQIADEQCNKARLAHQLIPLIEVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="44" database="TR" id="A0A014BYT1_9GAMM" ac="A0A014BYT1" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter sp. 25977_6 GN=J809_0992 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>634</score>
+      <bits>248.825</bits>
+      <expectation>3.2E-82</expectation>
+      <identity>95.9</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELM+EHLVEPLTPVYSCMRGTNQ +PRCQALTGEIGKEVGCSIYAVRSSTC+EVQIADEQCNKARLAHQLIPLI+VSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMDEHLVEPLTPVYSCMRGTNQAQPRCQALTGEIGKEVGCSIYAVRSSTCKEVQIADEQCNKARLAHQLIPLIEVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="45" database="TR" id="A0A014BZ02_9GAMM" ac="A0A014BZ02" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter sp. 25977_7 GN=J810_0229 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>634</score>
+      <bits>248.825</bits>
+      <expectation>3.2E-82</expectation>
+      <identity>95.9</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELM+EHLVEPLTPVYSCMRGTNQ +PRCQALTGEIGKEVGCSIYAVRSSTC+EVQIADEQCNKARLAHQLIPLI+VSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMDEHLVEPLTPVYSCMRGTNQAQPRCQALTGEIGKEVGCSIYAVRSSTCKEVQIADEQCNKARLAHQLIPLIEVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="46" database="TR" id="A0A014C2Y6_9GAMM" ac="A0A014C2Y6" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter sp. 25977_8 GN=J811_1941 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>634</score>
+      <bits>248.825</bits>
+      <expectation>3.2E-82</expectation>
+      <identity>95.9</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELM+EHLVEPLTPVYSCMRGTNQ +PRCQALTGEIGKEVGCSIYAVRSSTC+EVQIADEQCNKARLAHQLIPLI+VSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMDEHLVEPLTPVYSCMRGTNQAQPRCQALTGEIGKEVGCSIYAVRSSTCKEVQIADEQCNKARLAHQLIPLIEVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="47" database="TR" id="A0A014CZE3_9GAMM" ac="A0A014CZE3" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter sp. 25977_1 GN=J804_1062 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>634</score>
+      <bits>248.825</bits>
+      <expectation>3.2E-82</expectation>
+      <identity>95.9</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELM+EHLVEPLTPVYSCMRGTNQ +PRCQALTGEIGKEVGCSIYAVRSSTC+EVQIADEQCNKARLAHQLIPLI+VSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMDEHLVEPLTPVYSCMRGTNQAQPRCQALTGEIGKEVGCSIYAVRSSTCKEVQIADEQCNKARLAHQLIPLIEVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="48" database="TR" id="A0A062N7E4_9GAMM" ac="A0A062N7E4" length="121" description="Flagellin N-methylase family protein OS=Acinetobacter sp. 796380-1375 GN=J732_0805 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>634</score>
+      <bits>248.825</bits>
+      <expectation>3.2E-82</expectation>
+      <identity>95.9</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELM+EHLVEPLTPVYSCMRGTNQ +PRCQALTGEIGKEVGCSIYAVRSSTC+EVQIADEQCNKARLAHQLIPLI+VSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMDEHLVEPLTPVYSCMRGTNQAQPRCQALTGEIGKEVGCSIYAVRSSTCKEVQIADEQCNKARLAHQLIPLIEVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="49" database="TR" id="K9B834_9GAMM" ac="K9B834" length="121" description="Flagellin N-methylase OS=Acinetobacter sp. WC-487 GN=ACINWC487_3803 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>630</score>
+      <bits>247.284</bits>
+      <expectation>1.3E-81</expectation>
+      <identity>95.0</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELM+EHLVEPLTPVYSCMRGTNQ +PRCQALTGEIGKEVGCSIYAVRSSTC+EV+IADEQCNKARLAHQLIPLI+VSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMDEHLVEPLTPVYSCMRGTNQAQPRCQALTGEIGKEVGCSIYAVRSSTCKEVRIADEQCNKARLAHQLIPLIEVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="50" database="TR" id="A0A0A7XEG1_ACINO" ac="A0A0A7XEG1" length="121" description="Ferredoxin OS=Acinetobacter nosocomialis GN=RR32_00810 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>628</score>
+      <bits>246.514</bits>
+      <expectation>2.6E-81</expectation>
+      <identity>95.0</identity>
+      <positives>98.3</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMEEHLVEPLTPVYSCMRGTNQPEPRCQALTGEIGKEVGCSIYAVRSSTCREVQIADEQCNKARLAHQLIPLIQVSPADSENDHDYDQVS</querySeq>
+      <pattern>MLSQVATPDECLRCGACCAHFRVSFYWAEAELM+EHLVEPLTPVY CMRGTNQ +PRCQALTGEIGKEVGCSIYAVRSSTC+EVQIADEQCNKARLAHQLIPLI+VSPADSENDHDYDQVS</pattern>
+      <matchSeq start="1" end="121">MLSQVATPDECLRCGACCAHFRVSFYWAEAELMDEHLVEPLTPVYLCMRGTNQAQPRCQALTGEIGKEVGCSIYAVRSSTCKEVQIADEQCNKARLAHQLIPLIEVSPADSENDHDYDQVS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult></EBIApplicationResult>

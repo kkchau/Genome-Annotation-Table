@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="blastp" version="BLASTP 2.2.29+"/>
+  <commandLine command="/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.29+/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-I20170606-181800-0651-46817290-pg.sequence  -num_threads 16 -outfmt 11 -out ncbiblast-I20170606-181800-0651-46817290-pg.archive -matrix BLOSUM62 -num_alignments 50 -evalue 10 -gapopen 11 -gapextend 1 -seg no -comp_based_stats F"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="EMBOSS_001" type="PROTEIN" length="145"/>
+   </sequences>
+   <databases total="1" sequences="85866869" letters="28909108493">
+    <database number="1" name="uniprotkb" type="PROTEIN" created="2017-05-08T11:31:00+01:00"/>
+   </databases>
+   <alignments>50</alignments>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>F</filter>
+   <gapExtension>1.0</gapExtension>
+   <gapOpen>11.0</gapOpen>
+   <matrix>BLOSUM62</matrix>
+   <scores>50</scores>
+  </parameters>
+  <timeInfo start="2017-06-06T18:18:00+01:00" end="2017-06-06T18:24:46+01:00" search="P0Y0M0DT0H6M46.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="50">
+   <hit number="1" database="TR" id="A0A1E3M9H3_ACIBA" ac="A0A1E3M9H3" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>727</score>
+      <bits>284.648</bits>
+      <expectation>1.4E-95</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="SP" id="TATB_ACIBT" ac="A3M1X6" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii (strain ATCC 17978 / CIP 53.77 / LMG 1025 / NCDC KC755 / 5377) GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>727</score>
+      <bits>284.648</bits>
+      <expectation>1.4E-95</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="TR" id="A0A009L2X0_ACIBA" ac="A0A009L2X0" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii 1419130 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>714</score>
+      <bits>279.641</bits>
+      <expectation>1.3E-93</expectation>
+      <identity>97.9</identity>
+      <positives>98.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPIWKCTPISGHYKVPYLTKVTSLA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="TR" id="A0A1S2G3H5_ACIBA" ac="A0A1S2G3H5" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>709</score>
+      <bits>277.715</bits>
+      <expectation>7.7E-93</expectation>
+      <identity>97.2</identity>
+      <positives>97.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPIWKCTPISGHYKVPYLTKVT LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIWKCTPISGHYKVPYLTKVTPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="5" database="TR" id="A0A0M3FBA1_ACIBA" ac="A0A0M3FBA1" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii GN=tatB_1 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>706</score>
+      <bits>276.559</bits>
+      <expectation>2.2E-92</expectation>
+      <identity>96.6</identity>
+      <positives>97.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSE+LE TETAKTTQKPIWKCTPISGHYKVPYLTKVT LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSETLETTETAKTTQKPIWKCTPISGHYKVPYLTKVTPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="6" database="TR" id="A0A062FIN2_ACIBA" ac="A0A062FIN2" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii 754286 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>703</score>
+      <bits>275.404</bits>
+      <expectation>6.3E-92</expectation>
+      <identity>96.6</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKT QKPIWKCTPISGHYKVPYLTKVT LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTRQKPIWKCTPISGHYKVPYLTKVTPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="7" database="TR" id="A0A158LRM6_ACIBA" ac="A0A158LRM6" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii NIPH 190 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>703</score>
+      <bits>275.404</bits>
+      <expectation>6.3E-92</expectation>
+      <identity>96.6</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPIWKCTPISGHYKVPYLTKV  LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIWKCTPISGHYKVPYLTKVKPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="8" database="TR" id="A0A171EN82_ACIBA" ac="A0A171EN82" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii Naval-82 GN=tatB_1 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>703</score>
+      <bits>275.404</bits>
+      <expectation>6.3E-92</expectation>
+      <identity>96.6</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPIWKCTPISGHYKVPYLTKV  LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIWKCTPISGHYKVPYLTKVKPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="9" database="TR" id="A0A062FM65_ACIBA" ac="A0A062FM65" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii 940793 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>703</score>
+      <bits>275.404</bits>
+      <expectation>6.3E-92</expectation>
+      <identity>96.6</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPIWKCTPISGHYKVPYLTKV  LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIWKCTPISGHYKVPYLTKVKPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="10" database="TR" id="A0A062EWC9_ACIBA" ac="A0A062EWC9" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii 855125 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>703</score>
+      <bits>275.404</bits>
+      <expectation>6.3E-92</expectation>
+      <identity>96.6</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPIWKCTPISGHYKVPYLTKV  LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIWKCTPISGHYKVPYLTKVKPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="11" database="TR" id="A0A009PN74_ACIBA" ac="A0A009PN74" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii 625974 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>703</score>
+      <bits>275.404</bits>
+      <expectation>6.3E-92</expectation>
+      <identity>96.6</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPIWKCTPISGHYKVPYLTKV  LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIWKCTPISGHYKVPYLTKVKPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="12" database="TR" id="A0A062DQZ9_ACIBA" ac="A0A062DQZ9" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii 496487 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>703</score>
+      <bits>275.404</bits>
+      <expectation>6.3E-92</expectation>
+      <identity>96.6</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKT QKPIWKCTPISGHYKVPYLTKVT LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTRQKPIWKCTPISGHYKVPYLTKVTPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="13" database="TR" id="A0A009S3R6_ACIBA" ac="A0A009S3R6" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii 951631 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>703</score>
+      <bits>275.404</bits>
+      <expectation>6.3E-92</expectation>
+      <identity>96.6</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKT QKPIWKCTPISGHYKVPYLTKVT LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTRQKPIWKCTPISGHYKVPYLTKVTPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="14" database="TR" id="L9P723_ACIBA" ac="L9P723" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii Naval-57 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>703</score>
+      <bits>275.404</bits>
+      <expectation>6.3E-92</expectation>
+      <identity>96.6</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPIWKCTPISGHYKVPYLTKV  LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIWKCTPISGHYKVPYLTKVKPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="15" database="TR" id="A0A009HCZ6_ACIBA" ac="A0A009HCZ6" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii 118362 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>703</score>
+      <bits>275.404</bits>
+      <expectation>6.3E-92</expectation>
+      <identity>96.6</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPIWKCTPISGHYKVPYLTKV  LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIWKCTPISGHYKVPYLTKVKPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="16" database="TR" id="A0A0E1JSI0_ACIBA" ac="A0A0E1JSI0" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>703</score>
+      <bits>275.404</bits>
+      <expectation>6.3E-92</expectation>
+      <identity>96.6</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPIWKCTPISGHYKVPYLTKV  LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIWKCTPISGHYKVPYLTKVKPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="17" database="TR" id="U1UAX7_ACIBA" ac="U1UAX7" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii EGD-HP18 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>695</score>
+      <bits>272.322</bits>
+      <expectation>1.0E-90</expectation>
+      <identity>96.6</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPI KCTPISGHYKVPYLTKVT LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIRKCTPISGHYKVPYLTKVTPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="18" database="TR" id="B0VL59_ACIBS" ac="B0VL59" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii (strain SDF) GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>695</score>
+      <bits>272.322</bits>
+      <expectation>1.0E-90</expectation>
+      <identity>96.6</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPI KCTPISGHYKVPYLTKVT LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIRKCTPISGHYKVPYLTKVTPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="19" database="TR" id="A0A0J1A5V6_ACIBA" ac="A0A0J1A5V6" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii MRSN 3527 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>695</score>
+      <bits>272.322</bits>
+      <expectation>1.0E-90</expectation>
+      <identity>96.6</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPI KCTPISGHYKVPYLTKVT LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIRKCTPISGHYKVPYLTKVTPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="20" database="TR" id="G2JFD4_ACIBA" ac="G2JFD4" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii MDR-ZJ06 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>695</score>
+      <bits>272.322</bits>
+      <expectation>1.0E-90</expectation>
+      <identity>96.6</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPI KCTPISGHYKVPYLTKVT LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIRKCTPISGHYKVPYLTKVTPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="21" database="TR" id="A0A0E1PVH0_ACIBA" ac="A0A0E1PVH0" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii NCGM 237 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>695</score>
+      <bits>272.322</bits>
+      <expectation>1.0E-90</expectation>
+      <identity>96.6</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPI KCTPISGHYKVPYLTKVT LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIRKCTPISGHYKVPYLTKVTPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="22" database="TR" id="B0V4Q3_ACIBY" ac="B0V4Q3" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii (strain AYE) GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>695</score>
+      <bits>272.322</bits>
+      <expectation>1.0E-90</expectation>
+      <identity>96.6</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPI KCTPISGHYKVPYLTKVT LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIRKCTPISGHYKVPYLTKVTPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="23" database="TR" id="A0A062GC27_ACIBA" ac="A0A062GC27" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii 15827 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>695</score>
+      <bits>272.322</bits>
+      <expectation>1.0E-90</expectation>
+      <identity>96.6</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPI KCTPISGHYKVPYLTKVT LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIRKCTPISGHYKVPYLTKVTPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="24" database="TR" id="A0A0R1B680_ACINO" ac="A0A0R1B680" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter nosocomialis GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>695</score>
+      <bits>272.322</bits>
+      <expectation>1.0E-90</expectation>
+      <identity>96.6</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPI KCTPISGHYKVPYLTKVT LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIRKCTPISGHYKVPYLTKVTPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="25" database="TR" id="A0A059ZSA2_ACIBA" ac="A0A059ZSA2" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>695</score>
+      <bits>272.322</bits>
+      <expectation>1.0E-90</expectation>
+      <identity>96.6</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPI KCTPISGHYKVPYLTKVT LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIRKCTPISGHYKVPYLTKVTPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="26" database="TR" id="D0CAI2_ACIB2" ac="D0CAI2" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81) GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>692</score>
+      <bits>271.166</bits>
+      <expectation>2.9E-90</expectation>
+      <identity>95.9</identity>
+      <positives>97.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSE+LE TETAKTTQKPI KCTPISGHYKVPYLTKVT LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSETLETTETAKTTQKPIRKCTPISGHYKVPYLTKVTPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="27" database="TR" id="A0A1C9CQK9_ACIBA" ac="A0A1C9CQK9" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>690</score>
+      <bits>270.396</bits>
+      <expectation>5.9E-90</expectation>
+      <identity>95.9</identity>
+      <positives>96.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQ VSESLE TETAKTTQKPI KCTPISGHYKVPYLTKVT LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQHVSESLEATETAKTTQKPIRKCTPISGHYKVPYLTKVTPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="28" database="TR" id="A0A009IQ34_ACIBA" ac="A0A009IQ34" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii 1295743 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>689</score>
+      <bits>270.011</bits>
+      <expectation>8.4E-90</expectation>
+      <identity>95.9</identity>
+      <positives>96.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPI KCTPISGHYKVPYLTKV  LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIRKCTPISGHYKVPYLTKVKPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="29" database="TR" id="A0A062IHA9_ACIBA" ac="A0A062IHA9" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii 233846 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>689</score>
+      <bits>270.011</bits>
+      <expectation>8.4E-90</expectation>
+      <identity>95.9</identity>
+      <positives>96.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAK TQKPI KCTPISGHYKVPYLTKVT LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKKTQKPIRKCTPISGHYKVPYLTKVTPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="30" database="TR" id="A0A0G4QLD0_ACIBA" ac="A0A0G4QLD0" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>689</score>
+      <bits>270.011</bits>
+      <expectation>8.4E-90</expectation>
+      <identity>95.9</identity>
+      <positives>96.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAK TQKPI KCTPISGHYKVPYLTKVT LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKKTQKPIRKCTPISGHYKVPYLTKVTPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="31" database="TR" id="A0A0N8Y2K9_ACIBA" ac="A0A0N8Y2K9" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>689</score>
+      <bits>270.011</bits>
+      <expectation>8.4E-90</expectation>
+      <identity>95.9</identity>
+      <positives>96.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPI KCTPISGHYKVPYLTKV  LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIRKCTPISGHYKVPYLTKVKPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="32" database="TR" id="A0A009T1Z2_ACIBA" ac="A0A009T1Z2" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii 99063 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>686</score>
+      <bits>268.855</bits>
+      <expectation>2.4E-89</expectation>
+      <identity>95.2</identity>
+      <positives>96.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSE+LE TETAKTTQKPI KCTPISGHYKVPYLTKV  LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSETLETTETAKTTQKPIRKCTPISGHYKVPYLTKVKPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="33" database="TR" id="A0A062I3M2_ACIBA" ac="A0A062I3M2" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii 21072 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>686</score>
+      <bits>268.855</bits>
+      <expectation>2.4E-89</expectation>
+      <identity>95.2</identity>
+      <positives>96.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSE+LE TETAKTTQKPI KCTPISGHYKVPYLTKV  LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSETLETTETAKTTQKPIRKCTPISGHYKVPYLTKVKPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="34" database="TR" id="S3TH49_ACIBA" ac="S3TH49" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii NIPH 410 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>686</score>
+      <bits>268.855</bits>
+      <expectation>2.4E-89</expectation>
+      <identity>95.2</identity>
+      <positives>96.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSE+LE TETAKTTQKPI KCTPISGHYKVPYLTKV  LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSETLETTETAKTTQKPIRKCTPISGHYKVPYLTKVKPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="35" database="TR" id="L9MAJ5_ACIBA" ac="L9MAJ5" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii WC-A-92 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>686</score>
+      <bits>268.855</bits>
+      <expectation>2.4E-89</expectation>
+      <identity>95.2</identity>
+      <positives>96.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSE+LE TETAKTTQKPI KCTPISGHYKVPYLTKV  LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSETLETTETAKTTQKPIRKCTPISGHYKVPYLTKVKPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="36" database="TR" id="N9KKE8_ACIBA" ac="N9KKE8" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii NIPH 80 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>686</score>
+      <bits>268.855</bits>
+      <expectation>2.4E-89</expectation>
+      <identity>95.2</identity>
+      <positives>96.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSE+LE TETAKTTQKPI KCTPISGHYKVPYLTKV  LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSETLETTETAKTTQKPIRKCTPISGHYKVPYLTKVKPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="37" database="TR" id="N8ZAJ5_ACIBA" ac="N8ZAJ5" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii NIPH 60 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>686</score>
+      <bits>268.855</bits>
+      <expectation>2.4E-89</expectation>
+      <identity>95.2</identity>
+      <positives>96.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSE+LE TETAKTTQKPI KCTPISGHYKVPYLTKV  LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSETLETTETAKTTQKPIRKCTPISGHYKVPYLTKVKPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="38" database="TR" id="V5VGL9_ACIBA" ac="V5VGL9" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>686</score>
+      <bits>268.855</bits>
+      <expectation>2.4E-89</expectation>
+      <identity>95.2</identity>
+      <positives>96.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSE+LE TETAKTTQKPI KCTPISGHYKVPYLTKV  LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSETLETTETAKTTQKPIRKCTPISGHYKVPYLTKVKPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="39" database="TR" id="A0A1T0ETP9_ACIBA" ac="A0A1T0ETP9" length="145" description="Twin arginine-targeting protein translocase TatB OS=Acinetobacter baumannii GN=BTG61_00790 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>686</score>
+      <bits>268.855</bits>
+      <expectation>2.4E-89</expectation>
+      <identity>95.2</identity>
+      <positives>96.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSE+LE TETAKTTQKPI KCTPIS HYKVPYLTKVT LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSETLETTETAKTTQKPIRKCTPISAHYKVPYLTKVTPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="40" database="TR" id="N9GEZ2_ACIBA" ac="N9GEZ2" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii NIPH 201 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>684</score>
+      <bits>268.085</bits>
+      <expectation>4.8E-89</expectation>
+      <identity>94.5</identity>
+      <positives>95.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGM ELLCFAIIAILVLGPEKLPEAARFAGRWY+RLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQ VSESLE TETAKTTQKPI KCTPISGHYKVPYLTKVT LA QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMAELLCFAIIAILVLGPEKLPEAARFAGRWYIRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQHVSESLEATETAKTTQKPIRKCTPISGHYKVPYLTKVTPLAPQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="41" database="TR" id="N9HQK5_ACIBA" ac="N9HQK5" length="144" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii NIPH 601 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>675</score>
+      <bits>264.618</bits>
+      <expectation>1.1E-87</expectation>
+      <identity>95.2</identity>
+      <positives>95.9</positives>
+      <gaps>1</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQVSESLE TETAKTTQKPI KCTPISGHYKVPYLTKVT    QTDISETSPVELKIAV</pattern>
+      <matchSeq start="1" end="144">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQVSESLEATETAKTTQKPIRKCTPISGHYKVPYLTKVTPF-PQTDISETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="42" database="TR" id="A0A0B2XZH1_ACIBA" ac="A0A0B2XZH1" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter baumannii GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>647</score>
+      <bits>253.832</bits>
+      <expectation>2.0E-83</expectation>
+      <identity>89.0</identity>
+      <positives>92.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGP+KLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQ SE LEVTE  KTTQKPI KC PIS HYKVPY+ K+T L  QTDI+ETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPDKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQTSEHLEVTEKPKTTQKPIRKCIPISDHYKVPYVAKITPLVPQTDIAETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="43" database="TR" id="A0A0E2GG48_ACINO" ac="A0A0E2GG48" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter nosocomialis NIPH 386 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>646</score>
+      <bits>253.447</bits>
+      <expectation>2.8E-83</expectation>
+      <identity>89.0</identity>
+      <positives>92.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGP+KLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQ+SE LEVTET KTT KPI KC PIS HYKVPY+ K T L  QTDI+ETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPDKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQISEHLEVTETPKTTPKPIRKCIPISDHYKVPYVAKPTPLVTQTDIAETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="44" database="TR" id="K9BRG4_9GAMM" ac="K9BRG4" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter sp. WC-487 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>646</score>
+      <bits>253.447</bits>
+      <expectation>2.8E-83</expectation>
+      <identity>89.0</identity>
+      <positives>92.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGP+KLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQ+SE LEVTET KTT KPI KC PIS HYKVPY+ K T L  QTDI+ETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPDKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQISEHLEVTETPKTTPKPIRKCIPISDHYKVPYVAKPTPLVTQTDIAETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="45" database="TR" id="A0A010JU64_9GAMM" ac="A0A010JU64" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter sp. 1566109 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>646</score>
+      <bits>253.447</bits>
+      <expectation>2.8E-83</expectation>
+      <identity>89.0</identity>
+      <positives>92.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGP+KLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQ+SE LEVTET KTT KPI KC PIS HYKVPY+ K T L  QTDI+ETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPDKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQISEHLEVTETPKTTPKPIRKCIPISDHYKVPYVAKPTPLVTQTDIAETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="46" database="TR" id="A0A0Q1D085_9GAMM" ac="A0A0Q1D085" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter sp. FDAARGOS_131 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>646</score>
+      <bits>253.447</bits>
+      <expectation>2.8E-83</expectation>
+      <identity>89.0</identity>
+      <positives>92.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGP+KLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQ+SE LEVTET KTT KPI KC PIS HYKVPY+ K T L  QTDI+ETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPDKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQISEHLEVTETPKTTPKPIRKCIPISDHYKVPYVAKPTPLVTQTDIAETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="47" database="TR" id="L9LXC6_9GAMM" ac="L9LXC6" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter sp. OIFC021 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>646</score>
+      <bits>253.447</bits>
+      <expectation>2.8E-83</expectation>
+      <identity>89.0</identity>
+      <positives>92.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGP+KLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQ+SE LEVTET KTT KPI KC PIS HYKVPY+ K T L  QTDI+ETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPDKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQISEHLEVTETPKTTPKPIRKCIPISDHYKVPYVAKPTPLVTQTDIAETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="48" database="TR" id="A0A140QW37_9GAMM" ac="A0A140QW37" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter sp. 216872 GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>646</score>
+      <bits>253.447</bits>
+      <expectation>2.8E-83</expectation>
+      <identity>89.0</identity>
+      <positives>92.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGP+KLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQ+SE LEVTET KTT KPI KC PIS HYKVPY+ K T L  QTDI+ETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPDKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQISEHLEVTETPKTTPKPIRKCIPISDHYKVPYVAKPTPLVTQTDIAETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="49" database="TR" id="A0A0A7XM77_ACINO" ac="A0A0A7XM77" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter nosocomialis GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>646</score>
+      <bits>253.447</bits>
+      <expectation>2.8E-83</expectation>
+      <identity>89.0</identity>
+      <positives>92.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGP+KLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQ+SE LEVTET KTT KPI KC PIS HYKVPY+ K T L  QTDI+ETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPDKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQISEHLEVTETPKTTPKPIRKCIPISDHYKVPYVAKPTPLVTQTDIAETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="50" database="TR" id="A0A1C4HF99_ACICA" ac="A0A1C4HF99" length="145" description="Sec-independent protein translocase protein TatB OS=Acinetobacter calcoaceticus GN=tatB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>646</score>
+      <bits>253.447</bits>
+      <expectation>2.8E-83</expectation>
+      <identity>89.0</identity>
+      <positives>92.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPEKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLDEIQKQQVSESLEVTETAKTTQKPIWKCTPISGHYKVPYLTKVTSLAAQTDISETSPVELKIAV</querySeq>
+      <pattern>MLDVGMTELLCFAIIAILVLGP+KLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQL+EIQKQQ+SE LEVTET KTT KPI KC PIS HYKVPY+ K T L  QTDI+ETSPVELKIAV</pattern>
+      <matchSeq start="1" end="145">MLDVGMTELLCFAIIAILVLGPDKLPEAARFAGRWYVRLKRYITNLQNEIDQELRLSEFRKEMQEELNRIEALERKVQQQLEEIQKQQISEHLEVTETPKTTPKPIRKCIPISDHYKVPYVAKPTPLVTQTDIAETSPVELKIAV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult></EBIApplicationResult>

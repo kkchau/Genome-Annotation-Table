@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="C05E3118-4ADC-11E7-8A7F-C43295374F7B">
+    <matches>
+      <protein length="121">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF16245.3" id="DUF4902" type="Pfam-A" class="Family">
+            <location start="1" end="106" ali_start="2" ali_end="103" hmm_start="9" hmm_end="115" evalue="2.2e-19" bitscore="69.3" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[slealaeleLvhilsglDedllaelrdlaieariaGyteWiasagaavitvGWdWyldgasgrlrivrddl.rsnvmivdakglDiGmaitaealaarlakldWeaav]]>
+              </hmm>
+              <match_string>
+                <![CDATA[ +++l++ +L+hi+s +++      + +a++    G+teW++s  ++ +  GWdW l + +g++ + r +l rsn+mivd +g+DiG +i  ++l++++++l We  +]]>
+              </match_string>
+              <pp>
+                <![CDATA[67899999******97765.....4667889999******555.5677888*****************************************************9665]]>
+              </pp>
+              <seq>
+                <![CDATA[NENQLMSYPLQHIISIVES-----RHTEASQIFYYGFTEWATS-QTPALSTGWDWELIENNGITTVKRVGLpRSNIMIVDVSGMDIGFDINETLLEKKIDTLFWEPFI]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       slealaeleLvhilsglDedllaelrdlaieariaGyteWiasagaavitvGWdWyldgasgrlrivrddl.rsnvmivdakglDiGmaitaealaarlakldWeaav
+#MATCH      +++l++ +L+hi+s +++      + +a++    G+teW++s  ++ +  GWdW l + +g++ + r +l rsn+mivd +g+DiG +i  ++l++++++l We  +
+#PP        67899999******97765.....4667889999******555.5677888*****************************************************9665
+#SEQ       NENQLMSYPLQHIISIVES-----RHTEASQIFYYGFTEWATS-QTPALSTGWDWELIENNGITTVKRVGLpRSNIMIVDVSGMDIGFDINETLLEKKIDTLFWEPFI
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

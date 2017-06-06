@@ -1,6 +1,0 @@
-Sequence	BLAST	Pfam	Prosite	KEGG Pathway	Gene Ontology	Comments
-ABO11869	Archaemetzincin {ECO:0000255|HAMAP-Rule:MF_01842}; EC=3.4.-.- {ECO:0000255|HAMAP-Rule:MF_01842}; 	No Hits	No Hits	sso:SSO0689;	GO:0008237;GO:0008270;	COMMENTxPLACEHOLDER
-ABO12221	2-dehydro-3-deoxy-D-arabinonate dehydratase; EC=4.2.1.141 {ECO:0000305|PubMed:16849334}; 2-keto-3-deoxy-D-arabinonate dehydratase {ECO:0000303|PubMed:18448118}; KdaD {ECO:0000303|PubMed:16849334}; 	Fumarylacetoacetate (FAA) hydrolase family; 	No Hits	sso:SSO3118;	GO:0016836;GO:0000287;GO:0019571;GO:0051289;	COMMENTxPLACEHOLDER
-ABO12223	Alpha-ketoglutaric semialdehyde dehydrogenase; alphaKGSA dehydrogenase; EC=1.2.1.26; 2,5-dioxovalerate dehydrogenase; 	Aldehyde dehydrogenase family; 	No Hits	aci:ACIAD0131;	GO:0047533;GO:0042838;	COMMENTxPLACEHOLDER
-ABO12224	Alpha-ketoglutaric semialdehyde dehydrogenase; alphaKGSA dehydrogenase; EC=1.2.1.26; 2,5-dioxovalerate dehydrogenase; 	Aldehyde dehydrogenase family; 	No Hits	aci:ACIAD0131;	GO:0047533;GO:0042838;	COMMENTxPLACEHOLDER
-ABO12227	Multidrug export protein EmrA; 	Barrel-sandwich domain of CusB or HlyD membrane-fusion; HlyD family secretion protein; Biotin-lipoyl like; Biotin-requiring enzyme; 	No Hits	hin:HI0898;	GO:0016021;GO:0005886;GO:0015238;GO:0046677;	COMMENTxPLACEHOLDER

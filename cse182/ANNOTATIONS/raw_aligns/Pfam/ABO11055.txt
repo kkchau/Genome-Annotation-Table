@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="9E2747CE-4ADC-11E7-9738-A3A45F09777C">
+    <matches>
+      <protein length="108">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF00085.18" id="Thioredoxin" type="Pfam-A" class="Domain">
+            <location start="4" end="107" ali_start="5" ali_end="106" hmm_start="2" hmm_end="103" evalue="2.1e-34" bitscore="117.5" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[vlvltkenFeeevakekklvlvdFyApwCgpCkalaPeleelaeelkdkvklakvdvdenkdlaskyevegiPtlklfkngkkvekyegarekdelaafikk]]>
+              </hmm>
+              <match_string>
+                <![CDATA[++++t++nF+++v +++++vlvdF+A wC+pCka+aP+le+l++e+++kvk++kvdv++++++a ky++++iP+l+lfkng+ v++  ga ++++l++fi++]]>
+              </match_string>
+              <pp>
+                <![CDATA[57899***********************************************************************************************87]]>
+              </pp>
+              <seq>
+                <![CDATA[IVNTTDDNFQADVLDAETPVLVDFWAGWCAPCKAIAPVLEDLSSEYAGKVKIVKVDVTSCEETAVKYNIRNIPALLLFKNGEVVAQQIGAVPRSKLVSFIDE]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       vlvltkenFeeevakekklvlvdFyApwCgpCkalaPeleelaeelkdkvklakvdvdenkdlaskyevegiPtlklfkngkkvekyegarekdelaafikk
+#MATCH     ++++t++nF+++v +++++vlvdF+A wC+pCka+aP+le+l++e+++kvk++kvdv++++++a ky++++iP+l+lfkng+ v++  ga ++++l++fi++
+#PP        57899***********************************************************************************************87
+#SEQ       IVNTTDDNFQADVLDAETPVLVDFWAGWCAPCKAIAPVLEDLSSEYAGKVKIVKVDVTSCEETAVKYNIRNIPALLLFKNGEVVAQQIGAVPRSKLVSFIDE
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

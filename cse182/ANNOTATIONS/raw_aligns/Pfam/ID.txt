@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="D32FB920-4A90-11E7-9808-A19A5F09777C">
+    <matches>
+      <protein length="101">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF12977.5" id="DUF3861" type="Pfam-A" class="Family">
+            <location start="4" end="94" ali_start="4" ali_end="94" hmm_start="1" hmm_end="90" evalue="3.1e-35" bitscore="120.1" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[hrYritveeledadgeeseea.pleFeaenhdDilkiverlkkkedldedeaaalavglkLlgevmlknrknplFaelrpafrefmkkLKs]]>
+              </hmm>
+              <match_string>
+                <![CDATA[h+Y++tv++l+da+ge s+    leF ++nhdDi++ive+lk+ e +d+++++++avglkL++evml+nr++plF+e+ p+f +fmk+LK+]]>
+              </match_string>
+              <pp>
+                <![CDATA[89***************99998*******************************************************************96]]>
+              </pp>
+              <seq>
+                <![CDATA[HQYHVTVQHLKDAKGEVSTYTeRLEFYTGNHDDIFEIVEKLKNAEFFDDQTTKSFAVGLKLFSEVMLENRDHPLFQEFLPQFGQFMKNLKQ]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       hrYritveeledadgeeseea.pleFeaenhdDilkiverlkkkedldedeaaalavglkLlgevmlknrknplFaelrpafrefmkkLKs
+#MATCH     h+Y++tv++l+da+ge s+    leF ++nhdDi++ive+lk+ e +d+++++++avglkL++evml+nr++plF+e+ p+f +fmk+LK+
+#PP        89***************99998*******************************************************************96
+#SEQ       HQYHVTVQHLKDAKGEVSTYTeRLEFYTGNHDDIFEIVEKLKNAEFFDDQTTKSFAVGLKLFSEVMLENRDHPLFQEFLPQFGQFMKNLKQ
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

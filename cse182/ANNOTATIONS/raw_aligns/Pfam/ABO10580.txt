@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="9E2E14DC-4ADC-11E7-BDED-CA3295374F7B">
+    <matches>
+      <protein length="126">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF12680.5" id="SnoaL_2" type="Pfam-A" class="Domain">
+            <location start="9" end="108" ali_start="10" ali_end="107" hmm_start="2" hmm_end="101" evalue="1.1e-09" bitscore="38.7" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[rrflaalnagdld.alaalfapdvvwedp..gge.lrGreairaffaaafaafpdlrfeiedvvadgdrvavewtvtgtipatgrgvtv.rgvdvfrvedGkIve]]>
+              </hmm>
+              <match_string>
+                <![CDATA[ rfl+  +ag +d a   + ap++ +++p  +g+ ++ +e++r+       + p    e+++v++dg  vav+  +++      +++t+  +v++ r+e+GkI+e]]>
+              </match_string>
+              <pp>
+                <![CDATA[58999999999972558999*********875555666777777533....3599******************99997...777777777*************98]]>
+              </pp>
+              <seq>
+                <![CDATA[VRFLELAAAGEVDeAYGNYTAPNFKHHNPyyAGDkTSLKEGMRESAV----ETPNKVLEVQHVIEDGALVAVHSKLEM---QMNNKLTIlAVVHICRFENGKIAE]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       rrflaalnagdld.alaalfapdvvwedp..gge.lrGreairaffaaafaafpdlrfeiedvvadgdrvavewtvtgtipatgrgvtv.rgvdvfrvedGkIve
+#MATCH      rfl+  +ag +d a   + ap++ +++p  +g+ ++ +e++r+       + p    e+++v++dg  vav+  +++      +++t+  +v++ r+e+GkI+e
+#PP        58999999999972558999*********875555666777777533....3599******************99997...777777777*************98
+#SEQ       VRFLELAAAGEVDeAYGNYTAPNFKHHNPyyAGDkTSLKEGMRESAV----ETPNKVLEVQHVIEDGALVAVHSKLEM---QMNNKLTIlAVVHICRFENGKIAE
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

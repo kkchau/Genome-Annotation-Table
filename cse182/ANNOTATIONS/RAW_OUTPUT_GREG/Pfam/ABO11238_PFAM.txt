@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pfam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://pfam.xfam.org/"
+      xsi:schemaLocation="http://pfam.xfam.org/
+                          http://pfam.xfam.org/static/documents/schemas/pfam_family.xsd"
+      release="31.0" 
+      release_date="2017-03-01">
+  <results job_id="B08B1B16-4ADC-11E7-8815-A5A45F09777C">
+    <matches>
+      <protein length="154">
+        <database id="pfam" release="31.0" release_date="2017-03-01">
+          <match accession="PF00210.22" id="Ferritin" type="Pfam-A" class="Domain">
+            <location start="8" end="144" ali_start="8" ali_end="143" hmm_start="1" hmm_end="141" evalue="2.4e-34" bitscore="118.2" evidence="hmmer v3.1b2" significant="1">
+              <hmm>
+                <![CDATA[ikaLneqladeltaayqylamawyvkgpgleglaeffdeqaeeerehadklaerilalGgkpvltraeleeieapkefg.sveevleaalehekkvteslrelielaeeegDpatadfl.edfleeqeeheweleallekler]]>
+              </hmm>
+              <match_string>
+                <![CDATA[i+ Ln ++  el+a  qyl ++++++++gl+++ e +d++++ee  had+++ r+l+lG+kp++ r ++         g +v ++l+a+l++e++v e+l  +i+l+ee+gD+ ++d+l +++ +++e+h  +le++l+ +e+]]>
+              </match_string>
+              <pp>
+                <![CDATA[689***************************************************************99998.......66***************************************8888888*************9987]]>
+              </pp>
+              <seq>
+                <![CDATA[IDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINV-------GtDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLrQQLSDTEEDHTYWLEKQLRLIEL]]>
+              </seq>
+              <raw>
+                <![CDATA[
+#HMM       ikaLneqladeltaayqylamawyvkgpgleglaeffdeqaeeerehadklaerilalGgkpvltraeleeieapkefg.sveevleaalehekkvteslrelielaeeegDpatadfl.edfleeqeeheweleallekler
+#MATCH     i+ Ln ++  el+a  qyl ++++++++gl+++ e +d++++ee  had+++ r+l+lG+kp++ r ++         g +v ++l+a+l++e++v e+l  +i+l+ee+gD+ ++d+l +++ +++e+h  +le++l+ +e+
+#PP        689***************************************************************99998.......66***************************************8888888*************9987
+#SEQ       IDYLNMLIGGELAARDQYLIHSRMYEDWGLNKIYERIDHEMQEEASHADAIIRRVLFLGAKPNMHREDINV-------GtDVVSCLKADLALEYHVREKLATGIKLCEEKGDYISRDMLrQQLSDTEEDHTYWLEKQLRLIEL
+                ]]>
+              </raw>
+            </location>
+          </match>
+        </database>
+      </protein>
+    </matches>
+  </results>
+</pfam>

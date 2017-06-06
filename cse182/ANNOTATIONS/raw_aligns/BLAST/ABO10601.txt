@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="blastp" version="BLASTP 2.2.29+"/>
+  <commandLine command="/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.29+/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-I20170606-182001-0511-79470097-pg.sequence  -num_threads 16 -outfmt 11 -out ncbiblast-I20170606-182001-0511-79470097-pg.archive -matrix BLOSUM62 -num_alignments 50 -evalue 10 -gapopen 11 -gapextend 1 -seg no -comp_based_stats F"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="EMBOSS_001" type="PROTEIN" length="86"/>
+   </sequences>
+   <databases total="1" sequences="85866869" letters="28909108493">
+    <database number="1" name="uniprotkb" type="PROTEIN" created="2017-05-08T11:31:00+01:00"/>
+   </databases>
+   <alignments>50</alignments>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>F</filter>
+   <gapExtension>1.0</gapExtension>
+   <gapOpen>11.0</gapOpen>
+   <matrix>BLOSUM62</matrix>
+   <scores>50</scores>
+  </parameters>
+  <timeInfo start="2017-06-06T18:20:01+01:00" end="2017-06-06T18:20:35+01:00" search="P0Y0M0DT0H0M34.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="50">
+   <hit number="1" database="TR" id="N9J6N9_ACIBA" ac="N9J6N9" length="86" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 601 GN=F918_03453 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="TR" id="U1U5T2_ACIBA" ac="U1U5T2" length="86" description="Acyl carrier protein OS=Acinetobacter baumannii EGD-HP18 GN=N173_12990 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="TR" id="A0A062FKF1_ACIBA" ac="A0A062FKF1" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter baumannii 940793 GN=J532_2651 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="TR" id="A0A062EU15_ACIBA" ac="A0A062EU15" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter baumannii 855125 GN=J560_2556 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="5" database="TR" id="K8ZYS2_9GAMM" ac="K8ZYS2" length="86" description="Phosphopantetheine attachment domain protein OS=Acinetobacter sp. WC-141 GN=ACINWC141_0158 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="6" database="TR" id="A0A009JMZ1_ACIBA" ac="A0A009JMZ1" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter baumannii 1419130 GN=J518_2259 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="7" database="TR" id="N9HUB3_ACIBA" ac="N9HUB3" length="86" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 201 GN=F922_03631 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="8" database="TR" id="A0A009R935_ACIBA" ac="A0A009R935" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter baumannii 951631 GN=J552_2792 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="9" database="TR" id="A0A0J1A8K8_ACIBA" ac="A0A0J1A8K8" length="86" description="Phosphopantetheine attachment domain protein OS=Acinetobacter baumannii MRSN 3527 GN=T630_0165 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="10" database="TR" id="G2JKQ0_ACIBA" ac="G2JKQ0" length="86" description="Acyl carrier protein OS=Acinetobacter baumannii MDR-ZJ06 GN=ABZJ_00143 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="11" database="TR" id="A0A0E1PVG0_ACIBA" ac="A0A0E1PVG0" length="86" description="Acyl carrier protein OS=Acinetobacter baumannii NCGM 237 GN=AB237_3334 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="12" database="TR" id="A0A013RHV4_ACIBA" ac="A0A013RHV4" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter baumannii 573719 GN=J658_3328 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="13" database="TR" id="B0V6N9_ACIBY" ac="B0V6N9" length="86" description="Putative Phosphopantetheine binding protein OS=Acinetobacter baumannii (strain AYE) GN=ABAYE3755 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="14" database="TR" id="L9M0C6_ACIBA" ac="L9M0C6" length="86" description="Phosphopantetheine attachment domain protein OS=Acinetobacter baumannii WC-A-92 GN=ACINWCA92_0157 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="15" database="TR" id="N8XVT5_ACIBA" ac="N8XVT5" length="86" description="Uncharacterized protein OS=Acinetobacter baumannii NIPH 60 GN=F961_02985 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="16" database="TR" id="A0A062G5I0_ACIBA" ac="A0A062G5I0" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter baumannii 15827 GN=J530_1757 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="17" database="TR" id="A0A0R1BAE3_ACINO" ac="A0A0R1BAE3" length="86" description="Acyl carrier protein OS=Acinetobacter nosocomialis GN=APC94_14880 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="18" database="TR" id="A0A009IMV0_ACIBA" ac="A0A009IMV0" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter baumannii 1295743 GN=J512_2535 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="19" database="TR" id="A0A009GH25_ACIBA" ac="A0A009GH25" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter baumannii 118362 GN=J517_2547 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="20" database="TR" id="A0A062IIB7_ACIBA" ac="A0A062IIB7" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter baumannii 233846 GN=J635_3800 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="21" database="TR" id="N8R0M4_9GAMM" ac="N8R0M4" length="86" description="Acyl carrier protein OS=Acinetobacter seifertii GN=A7P21_04675 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="22" database="TR" id="A0A062F036_ACIBA" ac="A0A062F036" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter baumannii 754286 GN=J567_3718 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="23" database="TR" id="A0A0M3BRT9_ACIPI" ac="A0A0M3BRT9" length="86" description="Acyl carrier protein OS=Acinetobacter pittii GN=pksN PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="24" database="TR" id="D0CEP1_ACIB2" ac="D0CEP1" length="86" description="Phosphopantetheine attachment domain protein OS=Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81) GN=F911_00061 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="25" database="TR" id="V5VHR7_ACIBA" ac="V5VHR7" length="86" description="Acyl carrier protein OS=Acinetobacter baumannii GN=pksN PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="26" database="TR" id="A0A1C4HE21_ACICA" ac="A0A1C4HE21" length="86" description="Acyl carrier protein OS=Acinetobacter calcoaceticus GN=pksN PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>434</score>
+      <bits>171.785</bits>
+      <expectation>5.5E-53</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="27" database="TR" id="A0A1G5LZ84_ACIBA" ac="A0A1G5LZ84" length="86" description="Polyketide synthase PksN OS=Acinetobacter baumannii GN=pksN PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>431</score>
+      <bits>170.629</bits>
+      <expectation>1.6E-52</expectation>
+      <identity>98.8</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGD+EDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDVEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="28" database="TR" id="A0A1T0ZS14_ACIBA" ac="A0A1T0ZS14" length="86" description="Acyl carrier protein OS=Acinetobacter baumannii GN=BTG83_02965 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>430</score>
+      <bits>170.244</bits>
+      <expectation>2.2E-52</expectation>
+      <identity>98.8</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVA+EMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAEEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="29" database="TR" id="N8VMV4_9GAMM" ac="N8VMV4" length="86" description="Uncharacterized protein OS=Acinetobacter sp. NIPH 817 GN=F968_03680 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>429</score>
+      <bits>169.859</bits>
+      <expectation>3.2E-52</expectation>
+      <identity>98.8</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETI+PDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETINPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="30" database="TR" id="D8JIM5_ACISD" ac="D8JIM5" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter oleivorans (strain JCM 16667 / KCTC 23045 / DR1) GN=AOLE_18760 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>429</score>
+      <bits>169.859</bits>
+      <expectation>3.2E-52</expectation>
+      <identity>98.8</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETI+PDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETINPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="31" database="TR" id="N9RT86_9GAMM" ac="N9RT86" length="86" description="Uncharacterized protein OS=Acinetobacter sp. NIPH 542 GN=F886_03608 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>429</score>
+      <bits>169.859</bits>
+      <expectation>3.2E-52</expectation>
+      <identity>98.8</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETI+PDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETINPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="32" database="TR" id="A0A022J913_9GAMM" ac="A0A022J913" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter sp. 1564232 GN=J622_00191 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>426</score>
+      <bits>168.703</bits>
+      <expectation>9.0E-52</expectation>
+      <identity>97.7</identity>
+      <positives>98.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDK YWSAIIRTLVAKEMRVEPETIDP+QKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKVYWSAIIRTLVAKEMRVEPETIDPEQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="33" database="TR" id="A0A009NB97_9GAMM" ac="A0A009NB97" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter sp. 1475718 GN=J551_2811 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>426</score>
+      <bits>168.703</bits>
+      <expectation>9.0E-52</expectation>
+      <identity>97.7</identity>
+      <positives>98.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDK YWSAIIRTLVAKEMRVEPETIDP+QKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKVYWSAIIRTLVAKEMRVEPETIDPEQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="34" database="TR" id="A0A0W3DQJ9_9GAMM" ac="A0A0W3DQJ9" length="86" description="Acyl carrier protein OS=Acinetobacter sp. FDAARGOS_131 GN=AL489_04940 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>426</score>
+      <bits>168.703</bits>
+      <expectation>9.0E-52</expectation>
+      <identity>97.7</identity>
+      <positives>98.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDP+QKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTIN LAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPEQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINTLAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="35" database="TR" id="A0A010K790_9GAMM" ac="A0A010K790" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter sp. 1566109 GN=J582_1898 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>426</score>
+      <bits>168.703</bits>
+      <expectation>9.0E-52</expectation>
+      <identity>97.7</identity>
+      <positives>98.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDP+QKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTIN LAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPEQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINTLAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="36" database="TR" id="A0A010VTI1_9GAMM" ac="A0A010VTI1" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter sp. 263903-2 GN=J733_2361 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>426</score>
+      <bits>168.703</bits>
+      <expectation>9.0E-52</expectation>
+      <identity>97.7</identity>
+      <positives>98.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDK YWSAIIRTLVAKEMRVEPETIDP+QKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKVYWSAIIRTLVAKEMRVEPETIDPEQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="37" database="TR" id="A0A011DPM2_9GAMM" ac="A0A011DPM2" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter sp. 1245249 GN=J623_3272 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>426</score>
+      <bits>168.703</bits>
+      <expectation>9.0E-52</expectation>
+      <identity>97.7</identity>
+      <positives>98.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDK YWSAIIRTLVAKEMRVEPETIDP+QKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKVYWSAIIRTLVAKEMRVEPETIDPEQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="38" database="TR" id="A0A013L4P9_9GAMM" ac="A0A013L4P9" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter sp. 1294243 GN=J655_3488 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>426</score>
+      <bits>168.703</bits>
+      <expectation>9.0E-52</expectation>
+      <identity>97.7</identity>
+      <positives>98.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDK YWSAIIRTLVAKEMRVEPETIDP+QKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKVYWSAIIRTLVAKEMRVEPETIDPEQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="39" database="TR" id="L9LT20_9GAMM" ac="L9LT20" length="86" description="Phosphopantetheine attachment domain protein OS=Acinetobacter sp. OIFC021 GN=ACIN5021_0148 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>426</score>
+      <bits>168.703</bits>
+      <expectation>9.0E-52</expectation>
+      <identity>97.7</identity>
+      <positives>98.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDP+QKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTIN LAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPEQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINTLAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="40" database="TR" id="A0A022KQ94_9GAMM" ac="A0A022KQ94" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter sp. 478810 GN=J619_01757 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>426</score>
+      <bits>168.703</bits>
+      <expectation>9.0E-52</expectation>
+      <identity>97.7</identity>
+      <positives>98.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDK YWSAIIRTLVAKEMRVEPETIDP+QKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKVYWSAIIRTLVAKEMRVEPETIDPEQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="41" database="TR" id="A0A062GP69_9GAMM" ac="A0A062GP69" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter sp. 72431 GN=J584_1275 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>426</score>
+      <bits>168.703</bits>
+      <expectation>9.0E-52</expectation>
+      <identity>97.7</identity>
+      <positives>98.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDK YWSAIIRTLVAKEMRVEPETIDP+QKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKVYWSAIIRTLVAKEMRVEPETIDPEQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="42" database="TR" id="A0A140QV69_9GAMM" ac="A0A140QV69" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter sp. 216872 GN=J633_1625 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>426</score>
+      <bits>168.703</bits>
+      <expectation>9.0E-52</expectation>
+      <identity>97.7</identity>
+      <positives>98.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDP+QKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTIN LAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPEQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINTLAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="43" database="TR" id="A0A010JW52_9GAMM" ac="A0A010JW52" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter sp. 1542444 GN=J580_3380 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>426</score>
+      <bits>168.703</bits>
+      <expectation>9.0E-52</expectation>
+      <identity>97.7</identity>
+      <positives>98.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDK YWSAIIRTLVAKEMRVEPETIDP+QKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKVYWSAIIRTLVAKEMRVEPETIDPEQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="44" database="TR" id="A0A013T9I7_9GAMM" ac="A0A013T9I7" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter sp. 883425 GN=J672_2386 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>426</score>
+      <bits>168.703</bits>
+      <expectation>9.0E-52</expectation>
+      <identity>97.7</identity>
+      <positives>98.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDK YWSAIIRTLVAKEMRVEPETIDP+QKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKVYWSAIIRTLVAKEMRVEPETIDPEQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="45" database="TR" id="A0A062KX85_ACIBA" ac="A0A062KX85" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter baumannii 1571545 GN=J715_3508 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>426</score>
+      <bits>168.703</bits>
+      <expectation>9.0E-52</expectation>
+      <identity>97.7</identity>
+      <positives>98.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDKAYWSAIIRTLVAKEMRVEPETIDP+QKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTIN LAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPEQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINTLAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="46" database="TR" id="K9C8E1_9GAMM" ac="K9C8E1" length="86" description="Phosphopantetheine attachment domain protein OS=Acinetobacter sp. WC-136 GN=ACINWC136_0160 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>426</score>
+      <bits>168.703</bits>
+      <expectation>9.0E-52</expectation>
+      <identity>97.7</identity>
+      <positives>98.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDK YWSAIIRTLVAKEMRVEPETIDP+QKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKVYWSAIIRTLVAKEMRVEPETIDPEQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="47" database="TR" id="A0A009H767_9GAMM" ac="A0A009H767" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter sp. 1289694 GN=J508_2640 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>426</score>
+      <bits>168.703</bits>
+      <expectation>9.0E-52</expectation>
+      <identity>97.7</identity>
+      <positives>98.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDK YWSAIIRTLVAKEMRVEPETIDP+QKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKVYWSAIIRTLVAKEMRVEPETIDPEQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="48" database="TR" id="A0A011JV70_9GAMM" ac="A0A011JV70" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter sp. 723929 GN=J610_3021 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>426</score>
+      <bits>168.703</bits>
+      <expectation>9.0E-52</expectation>
+      <identity>97.7</identity>
+      <positives>98.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDK YWSAIIRTLVAKEMRVEPETIDP+QKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKVYWSAIIRTLVAKEMRVEPETIDPEQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="49" database="TR" id="A0A013TQW7_9GAMM" ac="A0A013TQW7" length="86" description="Phosphopantetheine attachment site family protein OS=Acinetobacter sp. 826659 GN=J663_3317 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>426</score>
+      <bits>168.703</bits>
+      <expectation>9.0E-52</expectation>
+      <identity>97.7</identity>
+      <positives>98.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDK YWSAIIRTLVAKEMRVEPETIDP+QKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKVYWSAIIRTLVAKEMRVEPETIDPEQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="50" database="TR" id="A0A1A0GIF1_ACICA" ac="A0A1A0GIF1" length="86" description="Acyl carrier protein OS=Acinetobacter calcoaceticus GN=A9988_11570 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>426</score>
+      <bits>168.703</bits>
+      <expectation>9.0E-52</expectation>
+      <identity>97.7</identity>
+      <positives>98.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="86">MNKDKAYWSAIIRTLVAKEMRVEPETIDPDQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</querySeq>
+      <pattern>MNKDK YWSAIIRTLVAKEMRVEPETIDP+QKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</pattern>
+      <matchSeq start="1" end="86">MNKDKVYWSAIIRTLVAKEMRVEPETIDPEQKFTSYGLDSIVALSVSGDLEDLTKLELEPTLLWDYPTINALAEYLVSELQQGVAS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult></EBIApplicationResult>

@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="blastp" version="BLASTP 2.2.29+"/>
+  <commandLine command="/ebi/extserv/bin/ncbi-blast-2.2.29+/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-I20170606-182139-0566-32787088-es.sequence  -num_threads 16 -outfmt 11 -out ncbiblast-I20170606-182139-0566-32787088-es.archive -matrix BLOSUM62 -num_alignments 50 -evalue 10 -gapopen 11 -gapextend 1 -seg no -comp_based_stats F"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="EMBOSS_001" type="PROTEIN" length="96"/>
+   </sequences>
+   <databases total="1" sequences="85866869" letters="28909108493">
+    <database number="1" name="uniprotkb" type="PROTEIN" created="2017-05-08T11:31:00+01:00"/>
+   </databases>
+   <alignments>50</alignments>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>F</filter>
+   <gapExtension>1.0</gapExtension>
+   <gapOpen>11.0</gapOpen>
+   <matrix>BLOSUM62</matrix>
+   <scores>50</scores>
+  </parameters>
+  <timeInfo start="2017-06-06T18:21:39+01:00" end="2017-06-06T18:22:03+01:00" search="P0Y0M0DT0H0M24.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="50">
+   <hit number="1" database="TR" id="A0A009MY26_9GAMM" ac="A0A009MY26" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter sp. 1475718 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="TR" id="A0A062F3K4_ACIBA" ac="A0A062F3K4" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii 754286 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="TR" id="A0A010VSR6_9GAMM" ac="A0A010VSR6" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter sp. 263903-2 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="TR" id="A0A158LVI6_ACIBA" ac="A0A158LVI6" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii NIPH 190 GN=F962_01760 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="5" database="TR" id="U1VIA9_ACIBA" ac="U1VIA9" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii EGD-HP18 GN=N173_06920 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="6" database="TR" id="A0A171EL49_ACIBA" ac="A0A171EL49" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii Naval-82 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="7" database="TR" id="A0A022KGF5_9GAMM" ac="A0A022KGF5" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter sp. 478810 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="8" database="TR" id="A0A062FIZ8_ACIBA" ac="A0A062FIZ8" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii 940793 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="9" database="TR" id="A0A062EEJ9_ACIBA" ac="A0A062EEJ9" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii 855125 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="10" database="TR" id="A0A009PAA4_ACIBA" ac="A0A009PAA4" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii 625974 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="11" database="TR" id="A0A009JJJ8_ACIBA" ac="A0A009JJJ8" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii 1419130 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="12" database="TR" id="K9CYH2_9GAMM" ac="K9CYH2" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter sp. WC-136 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="13" database="TR" id="A0A062DI68_ACIBA" ac="A0A062DI68" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii 496487 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="14" database="TR" id="A0A062IAA4_ACIBA" ac="A0A062IAA4" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii 21072 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="15" database="TR" id="A0A009R881_ACIBA" ac="A0A009R881" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii 951631 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="16" database="TR" id="A0A0J0ZNN3_ACIBA" ac="A0A0J0ZNN3" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii MRSN 3527 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="17" database="TR" id="A0A013S767_9GAMM" ac="A0A013S767" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter sp. 225588 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="18" database="TR" id="G2JJK8_ACIBA" ac="G2JJK8" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii MDR-ZJ06 GN=ABZJ_02138 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="19" database="TR" id="A0A0E1PQI8_ACIBA" ac="A0A0E1PQI8" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii NCGM 237 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="20" database="TR" id="A0A013U0U4_ACIBA" ac="A0A013U0U4" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii 573719 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="21" database="TR" id="A0A009GHX9_9GAMM" ac="A0A009GHX9" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter sp. 1289694 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="22" database="TR" id="A0A062LXI8_ACIBA" ac="A0A062LXI8" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii 1288284 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="23" database="TR" id="A0A0R4J7D2_ACIBY" ac="A0A0R4J7D2" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii (strain AYE) GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="24" database="TR" id="S3TT47_ACIBA" ac="S3TT47" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii NIPH 410 GN=F910_01868 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="25" database="TR" id="L9LP12_ACIBA" ac="L9LP12" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii WC-A-92 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="26" database="TR" id="N8Y124_ACIBA" ac="N8Y124" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii NIPH 60 GN=F961_01168 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="27" database="TR" id="A0A062FT25_ACIBA" ac="A0A062FT25" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii 15827 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="28" database="TR" id="A0A0R1BVK4_ACINO" ac="A0A0R1BVK4" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter nosocomialis GN=APC94_00935 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="29" database="TR" id="A0A009HKH2_ACIBA" ac="A0A009HKH2" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii 1295743 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="30" database="TR" id="L9P0Y0_ACIBA" ac="L9P0Y0" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii Naval-57 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="31" database="TR" id="A0A062DWQ4_ACIBA" ac="A0A062DWQ4" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii 1451147 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="32" database="TR" id="A0A009FZK3_ACIBA" ac="A0A009FZK3" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii 118362 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="33" database="TR" id="A0A062INB6_ACIBA" ac="A0A062INB6" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii 233846 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="34" database="TR" id="A0A009RJS2_ACIBA" ac="A0A009RJS2" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii 99063 GN=J529_3793 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="35" database="TR" id="A0A1C2W9Z2_ACIPI" ac="A0A1C2W9Z2" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter pittii GN=BFR70_14710 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="36" database="TR" id="A0A062GUF6_9GAMM" ac="A0A062GUF6" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter sp. 72431 GN=J584_1730 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="37" database="TR" id="Q1WCN1_ACIBA" ac="Q1WCN1" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii GN=catC3 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="38" database="TR" id="Q0GBY7_ACILW" ac="Q0GBY7" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter lwoffii GN=catC3 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>510</score>
+      <bits>201.06</bits>
+      <expectation>3.4E-64</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="39" database="TR" id="R8YUC5_ACIPI" ac="R8YUC5" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter pittii ANC 4052 GN=F929_02809 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>509</score>
+      <bits>200.675</bits>
+      <expectation>4.8E-64</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWR+TGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRVTGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="40" database="TR" id="A0A0B2XK09_ACIBA" ac="A0A0B2XK09" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter baumannii GN=NT90_09045 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>509</score>
+      <bits>200.675</bits>
+      <expectation>4.8E-64</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANE+KAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEVKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="41" database="TR" id="A0A1T0SEZ3_ACIBA" ac="A0A1T0SEZ3" length="96" description="Muconolactone delta-isomerase OS=Acinetobacter baumannii GN=BTG61_11270 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>509</score>
+      <bits>200.675</bits>
+      <expectation>4.8E-64</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKA+EKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAIEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="42" database="TR" id="A0A1A0GJ33_ACICA" ac="A0A1A0GJ33" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter calcoaceticus GN=A9988_10890 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>508</score>
+      <bits>200.29</bits>
+      <expectation>6.9E-64</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMA+NRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMAMNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="43" database="TR" id="N8QSW1_9GAMM" ac="N8QSW1" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter seifertii GN=A7P21_18075 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>508</score>
+      <bits>200.29</bits>
+      <expectation>6.9E-64</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMA+NRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMAMNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="44" database="TR" id="A0A143J059_ACIPI" ac="A0A143J059" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter pittii GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>507</score>
+      <bits>199.904</bits>
+      <expectation>9.7E-64</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDV+SNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVDSNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="45" database="TR" id="A0A011K2H1_9GAMM" ac="A0A011K2H1" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter sp. 723929 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>506</score>
+      <bits>199.519</bits>
+      <expectation>1.4E-63</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQR+GKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRKGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="46" database="TR" id="R8YNL1_ACIPI" ac="R8YNL1" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter pittii ANC 4050 GN=F931_00779 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>505</score>
+      <bits>199.134</bits>
+      <expectation>2.0E-63</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYM+IEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMNIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="47" database="TR" id="A0A010M8L6_9GAMM" ac="A0A010M8L6" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter sp. 1578804 GN=J588_1568 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>505</score>
+      <bits>199.134</bits>
+      <expectation>2.0E-63</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYM+IEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMNIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="48" database="TR" id="L9M3W0_9GAMM" ac="L9M3W0" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter sp. OIFC021 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>505</score>
+      <bits>199.134</bits>
+      <expectation>2.0E-63</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYM+IEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMNIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="49" database="TR" id="K9A081_9GAMM" ac="K9A081" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter sp. WC-141 GN=catC PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>505</score>
+      <bits>199.134</bits>
+      <expectation>2.0E-63</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYM+IEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMNIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="50" database="TR" id="A0A0Q2B7E7_ACIPI" ac="A0A0Q2B7E7" length="96" description="Muconolactone Delta-isomerase OS=Acinetobacter pittii GN=BFR91_05140 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>505</score>
+      <bits>199.134</bits>
+      <expectation>2.0E-63</expectation>
+      <identity>99.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMDIEVMALNRHPSSVRDDDS</querySeq>
+      <pattern>MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYM+IEVMALNRHPSSVRDDDS</pattern>
+      <matchSeq start="1" end="96">MLFHVRMDVHIPLDMPADKANEIKAVEKAYSQDLQRQGKWRHIWRITGQYSNISIFDVESNEELHNILQGLPLYPYMNIEVMALNRHPSSVRDDDS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult></EBIApplicationResult>

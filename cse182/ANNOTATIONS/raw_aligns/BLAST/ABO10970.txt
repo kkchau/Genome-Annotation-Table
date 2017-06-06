@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="blastp" version="BLASTP 2.2.29+"/>
+  <commandLine command="/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.29+/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-I20170606-181850-0077-5657926-pg.sequence  -num_threads 16 -outfmt 11 -out ncbiblast-I20170606-181850-0077-5657926-pg.archive -matrix BLOSUM62 -num_alignments 50 -evalue 10 -gapopen 11 -gapextend 1 -seg no -comp_based_stats F"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="EMBOSS_001" type="PROTEIN" length="126"/>
+   </sequences>
+   <databases total="1" sequences="85866869" letters="28909108493">
+    <database number="1" name="uniprotkb" type="PROTEIN" created="2017-05-08T11:31:00+01:00"/>
+   </databases>
+   <alignments>50</alignments>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>F</filter>
+   <gapExtension>1.0</gapExtension>
+   <gapOpen>11.0</gapOpen>
+   <matrix>BLOSUM62</matrix>
+   <scores>50</scores>
+  </parameters>
+  <timeInfo start="2017-06-06T18:18:50+01:00" end="2017-06-06T18:19:40+01:00" search="P0Y0M0DT0H0M50.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="17">
+   <hit number="1" database="TR" id="A0A179I8P7_CORDF" ac="A0A179I8P7" length="424" description="Uncharacterized protein OS=Cordyceps confragosa GN=LLEC1_04663 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>92</score>
+      <bits>40.0466</bits>
+      <expectation>0.28</expectation>
+      <identity>32.1</identity>
+      <positives>47.6</positives>
+      <gaps>11</gaps>
+      <strand>none/none</strand>
+      <querySeq start="3" end="82">SSDQTKPVAIENTFHELQYSPPPVWYNPWLNVSLTQHQKSNNQFSNGFPIL--LKWPEPESFVQT-QYRMHS-EHGFQSQAMHS</querySeq>
+      <pattern>SS  + P A+  T H   Y PPP      L  S+  HQ+ +N  + G P +  + W  P   +Q+  + MHS  H  QS + H+</pattern>
+      <matchSeq start="294" end="372">SSGYSNPGAMRPTSHPTSYVPPPT-----LEPSVEHHQQVSNGSNGGSPHMSNMGWQSPSQHLQSPAHHMHSPAHHMQSPSQHT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="TR" id="A0A151Z9Y7_9MYCE" ac="A0A151Z9Y7" length="720" description="DNAJ heat shock N-terminal domain-containing protein OS=Dictyostelium lacteum GN=DLAC_09407 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>92</score>
+      <bits>40.0466</bits>
+      <expectation>0.31</expectation>
+      <identity>31.3</identity>
+      <positives>47.5</positives>
+      <gaps>1</gaps>
+      <strand>none/none</strand>
+      <querySeq start="6" end="84">QTKPVA-IENTFHELQYSPPPVWYNPWLNVSLTQHQKSNNQFSNGFPILLKWPEPESFVQTQYRMHSEHGFQSQAMHSLI</querySeq>
+      <pattern>Q KP +  EN F +  ++PPP   NP  N S + +  SN+  SNGF      P+  S   T  +   +  +  QA+  +I</pattern>
+      <matchSeq start="543" end="622">QQKPKSGYENIFGDFDFTPPPNSKNPSHNSSSSNNSNSNSTGSNGFNSTYFMPQQPSVTTTASQHIDDSQYHRQAIEPII</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="TR" id="A0A162KG10_CORDF" ac="A0A162KG10" length="424" description="Zinc finger protein 58 OS=Cordyceps confragosa RCEF 1005 GN=LEL_07969 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>91</score>
+      <bits>39.6614</bits>
+      <expectation>0.38</expectation>
+      <identity>30.9</identity>
+      <positives>44.4</positives>
+      <gaps>15</gaps>
+      <strand>none/none</strand>
+      <querySeq start="3" end="81">SSDQTKPVAIENTFHELQYSPPPVWYNPWLNVSLTQHQKSNNQFSNGFPIL--LKWPEPESFVQTQYRMHSEHGFQSQAMH</querySeq>
+      <pattern>SS  + P A+  T H   Y PPP      L  S+  HQ+ +N  + G P +  + WP P   +Q+       H  QS + H</pattern>
+      <matchSeq start="294" end="364">SSGYSNPGAMRPTSHPTSYVPPPT-----LEPSVEHHQQGSNGSNGGSPHMSNMGWPSPSQHLQS-----PSHHMQSPSQH</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="TR" id="A0A0K9HC55_9BACI" ac="A0A0K9HC55" length="303" description="Endonuclease I OS=Bacillus sp. FJAT-27231 GN=AC623_09140 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>87</score>
+      <bits>38.1206</bits>
+      <expectation>1.2</expectation>
+      <identity>28.2</identity>
+      <positives>52.1</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <querySeq start="55" end="124">KWPEPESFVQTQYRMHSEHGFQSQAMHSLILSSAYSCNEIDRAICSAQSQNILNSVHAKPHSWY-RHHEME</querySeq>
+      <pattern>K  +PE  ++  Y +  +   + QA   L+ S++ + + I   + S +S+NI N  H  P SW+ + H M+</pattern>
+      <matchSeq start="104" end="171">KEKDPEQVMKEDYELDRK---REQAYDELLKSNSVNSDNIQEIMASFESENIYNCEHVVPQSWFEKRHPMK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="5" database="TR" id="A0A1F5P3T9_9BACT" ac="A0A1F5P3T9" length="290" description="Uncharacterized protein OS=Candidatus Doudnabacteria bacterium RIFCSPHIGHO2_01_FULL_49_9 GN=A2846_02005 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>86</score>
+      <bits>37.7354</bits>
+      <expectation>1.6</expectation>
+      <identity>40.0</identity>
+      <positives>52.5</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="14" end="53">NTFHELQYSPPPVWYNPWLNVSLTQHQKSNNQFSNGFPIL</querySeq>
+      <pattern>N F  L   PPP+ Y+PWLN  LT +    N +   +P L</pattern>
+      <matchSeq start="62" end="101">NFFTTLTPPPPPLSYSPWLNAQLTNYSGDGNLYYGEYPAL</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="6" database="TR" id="A0A1D8JDH9_LYSSH" ac="A0A1D8JDH9" length="335" description="Endonuclease I OS=Lysinibacillus sphaericus GN=BI350_03620 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>86</score>
+      <bits>37.7354</bits>
+      <expectation>1.6</expectation>
+      <identity>29.5</identity>
+      <positives>55.7</positives>
+      <gaps>5</gaps>
+      <strand>none/none</strand>
+      <querySeq start="58" end="118">EPESFVQTQYRMHSEHGFQSQAMHSLILSSAYSCNEIDRAICSAQSQNILNSVHAKPHSWY</querySeq>
+      <pattern>EPE  ++  Y        + +A   L+ S++ + +EI +A+ S +S+N+ N+ H  P SW+</pattern>
+      <matchSeq start="139" end="196">EPELVIKEDYETER---IRIEAYGKLLKSASKTDSEIQKAMASIESENMYNTEHVVPQSWF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="7" database="TR" id="A0A0S3SD40_PHAAN" ac="A0A0S3SD40" length="684" description="Uncharacterized protein OS=Vigna angularis var. angularis GN=Vigan.06G201300 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>84</score>
+      <bits>36.965</bits>
+      <expectation>3.4</expectation>
+      <identity>29.8</identity>
+      <positives>39.4</positives>
+      <gaps>9</gaps>
+      <strand>none/none</strand>
+      <querySeq start="17" end="110">HELQYSPPPVWYNPWLNVSLTQHQKSNNQFSNGFPILLKWPEPESFVQTQYRMHSEHGFQSQAMHSLILSSAYSCNEIDRAICSAQSQNILNSV</querySeq>
+      <pattern>H L +SP           + T    SNN FS+     LK P P+S  +   R  S+      A H L         ++D +I    SQNI N V</pattern>
+      <matchSeq start="90" end="175">HPLAFSPEAETTTTTTTTASTSSNSSNNNFSDENSSELKLPSPDSVFKFNSRALSQPSPSITANHGL--------QDLDFSIAKLLSQNIFNDV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="8" database="TR" id="A0A151J6F7_9HYME" ac="A0A151J6F7" length="1134" description="Uncharacterized protein OS=Trachymyrmex cornetzi GN=ALC57_08883 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>84</score>
+      <bits>36.965</bits>
+      <expectation>3.5</expectation>
+      <identity>25.7</identity>
+      <positives>44.8</positives>
+      <gaps>22</gaps>
+      <strand>none/none</strand>
+      <querySeq start="18" end="122">ELQYSPPPVWYNPWLNVSLTQHQKSNNQFSNGFPILLKWPEPESFVQTQYRMHSEHGFQSQAMHSLILSSAYSCNEIDRAICSAQSQNILNSVHAKPHSWYRHHE</querySeq>
+      <pattern>+LQYS P V+ +P  N + + H +SNN                S V  Q   H+ +      M+S    + +  N      CS Q++N +++V  K + +Y+ H+</pattern>
+      <matchSeq start="896" end="977">QLQYSVPVVYNSPCTNYTFSHHNQSNNF--------------NSSVLDQQHKHNPY----MQMNSYARDTYHDTN-----TCSVQARNSVDNVPMKSNYYYKKHQ</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="9" database="TR" id="A0A0F4I5I6_9ACTN" ac="A0A0F4I5I6" length="499" description="Uncharacterized protein OS=Streptomyces sp. NRRL S-104 GN=VR43_30715 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>83</score>
+      <bits>36.5798</bits>
+      <expectation>4.4</expectation>
+      <identity>30.0</identity>
+      <positives>40.0</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <querySeq start="24" end="122">PPVWYNPWLNVSLTQHQKSNNQFSNGFPILLKWP-EPESFVQTQYRMHSEHGFQSQAMHSLILSSAYSCNEIDRAICSAQSQNILNSVHAKPHSWYRHHE</querySeq>
+      <pattern>PP     W   S  + Q   N   NGFP+    P EP +  QT  R+  +    S A   L+ ++     + DR      S   L   H  PHSW  HH+</pattern>
+      <matchSeq start="67" end="161">PPDAGGKW---SAARSQTFRNWIVNGFPLGTATPAEPPTNGQTPTRLRKDVTTLSDAEFDLLATAFRGLMDRDRE--DPDSYFALAGHHGLPHSWCLHHQ</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="10" database="TR" id="A0A0M8U399_9ACTN" ac="A0A0M8U399" length="499" description="Uncharacterized protein OS=Streptomyces sp. H021 GN=ADK97_31870 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>83</score>
+      <bits>36.5798</bits>
+      <expectation>4.4</expectation>
+      <identity>30.0</identity>
+      <positives>40.0</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <querySeq start="24" end="122">PPVWYNPWLNVSLTQHQKSNNQFSNGFPILLKWP-EPESFVQTQYRMHSEHGFQSQAMHSLILSSAYSCNEIDRAICSAQSQNILNSVHAKPHSWYRHHE</querySeq>
+      <pattern>PP     W   S  + Q   N   NGFP+    P EP +  QT  R+  +    S A   L+ ++     + DR      S   L   H  PHSW  HH+</pattern>
+      <matchSeq start="67" end="161">PPDAGGKW---SAARSQTFRNWIVNGFPLGTATPAEPPTNGQTPTRLRKDVTTLSDAEFDLLATAFRGLMDRDRE--DPDSYFALAGHHGLPHSWCLHHQ</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="11" database="TR" id="K0SCC9_THAOC" ac="K0SCC9" length="375" description="Uncharacterized protein OS=Thalassiosira oceanica GN=THAOC_16339 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>82</score>
+      <bits>36.1946</bits>
+      <expectation>5.7</expectation>
+      <identity>50.0</identity>
+      <positives>61.1</positives>
+      <gaps>11</gaps>
+      <strand>none/none</strand>
+      <querySeq start="38" end="73">QHQKSNNQFSNGFPILLKWPEPESFVQTQYRMHSEH</querySeq>
+      <pattern>QH +SNNQ   GFP L  WP   +FV   YR+H+ H</pattern>
+      <matchSeq start="42" end="73">QHTRSNNQ--GGFPAL--WPARLAFVSADYRLHTIH</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="12" database="TR" id="A0A1Q9YAK5_9FIRM" ac="A0A1Q9YAK5" length="641" description="Chaperone protein HtpG OS=Erysipelotrichaceae bacterium NYU-BL-F16 GN=htpG PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>82</score>
+      <bits>36.1946</bits>
+      <expectation>6.2</expectation>
+      <identity>26.4</identity>
+      <positives>43.7</positives>
+      <gaps>1</gaps>
+      <strand>none/none</strand>
+      <querySeq start="2" end="87">HSSDQTKPVAIENTFHELQYSPPPVWYNPWLNVSLTQHQKSNNQF-SNGFPILLKWPEPESFVQTQYRMHSEHGFQSQAMHSLILSS</querySeq>
+      <pattern>HSS + KPV +E     +      ++Y    ++ +       N+  S GF +LL   E + FV      + EH F++ A   L L +</pattern>
+      <matchSeq start="416" end="502">HSSAEKKPVTLEEYVSSMPEDQKDIYYISGQSIDVMDKMPIVNRLKSKGFQVLLLTEEVDEFVLQTIGAYKEHPFKNAAQGDLDLDT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="13" database="TR" id="A0A1U7NFQ2_9FIRM" ac="A0A1U7NFQ2" length="641" description="Molecular chaperone HtpG OS=Ileibacterium valens GN=BO222_07115 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>82</score>
+      <bits>36.1946</bits>
+      <expectation>6.2</expectation>
+      <identity>26.4</identity>
+      <positives>43.7</positives>
+      <gaps>1</gaps>
+      <strand>none/none</strand>
+      <querySeq start="2" end="87">HSSDQTKPVAIENTFHELQYSPPPVWYNPWLNVSLTQHQKSNNQF-SNGFPILLKWPEPESFVQTQYRMHSEHGFQSQAMHSLILSS</querySeq>
+      <pattern>HSS + KPV +E     +      ++Y    ++ +       N+  S GF +LL   E + FV      + EH F++ A   L L +</pattern>
+      <matchSeq start="416" end="502">HSSAEKKPVTLEEYVSSMPEDQKDIYYISGQSIDVMDKMPIVNRLKSKGFQVLLLTEEVDEFVLQTIGAYKEHPFKNAAQGDLDLDT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="14" database="TR" id="T5JPE1_LACPN" ac="T5JPE1" length="263" description="HAD family hydrolase OS=Lactobacillus plantarum EGD-AQ4 GN=N692_07880 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8094</bits>
+      <expectation>7.2</expectation>
+      <identity>25.3</identity>
+      <positives>49.4</positives>
+      <gaps>5</gaps>
+      <strand>none/none</strand>
+      <querySeq start="46" end="121">FSNGFPILLKWPEPESFVQTQYRMHSEHGFQSQAMHSLILSSAYSCNEIDRAICSAQSQNILNSV---HAKPHSWYRHH</querySeq>
+      <pattern>F   +P ++   E  ++++   R++++H FQ  A+H +IL    +  E+   +C A+S   L++    H      Y HH</pattern>
+      <matchSeq start="53" end="130">FFKNYPEMIYVAENGAYIRDAERVYAQHAFQPAAVH-MILDKIQAIPELKILVCGAKSAYTLSTTDPEHVANMRHYYHH</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="15" database="TR" id="A0A090Z156_BACMY" ac="A0A090Z156" length="313" description="Endonuclease I family protein OS=Bacillus mycoides GN=DJ93_5350 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>81</score>
+      <bits>35.8094</bits>
+      <expectation>7.5</expectation>
+      <identity>22.5</identity>
+      <positives>45.0</positives>
+      <gaps>11</gaps>
+      <strand>none/none</strand>
+      <querySeq start="12" end="122">IENTFHELQYSPPPVWYNPWLNVSLTQHQKSNNQFSNGFPILLKWPEPESFVQTQYRMHSEHGFQSQAMHSLILSSAYSCNEIDRAICSAQSQNILNSVHAKPHSWYRHHE</querySeq>
+      <pattern>+ENT + ++Y+P    YN W  V L  + K  + +S       K   PE  +   + + ++   +   + +L+ + ++  +E++      +  N LN  H  P SW+   E</pattern>
+      <matchSeq start="79" end="177">LENTHNPVKYNPARFLYN-W--VDLQSNGKLKSIYSG------KIRNPEEVITEDFNIITK---RKNELDTLVANESFKKDELENHKKRIEHNNKLNCEHVVPQSWFNKQE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="16" database="TR" id="A0A162QJH2_9CRUS" ac="A0A162QJH2" length="166" description="Putative DNA-directed RNA polymerase OS=Daphnia magna GN=APZ42_013741 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>80</score>
+      <bits>35.4242</bits>
+      <expectation>8.1</expectation>
+      <identity>30.3</identity>
+      <positives>43.4</positives>
+      <gaps>4</gaps>
+      <strand>none/none</strand>
+      <querySeq start="37" end="110">TQHQKSNNQFSNGFP--ILLKWPEPESFVQTQYRMHSEHGFQSQAMHSLILSSAYSCNEIDRAICSAQSQNILNSV</querySeq>
+      <pattern>TQ      +F N     + L  P+P S  + QY M S HG     +H  +LS   SC EI     ++  QN   ++</pattern>
+      <matchSeq start="63" end="137">TQEDHRFQEFINNSKATVQLSVPKPTSVKEIQYTMES-HGMSVDRLHDALLSDLMSCGEIFGITKTSSCQNFYKNM</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="17" database="TR" id="A0A163DA77_PHYB8" ac="A0A163DA77" length="278" description="Uncharacterized protein OS=Phycomyces blakesleeanus (strain ATCC 8743b / DSM 1359 / FGSC 10004 / NBRC 33097 / NRRL 1555) GN=PHYBLDRAFT_149080 PE=4 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>80</score>
+      <bits>35.4242</bits>
+      <expectation>9.9</expectation>
+      <identity>27.8</identity>
+      <positives>40.5</positives>
+      <gaps>9</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="72">MHSSDQTKPVAIENTFHELQYSPPPV-------WYNPWLNVSLTQHQKSNNQFSNGFPILLKWPEPESFVQTQYRMHSE</querySeq>
+      <pattern>+HS +Q+    +E T  EL Y   P+       W NPW N  L     +NN      P  +K     +F+ T     +E</pattern>
+      <matchSeq start="57" end="135">IHSKEQSPKDVLEVTGRELTYYLDPITRKKLTHWVNPWTNECLPVVHIANNPVQMALPWAIKLEPKHNFLGTSTTFTTE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult></EBIApplicationResult>

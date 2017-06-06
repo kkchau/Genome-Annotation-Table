@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="blastp" version="BLASTP 2.2.29+"/>
+  <commandLine command="/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.2.29+/bin/blastp -db &quot;uniprotkb&quot; -query ncbiblast-I20170606-181705-0112-66668645-pg.sequence  -num_threads 16 -outfmt 11 -out ncbiblast-I20170606-181705-0112-66668645-pg.archive -matrix BLOSUM62 -num_alignments 50 -evalue 10 -gapopen 11 -gapextend 1 -seg no -comp_based_stats F"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="EMBOSS_001" type="PROTEIN" length="61"/>
+   </sequences>
+   <databases total="1" sequences="85866869" letters="28909108493">
+    <database number="1" name="uniprotkb" type="PROTEIN" created="2017-05-08T11:31:00+01:00"/>
+   </databases>
+   <alignments>50</alignments>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>F</filter>
+   <gapExtension>1.0</gapExtension>
+   <gapOpen>11.0</gapOpen>
+   <matrix>BLOSUM62</matrix>
+   <scores>50</scores>
+  </parameters>
+  <timeInfo start="2017-06-06T18:17:05+01:00" end="2017-06-06T18:17:28+01:00" search="P0Y0M0DT0H0M23.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="50">
+   <hit number="1" database="TR" id="A0A0E2GAU6_ACINO" ac="A0A0E2GAU6" length="61" description="50S ribosomal protein L32 OS=Acinetobacter nosocomialis NIPH 386 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="TR" id="A0A022J6P1_9GAMM" ac="A0A022J6P1" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 1564232 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="TR" id="A0A009NNU1_9GAMM" ac="A0A009NNU1" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 1475718 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="TR" id="A0A062F7S0_ACIBA" ac="A0A062F7S0" length="61" description="50S ribosomal protein L32 OS=Acinetobacter baumannii 754286 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="5" database="TR" id="K9BNT7_9GAMM" ac="K9BNT7" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. WC-487 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="6" database="TR" id="A0A009SGE7_ACIBA" ac="A0A009SGE7" length="61" description="50S ribosomal protein L32 OS=Acinetobacter baumannii 99063 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="7" database="TR" id="N8VQD0_9GAMM" ac="N8VQD0" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. NIPH 817 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="8" database="TR" id="A0A0W3DNX1_9GAMM" ac="A0A0W3DNX1" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. FDAARGOS_131 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="9" database="TR" id="A0A010K0W3_9GAMM" ac="A0A010K0W3" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 1566109 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="10" database="TR" id="A0A062BZS4_9GAMM" ac="A0A062BZS4" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 263903-1 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="11" database="TR" id="N9J8Q8_ACIBA" ac="N9J8Q8" length="61" description="50S ribosomal protein L32 OS=Acinetobacter baumannii NIPH 601 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="12" database="TR" id="R8YCF2_ACIPI" ac="R8YCF2" length="61" description="50S ribosomal protein L32 OS=Acinetobacter pittii ANC 4050 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="13" database="TR" id="A0A010W9N5_9GAMM" ac="A0A010W9N5" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 263903-2 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="14" database="TR" id="A0A062STA5_ACIBA" ac="A0A062STA5" length="61" description="50S ribosomal protein L32 OS=Acinetobacter baumannii 25977_9 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="15" database="TR" id="A0A009I9K9_9GAMM" ac="A0A009I9K9" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 1295259 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="16" database="TR" id="A0A0B2UDD7_9GAMM" ac="A0A0B2UDD7" length="61" description="50S ribosomal protein L32 OS=Acinetobacter oleivorans GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="17" database="TR" id="A0A010MS20_9GAMM" ac="A0A010MS20" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 1578804 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="18" database="TR" id="A0A014D6W4_9GAMM" ac="A0A014D6W4" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 25977_4 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="19" database="TR" id="A0A014CQE4_9GAMM" ac="A0A014CQE4" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 25977_3 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="20" database="TR" id="A0A013MER4_9GAMM" ac="A0A013MER4" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 1294243 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="21" database="TR" id="A0A011DT73_9GAMM" ac="A0A011DT73" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 1245249 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="22" database="TR" id="L9M607_9GAMM" ac="L9M607" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. OIFC021 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="23" database="TR" id="U1V9Y9_ACIBA" ac="U1V9Y9" length="61" description="50S ribosomal protein L32 OS=Acinetobacter baumannii EGD-HP18 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="24" database="TR" id="A0A022KHD7_9GAMM" ac="A0A022KHD7" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 478810 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="25" database="TR" id="A0A062GR38_9GAMM" ac="A0A062GR38" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 72431 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="26" database="TR" id="A0A140QW93_9GAMM" ac="A0A140QW93" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 216872 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="27" database="TR" id="A0A010JTV4_9GAMM" ac="A0A010JTV4" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 1542444 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="28" database="TR" id="A0A062FPL9_ACIBA" ac="A0A062FPL9" length="61" description="50S ribosomal protein L32 OS=Acinetobacter baumannii 940793 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="29" database="TR" id="A0A062F282_ACIBA" ac="A0A062F282" length="61" description="50S ribosomal protein L32 OS=Acinetobacter baumannii 855125 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="30" database="TR" id="A0A013R1H5_9GAMM" ac="A0A013R1H5" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 883425 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="31" database="TR" id="K8ZP63_9GAMM" ac="K8ZP63" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. WC-141 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="32" database="TR" id="D0S0T0_ACICA" ac="D0S0T0" length="61" description="50S ribosomal protein L32 OS=Acinetobacter calcoaceticus RUH2202 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="33" database="TR" id="A0A014DTN8_9GAMM" ac="A0A014DTN8" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 25977_2 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="34" database="TR" id="A0A009KA99_ACIBA" ac="A0A009KA99" length="61" description="50S ribosomal protein L32 OS=Acinetobacter baumannii 1419130 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="35" database="TR" id="A0A062L2Q2_ACIBA" ac="A0A062L2Q2" length="61" description="50S ribosomal protein L32 OS=Acinetobacter baumannii 1571545 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="36" database="TR" id="K9CK96_9GAMM" ac="K9CK96" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. WC-136 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="37" database="TR" id="A0A062DKG0_ACIBA" ac="A0A062DKG0" length="61" description="50S ribosomal protein L32 OS=Acinetobacter baumannii 496487 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="38" database="TR" id="A0A014FF99_9GAMM" ac="A0A014FF99" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 25977_10 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="39" database="TR" id="N9GHG5_ACIBA" ac="N9GHG5" length="61" description="50S ribosomal protein L32 OS=Acinetobacter baumannii NIPH 201 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="40" database="TR" id="A0A062IIJ0_ACIBA" ac="A0A062IIJ0" length="61" description="50S ribosomal protein L32 OS=Acinetobacter baumannii 21072 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="41" database="TR" id="D8JFA8_ACISD" ac="D8JFA8" length="61" description="50S ribosomal protein L32 OS=Acinetobacter oleivorans (strain JCM 16667 / KCTC 23045 / DR1) GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="42" database="TR" id="A0A014CVM0_9GAMM" ac="A0A014CVM0" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 25977_6 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="43" database="TR" id="N9ENJ8_ACICA" ac="N9ENJ8" length="61" description="50S ribosomal protein L32 OS=Acinetobacter calcoaceticus ANC 3680 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="44" database="TR" id="A0A009S1I4_ACIBA" ac="A0A009S1I4" length="61" description="50S ribosomal protein L32 OS=Acinetobacter baumannii 951631 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="45" database="TR" id="A0A014E833_9GAMM" ac="A0A014E833" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 25977_7 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="46" database="TR" id="A0A010GVR0_9GAMM" ac="A0A010GVR0" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 907131 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="47" database="TR" id="A0A0J1A044_ACIBA" ac="A0A0J1A044" length="61" description="50S ribosomal protein L32 OS=Acinetobacter baumannii MRSN 3527 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="48" database="TR" id="N9RU34_9GAMM" ac="N9RU34" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. NIPH 542 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="49" database="TR" id="A0A013S208_9GAMM" ac="A0A013S208" length="61" description="50S ribosomal protein L32 OS=Acinetobacter sp. 225588 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="50" database="TR" id="G2JNG2_ACIBA" ac="G2JNG2" length="61" description="50S ribosomal protein L32 OS=Acinetobacter baumannii MDR-ZJ06 GN=rpmF PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>314</score>
+      <bits>125.561</bits>
+      <expectation>1.4E-35</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</querySeq>
+      <pattern>MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</pattern>
+      <matchSeq start="1" end="61">MAVQQNRKSRSRRDMRRSHDALTENALTVDQATGETHRRHHVTKDGFYRGRQLFAKAADAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult></EBIApplicationResult>
