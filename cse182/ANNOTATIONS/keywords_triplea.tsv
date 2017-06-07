@@ -1,0 +1,51 @@
+Sequence	BLAST	Pfam	Prosite	KEGG Pathway	Gene Ontology	Comments
+ABS89903	Aluminum-activated malate transporter 1; Cell membrane; Complete proteome; Ion channel; Ion transport; Membrane; Phosphoprotein; Reference proteome; Transmembrane; Transmembrane helix; Transport	NULL	NULL	NULL	integral component of membrane [GO:0016021]; plant-type vacuole membrane [GO:0009705]; plasma membrane [GO:0005886]; malate transmembrane transporter activity [GO:0015140]; malate transmembrane transport [GO:0071423]; positive regulation of growth of symbiont involved in interaction with host [GO:0044148]; response to aluminum ion [GO:0010044]	NULL
+ABS90175	Protein SYM1; Complete proteome; Membrane; Mitochondrion; Mitochondrion inner membrane; Reference proteome; Transmembrane; Transmembrane helix	NULL	NULL	NULL	integral component of membrane [GO:0016021]; mitochondrial inner membrane [GO:0005743]	NULL
+ABS90275	A-kinase anchor protein 6; Alternative splicing; Complete proteome; Membrane; Nucleus; Phosphoprotein; Polymorphism; Reference proteome; Repeat; Sarcoplasmic reticulum	FeoA domain; Domain of unknown function (DUF3368)	TonB-dependent receptor proteins signature 1	NULL	calcium channel complex [GO:0034704]; caveola [GO:0005901]; cytoplasm [GO:0005737]; intercalated disc [GO:0014704]; junctional sarcoplasmic reticulum membrane [GO:0014701]; nuclear envelope [GO:0005635]; nuclear membrane [GO:0031965]; perinuclear region of cytoplasm [GO:0048471]; sarcoplasmic reticulum [GO:0016529]; T-tubule [GO:0030315]; adenylate cyclase binding [GO:0008179]; ion channel binding [GO:0044325]; protein anchor [GO:0043495]; protein complex scaffold [GO:0032947]; protein kinase A binding [GO:0051018]; protein kinase A regulatory subunit binding [GO:0034237]; action potential [GO:0001508]; cAMP-mediated signaling [GO:0019933]; cellular response to cAMP [GO:0071320]; cellular response to cytokine stimulus [GO:0071345]; negative regulation of cAMP biosynthetic process [GO:0030818]; positive regulation of calcineurin-NFAT signaling cascade [GO:0070886]; positive regulation of cell growth [GO:0030307]; positive regulation of cell growth involved in cardiac muscle cell development [GO:0061051]; positive regulation of delayed rectifier potassium channel activity [GO:1902261]; positive regulation of NFAT protein import into nucleus [GO:0051533]; positive regulation of phosphoprotein phosphatase activity [GO:0032516]; positive regulation of potassium ion transmembrane transport [GO:1901381]; positive regulation of release of sequestered calcium ion into cytosol [GO:0051281]; positive regulation of ryanodine-sensitive calcium-release channel activity [GO:0060316]; protein targeting [GO:0006605]; regulation of membrane repolarization [GO:0060306]; regulation of protein kinase A signaling [GO:0010738]; regulation of release of sequestered calcium ion into cytosol by sarcoplasmic reticulum [GO:0010880]; transition metal ion binding [GO:0046914]	NULL
+ABS90320		NULL	NULL	NULL	NULL	NULL
+ABS90321		NULL	NULL	NULL	NULL	NULL
+ABS89983		NULL	NULL	NULL	NULL	NULL
+ABS90009		NULL	NULL	NULL	NULL	NULL
+ABS90008		NULL	NULL	NULL	NULL	NULL
+ABS90281		NULL	NULL	NULL	NULL	NULL
+ABS89981		NULL	NULL	NULL	NULL	NULL
+ABS90287	Alanine racemase, catabolic; Complete proteome; Direct protein sequencing; Isomerase; Pyridoxal phosphate; Reference proteome	NULL	NULL	NULL	alanine racemase activity [GO:0008784]; alanine metabolic process [GO:0006522]	NULL
+ABS90014	Urease accessory protein UreG; Chaperone; Cytoplasm; GTP-binding; Nickel insertion; Nucleotide-binding	CobW/HypB/UreG, nucleotide-binding domain; Poxvirus A32 protein; AAA domain; Zeta toxin	NULL	NULL	cytoplasm [GO:0005737]; GTP binding [GO:0005525]; GTPase activity [GO:0003924]; nickel cation binding [GO:0016151]; nitrogen compound metabolic process [GO:0006807]; ATP binding [GO:0005524]; kinase activity [GO:0016301]	NULL
+ABS89984		NULL	NULL	NULL	NULL	NULL
+ABS90272		NULL	NULL	NULL	NULL	NULL
+ABS90015		Uncharacterised protein family UPF0542; Protein of unknown function (DUF2615); HemY protein N-terminus; ATP synthase protein 8; Super-infection exclusion protein B; Protein of unknown function (DUF2975); Cytochrome oxidase c assembly; Family of unknown function (DUF5305); Lipopolysaccharide assembly protein A domain; NfeD-like C-terminal, partner-binding; Oxaloacetate decarboxylase, gamma chain; Connexin; Chordopoxvirus A13L protein; Mycoplasma MFS transporter; Uncharacterized protein ycf70; Protein of unknown function (DUF3139); Ephrin type-A receptor 2 transmembrane domain; Preprotein translocase subunit; TMEM154 protein family; Acrosome formation-associated factor; Virus attachment protein p12 family; Heme exporter protein D (CcmD)	NULL	NULL	hydrogen ion transmembrane transporter activity [GO:0015078]; ATP synthesis coupled proton transport [GO:0015986]; mitochondrial proton-transporting ATP synthase complex, coupling factor F(o) [GO:0000276]; integral component of plasma membrane [GO:0005887]; oxaloacetate decarboxylase activity [GO:0008948]; sodium ion transmembrane transporter activity [GO:0015081]; sodium ion export [GO:0071436]; membrane [GO:0016020]; endocytosis [GO:0006897]; fusion of sperm to egg plasma membrane [GO:0007342]; acrosomal vesicle exocytosis [GO:0060478]; plasma membrane [GO:0005886]; heme transport [GO:0015886]; cytochrome complex assembly [GO:0017004]; integral component of membrane [GO:0016021]	NULL
+ABS89919		NULL	NULL	NULL	NULL	NULL
+ABS89951		Domain of unknown function (DUF4163)	NULL	NULL	NULL	NULL
+ABS90271	Glucose-6-phosphate isomerase; Complete proteome; Cytoplasm; Gluconeogenesis; Glycolysis; Isomerase; Reference proteome	Domain of unknown function (DUF4131)	NULL	NULL	cytoplasm [GO:0005737]; glucose-6-phosphate isomerase activity [GO:0004347]; gluconeogenesis [GO:0006094]; glycolytic process [GO:0006096]	NULL
+ABS90276		TFIIH C1-like domain; Zinc ribbon domain; Uncharacterised protein family UPF0066; RNA polymerases M/15 Kd subunit; Transposase zinc-ribbon domain	NULL	NULL	zinc ion binding [GO:0008270]; DNA repair [GO:0006281]; transcription, DNA-templated [GO:0006351]	NULL
+ABS90277		NULL	NULL	NULL	NULL	NULL
+ABS90274		NULL	NULL	NULL	NULL	NULL
+ABS90174		NULL	NULL	NULL	NULL	NULL
+ABS90278	NADPH--cytochrome P450 reductase; Acetylation; Complete proteome; Endoplasmic reticulum; FAD; Flavoprotein; FMN; Membrane; NADP; Oxidoreductase; Phosphoprotein; Reference proteome; Transmembrane; Transmembrane helix	Protein of unknown function (DUF2564)	NULL	NULL	endoplasmic reticulum membrane [GO:0005789]; integral component of membrane [GO:0016021]; FMN binding [GO:0010181]; NADPH-hemoprotein reductase activity [GO:0003958]	NULL
+ABS90080		NULL	NULL	NULL	NULL	NULL
+ABS90176		NULL	NULL	NULL	NULL	NULL
+ABS90319		MutS family domain IV	NULL	NULL	ATP binding [GO:0005524]; mismatched DNA binding [GO:0030983]; mismatch repair [GO:0006298]	NULL
+ABS90315		NULL	NULL	NULL	NULL	NULL
+ABS90314		NULL	NULL	NULL	NULL	NULL
+ABS90316	UPF0102 protein Ctha_1382; Complete proteome; Reference proteome	NULL	NULL	NULL	NULL	NULL
+ABS90171		NULL	NULL	NULL	NULL	NULL
+ABS90173	UDP-3-O-acylglucosamine N-acyltransferase; Acyltransferase; Complete proteome; Lipid A biosynthesis; Lipid biosynthesis; Lipid metabolism; Repeat; Transferase	NULL	NULL	NULL	N-acyltransferase activity [GO:0016410]; lipid A biosynthetic process [GO:0009245]	NULL
+ABS89972		NULL	NULL	NULL	NULL	NULL
+ABS90077	Protein translocase subunit SecA 1; ATP-binding; Cell membrane; Complete proteome; Cytoplasm; Membrane; Metal-binding; Nucleotide-binding; Protein transport; Reference proteome; Translocation; Transport; Zinc	Regulatory protein Sir1	NULL	NULL	cytoplasm [GO:0005737]; plasma membrane [GO:0005886]; ATP binding [GO:0005524]; metal ion binding [GO:0046872]; protein import [GO:0017038]; protein targeting [GO:0006605]	NULL
+ABS90135		NULL	NULL	NULL	NULL	NULL
+ABS90134		NULL	NULL	NULL	NULL	NULL
+ABS90072		Cytochrome B6-F complex subunit 5	NULL	NULL	cytochrome b6f complex [GO:0009512]	NULL
+ABS89974		NULL	NULL	NULL	NULL	NULL
+ABS90138		NULL	NULL	NULL	NULL	NULL
+ABS89979	NADH-quinone oxidoreductase subunit D; Cell inner membrane; Cell membrane; Complete proteome; Membrane; NAD; Oxidoreductase; Quinone; Reference proteome; Transport; Ubiquinone	Spermatogenesis-associated protein 19, mitochondrial	NULL	NULL	plasma membrane [GO:0005886]; NAD binding [GO:0051287]; oxidoreductase activity, acting on NAD(P)H [GO:0016651]; quinone binding [GO:0048038]; transport [GO:0006810]	NULL
+ABS89978		Protein of unknown function (DUF1456)	NULL	NULL	NULL	NULL
+ABS90012		NULL	NULL	NULL	NULL	NULL
+ABS90010		NULL	Prokaryotic membrane lipoprotein lipid attachment site profile	NULL	NULL	NULL
+ABS90011		NULL	NULL	NULL	NULL	NULL
+ABS90075		NULL	NULL	NULL	NULL	NULL
+ABS90247		NULL	NULL	NULL	NULL	NULL
+ABS90246	Heterogeneous nuclear ribonucleoprotein A/B; 3D-structure; Acetylation; Alternative splicing; Complete proteome; Cytoplasm; Direct protein sequencing; Methylation; Nucleus; Phosphoprotein; Reference proteome; Repeat; RNA-binding	Prokaryotic lipoprotein-attachment site; 17 kDa common-antigen outer membrane protein; YqzL-like protein	Prokaryotic membrane lipoprotein lipid attachment site profile	NULL	cytoplasm [GO:0005737]; intracellular ribonucleoprotein complex [GO:0030529]; nucleoplasm [GO:0005654]; nucleus [GO:0005634]; RNA polymerase II transcription factor complex [GO:0090575]; mRNA binding [GO:0003729]; RNA binding [GO:0003723]; epithelial to mesenchymal transition [GO:0001837]; positive regulation of transcription, DNA-templated [GO:0045893]	NULL
+ABS90244		NULL	NULL	NULL	NULL	NULL
+ABS90243	FAD-dependent monooxygenase andE; FAD; Flavoprotein; Membrane; Oxidoreductase; Transmembrane; Transmembrane helix	NULL	NULL	NULL	integral component of membrane [GO:0016021]; FAD binding [GO:0071949]; oxidoreductase activity [GO:0016491]; terpenoid biosynthetic process [GO:0016114]	NULL
+ABS90242		Integral membrane protein DUF106	NULL	NULL	membrane [GO:0016020]	NULL
+ABS89976		NULL	NULL	NULL	NULL	NULL

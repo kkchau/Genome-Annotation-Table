@@ -8,6 +8,7 @@ import csv
 import re
 import pandas as pd
 import numpy as np
+from collections import defaultdict
 
 
 fields = [
@@ -59,8 +60,35 @@ def concat_files():
         data_df = pd.concat(all_df, ignore_index=True)[fields]
         for item in not_found:
             data_df.replace(item, np.NaN, inplace=True)
-        data_df.to_csv('data.csv', index=False)
+        data_df.to_csv('data_full.csv', index=False)
+
+
+def collapse_data():
+    """
+        Collapse multiple same-id proteins together, keeping unique keywords
+        Reads every sequence and appends to a list
+    """
+    all_seqs = defaultdict(list)
+    with open('data_full.csv', 'r') as old_data:
+        old_csv = csv.reader(old_data)
+        header = next(old_csv)      # header
+        for record in old_csv:
+            if record[0] not in all_seqs:
+                all_seqs[record[0]] = [[field] for field in record[1:]]
+            else:
+                for index, field in enumerate(record[1:]):
+                    if field not in all_seqs[record[0]][index]:
+                        all_seqs[record[0]][index].append(field)
+
+    with open('data.csv', 'w') as final:
+        new_csv = csv.writer(final)
+        new_csv.writerow(header)
+        for sequence in all_seqs:
+            new_csv.writerow([sequence] + [
+                '|'.join(field) if field else '' for field in all_seqs[sequence]
+            ])
 
 
 if __name__ == '__main__':
     concat_files()
+    collapse_data()

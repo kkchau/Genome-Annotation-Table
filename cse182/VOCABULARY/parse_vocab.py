@@ -90,7 +90,7 @@ def parse_gaspedal():
     """
     with open('keywords_gaspedal.tsv', 'r') as keywords:
         header = next(keywords)
-        with open('keywords_gaspedal_go.tsv', 'w') as go_key:
+        with open('../ANNOTATIONS/keywords_gaspedal_go.tsv', 'w') as go_key:
             go_key.write(header)
             for record in keywords:
                 record = record.strip().split('\t')

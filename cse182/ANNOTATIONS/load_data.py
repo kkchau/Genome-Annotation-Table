@@ -14,6 +14,7 @@ import sqlite3
 import re
 import subprocess
 from compile_data import concat_files
+from compile_data import collapse_data
 
 
 def file_to_json(anno_file, tsv=False):
@@ -68,6 +69,7 @@ def main():
 
     # compile data together
     concat_files()
+    collapse_data()
 
     # create data file
     with open('data.csv', 'r') as data:

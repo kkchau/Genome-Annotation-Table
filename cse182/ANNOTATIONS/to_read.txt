@@ -1,5 +1,5 @@
 headers.tsv
-keywords_gaspedal.tsv
+keywords_gaspedal_go.tsv
 keywords_JEM.tsv
-#keywords_triplea.tsv
+keywords_triplea.tsv
 #keywords_jkt.tsv
