@@ -5,7 +5,14 @@
 
 
 import pandas as pd
+import re
 from collections import defaultdict
+from gomapparse import pfam2go
+from gomapparse import prosite2go
+
+
+pfam_map = pfam2go()
+prosite_map = prosite2go()
 
 
 def processGoTerm(goTerm):
@@ -77,26 +84,65 @@ def syn_gen(filename):
     return syn_dict
 
 
-def main():
+def parse_gaspedal():
     """
-        Main function to avoid global variables
+        Parse team Gas Pedal's keyword table for standardizing GO terms
     """
-    synonyms = syn_gen('GOTERMS.txt')
+    with open('keywords_gaspedal.tsv', 'r') as keywords:
+        header = next(keywords)
+        with open('keywords_gaspedal_go.tsv', 'w') as go_key:
+            go_key.write(header)
+            for record in keywords:
+                record = record.strip().split('\t')
 
-    source_data = pd.read_csv('../ANNOTATIONS/data.csv', header=0)
-    for index, record in source_data.iterrows():
-        blast = str(record['BLAST']).strip().split()
-        pfam = str(record['Pfam']).strip().split()
-        prosite = str(record['Prosite']).strip().split()
-        go_list = []
-        for hit in [blast, pfam, prosite]:
-            for word in hit:
-                if word in synonyms:
-                    go_list.append(synonyms[word])
-        record['Gene Ontology'] = list(set(go_list))
-    
-    # print for now, debugging
-    print(source_data)
+                go = []
+
+                # get term ids for each field
+                pfam_id = re.findall("(PF[0-9]+)", record[2])
+                pfam_id = pfam_id[0] if pfam_id else None
+                prosite_id = re.findall("(PR[0-9]+)", record[3])
+                prosite_id = prosite_id[0] if prosite_id else None
+
+                if pfam_id and pfam_id in pfam_map:
+                    go.append(pfam_map[pfam_id])
+                if prosite_id and prosite_id in prosite_map:
+                    go.append(prosite_map[prosite_id])
+
+                if record[5] == 'NULL' and go:
+                    record[5] = ';'.join(list(set(go)))
+                elif record[5] == 'NULL' and not go:
+                    pass
+                else:
+                    if go:
+                        record[5] += ' > ' + ';'.join(list(set(go)))
+
+                go_key.write('\t'.join(record) + '\n')
+    return 0
+
+
+def parse_jem():
+    """
+        Parse team JEM's keyword table for standardizing GO terms
+    """
+    pass
+
+
+def parse_tripla():
+    """
+        Parse team Triple A's keyword table for standardizing GO terms
+    """
+    pass
+
+
+def parse_jkt():
+    """
+        Parse team JKT's keyword table for standardizing GO terms
+    """
+    pass
+
+
+def main():
+    parse_gaspedal()
 
 
 if __name__ == '__main__':
