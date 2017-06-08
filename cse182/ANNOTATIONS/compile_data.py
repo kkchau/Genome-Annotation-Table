@@ -1,6 +1,7 @@
 """
     All data must be compiled into a single file for upload into fixture
     Files will be concatenated into CSV format
+    Also output statistics
 """
 
 
@@ -21,6 +22,17 @@ fields = [
     'Gene Ontology',
     'Comments'
 ]
+
+stats = {
+    'Sequence': [0, 0],
+    'BLAST': [0, 0],
+    'Pfam': [0, 0],
+    'Prosite': [0, 0],
+    'KEGG Pathway': [0, 0],
+    'NucPloc': [0, 0],
+    'Gene Ontology': [0, 0],
+    'Comments': [0, 0]
+}
 
 not_found = ['null', 'NULL', 'No Hits']
 
@@ -56,6 +68,25 @@ def concat_files():
 
             if this_df is not None:
                 all_df.append(this_df)
+
+
+        # stats calculations
+        with open('statistics.tsv', 'w') as stats_out: 
+            for df in all_df:
+                columns = list(df.columns.values)
+
+                # increment max value for each field
+                for c in columns:
+                    stats[c][1] += df.shape[0]
+
+                for index, row in df.iterrows():
+                    for c in columns:
+                        if type(row[c]) == str:
+                            stats[c][0] += 1
+            for field in stats:
+                stats_out.write(
+                    '\t'.join([field] + [str(x) for x in stats[field]]) + '\n'
+                )
 
         data_df = pd.concat(all_df, ignore_index=True)[fields]
         for item in not_found:

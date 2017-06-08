@@ -16,26 +16,22 @@ def base(request):
 
     # stats dictionary
     statistics = {
-        'name': 0, 
-        'blast': 0, 
-        'pfam': 0, 
-        'prosite': 0, 
-        'kegg': 0, 
-        'nuc': 0,
-        'go': 0, 
-        'coment': 0
+        'Sequence': 0, 
+        'BLAST': 0, 
+        'Pfam': 0, 
+        'Prosite': 0, 
+        'KEGG_Pathway': 0, 
+        'NucPloc': 0,
+        'Gene_Ontology': 0, 
+        'Comments': 0
     }
 
-    # calculate statistics
-    for annotation in annotations:
-        fields = ['name', 'blast', 'pfam', 'prosite', 'kegg', 'nuc', 'go', 'coment']
-        for key in fields:
-            if getattr(annotation, key):
-                statistics[key] += 1
-
-    max_count = statistics['name']
-    for field in statistics:
-        statistics[field] = statistics[field] / max_count
+    # get statistics
+    with open('ANNOTATIONS/statistics.tsv') as stats_in:
+        for line in stats_in:
+            line = line.strip().split('\t')
+            line[0] = '_'.join(line[0].strip().split())
+            statistics[line[0]] = float(line[1]) / float(line[2])
 
     return render(request, 'anno_table/base.html', {
         'annotations': annotations, 'statistics': statistics

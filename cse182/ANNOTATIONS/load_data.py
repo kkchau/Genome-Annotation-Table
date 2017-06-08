@@ -69,10 +69,11 @@ def main():
 
     # compile data together
     concat_files()
-    collapse_data()
+    # collapse_data()
 
     # create data file
-    with open('data.csv', 'r') as data:
+    # with open('data.csv', 'r') as data:
+    with open('data_full.csv', 'r') as data:
         data_csv = csv.reader(data)
         next(data_csv)                  # skip header
         with open('../anno_table/fixtures/annotations.json', 'w') as j:
