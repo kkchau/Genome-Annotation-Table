@@ -42,7 +42,7 @@ def download(request):
     """
         Be able to download the data.csv file
     """
-    with open('ANNOTATIONS/data.csv') as downFile:
+    with open('ANNOTATIONS/data_full.csv') as downFile:
         response = HttpResponse(downFile.read())
         response['content_type'] = 'text/csv'
         response['Content-Disposition'] = 'attachment;filename=data.csv'
