@@ -15,6 +15,7 @@ with open('../ANNOTATIONS/data_full.csv', 'r') as data:
         if not record[6]:
             continue
         this_go = re.findall("(GO:[0-9]+)", record[6])
+        this_go = list(set(this_go))
         print(this_go)
         for go in this_go:
             if go not in all_go:
