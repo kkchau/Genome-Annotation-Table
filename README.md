@@ -1,19 +1,9 @@
-# CSE 182 Final Project
-### Goals
-- [x] Create a web server to store and display genome annotations
-- [x] Be able to read in standard-format annotations automatically
-- [x] Convert data load to use pandas (req headers)
-- [x] Allow user to search for annotations
-- [x] Allow user to download information
-- [x] Implement statitistics for hits at bottom of table
-- [x] Parse and standardize annotations
-- [x] Allow user to click row and go to raw annotation in separate page
+# Genome Annotation Table
+### Final project for CSE 182 (Biological Data Analysis)
+A simple genome annotation table built with Python3 and Django. All data was provided by collaborating teams (classmates) and organized into an easy-to-use data table.
 
-### Teams with raw annotations
-* Gas Pedal
 
----
-
+## Instructions
 * To load data: Go to ANNOTATIONS; update to_read.txt for list of files to read; python3 load\_data.py --clear
 
 * Null fields (no hit) must have marker "NULL" or "null" (case-sensitive)
